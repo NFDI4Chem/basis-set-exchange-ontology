@@ -1,69 +1,113 @@
-identifier	type	label	parent	description	see also	depiction
-ID	TYPE	AT rdfs:label^^xsd:string	SC %	AT dc:description^^xsd:string
-ORBITAL:0000001	owl:Class	orbital
-ORBITAL:0000002	owl:Class	orbital by principle quantum number	ORBITAL:0000001
-ORBITAL:0000003	owl:Class	1 orbital	ORBITAL:0000002	an orbital whose principal quantum number is 1
-ORBITAL:0000004	owl:Class	2 orbital	ORBITAL:0000002	an orbital whose principal quantum number is 2
-ORBITAL:0000005	owl:Class	3 orbital	ORBITAL:0000002	an orbital whose principal quantum number is 3
-ORBITAL:0000006	owl:Class	4 orbital	ORBITAL:0000002	an orbital whose principal quantum number is 4
-ORBITAL:0000007	owl:Class	5 orbital	ORBITAL:0000002	an orbital whose principal quantum number is 5
-ORBITAL:0000008	owl:Class	6 orbital	ORBITAL:0000002	an orbital whose principal quantum number is 6
-ORBITAL:0000009	owl:Class	7 orbital	ORBITAL:0000002	an orbital whose principal quantum number is 7
-ORBITAL:0000010	owl:Class	orbital by azimuthal quantum number	ORBITAL:0000001
-ORBITAL:0000011	owl:Class	s orbital	ORBITAL:0000010	an orbital whose angular momentum value is 0
-ORBITAL:0000012	owl:Class	p orbital	ORBITAL:0000010	an orbital whose angular momentum value is 1
-ORBITAL:0000013	owl:Class	d orbital	ORBITAL:0000010	an orbital whose angular momentum value is 2
-ORBITAL:0000014	owl:Class	f orbital	ORBITAL:0000010	an orbital whose angular momentum value is 3
-ORBITAL:0000015	owl:Class	g orbital	ORBITAL:0000010	an orbital whose angular momentum value is 4
-ORBITAL:0000016	owl:Class	h orbital	ORBITAL:0000010	an orbital whose angular momentum value is 5
-ORBITAL:0000017	owl:Class	i orbital	ORBITAL:0000010	an orbital whose angular momentum value is 6
-ORBITAL:0000018	owl:Class	orbital by principle and azimuthal quantum number
-ORBITAL:0000019	owl:Class	1s orbital	ORBITAL:0000018	an orbital whose principal quantum number is 1 and azimuthal quantum number is 0		https://www.physics-in-a-nutshell.com/img/content/solid-state-physics/1s-orbital.svg
-ORBITAL:0000020	owl:Class	2s orbital	ORBITAL:0000018	an orbital whose principal quantum number is 2 and azimuthal quantum number is 0
-ORBITAL:0000021	owl:Class	2p orbital	ORBITAL:0000018	an orbital whose principal quantum number is 2 and azimuthal quantum number is 1		https://www.physics-in-a-nutshell.com/img/content/solid-state-physics/2p-orbitals.svg
-ORBITAL:0000022	owl:Class	3s orbital	ORBITAL:0000018	an orbital whose principal quantum number is 3 and azimuthal quantum number is 0
-ORBITAL:0000023	owl:Class	3p orbital	ORBITAL:0000018	an orbital whose principal quantum number is 3 and azimuthal quantum number is 1
-ORBITAL:0000024	owl:Class	3d orbital	ORBITAL:0000018	an orbital whose principal quantum number is 3 and azimuthal quantum number is 2		https://www.physics-in-a-nutshell.com/img/content/solid-state-physics/3d-orbitals.svg
-ORBITAL:0000025	owl:Class	4s orbital	ORBITAL:0000018	an orbital whose principal quantum number is 4 and azimuthal quantum number is 0
-ORBITAL:0000026	owl:Class	4p orbital	ORBITAL:0000018	an orbital whose principal quantum number is 4 and azimuthal quantum number is 1
-ORBITAL:0000027	owl:Class	4d orbital	ORBITAL:0000018	an orbital whose principal quantum number is 4 and azimuthal quantum number is 2
-ORBITAL:0000028	owl:Class	4f orbital	ORBITAL:0000018	an orbital whose principal quantum number is 4 and azimuthal quantum number is 3
-ORBITAL:0000029	owl:Class	5s orbital	ORBITAL:0000018	an orbital whose principal quantum number is 5 and azimuthal quantum number is 0
-ORBITAL:0000030	owl:Class	5p orbital	ORBITAL:0000018	an orbital whose principal quantum number is 5 and azimuthal quantum number is 1
-ORBITAL:0000031	owl:Class	5d orbital	ORBITAL:0000018	an orbital whose principal quantum number is 5 and azimuthal quantum number is 2
-ORBITAL:0000032	owl:Class	5f orbital	ORBITAL:0000018	an orbital whose principal quantum number is 5 and azimuthal quantum number is 3
-ORBITAL:0000033	owl:Class	5g orbital	ORBITAL:0000018	an orbital whose principal quantum number is 5 and azimuthal quantum number is 4
-ORBITAL:0000034	owl:Class	6s orbital	ORBITAL:0000018	an orbital whose principal quantum number is 6 and azimuthal quantum number is 0
-ORBITAL:0000035	owl:Class	6p orbital	ORBITAL:0000018	an orbital whose principal quantum number is 6 and azimuthal quantum number is 1
-ORBITAL:0000036	owl:Class	6d orbital	ORBITAL:0000018	an orbital whose principal quantum number is 6 and azimuthal quantum number is 2
-ORBITAL:0000037	owl:Class	6f orbital	ORBITAL:0000018	an orbital whose principal quantum number is 6 and azimuthal quantum number is 3
-ORBITAL:0000038	owl:Class	6g orbital	ORBITAL:0000018	an orbital whose principal quantum number is 6 and azimuthal quantum number is 4
-ORBITAL:0000039	owl:Class	6h orbital	ORBITAL:0000018	an orbital whose principal quantum number is 6 and azimuthal quantum number is 5
-ORBITAL:0000040	owl:Class	7s orbital	ORBITAL:0000018	an orbital whose principal quantum number is 7 and azimuthal quantum number is 0
-ORBITAL:0000041	owl:Class	7p orbital	ORBITAL:0000018	an orbital whose principal quantum number is 7 and azimuthal quantum number is 1
-ORBITAL:0000042	owl:Class	7d orbital	ORBITAL:0000018	an orbital whose principal quantum number is 7 and azimuthal quantum number is 2
-ORBITAL:0000043	owl:Class	7f orbital	ORBITAL:0000018	an orbital whose principal quantum number is 7 and azimuthal quantum number is 3
-ORBITAL:0000044	owl:Class	7g orbital	ORBITAL:0000018	an orbital whose principal quantum number is 7 and azimuthal quantum number is 4
-ORBITAL:0000045	owl:Class	7h orbital	ORBITAL:0000018	an orbital whose principal quantum number is 7 and azimuthal quantum number is 5
-ORBITAL:0000046	owl:Class	7i orbital	ORBITAL:0000018	an orbital whose principal quantum number is 7 and azimuthal quantum number is 6
-ORBITAL:0000047	owl:Class	orbital by azimuthal and magnetic quantum number
-ORBITAL:0000048	owl:Class	ss orbital	ORBITAL:0000047	an orbital whose azimuthal quantum number is 0 and magnetic quantum number is 0		https://upload.wikimedia.org/wikipedia/commons/1/1d/S1M0.png
-ORBITAL:0000049	owl:Class	pz orbital	ORBITAL:0000047	an orbital whose azimuthal quantum number is 1 and magnetic quantum number is 0		https://upload.wikimedia.org/wikipedia/commons/8/8f/S2M0.png
-ORBITAL:0000050	owl:Class	px orbital	ORBITAL:0000047	an orbital whose azimuthal quantum number is 1 and magnetic quantum number is +/-1
-ORBITAL:0000051	owl:Class	py orbital	ORBITAL:0000047	an orbital whose azimuthal quantum number is 1 and magnetic quantum number is +/-1
-ORBITAL:0000052	owl:Class	dz2 orbital	ORBITAL:0000047	an orbital whose azimuthal quantum number is 2 and magnetic quantum number is 0
-ORBITAL:0000053	owl:Class	dxz orbital	ORBITAL:0000047	an orbital whose azimuthal quantum number is 2 and magnetic quantum number is +/-1
-ORBITAL:0000054	owl:Class	dyz orbital	ORBITAL:0000047	an orbital whose azimuthal quantum number is 2 and magnetic quantum number is +/-1
-ORBITAL:0000055	owl:Class	dxy orbital	ORBITAL:0000047	an orbital whose azimuthal quantum number is 2 and magnetic quantum number is +/-2
-ORBITAL:0000056	owl:Class	dx2-y2 orbital	ORBITAL:0000047	an orbital whose azimuthal quantum number is 2 and magnetic quantum number is +/-2
-ORBITAL:0000057	owl:Class	fz3 orbital	ORBITAL:0000047	an orbital whose azimuthal quantum number is 3 and magnetic quantum number is 0
-ORBITAL:0000058	owl:Class	fxz2 orbital	ORBITAL:0000047	an orbital whose azimuthal quantum number is 3 and magnetic quantum number is +/-1
-ORBITAL:0000059	owl:Class	fyz2 orbital	ORBITAL:0000047	an orbital whose azimuthal quantum number is 3 and magnetic quantum number is +/-1
-ORBITAL:0000060	owl:Class	fxyz orbital	ORBITAL:0000047	an orbital whose azimuthal quantum number is 3 and magnetic quantum number is +/-2
-ORBITAL:0000061	owl:Class	fz(x2-y2) orbital	ORBITAL:0000047	an orbital whose azimuthal quantum number is 3 and magnetic quantum number is +/-2
-ORBITAL:0000062	owl:Class	fx(x2-3y2) orbital	ORBITAL:0000047	an orbital whose azimuthal quantum number is 3 and magnetic quantum number is +/-3
-ORBITAL:0000063	owl:Class	fy(3x2-y2) orbital	ORBITAL:0000047	an orbital whose azimuthal quantum number is 3 and magnetic quantum number is +/-3
-ORBITAL:1000000	owl:DataProperty	has principal quantum number		n, takes on natural values [1,2,3,...)	https://en.wikipedia.org/wiki/Principal_quantum_number
-ORBITAL:1000001	owl:DataProperty	has azimuthal quantum number		l, takes on non-negative integer values between [0, n-1]	https://en.wikipedia.org/wiki/Azimuthal_quantum_number
-ORBITAL:1000002	owl:DataProperty	has magnetic quantum number		m_l, takes on integer values between [-l, l]
-ORBITAL:1000003	owl:DataProperty	has spin magnetic quantum number		m_s, for an electron can be one of {-1/2, 1/2}
+identifier	type	label	parent	intersection	description	has principal quantum number	see also	depiction	DOMAIN	range	CHARACTERISTIC
+ID	TYPE	AT rdfs:label^^xsd:string	SC %	SC %	AT dc:description^^xsd:string	SC %			DOMAIN	RANGE	CHARACTERISTIC
+ORBITAL:1000000	data property	has principal quantum number			n, takes on natural values [1,2,3,...)		https://en.wikipedia.org/wiki/Principal_quantum_number		'atomic orbital'	xsd:positiveInteger	functional
+ORBITAL:1000001	data property	has azimuthal quantum number			l, takes on non-negative integer values between [0, n-1]		https://en.wikipedia.org/wiki/Azimuthal_quantum_number		'atomic orbital'	xsd:nonNegativeInteger	functional
+ORBITAL:1000002	data property	has magnetic quantum number			m_l, takes on integer values between [-l, l]				'atomic orbital'	xsd:integer	functional
+ORBITAL:1000003	data property	has spin magnetic quantum number			m_s, for an electron can be one of {-1/2, 1/2}
+ORBITAL:0000001	class	atomic orbital
+ORBITAL:0000002	class	atomic orbital by principle quantum number	ORBITAL:0000001			'has principal quantum number' some xsd:positiveInteger
+ORBITAL:0000003	class	1 orbital	ORBITAL:0000002			'has principal quantum number' value 1
+ORBITAL:0000004	class	2 orbital	ORBITAL:0000002			'has principal quantum number' value 2
+ORBITAL:0000005	class	3 orbital	ORBITAL:0000002			'has principal quantum number' value 3
+ORBITAL:0000006	class	4 orbital	ORBITAL:0000002			'has principal quantum number' value 4
+ORBITAL:0000007	class	5 orbital	ORBITAL:0000002			'has principal quantum number' value 5
+ORBITAL:0000008	class	6 orbital	ORBITAL:0000002			'has principal quantum number' value 6
+ORBITAL:0000009	class	7 orbital	ORBITAL:0000002			'has principal quantum number' value 7
+ORBITAL:0000010	class	atomic orbital by azimuthal quantum number	ORBITAL:0000001			'has azimuthal quantum number' some xsd:nonNegativeInteger
+ORBITAL:0000011	class	s orbital	ORBITAL:0000010			'has azimuthal quantum number' value 0
+ORBITAL:0000012	class	p orbital	ORBITAL:0000010			'has azimuthal quantum number' value 1
+ORBITAL:0000013	class	d orbital	ORBITAL:0000010			'has azimuthal quantum number' value 2
+ORBITAL:0000014	class	f orbital	ORBITAL:0000010			'has azimuthal quantum number' value 3
+ORBITAL:0000015	class	g orbital	ORBITAL:0000010			'has azimuthal quantum number' value 4
+ORBITAL:0000016	class	h orbital	ORBITAL:0000010			'has azimuthal quantum number' value 5
+ORBITAL:0000017	class	i orbital	ORBITAL:0000010			'has azimuthal quantum number' value 6
+ORBITAL:0000018	class	atomic orbital by principle and azimuthal quantum number	ORBITAL:0000001	'ORBITAL:0000002' and 'ORBITAL:0000010'
+ORBITAL:0000019	class	1s orbital	ORBITAL:0000018	'1 orbital' and 's orbital'				https://www.physics-in-a-nutshell.com/img/content/solid-state-physics/1s-orbital.svg
+ORBITAL:0000020	class	2s orbital	ORBITAL:0000018	'2 orbital' and 's orbital'
+ORBITAL:0000021	class	2p orbital	ORBITAL:0000018	'2 orbital' and 'p orbital'				https://www.physics-in-a-nutshell.com/img/content/solid-state-physics/2p-orbitals.svg
+ORBITAL:0000022	class	3s orbital	ORBITAL:0000018	'3 orbital' and 's orbital'
+ORBITAL:0000023	class	3p orbital	ORBITAL:0000018	'3 orbital' and 'p orbital'
+ORBITAL:0000024	class	3d orbital	ORBITAL:0000018	'3 orbital' and 'd orbital'				https://www.physics-in-a-nutshell.com/img/content/solid-state-physics/3d-orbitals.svg
+ORBITAL:0000025	class	4s orbital	ORBITAL:0000018	'4 orbital' and 's orbital'
+ORBITAL:0000026	class	4p orbital	ORBITAL:0000018	'4 orbital' and 'p orbital'
+ORBITAL:0000027	class	4d orbital	ORBITAL:0000018	'4 orbital' and 'd orbital'
+ORBITAL:0000028	class	4f orbital	ORBITAL:0000018	'4 orbital' and 'f orbital'
+ORBITAL:0000029	class	5s orbital	ORBITAL:0000018	'5 orbital' and 's orbital'
+ORBITAL:0000030	class	5p orbital	ORBITAL:0000018	'5 orbital' and 'p orbital'
+ORBITAL:0000031	class	5d orbital	ORBITAL:0000018	'5 orbital' and 'd orbital'
+ORBITAL:0000032	class	5f orbital	ORBITAL:0000018	'5 orbital' and 'f orbital'
+ORBITAL:0000033	class	5g orbital	ORBITAL:0000018	'5 orbital' and 'g orbital'
+ORBITAL:0000034	class	6s orbital	ORBITAL:0000018	'6 orbital' and 's orbital'
+ORBITAL:0000035	class	6p orbital	ORBITAL:0000018	'6 orbital' and 'p orbital'
+ORBITAL:0000036	class	6d orbital	ORBITAL:0000018	'6 orbital' and 'd orbital'
+ORBITAL:0000037	class	6f orbital	ORBITAL:0000018	'6 orbital' and 'f orbital'
+ORBITAL:0000038	class	6g orbital	ORBITAL:0000018	'6 orbital' and 'g orbital'
+ORBITAL:0000039	class	6h orbital	ORBITAL:0000018	'6 orbital' and 'h orbital'
+ORBITAL:0000040	class	7s orbital	ORBITAL:0000018	'7 orbital' and 's orbital'
+ORBITAL:0000041	class	7p orbital	ORBITAL:0000018	'7 orbital' and 'p orbital'
+ORBITAL:0000042	class	7d orbital	ORBITAL:0000018	'7 orbital' and 'd orbital'
+ORBITAL:0000043	class	7f orbital	ORBITAL:0000018	'7 orbital' and 'f orbital'
+ORBITAL:0000044	class	7g orbital	ORBITAL:0000018	'7 orbital' and 'g orbital'
+ORBITAL:0000045	class	7h orbital	ORBITAL:0000018	'7 orbital' and 'h orbital'
+ORBITAL:0000046	class	7i orbital	ORBITAL:0000018	'7 orbital' and 'i orbital'
+ORBITAL:0000047	class	atomic orbital by azimuthal and magnetic quantum number	ORBITAL:0000001
+ORBITAL:0000048	class	ss orbital	ORBITAL:0000047	's orbital' and 'orbital with magnetic quantum number 0'				https://upload.wikimedia.org/wikipedia/commons/1/1d/S1M0.png
+ORBITAL:0000049	class	pz orbital	ORBITAL:0000047	'p orbital' and 'orbital with magnetic quantum number 0'				https://upload.wikimedia.org/wikipedia/commons/8/8f/S2M0.png
+ORBITAL:0000050	class	px orbital	ORBITAL:0000047	'p orbital' and 'orbital with magnetic quantum number ±1'
+ORBITAL:0000051	class	py orbital	ORBITAL:0000047	'p orbital' and 'orbital with magnetic quantum number ±1'
+ORBITAL:0000052	class	dz2 orbital	ORBITAL:0000047	'd orbital' and 'orbital with magnetic quantum number 0'
+ORBITAL:0000053	class	dxz orbital	ORBITAL:0000047	'd orbital' and 'orbital with magnetic quantum number ±1'
+ORBITAL:0000054	class	dyz orbital	ORBITAL:0000047	'd orbital' and 'orbital with magnetic quantum number ±1'
+ORBITAL:0000055	class	dxy orbital	ORBITAL:0000047	's orbital' and 'orbital with magnetic quantum number ±2'
+ORBITAL:0000056	class	dx2-y2 orbital	ORBITAL:0000047	'd orbital' and 'orbital with magnetic quantum number ±2'
+ORBITAL:0000057	class	fz3 orbital	ORBITAL:0000047	'f orbital' and 'orbital with magnetic quantum number 0'
+ORBITAL:0000058	class	fxz2 orbital	ORBITAL:0000047	'f orbital' and 'orbital with magnetic quantum number +1'
+ORBITAL:0000059	class	fyz2 orbital	ORBITAL:0000047	'f orbital' and 'orbital with magnetic quantum number -1'
+ORBITAL:0000060	class	fxyz orbital	ORBITAL:0000047	'f orbital' and 'orbital with magnetic quantum number -2'
+ORBITAL:0000061	class	fz(x2-y2) orbital	ORBITAL:0000047	'f orbital' and 'orbital with magnetic quantum number +2'
+ORBITAL:0000062	class	fx(x2-3y2) orbital	ORBITAL:0000047	'f orbital' and 'orbital with magnetic quantum number +3'
+ORBITAL:0000063	class	fy(3x2-y2) orbital	ORBITAL:0000047	'f orbital' and 'orbital with magnetic quantum number -3'
+ORBITAL:0000064	class	gz4	ORBITAL:0000047	'g orbital' and 'orbital with magnetic quantum number 0'			https://chem.libretexts.org/Ancillary_Materials/Reference/Reference_Tables/Mathematical_Functions/M4%3A_Spherical_Harmonics
+ORBITAL:0000065	class	gz3x	ORBITAL:0000047	'g orbital' and 'orbital with magnetic quantum number +1'			https://chem.libretexts.org/Ancillary_Materials/Reference/Reference_Tables/Mathematical_Functions/M4%3A_Spherical_Harmonics
+ORBITAL:0000066	class	gz3y	ORBITAL:0000047	'g orbital' and 'orbital with magnetic quantum number -1'			https://chem.libretexts.org/Ancillary_Materials/Reference/Reference_Tables/Mathematical_Functions/M4%3A_Spherical_Harmonics
+ORBITAL:0000067	class	gz2(x2-y2)	ORBITAL:0000047	'g orbital' and 'orbital with magnetic quantum number ±2'			https://chem.libretexts.org/Ancillary_Materials/Reference/Reference_Tables/Mathematical_Functions/M4%3A_Spherical_Harmonics
+ORBITAL:0000068	class	gxyz2	ORBITAL:0000047	'g orbital' and 'orbital with magnetic quantum number ±2'			https://chem.libretexts.org/Ancillary_Materials/Reference/Reference_Tables/Mathematical_Functions/M4%3A_Spherical_Harmonics
+ORBITAL:0000069	class	gz(x3-3xy2)	ORBITAL:0000047	'g orbital' and 'orbital with magnetic quantum number ±3'			https://chem.libretexts.org/Ancillary_Materials/Reference/Reference_Tables/Mathematical_Functions/M4%3A_Spherical_Harmonics
+ORBITAL:0000070	class	gy(3x2-y2)z	ORBITAL:0000047	'g orbital' and 'orbital with magnetic quantum number ±3'			https://chem.libretexts.org/Ancillary_Materials/Reference/Reference_Tables/Mathematical_Functions/M4%3A_Spherical_Harmonics
+ORBITAL:0000071	class	gx4-6x2y2+y4	ORBITAL:0000047	'g orbital' and 'orbital with magnetic quantum number ±4'			https://chem.libretexts.org/Ancillary_Materials/Reference/Reference_Tables/Mathematical_Functions/M4%3A_Spherical_Harmonics
+ORBITAL:0000072	class	gxy(x2-y2)	ORBITAL:0000047	'g orbital' and 'orbital with magnetic quantum number ±4'			https://chem.libretexts.org/Ancillary_Materials/Reference/Reference_Tables/Mathematical_Functions/M4%3A_Spherical_Harmonics
+ORBITAL:0000100	class	atomic orbital by principal, azimuthal, and magnetic quantum number	ORBITAL:0000001
+ORBITAL:0000101	class	1ss	ORBITAL:0000100	'1 orbital' and 'ss orbital'
+ORBITAL:0000102	class	2ss	ORBITAL:0000100	'2 orbital' and 'ss orbital'
+ORBITAL:0000103	class	2pz	ORBITAL:0000100	'2 orbital' and 'pz orbital'
+ORBITAL:0000104	class	2px	ORBITAL:0000100	'2 orbital' and 'px orbital'
+ORBITAL:0000105	class	2py	ORBITAL:0000100	'2 orbital' and 'py orbital'
+ORBITAL:0000106	class	3ss	ORBITAL:0000100	'3 orbital' and 'ss orbital'
+ORBITAL:0000107	class	3pz	ORBITAL:0000100	'3 orbital' and 'pz orbital'
+ORBITAL:0000108	class	3px	ORBITAL:0000100	'3 orbital' and 'px orbital'
+ORBITAL:0000109	class	3py	ORBITAL:0000100	'3 orbital' and 'py orbital'
+ORBITAL:0000110	class	3dz2	ORBITAL:0000100	'3 orbital' and 'dz2 orbital'
+ORBITAL:0000111	class	3dxz	ORBITAL:0000100	'3 orbital' and 'dxz orbital'
+ORBITAL:0000112	class	3dyz	ORBITAL:0000100	'3 orbital' and 'dyz orbital'
+ORBITAL:0000113	class	3dxy	ORBITAL:0000100	'3 orbital' and 'dxy orbital'
+ORBITAL:0000113	class	3dx2-y2	ORBITAL:0000100	'3 orbital' and 'dx2-y2 orbital'
+ORBITAL:0000200	class	atomic orbital by magnetic quantum number	ORBITAL:0000001			'has magnetic quantum number' some xsd:integer
+ORBITAL:0000201	class	orbital with magnetic quantum number 0	ORBITAL:0000200			'has magnetic quantum number' value 0
+ORBITAL:0000202	class	orbital with magnetic quantum number ±1	ORBITAL:0000200			('has magnetic quantum number' value -1) or ('has magnetic quantum number' value 1)
+ORBITAL:0000203	class	orbital with magnetic quantum number -1	ORBITAL:0000202			'has magnetic quantum number' value -1
+ORBITAL:0000204	class	orbital with magnetic quantum number +1	ORBITAL:0000202			'has magnetic quantum number' value 1
+ORBITAL:0000205	class	orbital with magnetic quantum number ±2	ORBITAL:0000200			('has magnetic quantum number' value -2) or ('has magnetic quantum number' value 2)
+ORBITAL:0000206	class	orbital with magnetic quantum number +2	ORBITAL:0000205			'has magnetic quantum number' value 2
+ORBITAL:0000207	class	orbital with magnetic quantum number -2	ORBITAL:0000205			'has magnetic quantum number' value -2
+ORBITAL:0000208	class	orbital with magnetic quantum number ±3	ORBITAL:0000200			('has magnetic quantum number' value -3) or ('has magnetic quantum number' value 3)
+ORBITAL:0000209	class	orbital with magnetic quantum number +3	ORBITAL:0000208			'has magnetic quantum number' value 3
+ORBITAL:0000210	class	orbital with magnetic quantum number -3	ORBITAL:0000208			'has magnetic quantum number' value -3
+ORBITAL:0000211	class	orbital with magnetic quantum number ±4	ORBITAL:0000200			('has magnetic quantum number' value -4) or ('has magnetic quantum number' value 4)
+ORBITAL:0000212	class	orbital with magnetic quantum number +4	ORBITAL:0000211			'has magnetic quantum number' value 4
+ORBITAL:0000213	class	orbital with magnetic quantum number -4	ORBITAL:0000211			'has magnetic quantum number' value -4
+ORBITAL:0000214	class	orbital with magnetic quantum number ±5	ORBITAL:0000200			('has magnetic quantum number' value -5) or ('has magnetic quantum number' value 5)
+ORBITAL:0000215	class	orbital with magnetic quantum number +5	ORBITAL:0000214			'has magnetic quantum number' value 5
+ORBITAL:0000216	class	orbital with magnetic quantum number -5	ORBITAL:0000214			'has magnetic quantum number' value -5
+ORBITAL:0000217	class	orbital with magnetic quantum number ±6	ORBITAL:0000200			('has magnetic quantum number' value -6) or ('has magnetic quantum number' value 6)
+ORBITAL:0000218	class	orbital with magnetic quantum number +6	ORBITAL:0000217			'has magnetic quantum number' value 6
+ORBITAL:0000219	class	orbital with magnetic quantum number -6	ORBITAL:0000217			'has magnetic quantum number' value -6
