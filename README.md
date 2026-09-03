@@ -1,6 +1,39 @@
-# basis-set-ontology-demo
+# Basis Set Exchange Ontology
 
-## Ranges
+A [basis set](https://en.wikipedia.org/wiki/Basis_set_%28chemistry%29) is a set
+of mathematical functions and their respective parametrization used to construct
+a wave equation in computational chemistry experiments.
+
+The [Basis Set Exchange](https://www.basissetexchange.org) is a comprehensive
+database of basis sets. However, it does not provide persistent identifiers for
+basis sets, does not provide an ontologization of basis sets beyond
+categorization by _role_, and does not provide a semantic web-ready artifact.
+
+The high level goals of this repository are to:
+
+1. Enable the FAIR annotation of the basis sets used in computational chemistry
+   experiments
+2. Enable researchers to identify basis sets over several axes both in informal
+   settings and with the assistance of reasoners
+
+We want to accomplish the following technical goals to get there:
+
+1. Automatically assign well-formed identifiers to each basis set in the Basis
+   Set Exchange
+2. Capture a deeper hierarchy of basis sets (e.g., by family and subfamily)
+3. Capture the logical construction of each basis set (e.g., usage of diffusion
+   function, usage of polarization function)
+
+## License
+
+Code in this repository is licensed under the MIT license. Original data is
+licensed under CC0-1.0. Content derived from the Basis Set Exchange is licensed
+under the BSD license
+([reference](https://github.com/MolSSI-BSE/basis_set_exchange)).
+
+## Contributing
+
+### Ranges
 
 We're using the informal ID-ranges:
 
@@ -11,7 +44,7 @@ We're using the informal ID-ranges:
 - `0400000` - `0499999` are function types from basis set exchange
 - `1000000` - `1999999` are properties (manually curated )
 
-## Exploration
+### Exploration
 
 Naming of basis sets is complicated! Take `aug-cc-pVTZ`:
 
