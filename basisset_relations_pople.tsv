@@ -1,0 +1,31 @@
+basis set	basis set name	element	orbital	orbital type	orbital type label
+BSEO_0000086	3-21G            	1	1S	BSEO_0300079	gto
+BSEO_0000090	4-31G           				
+BSEO_0000094	5-21G            				
+BSEO_0000098	6-21G            				
+BSEO_0000099	6-31++G          				
+BSEO_0000100	6-31++G*     				
+BSEO_0000101	6-31++G**       				
+BSEO_0000103	6-31+G          				
+BSEO_0000104	6-31+G*       				
+BSEO_0000106	6-31+G**      				
+BSEO_0000107	6-311++G    				
+BSEO_0000108	6-311++G(2d,2p)               				
+BSEO_0000109	6-311++G(3df,3pd)               				
+BSEO_0000110	6-311++G*				
+BSEO_0000111	6-311++G**    				
+BSEO_0000113	6-311+G    				
+BSEO_0000114	6-311+G(2d,p)               				
+BSEO_0000115	6-311+G*    				
+BSEO_0000117	6-311+G**				
+BSEO_0000118	6-311G         				
+BSEO_0000119	6-311G(2df,2pd)               				
+BSEO_0000120	6-311G(d,p)         				
+BSEO_0000122	6-311G*         				
+BSEO_0000123	6-311G**         				
+BSEO_0000126	6-31G             				
+BSEO_0000127	6-31G(2df,p)               				
+BSEO_0000128	6-31G(3df,3pd)               				
+BSEO_0000129	6-31G(d,p)          				
+BSEO_0000132	6-31G*          				
+BSEO_0000134	6-31G**          				
