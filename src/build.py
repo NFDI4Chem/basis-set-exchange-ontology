@@ -8,12 +8,14 @@
 # ]
 # ///
 
+import datetime
 import json
 import os
 import random
 import tarfile
 from collections import Counter, defaultdict
 from pathlib import Path
+from typing import Any
 
 import click
 import pandas as pd
@@ -38,12 +40,47 @@ final_output = HERE.joinpath(PREFIX.lower()).with_suffix(".owl")
 parts_notes = HERE.joinpath("parts_notes.tsv")
 
 
+class ElectronShell(BaseModel):
+    function_type: str
+    region: str | None = None
+    angular_momentum: list[int]
+    exponents: list[str]
+    coefficients: list[list[str]]
+
+
+class ElectronShellRecord(BaseModel):
+    electron_shells: list[ElectronShell]
+    references: list[dict[str, Any]]
+
+
+class ECPPotential(BaseModel):
+    ecp_type: str
+    r_exponents: list[int]
+    gaussian_exponents: list[float]
+    angular_momentum: list[int]
+    exponents: list[str]
+    coefficients: list[list[str]]
+
+
+class ECPPotentialRecord(BaseModel):
+    ecp_potentials: list[ECPPotential]
+    ecp_electrons: int
+    references: list[dict[str, Any]]
+
+
 class BasisSet(BaseModel):
     name: str
     role: str
     description: str
     family: str
     function_types: list[str]
+    tags: list[str]
+    # TODO auxiliaries
+    # TODO names
+    elements: dict[int, ElectronShellRecord | ECPPotentialRecord]
+    revision_date: datetime.date
+    revision_description: str
+    version: str
 
 
 NAMES: dict[str, str] = {
@@ -54,10 +91,9 @@ NAMES: dict[str, str] = {
 }
 
 
-@click.command()
-def main() -> None:
+def get_basis_sets(*, force: bool = False) -> list[BasisSet]:
     url = f"https://www.basissetexchange.org/static/archives/{VERSION}/basis_sets-json-{VERSION}.tar.bz2"
-    path = pystow.ensure("bio", "basis-set-exchange", url=url)
+    path = pystow.ensure("bio", "basis-set-exchange", url=url, force=force)
     basis_sets = []
     with tarfile.open(path) as tf:
         for member in tqdm(tf, unit="file"):
@@ -65,9 +101,18 @@ def main() -> None:
                 continue
             with tf.extractfile(member) as file:
                 data = json.load(file)
-            bs = BasisSet.model_validate(data)
-            basis_sets.append(bs)
+            try:
+                bs = BasisSet.model_validate(data)
+            except ValueError as e:
+                tqdm.write(f"[{data['name']}] failed to validate basis set: {e}")
+            else:
+                basis_sets.append(bs)
+    return basis_sets
 
+
+@click.command()
+def main() -> None:
+    basis_sets = get_basis_sets()
     role_counter = Counter()
     family_counter = Counter()
     function_type_counter = Counter()
