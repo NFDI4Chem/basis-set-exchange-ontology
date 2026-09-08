@@ -1,11 +1,11 @@
+from pathlib import Path
+
 import click
+import pandas as pd
+from curies import NamedReference
 from pystow.utils import safe_open_writer
 
 from build import get_basis_sets
-from pathlib import Path
-import pandas as pd
-
-from curies import NamedReference
 
 HERE = Path(__file__).parent.resolve()
 URL = "https://github.com/cthoyt/chebi-atomic-numbers-ontology/raw/refs/heads/main/src/elements.tsv"
@@ -13,11 +13,16 @@ PATH = HERE.parent.joinpath("chebi-element-extension-ontology", "src", "elements
 
 
 def get_element_number_to_reference() -> dict[int, NamedReference]:
-    df = pd.read_csv(PATH if PATH.is_file() else URL, sep="\t", skiprows=2, header=None,
-                     names=['id', 'type', 'label', 'atomic number'])
+    df = pd.read_csv(
+        PATH if PATH.is_file() else URL,
+        sep="\t",
+        skiprows=2,
+        header=None,
+        names=["id", "type", "label", "atomic number"],
+    )
     return {
         n: NamedReference.from_curie(curie, label.removesuffix(" atom"))
-        for n, curie, label in df[['atomic number', 'id', "label"]].values
+        for n, curie, label in df[["atomic number", "id", "label"]].values
     }
 
 
