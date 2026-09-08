@@ -122,7 +122,7 @@ def main(output: Path, output_orbital: Path) -> None:
 
     with safe_open_writer(output) as writer:
         writer.writerow(
-            ("ID", "TYPE", "basis set", "element CURIE", "element name")
+            ("ID", "TYPE", "basis set", "element", "element CURIE", "element name")
         )
         writer.writerow(("ID", "TYPE", "", "", "SC 'BSEO:0100003' some %", ""))
         writer.writerows(rows)
