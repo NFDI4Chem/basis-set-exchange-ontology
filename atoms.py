@@ -1,3 +1,16 @@
+# /// script
+# requires-python = ">=3.14"
+# dependencies = [
+#     "click>=8.5.0",
+#     "curies>=0.15.0",
+#     "pandas>=3.0.5",
+#     "pydantic>=2.13.5",
+#     "pystow>=0.9.3",
+#     "tabulate>=0.10.0",
+#     "tqdm>=4.70.0",
+# ]
+# ///
+
 from pathlib import Path
 
 import click
@@ -17,6 +30,16 @@ ORBITALS_URL = (
     "https://github.com/cthoyt/orbital-ontology/raw/refs/heads/main/src/terms.tsv"
 )
 ORBITALS_PATH = HERE.parent.joinpath("orbital-ontology", "src", "terms.tsv")
+
+TERMS_PATH = HERE.joinpath("derived-terms.tsv")
+
+
+def get_basis_set_to_reference() -> dict[str, NamedReference]:
+    df = pd.read_csv(TERMS_PATH, sep="\t", skiprows=2, header=None, usecols=[0, 2])
+    return {
+        name: NamedReference.from_curie(curie, name)
+        for curie, name in df.values
+    }
 
 
 def get_element_number_to_reference() -> dict[int, NamedReference]:
@@ -56,6 +79,7 @@ def get_orbital_to_reference() -> dict[tuple[int, int, int], NamedReference]:
 @click.command()
 def main() -> None:
     orbital_to_reference = get_orbital_to_reference()
+    basis_set_to_reference = get_basis_set_to_reference()
     element_number_to_reference = get_element_number_to_reference()
     rows = []
     basis_sets = get_basis_sets()
@@ -64,6 +88,8 @@ def main() -> None:
             reference = element_number_to_reference[element_number]
             rows.append(
                 (
+                    basis_set_to_reference[basis_set.name].curie,
+                    "class",
                     basis_set.name,
                     element_number,
                     reference.curie,
@@ -72,7 +98,8 @@ def main() -> None:
             )
 
     with safe_open_writer("atoms.tsv") as writer:
-        writer.writerow(("basis set", "element", "element CURIE", "element name"))
+        writer.writerow(("ID", "TYPE", "basis set", "element", "element CURIE", "element name"))
+        writer.writerow(("ID", "TYPE", "", "", "SC 'BSEO:0100003' some %", ""))
         writer.writerows(rows)
 
 
