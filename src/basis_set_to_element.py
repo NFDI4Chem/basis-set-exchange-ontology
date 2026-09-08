@@ -75,10 +75,9 @@ def get_orbital_to_reference() -> dict[tuple[int, int, int], NamedReference]:
 
 
 @click.command()
-def main() -> None:
-    orbital_to_reference = get_orbital_to_reference()
 @click.option("--output", required=True, type=Path)
 def main(output: Path) -> None:
+    orbital_to_reference = get_orbital_to_reference()
     get_orbital_to_reference()
     basis_set_to_reference = get_basis_set_to_reference()
     element_number_to_reference = get_element_number_to_reference()
