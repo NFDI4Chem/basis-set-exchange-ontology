@@ -21,6 +21,9 @@ from pystow.utils import safe_open_writer
 from build import get_basis_sets
 
 HERE = Path(__file__).parent.resolve()
+ROOT = HERE.parent.resolve()
+TERMS_PATH = ROOT.joinpath("derived-terms.tsv")
+
 ELEMENTS_URL = "https://github.com/cthoyt/chebi-atomic-numbers-ontology/raw/refs/heads/main/src/elements.tsv"
 ELEMENTS_PATH = HERE.parent.joinpath(
     "chebi-element-extension-ontology", "src", "elements.tsv"
@@ -31,15 +34,10 @@ ORBITALS_URL = (
 )
 ORBITALS_PATH = HERE.parent.joinpath("orbital-ontology", "src", "terms.tsv")
 
-TERMS_PATH = HERE.joinpath("derived-terms.tsv")
-
 
 def get_basis_set_to_reference() -> dict[str, NamedReference]:
     df = pd.read_csv(TERMS_PATH, sep="\t", skiprows=2, header=None, usecols=[0, 2])
-    return {
-        name: NamedReference.from_curie(curie, name)
-        for curie, name in df.values
-    }
+    return {name: NamedReference.from_curie(curie, name) for curie, name in df.values}
 
 
 def get_element_number_to_reference() -> dict[int, NamedReference]:
@@ -79,6 +77,9 @@ def get_orbital_to_reference() -> dict[tuple[int, int, int], NamedReference]:
 @click.command()
 def main() -> None:
     orbital_to_reference = get_orbital_to_reference()
+@click.option("--output", required=True, type=Path)
+def main(output: Path) -> None:
+    get_orbital_to_reference()
     basis_set_to_reference = get_basis_set_to_reference()
     element_number_to_reference = get_element_number_to_reference()
     rows = []
@@ -97,8 +98,10 @@ def main() -> None:
                 )
             )
 
-    with safe_open_writer("atoms.tsv") as writer:
-        writer.writerow(("ID", "TYPE", "basis set", "element", "element CURIE", "element name"))
+    with safe_open_writer(output) as writer:
+        writer.writerow(
+            ("ID", "TYPE", "basis set", "element", "element CURIE", "element name")
+        )
         writer.writerow(("ID", "TYPE", "", "", "SC 'BSEO:0100003' some %", ""))
         writer.writerows(rows)
 
