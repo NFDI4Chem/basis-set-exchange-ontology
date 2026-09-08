@@ -15,12 +15,12 @@ import random
 import tarfile
 from collections import Counter, defaultdict
 from pathlib import Path
-from typing import Any
+from typing import Annotated, Any, Literal
 
 import click
 import pandas as pd
 import pystow
-from pydantic import BaseModel
+from pydantic import BaseModel, BeforeValidator
 from tabulate import tabulate
 from tqdm import tqdm
 
@@ -40,10 +40,19 @@ final_output = HERE.joinpath(PREFIX.lower()).with_suffix(".owl")
 parts_notes = HERE.joinpath("parts_notes.tsv")
 
 
+def _f(s: str | None) -> str | None:
+    if s is not None and s.strip():
+        return s.strip()
+    return None
+
+
 class ElectronShell(BaseModel):
-    function_type: str
-    region: str | None = None
-    angular_momentum: list[int]
+    function_type: Literal["gto", "gto_spherical", "gto_cartesian"]
+    region: Annotated[
+        Literal["valence", "diffuse", "polarization"] | None, BeforeValidator(_f)
+    ] = None
+    # something fishy is going on here, should not go past 6
+    angular_momentum: list[Literal[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]]
     exponents: list[str]
     coefficients: list[list[str]]
 
@@ -54,11 +63,11 @@ class ElectronShellRecord(BaseModel):
 
 
 class ECPPotential(BaseModel):
-    ecp_type: str
+    ecp_type: Literal["scalar_ecp"]
     r_exponents: list[int]
     gaussian_exponents: list[float]
     angular_momentum: list[int]
-    exponents: list[str]
+    exponents: list[str] | None = None
     coefficients: list[list[str]]
 
 
@@ -91,7 +100,7 @@ NAMES: dict[str, str] = {
 }
 
 
-def get_basis_sets(*, force: bool = False) -> list[BasisSet]:
+def get_basis_sets(*, force: bool = False, limit: int | None = None) -> list[BasisSet]:
     url = f"https://www.basissetexchange.org/static/archives/{VERSION}/basis_sets-json-{VERSION}.tar.bz2"
     path = pystow.ensure("bio", "basis-set-exchange", url=url, force=force)
     basis_sets = []
@@ -101,12 +110,10 @@ def get_basis_sets(*, force: bool = False) -> list[BasisSet]:
                 continue
             with tf.extractfile(member) as file:
                 data = json.load(file)
-            try:
-                bs = BasisSet.model_validate(data)
-            except ValueError as e:
-                tqdm.write(f"[{data['name']}] failed to validate basis set: {e}")
-            else:
-                basis_sets.append(bs)
+            bs = BasisSet.model_validate(data)
+            basis_sets.append(bs)
+            if limit is not None and len(basis_sets) >= limit:
+                break
     return basis_sets
 
 

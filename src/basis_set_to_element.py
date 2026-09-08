@@ -22,6 +22,9 @@ from build import get_basis_sets
 
 HERE = Path(__file__).parent.resolve()
 ROOT = HERE.parent.resolve()
+OUTPUT = ROOT.joinpath("output")
+DEFAULT_OUTPUT_PATH = OUTPUT.joinpath("basis-set-to-element.tsv")
+
 TERMS_PATH = ROOT.joinpath("derived-terms.tsv")
 
 ELEMENTS_URL = "https://github.com/cthoyt/chebi-atomic-numbers-ontology/raw/refs/heads/main/src/elements.tsv"
@@ -75,20 +78,19 @@ def get_orbital_to_reference() -> dict[tuple[int, int, int], NamedReference]:
 
 
 @click.command()
-@click.option("--output", required=True, type=Path)
+@click.option("--output", type=Path, default=DEFAULT_OUTPUT_PATH)
 def main(output: Path) -> None:
-    orbital_to_reference = get_orbital_to_reference()
-    get_orbital_to_reference()
     basis_set_to_reference = get_basis_set_to_reference()
     element_number_to_reference = get_element_number_to_reference()
     rows = []
     basis_sets = get_basis_sets()
     for basis_set in basis_sets:
+        basis_set_reference = basis_set_to_reference[basis_set.name]
         for element_number in basis_set.elements:
             reference = element_number_to_reference[element_number]
             rows.append(
                 (
-                    basis_set_to_reference[basis_set.name].curie,
+                    basis_set_reference.curie,
                     "class",
                     basis_set.name,
                     element_number,
