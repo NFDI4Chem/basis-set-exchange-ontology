@@ -1,0 +1,2425 @@
+basis set ID	basis set name	atomic number	atom reference	atom name	electron shell position	electron shell region	angular momentum	function type
+BSEO:0000126	6-31G	1	CHEBI:49637	hydrogen	0	valence	0	gto
+BSEO:0000126	6-31G	1	CHEBI:49637	hydrogen	1	valence	0	gto
+BSEO:0000126	6-31G	2	CHEBI:30217	helium	0	valence	0	gto
+BSEO:0000126	6-31G	2	CHEBI:30217	helium	1	valence	0	gto
+BSEO:0000126	6-31G	3	CHEBI:30145	lithium	0	valence	0	gto
+BSEO:0000126	6-31G	3	CHEBI:30145	lithium	1	valence	0,1	gto
+BSEO:0000126	6-31G	3	CHEBI:30145	lithium	2	valence	0,1	gto
+BSEO:0000126	6-31G	4	CHEBI:30501	beryllium	0	valence	0	gto
+BSEO:0000126	6-31G	4	CHEBI:30501	beryllium	1	valence	0,1	gto
+BSEO:0000126	6-31G	4	CHEBI:30501	beryllium	2	valence	0,1	gto
+BSEO:0000126	6-31G	5	CHEBI:27560	boron	0	valence	0	gto
+BSEO:0000126	6-31G	5	CHEBI:27560	boron	1	valence	0,1	gto
+BSEO:0000126	6-31G	5	CHEBI:27560	boron	2	valence	0,1	gto
+BSEO:0000126	6-31G	6	CHEBI:27594	carbon	0	valence	0	gto
+BSEO:0000126	6-31G	6	CHEBI:27594	carbon	1	valence	0,1	gto
+BSEO:0000126	6-31G	6	CHEBI:27594	carbon	2	valence	0,1	gto
+BSEO:0000126	6-31G	7	CHEBI:25555	nitrogen	0	valence	0	gto
+BSEO:0000126	6-31G	7	CHEBI:25555	nitrogen	1	valence	0,1	gto
+BSEO:0000126	6-31G	7	CHEBI:25555	nitrogen	2	valence	0,1	gto
+BSEO:0000126	6-31G	8	CHEBI:25805	oxygen	0	valence	0	gto
+BSEO:0000126	6-31G	8	CHEBI:25805	oxygen	1	valence	0,1	gto
+BSEO:0000126	6-31G	8	CHEBI:25805	oxygen	2	valence	0,1	gto
+BSEO:0000126	6-31G	9	CHEBI:24061	fluorine	0	valence	0	gto
+BSEO:0000126	6-31G	9	CHEBI:24061	fluorine	1	valence	0,1	gto
+BSEO:0000126	6-31G	9	CHEBI:24061	fluorine	2	valence	0,1	gto
+BSEO:0000126	6-31G	10	CHEBI:33310	neon	0	valence	0	gto
+BSEO:0000126	6-31G	10	CHEBI:33310	neon	1	valence	0,1	gto
+BSEO:0000126	6-31G	10	CHEBI:33310	neon	2	valence	0,1	gto
+BSEO:0000126	6-31G	11	CHEBI:26708	sodium	0	valence	0	gto
+BSEO:0000126	6-31G	11	CHEBI:26708	sodium	1	valence	0,1	gto
+BSEO:0000126	6-31G	11	CHEBI:26708	sodium	2	valence	0,1	gto
+BSEO:0000126	6-31G	11	CHEBI:26708	sodium	3	valence	0,1	gto
+BSEO:0000126	6-31G	12	CHEBI:25107	magnesium	0	valence	0	gto
+BSEO:0000126	6-31G	12	CHEBI:25107	magnesium	1	valence	0,1	gto
+BSEO:0000126	6-31G	12	CHEBI:25107	magnesium	2	valence	0,1	gto
+BSEO:0000126	6-31G	12	CHEBI:25107	magnesium	3	valence	0,1	gto
+BSEO:0000126	6-31G	13	CHEBI:28984	aluminium	0	valence	0	gto
+BSEO:0000126	6-31G	13	CHEBI:28984	aluminium	1	valence	0,1	gto
+BSEO:0000126	6-31G	13	CHEBI:28984	aluminium	2	valence	0,1	gto
+BSEO:0000126	6-31G	13	CHEBI:28984	aluminium	3	valence	0,1	gto
+BSEO:0000126	6-31G	14	CHEBI:27573	silicon	0	valence	0	gto
+BSEO:0000126	6-31G	14	CHEBI:27573	silicon	1	valence	0,1	gto
+BSEO:0000126	6-31G	14	CHEBI:27573	silicon	2	valence	0,1	gto
+BSEO:0000126	6-31G	14	CHEBI:27573	silicon	3	valence	0,1	gto
+BSEO:0000126	6-31G	15	CHEBI:28659	phosphorus	0	valence	0	gto
+BSEO:0000126	6-31G	15	CHEBI:28659	phosphorus	1	valence	0,1	gto
+BSEO:0000126	6-31G	15	CHEBI:28659	phosphorus	2	valence	0,1	gto
+BSEO:0000126	6-31G	15	CHEBI:28659	phosphorus	3	valence	0,1	gto
+BSEO:0000126	6-31G	16	CHEBI:26833	sulfur	0	valence	0	gto
+BSEO:0000126	6-31G	16	CHEBI:26833	sulfur	1	valence	0,1	gto
+BSEO:0000126	6-31G	16	CHEBI:26833	sulfur	2	valence	0,1	gto
+BSEO:0000126	6-31G	16	CHEBI:26833	sulfur	3	valence	0,1	gto
+BSEO:0000126	6-31G	17	CHEBI:23116	chlorine	0	valence	0	gto
+BSEO:0000126	6-31G	17	CHEBI:23116	chlorine	1	valence	0,1	gto
+BSEO:0000126	6-31G	17	CHEBI:23116	chlorine	2	valence	0,1	gto
+BSEO:0000126	6-31G	17	CHEBI:23116	chlorine	3	valence	0,1	gto
+BSEO:0000126	6-31G	18	CHEBI:49475	argon	0	valence	0	gto
+BSEO:0000126	6-31G	18	CHEBI:49475	argon	1	valence	0,1	gto
+BSEO:0000126	6-31G	18	CHEBI:49475	argon	2	valence	0,1	gto
+BSEO:0000126	6-31G	18	CHEBI:49475	argon	3	valence	0,1	gto
+BSEO:0000126	6-31G	19	CHEBI:26216	potassium	0	valence	0	gto
+BSEO:0000126	6-31G	19	CHEBI:26216	potassium	1	valence	0,1	gto
+BSEO:0000126	6-31G	19	CHEBI:26216	potassium	2	valence	0,1	gto
+BSEO:0000126	6-31G	19	CHEBI:26216	potassium	3	valence	0,1	gto
+BSEO:0000126	6-31G	19	CHEBI:26216	potassium	4	valence	0,1	gto
+BSEO:0000126	6-31G	20	CHEBI:22984	calcium	0	valence	0	gto
+BSEO:0000126	6-31G	20	CHEBI:22984	calcium	1	valence	0,1	gto
+BSEO:0000126	6-31G	20	CHEBI:22984	calcium	2	valence	0,1	gto
+BSEO:0000126	6-31G	20	CHEBI:22984	calcium	3	valence	0,1	gto
+BSEO:0000126	6-31G	20	CHEBI:22984	calcium	4	valence	0,1	gto
+BSEO:0000126	6-31G	21	CHEBI:33330	scandium	0	valence	0	gto
+BSEO:0000126	6-31G	21	CHEBI:33330	scandium	1	valence	0,1	gto
+BSEO:0000126	6-31G	21	CHEBI:33330	scandium	2	valence	0,1	gto
+BSEO:0000126	6-31G	21	CHEBI:33330	scandium	3	valence	0,1	gto
+BSEO:0000126	6-31G	21	CHEBI:33330	scandium	4	valence	0,1	gto
+BSEO:0000126	6-31G	21	CHEBI:33330	scandium	5	valence	2	gto_cartesian
+BSEO:0000126	6-31G	21	CHEBI:33330	scandium	6	valence	2	gto_cartesian
+BSEO:0000126	6-31G	22	CHEBI:33341	titanium	0	valence	0	gto
+BSEO:0000126	6-31G	22	CHEBI:33341	titanium	1	valence	0,1	gto
+BSEO:0000126	6-31G	22	CHEBI:33341	titanium	2	valence	0,1	gto
+BSEO:0000126	6-31G	22	CHEBI:33341	titanium	3	valence	0,1	gto
+BSEO:0000126	6-31G	22	CHEBI:33341	titanium	4	valence	0,1	gto
+BSEO:0000126	6-31G	22	CHEBI:33341	titanium	5	valence	2	gto_cartesian
+BSEO:0000126	6-31G	22	CHEBI:33341	titanium	6	valence	2	gto_cartesian
+BSEO:0000126	6-31G	23	CHEBI:27698	vanadium	0	valence	0	gto
+BSEO:0000126	6-31G	23	CHEBI:27698	vanadium	1	valence	0,1	gto
+BSEO:0000126	6-31G	23	CHEBI:27698	vanadium	2	valence	0,1	gto
+BSEO:0000126	6-31G	23	CHEBI:27698	vanadium	3	valence	0,1	gto
+BSEO:0000126	6-31G	23	CHEBI:27698	vanadium	4	valence	0,1	gto
+BSEO:0000126	6-31G	23	CHEBI:27698	vanadium	5	valence	2	gto_cartesian
+BSEO:0000126	6-31G	23	CHEBI:27698	vanadium	6	valence	2	gto_cartesian
+BSEO:0000126	6-31G	24	CHEBI:28073	chromium	0	valence	0	gto
+BSEO:0000126	6-31G	24	CHEBI:28073	chromium	1	valence	0,1	gto
+BSEO:0000126	6-31G	24	CHEBI:28073	chromium	2	valence	0,1	gto
+BSEO:0000126	6-31G	24	CHEBI:28073	chromium	3	valence	0,1	gto
+BSEO:0000126	6-31G	24	CHEBI:28073	chromium	4	valence	0,1	gto
+BSEO:0000126	6-31G	24	CHEBI:28073	chromium	5	valence	2	gto_cartesian
+BSEO:0000126	6-31G	24	CHEBI:28073	chromium	6	valence	2	gto_cartesian
+BSEO:0000126	6-31G	25	CHEBI:18291	manganese	0	valence	0	gto
+BSEO:0000126	6-31G	25	CHEBI:18291	manganese	1	valence	0,1	gto
+BSEO:0000126	6-31G	25	CHEBI:18291	manganese	2	valence	0,1	gto
+BSEO:0000126	6-31G	25	CHEBI:18291	manganese	3	valence	0,1	gto
+BSEO:0000126	6-31G	25	CHEBI:18291	manganese	4	valence	0,1	gto
+BSEO:0000126	6-31G	25	CHEBI:18291	manganese	5	valence	2	gto_cartesian
+BSEO:0000126	6-31G	25	CHEBI:18291	manganese	6	valence	2	gto_cartesian
+BSEO:0000126	6-31G	26	CHEBI:18248	iron	0	valence	0	gto
+BSEO:0000126	6-31G	26	CHEBI:18248	iron	1	valence	0,1	gto
+BSEO:0000126	6-31G	26	CHEBI:18248	iron	2	valence	0,1	gto
+BSEO:0000126	6-31G	26	CHEBI:18248	iron	3	valence	0,1	gto
+BSEO:0000126	6-31G	26	CHEBI:18248	iron	4	valence	0,1	gto
+BSEO:0000126	6-31G	26	CHEBI:18248	iron	5	valence	2	gto_cartesian
+BSEO:0000126	6-31G	26	CHEBI:18248	iron	6	valence	2	gto_cartesian
+BSEO:0000126	6-31G	27	CHEBI:27638	cobalt	0	valence	0	gto
+BSEO:0000126	6-31G	27	CHEBI:27638	cobalt	1	valence	0,1	gto
+BSEO:0000126	6-31G	27	CHEBI:27638	cobalt	2	valence	0,1	gto
+BSEO:0000126	6-31G	27	CHEBI:27638	cobalt	3	valence	0,1	gto
+BSEO:0000126	6-31G	27	CHEBI:27638	cobalt	4	valence	0,1	gto
+BSEO:0000126	6-31G	27	CHEBI:27638	cobalt	5	valence	2	gto_cartesian
+BSEO:0000126	6-31G	27	CHEBI:27638	cobalt	6	valence	2	gto_cartesian
+BSEO:0000126	6-31G	28	CHEBI:28112	nickel	0	valence	0	gto
+BSEO:0000126	6-31G	28	CHEBI:28112	nickel	1	valence	0,1	gto
+BSEO:0000126	6-31G	28	CHEBI:28112	nickel	2	valence	0,1	gto
+BSEO:0000126	6-31G	28	CHEBI:28112	nickel	3	valence	0,1	gto
+BSEO:0000126	6-31G	28	CHEBI:28112	nickel	4	valence	0,1	gto
+BSEO:0000126	6-31G	28	CHEBI:28112	nickel	5	valence	2	gto_cartesian
+BSEO:0000126	6-31G	28	CHEBI:28112	nickel	6	valence	2	gto_cartesian
+BSEO:0000126	6-31G	29	CHEBI:28694	copper	0	valence	0	gto
+BSEO:0000126	6-31G	29	CHEBI:28694	copper	1	valence	0,1	gto
+BSEO:0000126	6-31G	29	CHEBI:28694	copper	2	valence	0,1	gto
+BSEO:0000126	6-31G	29	CHEBI:28694	copper	3	valence	0,1	gto
+BSEO:0000126	6-31G	29	CHEBI:28694	copper	4	valence	0,1	gto
+BSEO:0000126	6-31G	29	CHEBI:28694	copper	5	valence	2	gto_cartesian
+BSEO:0000126	6-31G	29	CHEBI:28694	copper	6	valence	2	gto_cartesian
+BSEO:0000126	6-31G	30	CHEBI:27363	zinc	0	valence	0	gto
+BSEO:0000126	6-31G	30	CHEBI:27363	zinc	1	valence	0,1	gto
+BSEO:0000126	6-31G	30	CHEBI:27363	zinc	2	valence	0,1	gto
+BSEO:0000126	6-31G	30	CHEBI:27363	zinc	3	valence	0,1	gto
+BSEO:0000126	6-31G	30	CHEBI:27363	zinc	4	valence	0,1	gto
+BSEO:0000126	6-31G	30	CHEBI:27363	zinc	5	valence	2	gto_cartesian
+BSEO:0000126	6-31G	30	CHEBI:27363	zinc	6	valence	2	gto_cartesian
+BSEO:0000126	6-31G	1	CHEBI:49637	hydrogen	0	valence	0	gto
+BSEO:0000126	6-31G	1	CHEBI:49637	hydrogen	1	valence	0	gto
+BSEO:0000126	6-31G	2	CHEBI:30217	helium	0	valence	0	gto
+BSEO:0000126	6-31G	2	CHEBI:30217	helium	1	valence	0	gto
+BSEO:0000126	6-31G	3	CHEBI:30145	lithium	0	valence	0	gto
+BSEO:0000126	6-31G	3	CHEBI:30145	lithium	1	valence	0,1	gto
+BSEO:0000126	6-31G	3	CHEBI:30145	lithium	2	valence	0,1	gto
+BSEO:0000126	6-31G	4	CHEBI:30501	beryllium	0	valence	0	gto
+BSEO:0000126	6-31G	4	CHEBI:30501	beryllium	1	valence	0,1	gto
+BSEO:0000126	6-31G	4	CHEBI:30501	beryllium	2	valence	0,1	gto
+BSEO:0000126	6-31G	5	CHEBI:27560	boron	0	valence	0	gto
+BSEO:0000126	6-31G	5	CHEBI:27560	boron	1	valence	0,1	gto
+BSEO:0000126	6-31G	5	CHEBI:27560	boron	2	valence	0,1	gto
+BSEO:0000126	6-31G	6	CHEBI:27594	carbon	0	valence	0	gto
+BSEO:0000126	6-31G	6	CHEBI:27594	carbon	1	valence	0,1	gto
+BSEO:0000126	6-31G	6	CHEBI:27594	carbon	2	valence	0,1	gto
+BSEO:0000126	6-31G	7	CHEBI:25555	nitrogen	0	valence	0	gto
+BSEO:0000126	6-31G	7	CHEBI:25555	nitrogen	1	valence	0,1	gto
+BSEO:0000126	6-31G	7	CHEBI:25555	nitrogen	2	valence	0,1	gto
+BSEO:0000126	6-31G	8	CHEBI:25805	oxygen	0	valence	0	gto
+BSEO:0000126	6-31G	8	CHEBI:25805	oxygen	1	valence	0,1	gto
+BSEO:0000126	6-31G	8	CHEBI:25805	oxygen	2	valence	0,1	gto
+BSEO:0000126	6-31G	9	CHEBI:24061	fluorine	0	valence	0	gto
+BSEO:0000126	6-31G	9	CHEBI:24061	fluorine	1	valence	0,1	gto
+BSEO:0000126	6-31G	9	CHEBI:24061	fluorine	2	valence	0,1	gto
+BSEO:0000126	6-31G	10	CHEBI:33310	neon	0	valence	0	gto
+BSEO:0000126	6-31G	10	CHEBI:33310	neon	1	valence	0,1	gto
+BSEO:0000126	6-31G	10	CHEBI:33310	neon	2	valence	0,1	gto
+BSEO:0000126	6-31G	11	CHEBI:26708	sodium	0	valence	0	gto
+BSEO:0000126	6-31G	11	CHEBI:26708	sodium	1	valence	0,1	gto
+BSEO:0000126	6-31G	11	CHEBI:26708	sodium	2	valence	0,1	gto
+BSEO:0000126	6-31G	11	CHEBI:26708	sodium	3	valence	0,1	gto
+BSEO:0000126	6-31G	12	CHEBI:25107	magnesium	0	valence	0	gto
+BSEO:0000126	6-31G	12	CHEBI:25107	magnesium	1	valence	0,1	gto
+BSEO:0000126	6-31G	12	CHEBI:25107	magnesium	2	valence	0,1	gto
+BSEO:0000126	6-31G	12	CHEBI:25107	magnesium	3	valence	0,1	gto
+BSEO:0000126	6-31G	13	CHEBI:28984	aluminium	0	valence	0	gto
+BSEO:0000126	6-31G	13	CHEBI:28984	aluminium	1	valence	0,1	gto
+BSEO:0000126	6-31G	13	CHEBI:28984	aluminium	2	valence	0,1	gto
+BSEO:0000126	6-31G	13	CHEBI:28984	aluminium	3	valence	0,1	gto
+BSEO:0000126	6-31G	14	CHEBI:27573	silicon	0	valence	0	gto
+BSEO:0000126	6-31G	14	CHEBI:27573	silicon	1	valence	0,1	gto
+BSEO:0000126	6-31G	14	CHEBI:27573	silicon	2	valence	0,1	gto
+BSEO:0000126	6-31G	14	CHEBI:27573	silicon	3	valence	0,1	gto
+BSEO:0000126	6-31G	15	CHEBI:28659	phosphorus	0	valence	0	gto
+BSEO:0000126	6-31G	15	CHEBI:28659	phosphorus	1	valence	0,1	gto
+BSEO:0000126	6-31G	15	CHEBI:28659	phosphorus	2	valence	0,1	gto
+BSEO:0000126	6-31G	15	CHEBI:28659	phosphorus	3	valence	0,1	gto
+BSEO:0000126	6-31G	16	CHEBI:26833	sulfur	0	valence	0	gto
+BSEO:0000126	6-31G	16	CHEBI:26833	sulfur	1	valence	0,1	gto
+BSEO:0000126	6-31G	16	CHEBI:26833	sulfur	2	valence	0,1	gto
+BSEO:0000126	6-31G	16	CHEBI:26833	sulfur	3	valence	0,1	gto
+BSEO:0000126	6-31G	17	CHEBI:23116	chlorine	0	valence	0	gto
+BSEO:0000126	6-31G	17	CHEBI:23116	chlorine	1	valence	0,1	gto
+BSEO:0000126	6-31G	17	CHEBI:23116	chlorine	2	valence	0,1	gto
+BSEO:0000126	6-31G	17	CHEBI:23116	chlorine	3	valence	0,1	gto
+BSEO:0000126	6-31G	18	CHEBI:49475	argon	0	valence	0	gto
+BSEO:0000126	6-31G	18	CHEBI:49475	argon	1	valence	0,1	gto
+BSEO:0000126	6-31G	18	CHEBI:49475	argon	2	valence	0,1	gto
+BSEO:0000126	6-31G	18	CHEBI:49475	argon	3	valence	0,1	gto
+BSEO:0000126	6-31G	19	CHEBI:26216	potassium	0	valence	0	gto
+BSEO:0000126	6-31G	19	CHEBI:26216	potassium	1	valence	0,1	gto
+BSEO:0000126	6-31G	19	CHEBI:26216	potassium	2	valence	0,1	gto
+BSEO:0000126	6-31G	19	CHEBI:26216	potassium	3	valence	0,1	gto
+BSEO:0000126	6-31G	19	CHEBI:26216	potassium	4	valence	0,1	gto
+BSEO:0000126	6-31G	19	CHEBI:26216	potassium	5	valence	2	gto_cartesian
+BSEO:0000126	6-31G	19	CHEBI:26216	potassium	6	valence	2	gto_cartesian
+BSEO:0000126	6-31G	20	CHEBI:22984	calcium	0	valence	0	gto
+BSEO:0000126	6-31G	20	CHEBI:22984	calcium	1	valence	0,1	gto
+BSEO:0000126	6-31G	20	CHEBI:22984	calcium	2	valence	0,1	gto
+BSEO:0000126	6-31G	20	CHEBI:22984	calcium	3	valence	0,1	gto
+BSEO:0000126	6-31G	20	CHEBI:22984	calcium	4	valence	0,1	gto
+BSEO:0000126	6-31G	20	CHEBI:22984	calcium	5	valence	2	gto_cartesian
+BSEO:0000126	6-31G	20	CHEBI:22984	calcium	6	valence	2	gto_cartesian
+BSEO:0000126	6-31G	21	CHEBI:33330	scandium	0	valence	0	gto
+BSEO:0000126	6-31G	21	CHEBI:33330	scandium	1	valence	0,1	gto
+BSEO:0000126	6-31G	21	CHEBI:33330	scandium	2	valence	0,1	gto
+BSEO:0000126	6-31G	21	CHEBI:33330	scandium	3	valence	0,1	gto
+BSEO:0000126	6-31G	21	CHEBI:33330	scandium	4	valence	0,1	gto
+BSEO:0000126	6-31G	21	CHEBI:33330	scandium	5	valence	2	gto_cartesian
+BSEO:0000126	6-31G	21	CHEBI:33330	scandium	6	valence	2	gto_cartesian
+BSEO:0000126	6-31G	22	CHEBI:33341	titanium	0	valence	0	gto
+BSEO:0000126	6-31G	22	CHEBI:33341	titanium	1	valence	0,1	gto
+BSEO:0000126	6-31G	22	CHEBI:33341	titanium	2	valence	0,1	gto
+BSEO:0000126	6-31G	22	CHEBI:33341	titanium	3	valence	0,1	gto
+BSEO:0000126	6-31G	22	CHEBI:33341	titanium	4	valence	0,1	gto
+BSEO:0000126	6-31G	22	CHEBI:33341	titanium	5	valence	2	gto_cartesian
+BSEO:0000126	6-31G	22	CHEBI:33341	titanium	6	valence	2	gto_cartesian
+BSEO:0000126	6-31G	23	CHEBI:27698	vanadium	0	valence	0	gto
+BSEO:0000126	6-31G	23	CHEBI:27698	vanadium	1	valence	0,1	gto
+BSEO:0000126	6-31G	23	CHEBI:27698	vanadium	2	valence	0,1	gto
+BSEO:0000126	6-31G	23	CHEBI:27698	vanadium	3	valence	0,1	gto
+BSEO:0000126	6-31G	23	CHEBI:27698	vanadium	4	valence	0,1	gto
+BSEO:0000126	6-31G	23	CHEBI:27698	vanadium	5	valence	2	gto_cartesian
+BSEO:0000126	6-31G	23	CHEBI:27698	vanadium	6	valence	2	gto_cartesian
+BSEO:0000126	6-31G	24	CHEBI:28073	chromium	0	valence	0	gto
+BSEO:0000126	6-31G	24	CHEBI:28073	chromium	1	valence	0,1	gto
+BSEO:0000126	6-31G	24	CHEBI:28073	chromium	2	valence	0,1	gto
+BSEO:0000126	6-31G	24	CHEBI:28073	chromium	3	valence	0,1	gto
+BSEO:0000126	6-31G	24	CHEBI:28073	chromium	4	valence	0,1	gto
+BSEO:0000126	6-31G	24	CHEBI:28073	chromium	5	valence	2	gto_cartesian
+BSEO:0000126	6-31G	24	CHEBI:28073	chromium	6	valence	2	gto_cartesian
+BSEO:0000126	6-31G	25	CHEBI:18291	manganese	0	valence	0	gto
+BSEO:0000126	6-31G	25	CHEBI:18291	manganese	1	valence	0,1	gto
+BSEO:0000126	6-31G	25	CHEBI:18291	manganese	2	valence	0,1	gto
+BSEO:0000126	6-31G	25	CHEBI:18291	manganese	3	valence	0,1	gto
+BSEO:0000126	6-31G	25	CHEBI:18291	manganese	4	valence	0,1	gto
+BSEO:0000126	6-31G	25	CHEBI:18291	manganese	5	valence	2	gto_cartesian
+BSEO:0000126	6-31G	25	CHEBI:18291	manganese	6	valence	2	gto_cartesian
+BSEO:0000126	6-31G	26	CHEBI:18248	iron	0	valence	0	gto
+BSEO:0000126	6-31G	26	CHEBI:18248	iron	1	valence	0,1	gto
+BSEO:0000126	6-31G	26	CHEBI:18248	iron	2	valence	0,1	gto
+BSEO:0000126	6-31G	26	CHEBI:18248	iron	3	valence	0,1	gto
+BSEO:0000126	6-31G	26	CHEBI:18248	iron	4	valence	0,1	gto
+BSEO:0000126	6-31G	26	CHEBI:18248	iron	5	valence	2	gto_cartesian
+BSEO:0000126	6-31G	26	CHEBI:18248	iron	6	valence	2	gto_cartesian
+BSEO:0000126	6-31G	27	CHEBI:27638	cobalt	0	valence	0	gto
+BSEO:0000126	6-31G	27	CHEBI:27638	cobalt	1	valence	0,1	gto
+BSEO:0000126	6-31G	27	CHEBI:27638	cobalt	2	valence	0,1	gto
+BSEO:0000126	6-31G	27	CHEBI:27638	cobalt	3	valence	0,1	gto
+BSEO:0000126	6-31G	27	CHEBI:27638	cobalt	4	valence	0,1	gto
+BSEO:0000126	6-31G	27	CHEBI:27638	cobalt	5	valence	2	gto_cartesian
+BSEO:0000126	6-31G	27	CHEBI:27638	cobalt	6	valence	2	gto_cartesian
+BSEO:0000126	6-31G	28	CHEBI:28112	nickel	0	valence	0	gto
+BSEO:0000126	6-31G	28	CHEBI:28112	nickel	1	valence	0,1	gto
+BSEO:0000126	6-31G	28	CHEBI:28112	nickel	2	valence	0,1	gto
+BSEO:0000126	6-31G	28	CHEBI:28112	nickel	3	valence	0,1	gto
+BSEO:0000126	6-31G	28	CHEBI:28112	nickel	4	valence	0,1	gto
+BSEO:0000126	6-31G	28	CHEBI:28112	nickel	5	valence	2	gto_cartesian
+BSEO:0000126	6-31G	28	CHEBI:28112	nickel	6	valence	2	gto_cartesian
+BSEO:0000126	6-31G	29	CHEBI:28694	copper	0	valence	0	gto
+BSEO:0000126	6-31G	29	CHEBI:28694	copper	1	valence	0,1	gto
+BSEO:0000126	6-31G	29	CHEBI:28694	copper	2	valence	0,1	gto
+BSEO:0000126	6-31G	29	CHEBI:28694	copper	3	valence	0,1	gto
+BSEO:0000126	6-31G	29	CHEBI:28694	copper	4	valence	0,1	gto
+BSEO:0000126	6-31G	29	CHEBI:28694	copper	5	valence	2	gto_cartesian
+BSEO:0000126	6-31G	29	CHEBI:28694	copper	6	valence	2	gto_cartesian
+BSEO:0000126	6-31G	30	CHEBI:27363	zinc	0	valence	0	gto
+BSEO:0000126	6-31G	30	CHEBI:27363	zinc	1	valence	0,1	gto
+BSEO:0000126	6-31G	30	CHEBI:27363	zinc	2	valence	0,1	gto
+BSEO:0000126	6-31G	30	CHEBI:27363	zinc	3	valence	0,1	gto
+BSEO:0000126	6-31G	30	CHEBI:27363	zinc	4	valence	0,1	gto
+BSEO:0000126	6-31G	30	CHEBI:27363	zinc	5	valence	2	gto_cartesian
+BSEO:0000126	6-31G	30	CHEBI:27363	zinc	6	valence	2	gto_cartesian
+BSEO:0000126	6-31G	31	CHEBI:49631	gallium	0	valence	0	gto
+BSEO:0000126	6-31G	31	CHEBI:49631	gallium	1	valence	0,1	gto
+BSEO:0000126	6-31G	31	CHEBI:49631	gallium	2	valence	0,1	gto
+BSEO:0000126	6-31G	31	CHEBI:49631	gallium	3	valence	0,1	gto
+BSEO:0000126	6-31G	31	CHEBI:49631	gallium	4	valence	0,1	gto
+BSEO:0000126	6-31G	31	CHEBI:49631	gallium	5	valence	2	gto_cartesian
+BSEO:0000126	6-31G	31	CHEBI:49631	gallium	6	valence	2	gto_cartesian
+BSEO:0000126	6-31G	32	CHEBI:30441	germanium	0	valence	0	gto
+BSEO:0000126	6-31G	32	CHEBI:30441	germanium	1	valence	0,1	gto
+BSEO:0000126	6-31G	32	CHEBI:30441	germanium	2	valence	0,1	gto
+BSEO:0000126	6-31G	32	CHEBI:30441	germanium	3	valence	0,1	gto
+BSEO:0000126	6-31G	32	CHEBI:30441	germanium	4	valence	0,1	gto
+BSEO:0000126	6-31G	32	CHEBI:30441	germanium	5	valence	2	gto_cartesian
+BSEO:0000126	6-31G	32	CHEBI:30441	germanium	6	valence	2	gto_cartesian
+BSEO:0000126	6-31G	33	CHEBI:27563	arsenic	0	valence	0	gto
+BSEO:0000126	6-31G	33	CHEBI:27563	arsenic	1	valence	0,1	gto
+BSEO:0000126	6-31G	33	CHEBI:27563	arsenic	2	valence	0,1	gto
+BSEO:0000126	6-31G	33	CHEBI:27563	arsenic	3	valence	0,1	gto
+BSEO:0000126	6-31G	33	CHEBI:27563	arsenic	4	valence	0,1	gto
+BSEO:0000126	6-31G	33	CHEBI:27563	arsenic	5	valence	2	gto_cartesian
+BSEO:0000126	6-31G	33	CHEBI:27563	arsenic	6	valence	2	gto_cartesian
+BSEO:0000126	6-31G	34	CHEBI:27568	selenium	0	valence	0	gto
+BSEO:0000126	6-31G	34	CHEBI:27568	selenium	1	valence	0,1	gto
+BSEO:0000126	6-31G	34	CHEBI:27568	selenium	2	valence	0,1	gto
+BSEO:0000126	6-31G	34	CHEBI:27568	selenium	3	valence	0,1	gto
+BSEO:0000126	6-31G	34	CHEBI:27568	selenium	4	valence	0,1	gto
+BSEO:0000126	6-31G	34	CHEBI:27568	selenium	5	valence	2	gto_cartesian
+BSEO:0000126	6-31G	34	CHEBI:27568	selenium	6	valence	2	gto_cartesian
+BSEO:0000126	6-31G	35	CHEBI:22927	bromine	0	valence	0	gto
+BSEO:0000126	6-31G	35	CHEBI:22927	bromine	1	valence	0,1	gto
+BSEO:0000126	6-31G	35	CHEBI:22927	bromine	2	valence	0,1	gto
+BSEO:0000126	6-31G	35	CHEBI:22927	bromine	3	valence	0,1	gto
+BSEO:0000126	6-31G	35	CHEBI:22927	bromine	4	valence	0,1	gto
+BSEO:0000126	6-31G	35	CHEBI:22927	bromine	5	valence	2	gto_cartesian
+BSEO:0000126	6-31G	35	CHEBI:22927	bromine	6	valence	2	gto_cartesian
+BSEO:0000126	6-31G	36	CHEBI:49696	krypton	0	valence	0	gto
+BSEO:0000126	6-31G	36	CHEBI:49696	krypton	1	valence	0,1	gto
+BSEO:0000126	6-31G	36	CHEBI:49696	krypton	2	valence	0,1	gto
+BSEO:0000126	6-31G	36	CHEBI:49696	krypton	3	valence	0,1	gto
+BSEO:0000126	6-31G	36	CHEBI:49696	krypton	4	valence	0,1	gto
+BSEO:0000126	6-31G	36	CHEBI:49696	krypton	5	valence	2	gto_cartesian
+BSEO:0000126	6-31G	36	CHEBI:49696	krypton	6	valence	2	gto_cartesian
+BSEO:0000127	6-31G(2df,p)	1	CHEBI:49637	hydrogen	0	valence	0	gto
+BSEO:0000127	6-31G(2df,p)	1	CHEBI:49637	hydrogen	1	valence	0	gto
+BSEO:0000127	6-31G(2df,p)	1	CHEBI:49637	hydrogen	2		1	gto
+BSEO:0000127	6-31G(2df,p)	1	CHEBI:49637	hydrogen	3		1	gto
+BSEO:0000127	6-31G(2df,p)	2	CHEBI:30217	helium	0	valence	0	gto
+BSEO:0000127	6-31G(2df,p)	2	CHEBI:30217	helium	1	valence	0	gto
+BSEO:0000127	6-31G(2df,p)	2	CHEBI:30217	helium	2		1	gto
+BSEO:0000127	6-31G(2df,p)	2	CHEBI:30217	helium	3		1	gto
+BSEO:0000127	6-31G(2df,p)	3	CHEBI:30145	lithium	0	valence	0	gto
+BSEO:0000127	6-31G(2df,p)	3	CHEBI:30145	lithium	1	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	3	CHEBI:30145	lithium	2	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	3	CHEBI:30145	lithium	3		2	gto_spherical
+BSEO:0000127	6-31G(2df,p)	3	CHEBI:30145	lithium	4		2	gto_spherical
+BSEO:0000127	6-31G(2df,p)	3	CHEBI:30145	lithium	5		3	gto_spherical
+BSEO:0000127	6-31G(2df,p)	4	CHEBI:30501	beryllium	0	valence	0	gto
+BSEO:0000127	6-31G(2df,p)	4	CHEBI:30501	beryllium	1	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	4	CHEBI:30501	beryllium	2	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	4	CHEBI:30501	beryllium	3		2	gto_spherical
+BSEO:0000127	6-31G(2df,p)	4	CHEBI:30501	beryllium	4		2	gto_spherical
+BSEO:0000127	6-31G(2df,p)	4	CHEBI:30501	beryllium	5		3	gto_spherical
+BSEO:0000127	6-31G(2df,p)	5	CHEBI:27560	boron	0	valence	0	gto
+BSEO:0000127	6-31G(2df,p)	5	CHEBI:27560	boron	1	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	5	CHEBI:27560	boron	2	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	5	CHEBI:27560	boron	3		2	gto_spherical
+BSEO:0000127	6-31G(2df,p)	5	CHEBI:27560	boron	4		2	gto_spherical
+BSEO:0000127	6-31G(2df,p)	5	CHEBI:27560	boron	5		3	gto_spherical
+BSEO:0000127	6-31G(2df,p)	6	CHEBI:27594	carbon	0	valence	0	gto
+BSEO:0000127	6-31G(2df,p)	6	CHEBI:27594	carbon	1	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	6	CHEBI:27594	carbon	2	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	6	CHEBI:27594	carbon	3		2	gto_spherical
+BSEO:0000127	6-31G(2df,p)	6	CHEBI:27594	carbon	4		2	gto_spherical
+BSEO:0000127	6-31G(2df,p)	6	CHEBI:27594	carbon	5		3	gto_spherical
+BSEO:0000127	6-31G(2df,p)	7	CHEBI:25555	nitrogen	0	valence	0	gto
+BSEO:0000127	6-31G(2df,p)	7	CHEBI:25555	nitrogen	1	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	7	CHEBI:25555	nitrogen	2	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	7	CHEBI:25555	nitrogen	3		2	gto_spherical
+BSEO:0000127	6-31G(2df,p)	7	CHEBI:25555	nitrogen	4		2	gto_spherical
+BSEO:0000127	6-31G(2df,p)	7	CHEBI:25555	nitrogen	5		3	gto_spherical
+BSEO:0000127	6-31G(2df,p)	8	CHEBI:25805	oxygen	0	valence	0	gto
+BSEO:0000127	6-31G(2df,p)	8	CHEBI:25805	oxygen	1	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	8	CHEBI:25805	oxygen	2	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	8	CHEBI:25805	oxygen	3		2	gto_spherical
+BSEO:0000127	6-31G(2df,p)	8	CHEBI:25805	oxygen	4		2	gto_spherical
+BSEO:0000127	6-31G(2df,p)	8	CHEBI:25805	oxygen	5		3	gto_spherical
+BSEO:0000127	6-31G(2df,p)	9	CHEBI:24061	fluorine	0	valence	0	gto
+BSEO:0000127	6-31G(2df,p)	9	CHEBI:24061	fluorine	1	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	9	CHEBI:24061	fluorine	2	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	9	CHEBI:24061	fluorine	3		2	gto_spherical
+BSEO:0000127	6-31G(2df,p)	9	CHEBI:24061	fluorine	4		2	gto_spherical
+BSEO:0000127	6-31G(2df,p)	9	CHEBI:24061	fluorine	5		3	gto_spherical
+BSEO:0000127	6-31G(2df,p)	10	CHEBI:33310	neon	0	valence	0	gto
+BSEO:0000127	6-31G(2df,p)	10	CHEBI:33310	neon	1	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	10	CHEBI:33310	neon	2	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	10	CHEBI:33310	neon	3		2	gto_spherical
+BSEO:0000127	6-31G(2df,p)	10	CHEBI:33310	neon	4		2	gto_spherical
+BSEO:0000127	6-31G(2df,p)	10	CHEBI:33310	neon	5		3	gto_spherical
+BSEO:0000127	6-31G(2df,p)	11	CHEBI:26708	sodium	0	valence	0	gto
+BSEO:0000127	6-31G(2df,p)	11	CHEBI:26708	sodium	1	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	11	CHEBI:26708	sodium	2	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	11	CHEBI:26708	sodium	3	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	11	CHEBI:26708	sodium	4		2	gto_spherical
+BSEO:0000127	6-31G(2df,p)	11	CHEBI:26708	sodium	5		2	gto_spherical
+BSEO:0000127	6-31G(2df,p)	11	CHEBI:26708	sodium	6		3	gto_spherical
+BSEO:0000127	6-31G(2df,p)	12	CHEBI:25107	magnesium	0	valence	0	gto
+BSEO:0000127	6-31G(2df,p)	12	CHEBI:25107	magnesium	1	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	12	CHEBI:25107	magnesium	2	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	12	CHEBI:25107	magnesium	3	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	12	CHEBI:25107	magnesium	4		2	gto_spherical
+BSEO:0000127	6-31G(2df,p)	12	CHEBI:25107	magnesium	5		2	gto_spherical
+BSEO:0000127	6-31G(2df,p)	12	CHEBI:25107	magnesium	6		3	gto_spherical
+BSEO:0000127	6-31G(2df,p)	13	CHEBI:28984	aluminium	0	valence	0	gto
+BSEO:0000127	6-31G(2df,p)	13	CHEBI:28984	aluminium	1	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	13	CHEBI:28984	aluminium	2	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	13	CHEBI:28984	aluminium	3	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	13	CHEBI:28984	aluminium	4		2	gto_spherical
+BSEO:0000127	6-31G(2df,p)	13	CHEBI:28984	aluminium	5		2	gto_spherical
+BSEO:0000127	6-31G(2df,p)	13	CHEBI:28984	aluminium	6		3	gto_spherical
+BSEO:0000127	6-31G(2df,p)	14	CHEBI:27573	silicon	0	valence	0	gto
+BSEO:0000127	6-31G(2df,p)	14	CHEBI:27573	silicon	1	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	14	CHEBI:27573	silicon	2	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	14	CHEBI:27573	silicon	3	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	14	CHEBI:27573	silicon	4		2	gto_spherical
+BSEO:0000127	6-31G(2df,p)	14	CHEBI:27573	silicon	5		2	gto_spherical
+BSEO:0000127	6-31G(2df,p)	14	CHEBI:27573	silicon	6		3	gto_spherical
+BSEO:0000127	6-31G(2df,p)	15	CHEBI:28659	phosphorus	0	valence	0	gto
+BSEO:0000127	6-31G(2df,p)	15	CHEBI:28659	phosphorus	1	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	15	CHEBI:28659	phosphorus	2	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	15	CHEBI:28659	phosphorus	3	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	15	CHEBI:28659	phosphorus	4		2	gto_spherical
+BSEO:0000127	6-31G(2df,p)	15	CHEBI:28659	phosphorus	5		2	gto_spherical
+BSEO:0000127	6-31G(2df,p)	15	CHEBI:28659	phosphorus	6		3	gto_spherical
+BSEO:0000127	6-31G(2df,p)	16	CHEBI:26833	sulfur	0	valence	0	gto
+BSEO:0000127	6-31G(2df,p)	16	CHEBI:26833	sulfur	1	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	16	CHEBI:26833	sulfur	2	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	16	CHEBI:26833	sulfur	3	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	16	CHEBI:26833	sulfur	4		2	gto_spherical
+BSEO:0000127	6-31G(2df,p)	16	CHEBI:26833	sulfur	5		2	gto_spherical
+BSEO:0000127	6-31G(2df,p)	16	CHEBI:26833	sulfur	6		3	gto_spherical
+BSEO:0000127	6-31G(2df,p)	17	CHEBI:23116	chlorine	0	valence	0	gto
+BSEO:0000127	6-31G(2df,p)	17	CHEBI:23116	chlorine	1	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	17	CHEBI:23116	chlorine	2	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	17	CHEBI:23116	chlorine	3	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	17	CHEBI:23116	chlorine	4		2	gto_spherical
+BSEO:0000127	6-31G(2df,p)	17	CHEBI:23116	chlorine	5		2	gto_spherical
+BSEO:0000127	6-31G(2df,p)	17	CHEBI:23116	chlorine	6		3	gto_spherical
+BSEO:0000127	6-31G(2df,p)	18	CHEBI:49475	argon	0	valence	0	gto
+BSEO:0000127	6-31G(2df,p)	18	CHEBI:49475	argon	1	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	18	CHEBI:49475	argon	2	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	18	CHEBI:49475	argon	3	valence	0,1	gto
+BSEO:0000127	6-31G(2df,p)	18	CHEBI:49475	argon	4		2	gto_spherical
+BSEO:0000127	6-31G(2df,p)	18	CHEBI:49475	argon	5		2	gto_spherical
+BSEO:0000127	6-31G(2df,p)	18	CHEBI:49475	argon	6		3	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	1	CHEBI:49637	hydrogen	0	valence	0	gto
+BSEO:0000128	6-31G(3df,3pd)	1	CHEBI:49637	hydrogen	1	valence	0	gto
+BSEO:0000128	6-31G(3df,3pd)	1	CHEBI:49637	hydrogen	2		1	gto
+BSEO:0000128	6-31G(3df,3pd)	1	CHEBI:49637	hydrogen	3		1	gto
+BSEO:0000128	6-31G(3df,3pd)	1	CHEBI:49637	hydrogen	4		1	gto
+BSEO:0000128	6-31G(3df,3pd)	1	CHEBI:49637	hydrogen	5		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	2	CHEBI:30217	helium	0	valence	0	gto
+BSEO:0000128	6-31G(3df,3pd)	2	CHEBI:30217	helium	1	valence	0	gto
+BSEO:0000128	6-31G(3df,3pd)	2	CHEBI:30217	helium	2		1	gto
+BSEO:0000128	6-31G(3df,3pd)	2	CHEBI:30217	helium	3		1	gto
+BSEO:0000128	6-31G(3df,3pd)	2	CHEBI:30217	helium	4		1	gto
+BSEO:0000128	6-31G(3df,3pd)	2	CHEBI:30217	helium	5		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	3	CHEBI:30145	lithium	0	valence	0	gto
+BSEO:0000128	6-31G(3df,3pd)	3	CHEBI:30145	lithium	1	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	3	CHEBI:30145	lithium	2	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	3	CHEBI:30145	lithium	3		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	3	CHEBI:30145	lithium	4		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	3	CHEBI:30145	lithium	5		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	3	CHEBI:30145	lithium	6		3	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	4	CHEBI:30501	beryllium	0	valence	0	gto
+BSEO:0000128	6-31G(3df,3pd)	4	CHEBI:30501	beryllium	1	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	4	CHEBI:30501	beryllium	2	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	4	CHEBI:30501	beryllium	3		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	4	CHEBI:30501	beryllium	4		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	4	CHEBI:30501	beryllium	5		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	4	CHEBI:30501	beryllium	6		3	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	5	CHEBI:27560	boron	0	valence	0	gto
+BSEO:0000128	6-31G(3df,3pd)	5	CHEBI:27560	boron	1	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	5	CHEBI:27560	boron	2	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	5	CHEBI:27560	boron	3		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	5	CHEBI:27560	boron	4		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	5	CHEBI:27560	boron	5		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	5	CHEBI:27560	boron	6		3	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	6	CHEBI:27594	carbon	0	valence	0	gto
+BSEO:0000128	6-31G(3df,3pd)	6	CHEBI:27594	carbon	1	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	6	CHEBI:27594	carbon	2	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	6	CHEBI:27594	carbon	3		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	6	CHEBI:27594	carbon	4		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	6	CHEBI:27594	carbon	5		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	6	CHEBI:27594	carbon	6		3	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	7	CHEBI:25555	nitrogen	0	valence	0	gto
+BSEO:0000128	6-31G(3df,3pd)	7	CHEBI:25555	nitrogen	1	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	7	CHEBI:25555	nitrogen	2	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	7	CHEBI:25555	nitrogen	3		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	7	CHEBI:25555	nitrogen	4		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	7	CHEBI:25555	nitrogen	5		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	7	CHEBI:25555	nitrogen	6		3	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	8	CHEBI:25805	oxygen	0	valence	0	gto
+BSEO:0000128	6-31G(3df,3pd)	8	CHEBI:25805	oxygen	1	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	8	CHEBI:25805	oxygen	2	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	8	CHEBI:25805	oxygen	3		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	8	CHEBI:25805	oxygen	4		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	8	CHEBI:25805	oxygen	5		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	8	CHEBI:25805	oxygen	6		3	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	9	CHEBI:24061	fluorine	0	valence	0	gto
+BSEO:0000128	6-31G(3df,3pd)	9	CHEBI:24061	fluorine	1	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	9	CHEBI:24061	fluorine	2	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	9	CHEBI:24061	fluorine	3		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	9	CHEBI:24061	fluorine	4		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	9	CHEBI:24061	fluorine	5		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	9	CHEBI:24061	fluorine	6		3	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	10	CHEBI:33310	neon	0	valence	0	gto
+BSEO:0000128	6-31G(3df,3pd)	10	CHEBI:33310	neon	1	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	10	CHEBI:33310	neon	2	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	10	CHEBI:33310	neon	3		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	10	CHEBI:33310	neon	4		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	10	CHEBI:33310	neon	5		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	10	CHEBI:33310	neon	6		3	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	11	CHEBI:26708	sodium	0	valence	0	gto
+BSEO:0000128	6-31G(3df,3pd)	11	CHEBI:26708	sodium	1	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	11	CHEBI:26708	sodium	2	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	11	CHEBI:26708	sodium	3	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	11	CHEBI:26708	sodium	4		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	11	CHEBI:26708	sodium	5		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	11	CHEBI:26708	sodium	6		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	11	CHEBI:26708	sodium	7		3	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	12	CHEBI:25107	magnesium	0	valence	0	gto
+BSEO:0000128	6-31G(3df,3pd)	12	CHEBI:25107	magnesium	1	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	12	CHEBI:25107	magnesium	2	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	12	CHEBI:25107	magnesium	3	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	12	CHEBI:25107	magnesium	4		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	12	CHEBI:25107	magnesium	5		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	12	CHEBI:25107	magnesium	6		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	12	CHEBI:25107	magnesium	7		3	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	13	CHEBI:28984	aluminium	0	valence	0	gto
+BSEO:0000128	6-31G(3df,3pd)	13	CHEBI:28984	aluminium	1	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	13	CHEBI:28984	aluminium	2	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	13	CHEBI:28984	aluminium	3	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	13	CHEBI:28984	aluminium	4		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	13	CHEBI:28984	aluminium	5		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	13	CHEBI:28984	aluminium	6		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	13	CHEBI:28984	aluminium	7		3	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	14	CHEBI:27573	silicon	0	valence	0	gto
+BSEO:0000128	6-31G(3df,3pd)	14	CHEBI:27573	silicon	1	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	14	CHEBI:27573	silicon	2	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	14	CHEBI:27573	silicon	3	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	14	CHEBI:27573	silicon	4		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	14	CHEBI:27573	silicon	5		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	14	CHEBI:27573	silicon	6		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	14	CHEBI:27573	silicon	7		3	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	15	CHEBI:28659	phosphorus	0	valence	0	gto
+BSEO:0000128	6-31G(3df,3pd)	15	CHEBI:28659	phosphorus	1	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	15	CHEBI:28659	phosphorus	2	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	15	CHEBI:28659	phosphorus	3	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	15	CHEBI:28659	phosphorus	4		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	15	CHEBI:28659	phosphorus	5		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	15	CHEBI:28659	phosphorus	6		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	15	CHEBI:28659	phosphorus	7		3	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	16	CHEBI:26833	sulfur	0	valence	0	gto
+BSEO:0000128	6-31G(3df,3pd)	16	CHEBI:26833	sulfur	1	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	16	CHEBI:26833	sulfur	2	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	16	CHEBI:26833	sulfur	3	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	16	CHEBI:26833	sulfur	4		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	16	CHEBI:26833	sulfur	5		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	16	CHEBI:26833	sulfur	6		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	16	CHEBI:26833	sulfur	7		3	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	17	CHEBI:23116	chlorine	0	valence	0	gto
+BSEO:0000128	6-31G(3df,3pd)	17	CHEBI:23116	chlorine	1	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	17	CHEBI:23116	chlorine	2	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	17	CHEBI:23116	chlorine	3	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	17	CHEBI:23116	chlorine	4		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	17	CHEBI:23116	chlorine	5		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	17	CHEBI:23116	chlorine	6		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	17	CHEBI:23116	chlorine	7		3	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	18	CHEBI:49475	argon	0	valence	0	gto
+BSEO:0000128	6-31G(3df,3pd)	18	CHEBI:49475	argon	1	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	18	CHEBI:49475	argon	2	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	18	CHEBI:49475	argon	3	valence	0,1	gto
+BSEO:0000128	6-31G(3df,3pd)	18	CHEBI:49475	argon	4		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	18	CHEBI:49475	argon	5		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	18	CHEBI:49475	argon	6		2	gto_spherical
+BSEO:0000128	6-31G(3df,3pd)	18	CHEBI:49475	argon	7		3	gto_spherical
+BSEO:0000129	6-31G(d,p)	1	CHEBI:49637	hydrogen	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	1	CHEBI:49637	hydrogen	1	valence	0	gto
+BSEO:0000129	6-31G(d,p)	1	CHEBI:49637	hydrogen	2	polarization	1	gto
+BSEO:0000129	6-31G(d,p)	2	CHEBI:30217	helium	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	2	CHEBI:30217	helium	1	valence	0	gto
+BSEO:0000129	6-31G(d,p)	2	CHEBI:30217	helium	2	polarization	1	gto
+BSEO:0000129	6-31G(d,p)	3	CHEBI:30145	lithium	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	3	CHEBI:30145	lithium	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	3	CHEBI:30145	lithium	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	3	CHEBI:30145	lithium	3	polarization	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	4	CHEBI:30501	beryllium	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	4	CHEBI:30501	beryllium	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	4	CHEBI:30501	beryllium	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	4	CHEBI:30501	beryllium	3	polarization	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	5	CHEBI:27560	boron	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	5	CHEBI:27560	boron	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	5	CHEBI:27560	boron	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	5	CHEBI:27560	boron	3	polarization	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	6	CHEBI:27594	carbon	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	6	CHEBI:27594	carbon	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	6	CHEBI:27594	carbon	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	6	CHEBI:27594	carbon	3	polarization	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	7	CHEBI:25555	nitrogen	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	7	CHEBI:25555	nitrogen	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	7	CHEBI:25555	nitrogen	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	7	CHEBI:25555	nitrogen	3	polarization	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	8	CHEBI:25805	oxygen	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	8	CHEBI:25805	oxygen	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	8	CHEBI:25805	oxygen	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	8	CHEBI:25805	oxygen	3	polarization	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	9	CHEBI:24061	fluorine	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	9	CHEBI:24061	fluorine	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	9	CHEBI:24061	fluorine	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	9	CHEBI:24061	fluorine	3	polarization	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	10	CHEBI:33310	neon	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	10	CHEBI:33310	neon	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	10	CHEBI:33310	neon	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	10	CHEBI:33310	neon	3	polarization	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	11	CHEBI:26708	sodium	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	11	CHEBI:26708	sodium	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	11	CHEBI:26708	sodium	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	11	CHEBI:26708	sodium	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	11	CHEBI:26708	sodium	4	polarization	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	12	CHEBI:25107	magnesium	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	12	CHEBI:25107	magnesium	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	12	CHEBI:25107	magnesium	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	12	CHEBI:25107	magnesium	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	12	CHEBI:25107	magnesium	4	polarization	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	13	CHEBI:28984	aluminium	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	13	CHEBI:28984	aluminium	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	13	CHEBI:28984	aluminium	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	13	CHEBI:28984	aluminium	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	13	CHEBI:28984	aluminium	4	polarization	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	14	CHEBI:27573	silicon	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	14	CHEBI:27573	silicon	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	14	CHEBI:27573	silicon	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	14	CHEBI:27573	silicon	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	14	CHEBI:27573	silicon	4	polarization	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	15	CHEBI:28659	phosphorus	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	15	CHEBI:28659	phosphorus	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	15	CHEBI:28659	phosphorus	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	15	CHEBI:28659	phosphorus	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	15	CHEBI:28659	phosphorus	4	polarization	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	16	CHEBI:26833	sulfur	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	16	CHEBI:26833	sulfur	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	16	CHEBI:26833	sulfur	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	16	CHEBI:26833	sulfur	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	16	CHEBI:26833	sulfur	4	polarization	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	17	CHEBI:23116	chlorine	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	17	CHEBI:23116	chlorine	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	17	CHEBI:23116	chlorine	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	17	CHEBI:23116	chlorine	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	17	CHEBI:23116	chlorine	4	polarization	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	18	CHEBI:49475	argon	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	18	CHEBI:49475	argon	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	18	CHEBI:49475	argon	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	18	CHEBI:49475	argon	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	18	CHEBI:49475	argon	4	polarization	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	19	CHEBI:26216	potassium	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	19	CHEBI:26216	potassium	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	19	CHEBI:26216	potassium	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	19	CHEBI:26216	potassium	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	19	CHEBI:26216	potassium	4	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	19	CHEBI:26216	potassium	5	polarization	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	20	CHEBI:22984	calcium	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	20	CHEBI:22984	calcium	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	20	CHEBI:22984	calcium	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	20	CHEBI:22984	calcium	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	20	CHEBI:22984	calcium	4	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	20	CHEBI:22984	calcium	5	polarization	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	21	CHEBI:33330	scandium	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	21	CHEBI:33330	scandium	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	21	CHEBI:33330	scandium	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	21	CHEBI:33330	scandium	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	21	CHEBI:33330	scandium	4	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	21	CHEBI:33330	scandium	5	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	21	CHEBI:33330	scandium	6	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	21	CHEBI:33330	scandium	7	polarization	3	gto_spherical
+BSEO:0000129	6-31G(d,p)	22	CHEBI:33341	titanium	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	22	CHEBI:33341	titanium	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	22	CHEBI:33341	titanium	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	22	CHEBI:33341	titanium	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	22	CHEBI:33341	titanium	4	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	22	CHEBI:33341	titanium	5	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	22	CHEBI:33341	titanium	6	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	22	CHEBI:33341	titanium	7	polarization	3	gto_spherical
+BSEO:0000129	6-31G(d,p)	23	CHEBI:27698	vanadium	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	23	CHEBI:27698	vanadium	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	23	CHEBI:27698	vanadium	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	23	CHEBI:27698	vanadium	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	23	CHEBI:27698	vanadium	4	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	23	CHEBI:27698	vanadium	5	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	23	CHEBI:27698	vanadium	6	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	23	CHEBI:27698	vanadium	7	polarization	3	gto_spherical
+BSEO:0000129	6-31G(d,p)	24	CHEBI:28073	chromium	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	24	CHEBI:28073	chromium	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	24	CHEBI:28073	chromium	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	24	CHEBI:28073	chromium	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	24	CHEBI:28073	chromium	4	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	24	CHEBI:28073	chromium	5	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	24	CHEBI:28073	chromium	6	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	24	CHEBI:28073	chromium	7	polarization	3	gto_spherical
+BSEO:0000129	6-31G(d,p)	25	CHEBI:18291	manganese	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	25	CHEBI:18291	manganese	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	25	CHEBI:18291	manganese	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	25	CHEBI:18291	manganese	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	25	CHEBI:18291	manganese	4	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	25	CHEBI:18291	manganese	5	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	25	CHEBI:18291	manganese	6	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	25	CHEBI:18291	manganese	7	polarization	3	gto_spherical
+BSEO:0000129	6-31G(d,p)	26	CHEBI:18248	iron	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	26	CHEBI:18248	iron	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	26	CHEBI:18248	iron	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	26	CHEBI:18248	iron	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	26	CHEBI:18248	iron	4	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	26	CHEBI:18248	iron	5	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	26	CHEBI:18248	iron	6	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	26	CHEBI:18248	iron	7	polarization	3	gto_spherical
+BSEO:0000129	6-31G(d,p)	27	CHEBI:27638	cobalt	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	27	CHEBI:27638	cobalt	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	27	CHEBI:27638	cobalt	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	27	CHEBI:27638	cobalt	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	27	CHEBI:27638	cobalt	4	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	27	CHEBI:27638	cobalt	5	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	27	CHEBI:27638	cobalt	6	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	27	CHEBI:27638	cobalt	7	polarization	3	gto_spherical
+BSEO:0000129	6-31G(d,p)	28	CHEBI:28112	nickel	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	28	CHEBI:28112	nickel	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	28	CHEBI:28112	nickel	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	28	CHEBI:28112	nickel	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	28	CHEBI:28112	nickel	4	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	28	CHEBI:28112	nickel	5	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	28	CHEBI:28112	nickel	6	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	28	CHEBI:28112	nickel	7	polarization	3	gto_spherical
+BSEO:0000129	6-31G(d,p)	29	CHEBI:28694	copper	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	29	CHEBI:28694	copper	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	29	CHEBI:28694	copper	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	29	CHEBI:28694	copper	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	29	CHEBI:28694	copper	4	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	29	CHEBI:28694	copper	5	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	29	CHEBI:28694	copper	6	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	29	CHEBI:28694	copper	7	polarization	3	gto_spherical
+BSEO:0000129	6-31G(d,p)	30	CHEBI:27363	zinc	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	30	CHEBI:27363	zinc	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	30	CHEBI:27363	zinc	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	30	CHEBI:27363	zinc	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	30	CHEBI:27363	zinc	4	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	30	CHEBI:27363	zinc	5	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	30	CHEBI:27363	zinc	6	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	30	CHEBI:27363	zinc	7	polarization	3	gto_spherical
+BSEO:0000129	6-31G(d,p)	1	CHEBI:49637	hydrogen	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	1	CHEBI:49637	hydrogen	1	valence	0	gto
+BSEO:0000129	6-31G(d,p)	1	CHEBI:49637	hydrogen	2	valence	1	gto
+BSEO:0000129	6-31G(d,p)	2	CHEBI:30217	helium	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	2	CHEBI:30217	helium	1	valence	0	gto
+BSEO:0000129	6-31G(d,p)	2	CHEBI:30217	helium	2	valence	1	gto
+BSEO:0000129	6-31G(d,p)	3	CHEBI:30145	lithium	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	3	CHEBI:30145	lithium	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	3	CHEBI:30145	lithium	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	3	CHEBI:30145	lithium	3	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	4	CHEBI:30501	beryllium	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	4	CHEBI:30501	beryllium	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	4	CHEBI:30501	beryllium	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	4	CHEBI:30501	beryllium	3	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	5	CHEBI:27560	boron	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	5	CHEBI:27560	boron	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	5	CHEBI:27560	boron	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	5	CHEBI:27560	boron	3	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	6	CHEBI:27594	carbon	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	6	CHEBI:27594	carbon	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	6	CHEBI:27594	carbon	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	6	CHEBI:27594	carbon	3	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	7	CHEBI:25555	nitrogen	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	7	CHEBI:25555	nitrogen	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	7	CHEBI:25555	nitrogen	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	7	CHEBI:25555	nitrogen	3	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	8	CHEBI:25805	oxygen	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	8	CHEBI:25805	oxygen	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	8	CHEBI:25805	oxygen	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	8	CHEBI:25805	oxygen	3	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	9	CHEBI:24061	fluorine	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	9	CHEBI:24061	fluorine	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	9	CHEBI:24061	fluorine	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	9	CHEBI:24061	fluorine	3	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	10	CHEBI:33310	neon	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	10	CHEBI:33310	neon	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	10	CHEBI:33310	neon	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	10	CHEBI:33310	neon	3	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	11	CHEBI:26708	sodium	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	11	CHEBI:26708	sodium	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	11	CHEBI:26708	sodium	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	11	CHEBI:26708	sodium	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	11	CHEBI:26708	sodium	4	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	12	CHEBI:25107	magnesium	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	12	CHEBI:25107	magnesium	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	12	CHEBI:25107	magnesium	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	12	CHEBI:25107	magnesium	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	12	CHEBI:25107	magnesium	4	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	13	CHEBI:28984	aluminium	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	13	CHEBI:28984	aluminium	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	13	CHEBI:28984	aluminium	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	13	CHEBI:28984	aluminium	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	13	CHEBI:28984	aluminium	4	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	14	CHEBI:27573	silicon	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	14	CHEBI:27573	silicon	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	14	CHEBI:27573	silicon	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	14	CHEBI:27573	silicon	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	14	CHEBI:27573	silicon	4	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	15	CHEBI:28659	phosphorus	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	15	CHEBI:28659	phosphorus	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	15	CHEBI:28659	phosphorus	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	15	CHEBI:28659	phosphorus	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	15	CHEBI:28659	phosphorus	4	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	16	CHEBI:26833	sulfur	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	16	CHEBI:26833	sulfur	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	16	CHEBI:26833	sulfur	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	16	CHEBI:26833	sulfur	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	16	CHEBI:26833	sulfur	4	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	17	CHEBI:23116	chlorine	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	17	CHEBI:23116	chlorine	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	17	CHEBI:23116	chlorine	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	17	CHEBI:23116	chlorine	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	17	CHEBI:23116	chlorine	4	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	18	CHEBI:49475	argon	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	18	CHEBI:49475	argon	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	18	CHEBI:49475	argon	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	18	CHEBI:49475	argon	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	18	CHEBI:49475	argon	4	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	19	CHEBI:26216	potassium	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	19	CHEBI:26216	potassium	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	19	CHEBI:26216	potassium	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	19	CHEBI:26216	potassium	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	19	CHEBI:26216	potassium	4	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	19	CHEBI:26216	potassium	5	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	19	CHEBI:26216	potassium	6	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	19	CHEBI:26216	potassium	7	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	20	CHEBI:22984	calcium	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	20	CHEBI:22984	calcium	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	20	CHEBI:22984	calcium	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	20	CHEBI:22984	calcium	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	20	CHEBI:22984	calcium	4	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	20	CHEBI:22984	calcium	5	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	20	CHEBI:22984	calcium	6	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	20	CHEBI:22984	calcium	7	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	21	CHEBI:33330	scandium	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	21	CHEBI:33330	scandium	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	21	CHEBI:33330	scandium	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	21	CHEBI:33330	scandium	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	21	CHEBI:33330	scandium	4	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	21	CHEBI:33330	scandium	5	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	21	CHEBI:33330	scandium	6	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	21	CHEBI:33330	scandium	7	valence	3	gto_spherical
+BSEO:0000129	6-31G(d,p)	22	CHEBI:33341	titanium	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	22	CHEBI:33341	titanium	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	22	CHEBI:33341	titanium	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	22	CHEBI:33341	titanium	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	22	CHEBI:33341	titanium	4	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	22	CHEBI:33341	titanium	5	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	22	CHEBI:33341	titanium	6	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	22	CHEBI:33341	titanium	7	valence	3	gto_spherical
+BSEO:0000129	6-31G(d,p)	23	CHEBI:27698	vanadium	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	23	CHEBI:27698	vanadium	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	23	CHEBI:27698	vanadium	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	23	CHEBI:27698	vanadium	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	23	CHEBI:27698	vanadium	4	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	23	CHEBI:27698	vanadium	5	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	23	CHEBI:27698	vanadium	6	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	23	CHEBI:27698	vanadium	7	valence	3	gto_spherical
+BSEO:0000129	6-31G(d,p)	24	CHEBI:28073	chromium	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	24	CHEBI:28073	chromium	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	24	CHEBI:28073	chromium	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	24	CHEBI:28073	chromium	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	24	CHEBI:28073	chromium	4	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	24	CHEBI:28073	chromium	5	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	24	CHEBI:28073	chromium	6	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	24	CHEBI:28073	chromium	7	valence	3	gto_spherical
+BSEO:0000129	6-31G(d,p)	25	CHEBI:18291	manganese	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	25	CHEBI:18291	manganese	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	25	CHEBI:18291	manganese	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	25	CHEBI:18291	manganese	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	25	CHEBI:18291	manganese	4	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	25	CHEBI:18291	manganese	5	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	25	CHEBI:18291	manganese	6	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	25	CHEBI:18291	manganese	7	valence	3	gto_spherical
+BSEO:0000129	6-31G(d,p)	26	CHEBI:18248	iron	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	26	CHEBI:18248	iron	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	26	CHEBI:18248	iron	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	26	CHEBI:18248	iron	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	26	CHEBI:18248	iron	4	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	26	CHEBI:18248	iron	5	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	26	CHEBI:18248	iron	6	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	26	CHEBI:18248	iron	7	valence	3	gto_spherical
+BSEO:0000129	6-31G(d,p)	27	CHEBI:27638	cobalt	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	27	CHEBI:27638	cobalt	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	27	CHEBI:27638	cobalt	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	27	CHEBI:27638	cobalt	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	27	CHEBI:27638	cobalt	4	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	27	CHEBI:27638	cobalt	5	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	27	CHEBI:27638	cobalt	6	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	27	CHEBI:27638	cobalt	7	valence	3	gto_spherical
+BSEO:0000129	6-31G(d,p)	28	CHEBI:28112	nickel	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	28	CHEBI:28112	nickel	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	28	CHEBI:28112	nickel	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	28	CHEBI:28112	nickel	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	28	CHEBI:28112	nickel	4	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	28	CHEBI:28112	nickel	5	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	28	CHEBI:28112	nickel	6	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	28	CHEBI:28112	nickel	7	valence	3	gto_spherical
+BSEO:0000129	6-31G(d,p)	29	CHEBI:28694	copper	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	29	CHEBI:28694	copper	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	29	CHEBI:28694	copper	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	29	CHEBI:28694	copper	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	29	CHEBI:28694	copper	4	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	29	CHEBI:28694	copper	5	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	29	CHEBI:28694	copper	6	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	29	CHEBI:28694	copper	7	valence	3	gto_spherical
+BSEO:0000129	6-31G(d,p)	30	CHEBI:27363	zinc	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	30	CHEBI:27363	zinc	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	30	CHEBI:27363	zinc	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	30	CHEBI:27363	zinc	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	30	CHEBI:27363	zinc	4	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	30	CHEBI:27363	zinc	5	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	30	CHEBI:27363	zinc	6	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	30	CHEBI:27363	zinc	7	valence	3	gto_spherical
+BSEO:0000129	6-31G(d,p)	31	CHEBI:49631	gallium	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	31	CHEBI:49631	gallium	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	31	CHEBI:49631	gallium	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	31	CHEBI:49631	gallium	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	31	CHEBI:49631	gallium	4	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	31	CHEBI:49631	gallium	5	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	31	CHEBI:49631	gallium	6	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	31	CHEBI:49631	gallium	7	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	32	CHEBI:30441	germanium	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	32	CHEBI:30441	germanium	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	32	CHEBI:30441	germanium	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	32	CHEBI:30441	germanium	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	32	CHEBI:30441	germanium	4	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	32	CHEBI:30441	germanium	5	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	32	CHEBI:30441	germanium	6	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	32	CHEBI:30441	germanium	7	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	33	CHEBI:27563	arsenic	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	33	CHEBI:27563	arsenic	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	33	CHEBI:27563	arsenic	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	33	CHEBI:27563	arsenic	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	33	CHEBI:27563	arsenic	4	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	33	CHEBI:27563	arsenic	5	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	33	CHEBI:27563	arsenic	6	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	33	CHEBI:27563	arsenic	7	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	34	CHEBI:27568	selenium	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	34	CHEBI:27568	selenium	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	34	CHEBI:27568	selenium	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	34	CHEBI:27568	selenium	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	34	CHEBI:27568	selenium	4	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	34	CHEBI:27568	selenium	5	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	34	CHEBI:27568	selenium	6	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	34	CHEBI:27568	selenium	7	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	35	CHEBI:22927	bromine	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	35	CHEBI:22927	bromine	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	35	CHEBI:22927	bromine	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	35	CHEBI:22927	bromine	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	35	CHEBI:22927	bromine	4	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	35	CHEBI:22927	bromine	5	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	35	CHEBI:22927	bromine	6	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	35	CHEBI:22927	bromine	7	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	36	CHEBI:49696	krypton	0	valence	0	gto
+BSEO:0000129	6-31G(d,p)	36	CHEBI:49696	krypton	1	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	36	CHEBI:49696	krypton	2	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	36	CHEBI:49696	krypton	3	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	36	CHEBI:49696	krypton	4	valence	0,1	gto
+BSEO:0000129	6-31G(d,p)	36	CHEBI:49696	krypton	5	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	36	CHEBI:49696	krypton	6	valence	2	gto_cartesian
+BSEO:0000129	6-31G(d,p)	36	CHEBI:49696	krypton	7	valence	2	gto_cartesian
+BSEO:0000130	6-31G-Blaudeau	19	CHEBI:26216	potassium	0		0	gto
+BSEO:0000130	6-31G-Blaudeau	19	CHEBI:26216	potassium	1		0	gto
+BSEO:0000130	6-31G-Blaudeau	19	CHEBI:26216	potassium	2		0	gto
+BSEO:0000130	6-31G-Blaudeau	19	CHEBI:26216	potassium	3		0	gto
+BSEO:0000130	6-31G-Blaudeau	19	CHEBI:26216	potassium	4		0	gto
+BSEO:0000130	6-31G-Blaudeau	19	CHEBI:26216	potassium	5		1	gto
+BSEO:0000130	6-31G-Blaudeau	19	CHEBI:26216	potassium	6		1	gto
+BSEO:0000130	6-31G-Blaudeau	19	CHEBI:26216	potassium	7		1	gto
+BSEO:0000130	6-31G-Blaudeau	19	CHEBI:26216	potassium	8		2	gto_spherical
+BSEO:0000130	6-31G-Blaudeau	20	CHEBI:22984	calcium	0		0	gto
+BSEO:0000130	6-31G-Blaudeau	20	CHEBI:22984	calcium	1		0	gto
+BSEO:0000130	6-31G-Blaudeau	20	CHEBI:22984	calcium	2		0	gto
+BSEO:0000130	6-31G-Blaudeau	20	CHEBI:22984	calcium	3		0	gto
+BSEO:0000130	6-31G-Blaudeau	20	CHEBI:22984	calcium	4		0	gto
+BSEO:0000130	6-31G-Blaudeau	20	CHEBI:22984	calcium	5		1	gto
+BSEO:0000130	6-31G-Blaudeau	20	CHEBI:22984	calcium	6		1	gto
+BSEO:0000130	6-31G-Blaudeau	20	CHEBI:22984	calcium	7		1	gto
+BSEO:0000130	6-31G-Blaudeau	20	CHEBI:22984	calcium	8		2	gto_spherical
+BSEO:0000131	6-31G-J	1	CHEBI:49637	hydrogen	0		0	gto
+BSEO:0000131	6-31G-J	6	CHEBI:27594	carbon	0		0	gto
+BSEO:0000131	6-31G-J	6	CHEBI:27594	carbon	1		1	gto
+BSEO:0000131	6-31G-J	7	CHEBI:25555	nitrogen	0		0	gto
+BSEO:0000131	6-31G-J	7	CHEBI:25555	nitrogen	1		1	gto
+BSEO:0000131	6-31G-J	8	CHEBI:25805	oxygen	0		0	gto
+BSEO:0000131	6-31G-J	8	CHEBI:25805	oxygen	1		1	gto
+BSEO:0000132	6-31G*	1	CHEBI:49637	hydrogen	0	valence	0	gto
+BSEO:0000132	6-31G*	1	CHEBI:49637	hydrogen	1	valence	0	gto
+BSEO:0000132	6-31G*	2	CHEBI:30217	helium	0	valence	0	gto
+BSEO:0000132	6-31G*	2	CHEBI:30217	helium	1	valence	0	gto
+BSEO:0000132	6-31G*	3	CHEBI:30145	lithium	0	valence	0	gto
+BSEO:0000132	6-31G*	3	CHEBI:30145	lithium	1	valence	0,1	gto
+BSEO:0000132	6-31G*	3	CHEBI:30145	lithium	2	valence	0,1	gto
+BSEO:0000132	6-31G*	3	CHEBI:30145	lithium	3	polarization	2	gto_cartesian
+BSEO:0000132	6-31G*	4	CHEBI:30501	beryllium	0	valence	0	gto
+BSEO:0000132	6-31G*	4	CHEBI:30501	beryllium	1	valence	0,1	gto
+BSEO:0000132	6-31G*	4	CHEBI:30501	beryllium	2	valence	0,1	gto
+BSEO:0000132	6-31G*	4	CHEBI:30501	beryllium	3	polarization	2	gto_cartesian
+BSEO:0000132	6-31G*	5	CHEBI:27560	boron	0	valence	0	gto
+BSEO:0000132	6-31G*	5	CHEBI:27560	boron	1	valence	0,1	gto
+BSEO:0000132	6-31G*	5	CHEBI:27560	boron	2	valence	0,1	gto
+BSEO:0000132	6-31G*	5	CHEBI:27560	boron	3	polarization	2	gto_cartesian
+BSEO:0000132	6-31G*	6	CHEBI:27594	carbon	0	valence	0	gto
+BSEO:0000132	6-31G*	6	CHEBI:27594	carbon	1	valence	0,1	gto
+BSEO:0000132	6-31G*	6	CHEBI:27594	carbon	2	valence	0,1	gto
+BSEO:0000132	6-31G*	6	CHEBI:27594	carbon	3	polarization	2	gto_cartesian
+BSEO:0000132	6-31G*	7	CHEBI:25555	nitrogen	0	valence	0	gto
+BSEO:0000132	6-31G*	7	CHEBI:25555	nitrogen	1	valence	0,1	gto
+BSEO:0000132	6-31G*	7	CHEBI:25555	nitrogen	2	valence	0,1	gto
+BSEO:0000132	6-31G*	7	CHEBI:25555	nitrogen	3	polarization	2	gto_cartesian
+BSEO:0000132	6-31G*	8	CHEBI:25805	oxygen	0	valence	0	gto
+BSEO:0000132	6-31G*	8	CHEBI:25805	oxygen	1	valence	0,1	gto
+BSEO:0000132	6-31G*	8	CHEBI:25805	oxygen	2	valence	0,1	gto
+BSEO:0000132	6-31G*	8	CHEBI:25805	oxygen	3	polarization	2	gto_cartesian
+BSEO:0000132	6-31G*	9	CHEBI:24061	fluorine	0	valence	0	gto
+BSEO:0000132	6-31G*	9	CHEBI:24061	fluorine	1	valence	0,1	gto
+BSEO:0000132	6-31G*	9	CHEBI:24061	fluorine	2	valence	0,1	gto
+BSEO:0000132	6-31G*	9	CHEBI:24061	fluorine	3	polarization	2	gto_cartesian
+BSEO:0000132	6-31G*	10	CHEBI:33310	neon	0	valence	0	gto
+BSEO:0000132	6-31G*	10	CHEBI:33310	neon	1	valence	0,1	gto
+BSEO:0000132	6-31G*	10	CHEBI:33310	neon	2	valence	0,1	gto
+BSEO:0000132	6-31G*	10	CHEBI:33310	neon	3	polarization	2	gto_cartesian
+BSEO:0000132	6-31G*	11	CHEBI:26708	sodium	0	valence	0	gto
+BSEO:0000132	6-31G*	11	CHEBI:26708	sodium	1	valence	0,1	gto
+BSEO:0000132	6-31G*	11	CHEBI:26708	sodium	2	valence	0,1	gto
+BSEO:0000132	6-31G*	11	CHEBI:26708	sodium	3	valence	0,1	gto
+BSEO:0000132	6-31G*	11	CHEBI:26708	sodium	4	polarization	2	gto_cartesian
+BSEO:0000132	6-31G*	12	CHEBI:25107	magnesium	0	valence	0	gto
+BSEO:0000132	6-31G*	12	CHEBI:25107	magnesium	1	valence	0,1	gto
+BSEO:0000132	6-31G*	12	CHEBI:25107	magnesium	2	valence	0,1	gto
+BSEO:0000132	6-31G*	12	CHEBI:25107	magnesium	3	valence	0,1	gto
+BSEO:0000132	6-31G*	12	CHEBI:25107	magnesium	4	polarization	2	gto_cartesian
+BSEO:0000132	6-31G*	13	CHEBI:28984	aluminium	0	valence	0	gto
+BSEO:0000132	6-31G*	13	CHEBI:28984	aluminium	1	valence	0,1	gto
+BSEO:0000132	6-31G*	13	CHEBI:28984	aluminium	2	valence	0,1	gto
+BSEO:0000132	6-31G*	13	CHEBI:28984	aluminium	3	valence	0,1	gto
+BSEO:0000132	6-31G*	13	CHEBI:28984	aluminium	4	polarization	2	gto_cartesian
+BSEO:0000132	6-31G*	14	CHEBI:27573	silicon	0	valence	0	gto
+BSEO:0000132	6-31G*	14	CHEBI:27573	silicon	1	valence	0,1	gto
+BSEO:0000132	6-31G*	14	CHEBI:27573	silicon	2	valence	0,1	gto
+BSEO:0000132	6-31G*	14	CHEBI:27573	silicon	3	valence	0,1	gto
+BSEO:0000132	6-31G*	14	CHEBI:27573	silicon	4	polarization	2	gto_cartesian
+BSEO:0000132	6-31G*	15	CHEBI:28659	phosphorus	0	valence	0	gto
+BSEO:0000132	6-31G*	15	CHEBI:28659	phosphorus	1	valence	0,1	gto
+BSEO:0000132	6-31G*	15	CHEBI:28659	phosphorus	2	valence	0,1	gto
+BSEO:0000132	6-31G*	15	CHEBI:28659	phosphorus	3	valence	0,1	gto
+BSEO:0000132	6-31G*	15	CHEBI:28659	phosphorus	4	polarization	2	gto_cartesian
+BSEO:0000132	6-31G*	16	CHEBI:26833	sulfur	0	valence	0	gto
+BSEO:0000132	6-31G*	16	CHEBI:26833	sulfur	1	valence	0,1	gto
+BSEO:0000132	6-31G*	16	CHEBI:26833	sulfur	2	valence	0,1	gto
+BSEO:0000132	6-31G*	16	CHEBI:26833	sulfur	3	valence	0,1	gto
+BSEO:0000132	6-31G*	16	CHEBI:26833	sulfur	4	polarization	2	gto_cartesian
+BSEO:0000132	6-31G*	17	CHEBI:23116	chlorine	0	valence	0	gto
+BSEO:0000132	6-31G*	17	CHEBI:23116	chlorine	1	valence	0,1	gto
+BSEO:0000132	6-31G*	17	CHEBI:23116	chlorine	2	valence	0,1	gto
+BSEO:0000132	6-31G*	17	CHEBI:23116	chlorine	3	valence	0,1	gto
+BSEO:0000132	6-31G*	17	CHEBI:23116	chlorine	4	polarization	2	gto_cartesian
+BSEO:0000132	6-31G*	18	CHEBI:49475	argon	0	valence	0	gto
+BSEO:0000132	6-31G*	18	CHEBI:49475	argon	1	valence	0,1	gto
+BSEO:0000132	6-31G*	18	CHEBI:49475	argon	2	valence	0,1	gto
+BSEO:0000132	6-31G*	18	CHEBI:49475	argon	3	valence	0,1	gto
+BSEO:0000132	6-31G*	18	CHEBI:49475	argon	4	polarization	2	gto_cartesian
+BSEO:0000132	6-31G*	19	CHEBI:26216	potassium	0	valence	0	gto
+BSEO:0000132	6-31G*	19	CHEBI:26216	potassium	1	valence	0,1	gto
+BSEO:0000132	6-31G*	19	CHEBI:26216	potassium	2	valence	0,1	gto
+BSEO:0000132	6-31G*	19	CHEBI:26216	potassium	3	valence	0,1	gto
+BSEO:0000132	6-31G*	19	CHEBI:26216	potassium	4	valence	0,1	gto
+BSEO:0000132	6-31G*	19	CHEBI:26216	potassium	5	polarization	2	gto_cartesian
+BSEO:0000132	6-31G*	20	CHEBI:22984	calcium	0	valence	0	gto
+BSEO:0000132	6-31G*	20	CHEBI:22984	calcium	1	valence	0,1	gto
+BSEO:0000132	6-31G*	20	CHEBI:22984	calcium	2	valence	0,1	gto
+BSEO:0000132	6-31G*	20	CHEBI:22984	calcium	3	valence	0,1	gto
+BSEO:0000132	6-31G*	20	CHEBI:22984	calcium	4	valence	0,1	gto
+BSEO:0000132	6-31G*	20	CHEBI:22984	calcium	5	polarization	2	gto_cartesian
+BSEO:0000132	6-31G*	21	CHEBI:33330	scandium	0	valence	0	gto
+BSEO:0000132	6-31G*	21	CHEBI:33330	scandium	1	valence	0,1	gto
+BSEO:0000132	6-31G*	21	CHEBI:33330	scandium	2	valence	0,1	gto
+BSEO:0000132	6-31G*	21	CHEBI:33330	scandium	3	valence	0,1	gto
+BSEO:0000132	6-31G*	21	CHEBI:33330	scandium	4	valence	0,1	gto
+BSEO:0000132	6-31G*	21	CHEBI:33330	scandium	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	21	CHEBI:33330	scandium	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	21	CHEBI:33330	scandium	7	polarization	3	gto_spherical
+BSEO:0000132	6-31G*	22	CHEBI:33341	titanium	0	valence	0	gto
+BSEO:0000132	6-31G*	22	CHEBI:33341	titanium	1	valence	0,1	gto
+BSEO:0000132	6-31G*	22	CHEBI:33341	titanium	2	valence	0,1	gto
+BSEO:0000132	6-31G*	22	CHEBI:33341	titanium	3	valence	0,1	gto
+BSEO:0000132	6-31G*	22	CHEBI:33341	titanium	4	valence	0,1	gto
+BSEO:0000132	6-31G*	22	CHEBI:33341	titanium	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	22	CHEBI:33341	titanium	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	22	CHEBI:33341	titanium	7	polarization	3	gto_spherical
+BSEO:0000132	6-31G*	23	CHEBI:27698	vanadium	0	valence	0	gto
+BSEO:0000132	6-31G*	23	CHEBI:27698	vanadium	1	valence	0,1	gto
+BSEO:0000132	6-31G*	23	CHEBI:27698	vanadium	2	valence	0,1	gto
+BSEO:0000132	6-31G*	23	CHEBI:27698	vanadium	3	valence	0,1	gto
+BSEO:0000132	6-31G*	23	CHEBI:27698	vanadium	4	valence	0,1	gto
+BSEO:0000132	6-31G*	23	CHEBI:27698	vanadium	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	23	CHEBI:27698	vanadium	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	23	CHEBI:27698	vanadium	7	polarization	3	gto_spherical
+BSEO:0000132	6-31G*	24	CHEBI:28073	chromium	0	valence	0	gto
+BSEO:0000132	6-31G*	24	CHEBI:28073	chromium	1	valence	0,1	gto
+BSEO:0000132	6-31G*	24	CHEBI:28073	chromium	2	valence	0,1	gto
+BSEO:0000132	6-31G*	24	CHEBI:28073	chromium	3	valence	0,1	gto
+BSEO:0000132	6-31G*	24	CHEBI:28073	chromium	4	valence	0,1	gto
+BSEO:0000132	6-31G*	24	CHEBI:28073	chromium	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	24	CHEBI:28073	chromium	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	24	CHEBI:28073	chromium	7	polarization	3	gto_spherical
+BSEO:0000132	6-31G*	25	CHEBI:18291	manganese	0	valence	0	gto
+BSEO:0000132	6-31G*	25	CHEBI:18291	manganese	1	valence	0,1	gto
+BSEO:0000132	6-31G*	25	CHEBI:18291	manganese	2	valence	0,1	gto
+BSEO:0000132	6-31G*	25	CHEBI:18291	manganese	3	valence	0,1	gto
+BSEO:0000132	6-31G*	25	CHEBI:18291	manganese	4	valence	0,1	gto
+BSEO:0000132	6-31G*	25	CHEBI:18291	manganese	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	25	CHEBI:18291	manganese	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	25	CHEBI:18291	manganese	7	polarization	3	gto_spherical
+BSEO:0000132	6-31G*	26	CHEBI:18248	iron	0	valence	0	gto
+BSEO:0000132	6-31G*	26	CHEBI:18248	iron	1	valence	0,1	gto
+BSEO:0000132	6-31G*	26	CHEBI:18248	iron	2	valence	0,1	gto
+BSEO:0000132	6-31G*	26	CHEBI:18248	iron	3	valence	0,1	gto
+BSEO:0000132	6-31G*	26	CHEBI:18248	iron	4	valence	0,1	gto
+BSEO:0000132	6-31G*	26	CHEBI:18248	iron	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	26	CHEBI:18248	iron	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	26	CHEBI:18248	iron	7	polarization	3	gto_spherical
+BSEO:0000132	6-31G*	27	CHEBI:27638	cobalt	0	valence	0	gto
+BSEO:0000132	6-31G*	27	CHEBI:27638	cobalt	1	valence	0,1	gto
+BSEO:0000132	6-31G*	27	CHEBI:27638	cobalt	2	valence	0,1	gto
+BSEO:0000132	6-31G*	27	CHEBI:27638	cobalt	3	valence	0,1	gto
+BSEO:0000132	6-31G*	27	CHEBI:27638	cobalt	4	valence	0,1	gto
+BSEO:0000132	6-31G*	27	CHEBI:27638	cobalt	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	27	CHEBI:27638	cobalt	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	27	CHEBI:27638	cobalt	7	polarization	3	gto_spherical
+BSEO:0000132	6-31G*	28	CHEBI:28112	nickel	0	valence	0	gto
+BSEO:0000132	6-31G*	28	CHEBI:28112	nickel	1	valence	0,1	gto
+BSEO:0000132	6-31G*	28	CHEBI:28112	nickel	2	valence	0,1	gto
+BSEO:0000132	6-31G*	28	CHEBI:28112	nickel	3	valence	0,1	gto
+BSEO:0000132	6-31G*	28	CHEBI:28112	nickel	4	valence	0,1	gto
+BSEO:0000132	6-31G*	28	CHEBI:28112	nickel	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	28	CHEBI:28112	nickel	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	28	CHEBI:28112	nickel	7	polarization	3	gto_spherical
+BSEO:0000132	6-31G*	29	CHEBI:28694	copper	0	valence	0	gto
+BSEO:0000132	6-31G*	29	CHEBI:28694	copper	1	valence	0,1	gto
+BSEO:0000132	6-31G*	29	CHEBI:28694	copper	2	valence	0,1	gto
+BSEO:0000132	6-31G*	29	CHEBI:28694	copper	3	valence	0,1	gto
+BSEO:0000132	6-31G*	29	CHEBI:28694	copper	4	valence	0,1	gto
+BSEO:0000132	6-31G*	29	CHEBI:28694	copper	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	29	CHEBI:28694	copper	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	29	CHEBI:28694	copper	7	polarization	3	gto_spherical
+BSEO:0000132	6-31G*	30	CHEBI:27363	zinc	0	valence	0	gto
+BSEO:0000132	6-31G*	30	CHEBI:27363	zinc	1	valence	0,1	gto
+BSEO:0000132	6-31G*	30	CHEBI:27363	zinc	2	valence	0,1	gto
+BSEO:0000132	6-31G*	30	CHEBI:27363	zinc	3	valence	0,1	gto
+BSEO:0000132	6-31G*	30	CHEBI:27363	zinc	4	valence	0,1	gto
+BSEO:0000132	6-31G*	30	CHEBI:27363	zinc	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	30	CHEBI:27363	zinc	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	30	CHEBI:27363	zinc	7	polarization	3	gto_spherical
+BSEO:0000132	6-31G*	31	CHEBI:49631	gallium	0	valence	0	gto
+BSEO:0000132	6-31G*	31	CHEBI:49631	gallium	1	valence	0,1	gto
+BSEO:0000132	6-31G*	31	CHEBI:49631	gallium	2	valence	0,1	gto
+BSEO:0000132	6-31G*	31	CHEBI:49631	gallium	3	valence	0,1	gto
+BSEO:0000132	6-31G*	31	CHEBI:49631	gallium	4	valence	0,1	gto
+BSEO:0000132	6-31G*	31	CHEBI:49631	gallium	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	31	CHEBI:49631	gallium	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	31	CHEBI:49631	gallium	7	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	32	CHEBI:30441	germanium	0	valence	0	gto
+BSEO:0000132	6-31G*	32	CHEBI:30441	germanium	1	valence	0,1	gto
+BSEO:0000132	6-31G*	32	CHEBI:30441	germanium	2	valence	0,1	gto
+BSEO:0000132	6-31G*	32	CHEBI:30441	germanium	3	valence	0,1	gto
+BSEO:0000132	6-31G*	32	CHEBI:30441	germanium	4	valence	0,1	gto
+BSEO:0000132	6-31G*	32	CHEBI:30441	germanium	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	32	CHEBI:30441	germanium	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	32	CHEBI:30441	germanium	7	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	33	CHEBI:27563	arsenic	0	valence	0	gto
+BSEO:0000132	6-31G*	33	CHEBI:27563	arsenic	1	valence	0,1	gto
+BSEO:0000132	6-31G*	33	CHEBI:27563	arsenic	2	valence	0,1	gto
+BSEO:0000132	6-31G*	33	CHEBI:27563	arsenic	3	valence	0,1	gto
+BSEO:0000132	6-31G*	33	CHEBI:27563	arsenic	4	valence	0,1	gto
+BSEO:0000132	6-31G*	33	CHEBI:27563	arsenic	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	33	CHEBI:27563	arsenic	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	33	CHEBI:27563	arsenic	7	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	34	CHEBI:27568	selenium	0	valence	0	gto
+BSEO:0000132	6-31G*	34	CHEBI:27568	selenium	1	valence	0,1	gto
+BSEO:0000132	6-31G*	34	CHEBI:27568	selenium	2	valence	0,1	gto
+BSEO:0000132	6-31G*	34	CHEBI:27568	selenium	3	valence	0,1	gto
+BSEO:0000132	6-31G*	34	CHEBI:27568	selenium	4	valence	0,1	gto
+BSEO:0000132	6-31G*	34	CHEBI:27568	selenium	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	34	CHEBI:27568	selenium	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	34	CHEBI:27568	selenium	7	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	35	CHEBI:22927	bromine	0	valence	0	gto
+BSEO:0000132	6-31G*	35	CHEBI:22927	bromine	1	valence	0,1	gto
+BSEO:0000132	6-31G*	35	CHEBI:22927	bromine	2	valence	0,1	gto
+BSEO:0000132	6-31G*	35	CHEBI:22927	bromine	3	valence	0,1	gto
+BSEO:0000132	6-31G*	35	CHEBI:22927	bromine	4	valence	0,1	gto
+BSEO:0000132	6-31G*	35	CHEBI:22927	bromine	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	35	CHEBI:22927	bromine	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	35	CHEBI:22927	bromine	7	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	36	CHEBI:49696	krypton	0	valence	0	gto
+BSEO:0000132	6-31G*	36	CHEBI:49696	krypton	1	valence	0,1	gto
+BSEO:0000132	6-31G*	36	CHEBI:49696	krypton	2	valence	0,1	gto
+BSEO:0000132	6-31G*	36	CHEBI:49696	krypton	3	valence	0,1	gto
+BSEO:0000132	6-31G*	36	CHEBI:49696	krypton	4	valence	0,1	gto
+BSEO:0000132	6-31G*	36	CHEBI:49696	krypton	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	36	CHEBI:49696	krypton	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	36	CHEBI:49696	krypton	7	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	1	CHEBI:49637	hydrogen	0	valence	0	gto
+BSEO:0000132	6-31G*	1	CHEBI:49637	hydrogen	1	valence	0	gto
+BSEO:0000132	6-31G*	2	CHEBI:30217	helium	0	valence	0	gto
+BSEO:0000132	6-31G*	2	CHEBI:30217	helium	1	valence	0	gto
+BSEO:0000132	6-31G*	3	CHEBI:30145	lithium	0	valence	0	gto
+BSEO:0000132	6-31G*	3	CHEBI:30145	lithium	1	valence	0,1	gto
+BSEO:0000132	6-31G*	3	CHEBI:30145	lithium	2	valence	0,1	gto
+BSEO:0000132	6-31G*	3	CHEBI:30145	lithium	3	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	4	CHEBI:30501	beryllium	0	valence	0	gto
+BSEO:0000132	6-31G*	4	CHEBI:30501	beryllium	1	valence	0,1	gto
+BSEO:0000132	6-31G*	4	CHEBI:30501	beryllium	2	valence	0,1	gto
+BSEO:0000132	6-31G*	4	CHEBI:30501	beryllium	3	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	5	CHEBI:27560	boron	0	valence	0	gto
+BSEO:0000132	6-31G*	5	CHEBI:27560	boron	1	valence	0,1	gto
+BSEO:0000132	6-31G*	5	CHEBI:27560	boron	2	valence	0,1	gto
+BSEO:0000132	6-31G*	5	CHEBI:27560	boron	3	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	6	CHEBI:27594	carbon	0	valence	0	gto
+BSEO:0000132	6-31G*	6	CHEBI:27594	carbon	1	valence	0,1	gto
+BSEO:0000132	6-31G*	6	CHEBI:27594	carbon	2	valence	0,1	gto
+BSEO:0000132	6-31G*	6	CHEBI:27594	carbon	3	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	7	CHEBI:25555	nitrogen	0	valence	0	gto
+BSEO:0000132	6-31G*	7	CHEBI:25555	nitrogen	1	valence	0,1	gto
+BSEO:0000132	6-31G*	7	CHEBI:25555	nitrogen	2	valence	0,1	gto
+BSEO:0000132	6-31G*	7	CHEBI:25555	nitrogen	3	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	8	CHEBI:25805	oxygen	0	valence	0	gto
+BSEO:0000132	6-31G*	8	CHEBI:25805	oxygen	1	valence	0,1	gto
+BSEO:0000132	6-31G*	8	CHEBI:25805	oxygen	2	valence	0,1	gto
+BSEO:0000132	6-31G*	8	CHEBI:25805	oxygen	3	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	9	CHEBI:24061	fluorine	0	valence	0	gto
+BSEO:0000132	6-31G*	9	CHEBI:24061	fluorine	1	valence	0,1	gto
+BSEO:0000132	6-31G*	9	CHEBI:24061	fluorine	2	valence	0,1	gto
+BSEO:0000132	6-31G*	9	CHEBI:24061	fluorine	3	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	10	CHEBI:33310	neon	0	valence	0	gto
+BSEO:0000132	6-31G*	10	CHEBI:33310	neon	1	valence	0,1	gto
+BSEO:0000132	6-31G*	10	CHEBI:33310	neon	2	valence	0,1	gto
+BSEO:0000132	6-31G*	10	CHEBI:33310	neon	3	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	11	CHEBI:26708	sodium	0	valence	0	gto
+BSEO:0000132	6-31G*	11	CHEBI:26708	sodium	1	valence	0,1	gto
+BSEO:0000132	6-31G*	11	CHEBI:26708	sodium	2	valence	0,1	gto
+BSEO:0000132	6-31G*	11	CHEBI:26708	sodium	3	valence	0,1	gto
+BSEO:0000132	6-31G*	11	CHEBI:26708	sodium	4	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	12	CHEBI:25107	magnesium	0	valence	0	gto
+BSEO:0000132	6-31G*	12	CHEBI:25107	magnesium	1	valence	0,1	gto
+BSEO:0000132	6-31G*	12	CHEBI:25107	magnesium	2	valence	0,1	gto
+BSEO:0000132	6-31G*	12	CHEBI:25107	magnesium	3	valence	0,1	gto
+BSEO:0000132	6-31G*	12	CHEBI:25107	magnesium	4	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	13	CHEBI:28984	aluminium	0	valence	0	gto
+BSEO:0000132	6-31G*	13	CHEBI:28984	aluminium	1	valence	0,1	gto
+BSEO:0000132	6-31G*	13	CHEBI:28984	aluminium	2	valence	0,1	gto
+BSEO:0000132	6-31G*	13	CHEBI:28984	aluminium	3	valence	0,1	gto
+BSEO:0000132	6-31G*	13	CHEBI:28984	aluminium	4	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	14	CHEBI:27573	silicon	0	valence	0	gto
+BSEO:0000132	6-31G*	14	CHEBI:27573	silicon	1	valence	0,1	gto
+BSEO:0000132	6-31G*	14	CHEBI:27573	silicon	2	valence	0,1	gto
+BSEO:0000132	6-31G*	14	CHEBI:27573	silicon	3	valence	0,1	gto
+BSEO:0000132	6-31G*	14	CHEBI:27573	silicon	4	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	15	CHEBI:28659	phosphorus	0	valence	0	gto
+BSEO:0000132	6-31G*	15	CHEBI:28659	phosphorus	1	valence	0,1	gto
+BSEO:0000132	6-31G*	15	CHEBI:28659	phosphorus	2	valence	0,1	gto
+BSEO:0000132	6-31G*	15	CHEBI:28659	phosphorus	3	valence	0,1	gto
+BSEO:0000132	6-31G*	15	CHEBI:28659	phosphorus	4	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	16	CHEBI:26833	sulfur	0	valence	0	gto
+BSEO:0000132	6-31G*	16	CHEBI:26833	sulfur	1	valence	0,1	gto
+BSEO:0000132	6-31G*	16	CHEBI:26833	sulfur	2	valence	0,1	gto
+BSEO:0000132	6-31G*	16	CHEBI:26833	sulfur	3	valence	0,1	gto
+BSEO:0000132	6-31G*	16	CHEBI:26833	sulfur	4	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	17	CHEBI:23116	chlorine	0	valence	0	gto
+BSEO:0000132	6-31G*	17	CHEBI:23116	chlorine	1	valence	0,1	gto
+BSEO:0000132	6-31G*	17	CHEBI:23116	chlorine	2	valence	0,1	gto
+BSEO:0000132	6-31G*	17	CHEBI:23116	chlorine	3	valence	0,1	gto
+BSEO:0000132	6-31G*	17	CHEBI:23116	chlorine	4	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	18	CHEBI:49475	argon	0	valence	0	gto
+BSEO:0000132	6-31G*	18	CHEBI:49475	argon	1	valence	0,1	gto
+BSEO:0000132	6-31G*	18	CHEBI:49475	argon	2	valence	0,1	gto
+BSEO:0000132	6-31G*	18	CHEBI:49475	argon	3	valence	0,1	gto
+BSEO:0000132	6-31G*	18	CHEBI:49475	argon	4	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	19	CHEBI:26216	potassium	0	valence	0	gto
+BSEO:0000132	6-31G*	19	CHEBI:26216	potassium	1	valence	0,1	gto
+BSEO:0000132	6-31G*	19	CHEBI:26216	potassium	2	valence	0,1	gto
+BSEO:0000132	6-31G*	19	CHEBI:26216	potassium	3	valence	0,1	gto
+BSEO:0000132	6-31G*	19	CHEBI:26216	potassium	4	valence	0,1	gto
+BSEO:0000132	6-31G*	19	CHEBI:26216	potassium	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	19	CHEBI:26216	potassium	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	19	CHEBI:26216	potassium	7	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	20	CHEBI:22984	calcium	0	valence	0	gto
+BSEO:0000132	6-31G*	20	CHEBI:22984	calcium	1	valence	0,1	gto
+BSEO:0000132	6-31G*	20	CHEBI:22984	calcium	2	valence	0,1	gto
+BSEO:0000132	6-31G*	20	CHEBI:22984	calcium	3	valence	0,1	gto
+BSEO:0000132	6-31G*	20	CHEBI:22984	calcium	4	valence	0,1	gto
+BSEO:0000132	6-31G*	20	CHEBI:22984	calcium	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	20	CHEBI:22984	calcium	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	20	CHEBI:22984	calcium	7	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	21	CHEBI:33330	scandium	0	valence	0	gto
+BSEO:0000132	6-31G*	21	CHEBI:33330	scandium	1	valence	0,1	gto
+BSEO:0000132	6-31G*	21	CHEBI:33330	scandium	2	valence	0,1	gto
+BSEO:0000132	6-31G*	21	CHEBI:33330	scandium	3	valence	0,1	gto
+BSEO:0000132	6-31G*	21	CHEBI:33330	scandium	4	valence	0,1	gto
+BSEO:0000132	6-31G*	21	CHEBI:33330	scandium	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	21	CHEBI:33330	scandium	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	21	CHEBI:33330	scandium	7	valence	3	gto_spherical
+BSEO:0000132	6-31G*	22	CHEBI:33341	titanium	0	valence	0	gto
+BSEO:0000132	6-31G*	22	CHEBI:33341	titanium	1	valence	0,1	gto
+BSEO:0000132	6-31G*	22	CHEBI:33341	titanium	2	valence	0,1	gto
+BSEO:0000132	6-31G*	22	CHEBI:33341	titanium	3	valence	0,1	gto
+BSEO:0000132	6-31G*	22	CHEBI:33341	titanium	4	valence	0,1	gto
+BSEO:0000132	6-31G*	22	CHEBI:33341	titanium	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	22	CHEBI:33341	titanium	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	22	CHEBI:33341	titanium	7	valence	3	gto_spherical
+BSEO:0000132	6-31G*	23	CHEBI:27698	vanadium	0	valence	0	gto
+BSEO:0000132	6-31G*	23	CHEBI:27698	vanadium	1	valence	0,1	gto
+BSEO:0000132	6-31G*	23	CHEBI:27698	vanadium	2	valence	0,1	gto
+BSEO:0000132	6-31G*	23	CHEBI:27698	vanadium	3	valence	0,1	gto
+BSEO:0000132	6-31G*	23	CHEBI:27698	vanadium	4	valence	0,1	gto
+BSEO:0000132	6-31G*	23	CHEBI:27698	vanadium	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	23	CHEBI:27698	vanadium	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	23	CHEBI:27698	vanadium	7	valence	3	gto_spherical
+BSEO:0000132	6-31G*	24	CHEBI:28073	chromium	0	valence	0	gto
+BSEO:0000132	6-31G*	24	CHEBI:28073	chromium	1	valence	0,1	gto
+BSEO:0000132	6-31G*	24	CHEBI:28073	chromium	2	valence	0,1	gto
+BSEO:0000132	6-31G*	24	CHEBI:28073	chromium	3	valence	0,1	gto
+BSEO:0000132	6-31G*	24	CHEBI:28073	chromium	4	valence	0,1	gto
+BSEO:0000132	6-31G*	24	CHEBI:28073	chromium	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	24	CHEBI:28073	chromium	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	24	CHEBI:28073	chromium	7	valence	3	gto_spherical
+BSEO:0000132	6-31G*	25	CHEBI:18291	manganese	0	valence	0	gto
+BSEO:0000132	6-31G*	25	CHEBI:18291	manganese	1	valence	0,1	gto
+BSEO:0000132	6-31G*	25	CHEBI:18291	manganese	2	valence	0,1	gto
+BSEO:0000132	6-31G*	25	CHEBI:18291	manganese	3	valence	0,1	gto
+BSEO:0000132	6-31G*	25	CHEBI:18291	manganese	4	valence	0,1	gto
+BSEO:0000132	6-31G*	25	CHEBI:18291	manganese	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	25	CHEBI:18291	manganese	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	25	CHEBI:18291	manganese	7	valence	3	gto_spherical
+BSEO:0000132	6-31G*	26	CHEBI:18248	iron	0	valence	0	gto
+BSEO:0000132	6-31G*	26	CHEBI:18248	iron	1	valence	0,1	gto
+BSEO:0000132	6-31G*	26	CHEBI:18248	iron	2	valence	0,1	gto
+BSEO:0000132	6-31G*	26	CHEBI:18248	iron	3	valence	0,1	gto
+BSEO:0000132	6-31G*	26	CHEBI:18248	iron	4	valence	0,1	gto
+BSEO:0000132	6-31G*	26	CHEBI:18248	iron	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	26	CHEBI:18248	iron	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	26	CHEBI:18248	iron	7	valence	3	gto_spherical
+BSEO:0000132	6-31G*	27	CHEBI:27638	cobalt	0	valence	0	gto
+BSEO:0000132	6-31G*	27	CHEBI:27638	cobalt	1	valence	0,1	gto
+BSEO:0000132	6-31G*	27	CHEBI:27638	cobalt	2	valence	0,1	gto
+BSEO:0000132	6-31G*	27	CHEBI:27638	cobalt	3	valence	0,1	gto
+BSEO:0000132	6-31G*	27	CHEBI:27638	cobalt	4	valence	0,1	gto
+BSEO:0000132	6-31G*	27	CHEBI:27638	cobalt	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	27	CHEBI:27638	cobalt	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	27	CHEBI:27638	cobalt	7	valence	3	gto_spherical
+BSEO:0000132	6-31G*	28	CHEBI:28112	nickel	0	valence	0	gto
+BSEO:0000132	6-31G*	28	CHEBI:28112	nickel	1	valence	0,1	gto
+BSEO:0000132	6-31G*	28	CHEBI:28112	nickel	2	valence	0,1	gto
+BSEO:0000132	6-31G*	28	CHEBI:28112	nickel	3	valence	0,1	gto
+BSEO:0000132	6-31G*	28	CHEBI:28112	nickel	4	valence	0,1	gto
+BSEO:0000132	6-31G*	28	CHEBI:28112	nickel	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	28	CHEBI:28112	nickel	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	28	CHEBI:28112	nickel	7	valence	3	gto_spherical
+BSEO:0000132	6-31G*	29	CHEBI:28694	copper	0	valence	0	gto
+BSEO:0000132	6-31G*	29	CHEBI:28694	copper	1	valence	0,1	gto
+BSEO:0000132	6-31G*	29	CHEBI:28694	copper	2	valence	0,1	gto
+BSEO:0000132	6-31G*	29	CHEBI:28694	copper	3	valence	0,1	gto
+BSEO:0000132	6-31G*	29	CHEBI:28694	copper	4	valence	0,1	gto
+BSEO:0000132	6-31G*	29	CHEBI:28694	copper	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	29	CHEBI:28694	copper	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	29	CHEBI:28694	copper	7	valence	3	gto_spherical
+BSEO:0000132	6-31G*	30	CHEBI:27363	zinc	0	valence	0	gto
+BSEO:0000132	6-31G*	30	CHEBI:27363	zinc	1	valence	0,1	gto
+BSEO:0000132	6-31G*	30	CHEBI:27363	zinc	2	valence	0,1	gto
+BSEO:0000132	6-31G*	30	CHEBI:27363	zinc	3	valence	0,1	gto
+BSEO:0000132	6-31G*	30	CHEBI:27363	zinc	4	valence	0,1	gto
+BSEO:0000132	6-31G*	30	CHEBI:27363	zinc	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	30	CHEBI:27363	zinc	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	30	CHEBI:27363	zinc	7	valence	3	gto_spherical
+BSEO:0000132	6-31G*	31	CHEBI:49631	gallium	0	valence	0	gto
+BSEO:0000132	6-31G*	31	CHEBI:49631	gallium	1	valence	0,1	gto
+BSEO:0000132	6-31G*	31	CHEBI:49631	gallium	2	valence	0,1	gto
+BSEO:0000132	6-31G*	31	CHEBI:49631	gallium	3	valence	0,1	gto
+BSEO:0000132	6-31G*	31	CHEBI:49631	gallium	4	valence	0,1	gto
+BSEO:0000132	6-31G*	31	CHEBI:49631	gallium	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	31	CHEBI:49631	gallium	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	31	CHEBI:49631	gallium	7	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	32	CHEBI:30441	germanium	0	valence	0	gto
+BSEO:0000132	6-31G*	32	CHEBI:30441	germanium	1	valence	0,1	gto
+BSEO:0000132	6-31G*	32	CHEBI:30441	germanium	2	valence	0,1	gto
+BSEO:0000132	6-31G*	32	CHEBI:30441	germanium	3	valence	0,1	gto
+BSEO:0000132	6-31G*	32	CHEBI:30441	germanium	4	valence	0,1	gto
+BSEO:0000132	6-31G*	32	CHEBI:30441	germanium	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	32	CHEBI:30441	germanium	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	32	CHEBI:30441	germanium	7	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	33	CHEBI:27563	arsenic	0	valence	0	gto
+BSEO:0000132	6-31G*	33	CHEBI:27563	arsenic	1	valence	0,1	gto
+BSEO:0000132	6-31G*	33	CHEBI:27563	arsenic	2	valence	0,1	gto
+BSEO:0000132	6-31G*	33	CHEBI:27563	arsenic	3	valence	0,1	gto
+BSEO:0000132	6-31G*	33	CHEBI:27563	arsenic	4	valence	0,1	gto
+BSEO:0000132	6-31G*	33	CHEBI:27563	arsenic	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	33	CHEBI:27563	arsenic	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	33	CHEBI:27563	arsenic	7	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	34	CHEBI:27568	selenium	0	valence	0	gto
+BSEO:0000132	6-31G*	34	CHEBI:27568	selenium	1	valence	0,1	gto
+BSEO:0000132	6-31G*	34	CHEBI:27568	selenium	2	valence	0,1	gto
+BSEO:0000132	6-31G*	34	CHEBI:27568	selenium	3	valence	0,1	gto
+BSEO:0000132	6-31G*	34	CHEBI:27568	selenium	4	valence	0,1	gto
+BSEO:0000132	6-31G*	34	CHEBI:27568	selenium	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	34	CHEBI:27568	selenium	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	34	CHEBI:27568	selenium	7	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	35	CHEBI:22927	bromine	0	valence	0	gto
+BSEO:0000132	6-31G*	35	CHEBI:22927	bromine	1	valence	0,1	gto
+BSEO:0000132	6-31G*	35	CHEBI:22927	bromine	2	valence	0,1	gto
+BSEO:0000132	6-31G*	35	CHEBI:22927	bromine	3	valence	0,1	gto
+BSEO:0000132	6-31G*	35	CHEBI:22927	bromine	4	valence	0,1	gto
+BSEO:0000132	6-31G*	35	CHEBI:22927	bromine	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	35	CHEBI:22927	bromine	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	35	CHEBI:22927	bromine	7	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	36	CHEBI:49696	krypton	0	valence	0	gto
+BSEO:0000132	6-31G*	36	CHEBI:49696	krypton	1	valence	0,1	gto
+BSEO:0000132	6-31G*	36	CHEBI:49696	krypton	2	valence	0,1	gto
+BSEO:0000132	6-31G*	36	CHEBI:49696	krypton	3	valence	0,1	gto
+BSEO:0000132	6-31G*	36	CHEBI:49696	krypton	4	valence	0,1	gto
+BSEO:0000132	6-31G*	36	CHEBI:49696	krypton	5	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	36	CHEBI:49696	krypton	6	valence	2	gto_cartesian
+BSEO:0000132	6-31G*	36	CHEBI:49696	krypton	7	valence	2	gto_cartesian
+BSEO:0000133	6-31G*-Blaudeau	19	CHEBI:26216	potassium	0		0	gto
+BSEO:0000133	6-31G*-Blaudeau	19	CHEBI:26216	potassium	1		0	gto
+BSEO:0000133	6-31G*-Blaudeau	19	CHEBI:26216	potassium	2		0	gto
+BSEO:0000133	6-31G*-Blaudeau	19	CHEBI:26216	potassium	3		0	gto
+BSEO:0000133	6-31G*-Blaudeau	19	CHEBI:26216	potassium	4		0	gto
+BSEO:0000133	6-31G*-Blaudeau	19	CHEBI:26216	potassium	5		1	gto
+BSEO:0000133	6-31G*-Blaudeau	19	CHEBI:26216	potassium	6		1	gto
+BSEO:0000133	6-31G*-Blaudeau	19	CHEBI:26216	potassium	7		1	gto
+BSEO:0000133	6-31G*-Blaudeau	19	CHEBI:26216	potassium	8		2	gto_spherical
+BSEO:0000133	6-31G*-Blaudeau	19	CHEBI:26216	potassium	9		2	gto_spherical
+BSEO:0000133	6-31G*-Blaudeau	20	CHEBI:22984	calcium	0		0	gto
+BSEO:0000133	6-31G*-Blaudeau	20	CHEBI:22984	calcium	1		0	gto
+BSEO:0000133	6-31G*-Blaudeau	20	CHEBI:22984	calcium	2		0	gto
+BSEO:0000133	6-31G*-Blaudeau	20	CHEBI:22984	calcium	3		0	gto
+BSEO:0000133	6-31G*-Blaudeau	20	CHEBI:22984	calcium	4		0	gto
+BSEO:0000133	6-31G*-Blaudeau	20	CHEBI:22984	calcium	5		1	gto
+BSEO:0000133	6-31G*-Blaudeau	20	CHEBI:22984	calcium	6		1	gto
+BSEO:0000133	6-31G*-Blaudeau	20	CHEBI:22984	calcium	7		1	gto
+BSEO:0000133	6-31G*-Blaudeau	20	CHEBI:22984	calcium	8		2	gto_spherical
+BSEO:0000133	6-31G*-Blaudeau	20	CHEBI:22984	calcium	9		2	gto_spherical
+BSEO:0000134	6-31G**	1	CHEBI:49637	hydrogen	0	valence	0	gto
+BSEO:0000134	6-31G**	1	CHEBI:49637	hydrogen	1	valence	0	gto
+BSEO:0000134	6-31G**	1	CHEBI:49637	hydrogen	2	polarization	1	gto
+BSEO:0000134	6-31G**	2	CHEBI:30217	helium	0	valence	0	gto
+BSEO:0000134	6-31G**	2	CHEBI:30217	helium	1	valence	0	gto
+BSEO:0000134	6-31G**	2	CHEBI:30217	helium	2	polarization	1	gto
+BSEO:0000134	6-31G**	3	CHEBI:30145	lithium	0	valence	0	gto
+BSEO:0000134	6-31G**	3	CHEBI:30145	lithium	1	valence	0,1	gto
+BSEO:0000134	6-31G**	3	CHEBI:30145	lithium	2	valence	0,1	gto
+BSEO:0000134	6-31G**	3	CHEBI:30145	lithium	3	polarization	2	gto_cartesian
+BSEO:0000134	6-31G**	4	CHEBI:30501	beryllium	0	valence	0	gto
+BSEO:0000134	6-31G**	4	CHEBI:30501	beryllium	1	valence	0,1	gto
+BSEO:0000134	6-31G**	4	CHEBI:30501	beryllium	2	valence	0,1	gto
+BSEO:0000134	6-31G**	4	CHEBI:30501	beryllium	3	polarization	2	gto_cartesian
+BSEO:0000134	6-31G**	5	CHEBI:27560	boron	0	valence	0	gto
+BSEO:0000134	6-31G**	5	CHEBI:27560	boron	1	valence	0,1	gto
+BSEO:0000134	6-31G**	5	CHEBI:27560	boron	2	valence	0,1	gto
+BSEO:0000134	6-31G**	5	CHEBI:27560	boron	3	polarization	2	gto_cartesian
+BSEO:0000134	6-31G**	6	CHEBI:27594	carbon	0	valence	0	gto
+BSEO:0000134	6-31G**	6	CHEBI:27594	carbon	1	valence	0,1	gto
+BSEO:0000134	6-31G**	6	CHEBI:27594	carbon	2	valence	0,1	gto
+BSEO:0000134	6-31G**	6	CHEBI:27594	carbon	3	polarization	2	gto_cartesian
+BSEO:0000134	6-31G**	7	CHEBI:25555	nitrogen	0	valence	0	gto
+BSEO:0000134	6-31G**	7	CHEBI:25555	nitrogen	1	valence	0,1	gto
+BSEO:0000134	6-31G**	7	CHEBI:25555	nitrogen	2	valence	0,1	gto
+BSEO:0000134	6-31G**	7	CHEBI:25555	nitrogen	3	polarization	2	gto_cartesian
+BSEO:0000134	6-31G**	8	CHEBI:25805	oxygen	0	valence	0	gto
+BSEO:0000134	6-31G**	8	CHEBI:25805	oxygen	1	valence	0,1	gto
+BSEO:0000134	6-31G**	8	CHEBI:25805	oxygen	2	valence	0,1	gto
+BSEO:0000134	6-31G**	8	CHEBI:25805	oxygen	3	polarization	2	gto_cartesian
+BSEO:0000134	6-31G**	9	CHEBI:24061	fluorine	0	valence	0	gto
+BSEO:0000134	6-31G**	9	CHEBI:24061	fluorine	1	valence	0,1	gto
+BSEO:0000134	6-31G**	9	CHEBI:24061	fluorine	2	valence	0,1	gto
+BSEO:0000134	6-31G**	9	CHEBI:24061	fluorine	3	polarization	2	gto_cartesian
+BSEO:0000134	6-31G**	10	CHEBI:33310	neon	0	valence	0	gto
+BSEO:0000134	6-31G**	10	CHEBI:33310	neon	1	valence	0,1	gto
+BSEO:0000134	6-31G**	10	CHEBI:33310	neon	2	valence	0,1	gto
+BSEO:0000134	6-31G**	10	CHEBI:33310	neon	3	polarization	2	gto_cartesian
+BSEO:0000134	6-31G**	11	CHEBI:26708	sodium	0	valence	0	gto
+BSEO:0000134	6-31G**	11	CHEBI:26708	sodium	1	valence	0,1	gto
+BSEO:0000134	6-31G**	11	CHEBI:26708	sodium	2	valence	0,1	gto
+BSEO:0000134	6-31G**	11	CHEBI:26708	sodium	3	valence	0,1	gto
+BSEO:0000134	6-31G**	11	CHEBI:26708	sodium	4	polarization	2	gto_cartesian
+BSEO:0000134	6-31G**	12	CHEBI:25107	magnesium	0	valence	0	gto
+BSEO:0000134	6-31G**	12	CHEBI:25107	magnesium	1	valence	0,1	gto
+BSEO:0000134	6-31G**	12	CHEBI:25107	magnesium	2	valence	0,1	gto
+BSEO:0000134	6-31G**	12	CHEBI:25107	magnesium	3	valence	0,1	gto
+BSEO:0000134	6-31G**	12	CHEBI:25107	magnesium	4	polarization	2	gto_cartesian
+BSEO:0000134	6-31G**	13	CHEBI:28984	aluminium	0	valence	0	gto
+BSEO:0000134	6-31G**	13	CHEBI:28984	aluminium	1	valence	0,1	gto
+BSEO:0000134	6-31G**	13	CHEBI:28984	aluminium	2	valence	0,1	gto
+BSEO:0000134	6-31G**	13	CHEBI:28984	aluminium	3	valence	0,1	gto
+BSEO:0000134	6-31G**	13	CHEBI:28984	aluminium	4	polarization	2	gto_cartesian
+BSEO:0000134	6-31G**	14	CHEBI:27573	silicon	0	valence	0	gto
+BSEO:0000134	6-31G**	14	CHEBI:27573	silicon	1	valence	0,1	gto
+BSEO:0000134	6-31G**	14	CHEBI:27573	silicon	2	valence	0,1	gto
+BSEO:0000134	6-31G**	14	CHEBI:27573	silicon	3	valence	0,1	gto
+BSEO:0000134	6-31G**	14	CHEBI:27573	silicon	4	polarization	2	gto_cartesian
+BSEO:0000134	6-31G**	15	CHEBI:28659	phosphorus	0	valence	0	gto
+BSEO:0000134	6-31G**	15	CHEBI:28659	phosphorus	1	valence	0,1	gto
+BSEO:0000134	6-31G**	15	CHEBI:28659	phosphorus	2	valence	0,1	gto
+BSEO:0000134	6-31G**	15	CHEBI:28659	phosphorus	3	valence	0,1	gto
+BSEO:0000134	6-31G**	15	CHEBI:28659	phosphorus	4	polarization	2	gto_cartesian
+BSEO:0000134	6-31G**	16	CHEBI:26833	sulfur	0	valence	0	gto
+BSEO:0000134	6-31G**	16	CHEBI:26833	sulfur	1	valence	0,1	gto
+BSEO:0000134	6-31G**	16	CHEBI:26833	sulfur	2	valence	0,1	gto
+BSEO:0000134	6-31G**	16	CHEBI:26833	sulfur	3	valence	0,1	gto
+BSEO:0000134	6-31G**	16	CHEBI:26833	sulfur	4	polarization	2	gto_cartesian
+BSEO:0000134	6-31G**	17	CHEBI:23116	chlorine	0	valence	0	gto
+BSEO:0000134	6-31G**	17	CHEBI:23116	chlorine	1	valence	0,1	gto
+BSEO:0000134	6-31G**	17	CHEBI:23116	chlorine	2	valence	0,1	gto
+BSEO:0000134	6-31G**	17	CHEBI:23116	chlorine	3	valence	0,1	gto
+BSEO:0000134	6-31G**	17	CHEBI:23116	chlorine	4	polarization	2	gto_cartesian
+BSEO:0000134	6-31G**	18	CHEBI:49475	argon	0	valence	0	gto
+BSEO:0000134	6-31G**	18	CHEBI:49475	argon	1	valence	0,1	gto
+BSEO:0000134	6-31G**	18	CHEBI:49475	argon	2	valence	0,1	gto
+BSEO:0000134	6-31G**	18	CHEBI:49475	argon	3	valence	0,1	gto
+BSEO:0000134	6-31G**	18	CHEBI:49475	argon	4	polarization	2	gto_cartesian
+BSEO:0000134	6-31G**	19	CHEBI:26216	potassium	0	valence	0	gto
+BSEO:0000134	6-31G**	19	CHEBI:26216	potassium	1	valence	0,1	gto
+BSEO:0000134	6-31G**	19	CHEBI:26216	potassium	2	valence	0,1	gto
+BSEO:0000134	6-31G**	19	CHEBI:26216	potassium	3	valence	0,1	gto
+BSEO:0000134	6-31G**	19	CHEBI:26216	potassium	4	valence	0,1	gto
+BSEO:0000134	6-31G**	19	CHEBI:26216	potassium	5	polarization	2	gto_cartesian
+BSEO:0000134	6-31G**	20	CHEBI:22984	calcium	0	valence	0	gto
+BSEO:0000134	6-31G**	20	CHEBI:22984	calcium	1	valence	0,1	gto
+BSEO:0000134	6-31G**	20	CHEBI:22984	calcium	2	valence	0,1	gto
+BSEO:0000134	6-31G**	20	CHEBI:22984	calcium	3	valence	0,1	gto
+BSEO:0000134	6-31G**	20	CHEBI:22984	calcium	4	valence	0,1	gto
+BSEO:0000134	6-31G**	20	CHEBI:22984	calcium	5	polarization	2	gto_cartesian
+BSEO:0000134	6-31G**	21	CHEBI:33330	scandium	0	valence	0	gto
+BSEO:0000134	6-31G**	21	CHEBI:33330	scandium	1	valence	0,1	gto
+BSEO:0000134	6-31G**	21	CHEBI:33330	scandium	2	valence	0,1	gto
+BSEO:0000134	6-31G**	21	CHEBI:33330	scandium	3	valence	0,1	gto
+BSEO:0000134	6-31G**	21	CHEBI:33330	scandium	4	valence	0,1	gto
+BSEO:0000134	6-31G**	21	CHEBI:33330	scandium	5	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	21	CHEBI:33330	scandium	6	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	21	CHEBI:33330	scandium	7	polarization	3	gto_spherical
+BSEO:0000134	6-31G**	22	CHEBI:33341	titanium	0	valence	0	gto
+BSEO:0000134	6-31G**	22	CHEBI:33341	titanium	1	valence	0,1	gto
+BSEO:0000134	6-31G**	22	CHEBI:33341	titanium	2	valence	0,1	gto
+BSEO:0000134	6-31G**	22	CHEBI:33341	titanium	3	valence	0,1	gto
+BSEO:0000134	6-31G**	22	CHEBI:33341	titanium	4	valence	0,1	gto
+BSEO:0000134	6-31G**	22	CHEBI:33341	titanium	5	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	22	CHEBI:33341	titanium	6	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	22	CHEBI:33341	titanium	7	polarization	3	gto_spherical
+BSEO:0000134	6-31G**	23	CHEBI:27698	vanadium	0	valence	0	gto
+BSEO:0000134	6-31G**	23	CHEBI:27698	vanadium	1	valence	0,1	gto
+BSEO:0000134	6-31G**	23	CHEBI:27698	vanadium	2	valence	0,1	gto
+BSEO:0000134	6-31G**	23	CHEBI:27698	vanadium	3	valence	0,1	gto
+BSEO:0000134	6-31G**	23	CHEBI:27698	vanadium	4	valence	0,1	gto
+BSEO:0000134	6-31G**	23	CHEBI:27698	vanadium	5	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	23	CHEBI:27698	vanadium	6	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	23	CHEBI:27698	vanadium	7	polarization	3	gto_spherical
+BSEO:0000134	6-31G**	24	CHEBI:28073	chromium	0	valence	0	gto
+BSEO:0000134	6-31G**	24	CHEBI:28073	chromium	1	valence	0,1	gto
+BSEO:0000134	6-31G**	24	CHEBI:28073	chromium	2	valence	0,1	gto
+BSEO:0000134	6-31G**	24	CHEBI:28073	chromium	3	valence	0,1	gto
+BSEO:0000134	6-31G**	24	CHEBI:28073	chromium	4	valence	0,1	gto
+BSEO:0000134	6-31G**	24	CHEBI:28073	chromium	5	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	24	CHEBI:28073	chromium	6	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	24	CHEBI:28073	chromium	7	polarization	3	gto_spherical
+BSEO:0000134	6-31G**	25	CHEBI:18291	manganese	0	valence	0	gto
+BSEO:0000134	6-31G**	25	CHEBI:18291	manganese	1	valence	0,1	gto
+BSEO:0000134	6-31G**	25	CHEBI:18291	manganese	2	valence	0,1	gto
+BSEO:0000134	6-31G**	25	CHEBI:18291	manganese	3	valence	0,1	gto
+BSEO:0000134	6-31G**	25	CHEBI:18291	manganese	4	valence	0,1	gto
+BSEO:0000134	6-31G**	25	CHEBI:18291	manganese	5	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	25	CHEBI:18291	manganese	6	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	25	CHEBI:18291	manganese	7	polarization	3	gto_spherical
+BSEO:0000134	6-31G**	26	CHEBI:18248	iron	0	valence	0	gto
+BSEO:0000134	6-31G**	26	CHEBI:18248	iron	1	valence	0,1	gto
+BSEO:0000134	6-31G**	26	CHEBI:18248	iron	2	valence	0,1	gto
+BSEO:0000134	6-31G**	26	CHEBI:18248	iron	3	valence	0,1	gto
+BSEO:0000134	6-31G**	26	CHEBI:18248	iron	4	valence	0,1	gto
+BSEO:0000134	6-31G**	26	CHEBI:18248	iron	5	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	26	CHEBI:18248	iron	6	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	26	CHEBI:18248	iron	7	polarization	3	gto_spherical
+BSEO:0000134	6-31G**	27	CHEBI:27638	cobalt	0	valence	0	gto
+BSEO:0000134	6-31G**	27	CHEBI:27638	cobalt	1	valence	0,1	gto
+BSEO:0000134	6-31G**	27	CHEBI:27638	cobalt	2	valence	0,1	gto
+BSEO:0000134	6-31G**	27	CHEBI:27638	cobalt	3	valence	0,1	gto
+BSEO:0000134	6-31G**	27	CHEBI:27638	cobalt	4	valence	0,1	gto
+BSEO:0000134	6-31G**	27	CHEBI:27638	cobalt	5	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	27	CHEBI:27638	cobalt	6	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	27	CHEBI:27638	cobalt	7	polarization	3	gto_spherical
+BSEO:0000134	6-31G**	28	CHEBI:28112	nickel	0	valence	0	gto
+BSEO:0000134	6-31G**	28	CHEBI:28112	nickel	1	valence	0,1	gto
+BSEO:0000134	6-31G**	28	CHEBI:28112	nickel	2	valence	0,1	gto
+BSEO:0000134	6-31G**	28	CHEBI:28112	nickel	3	valence	0,1	gto
+BSEO:0000134	6-31G**	28	CHEBI:28112	nickel	4	valence	0,1	gto
+BSEO:0000134	6-31G**	28	CHEBI:28112	nickel	5	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	28	CHEBI:28112	nickel	6	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	28	CHEBI:28112	nickel	7	polarization	3	gto_spherical
+BSEO:0000134	6-31G**	29	CHEBI:28694	copper	0	valence	0	gto
+BSEO:0000134	6-31G**	29	CHEBI:28694	copper	1	valence	0,1	gto
+BSEO:0000134	6-31G**	29	CHEBI:28694	copper	2	valence	0,1	gto
+BSEO:0000134	6-31G**	29	CHEBI:28694	copper	3	valence	0,1	gto
+BSEO:0000134	6-31G**	29	CHEBI:28694	copper	4	valence	0,1	gto
+BSEO:0000134	6-31G**	29	CHEBI:28694	copper	5	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	29	CHEBI:28694	copper	6	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	29	CHEBI:28694	copper	7	polarization	3	gto_spherical
+BSEO:0000134	6-31G**	30	CHEBI:27363	zinc	0	valence	0	gto
+BSEO:0000134	6-31G**	30	CHEBI:27363	zinc	1	valence	0,1	gto
+BSEO:0000134	6-31G**	30	CHEBI:27363	zinc	2	valence	0,1	gto
+BSEO:0000134	6-31G**	30	CHEBI:27363	zinc	3	valence	0,1	gto
+BSEO:0000134	6-31G**	30	CHEBI:27363	zinc	4	valence	0,1	gto
+BSEO:0000134	6-31G**	30	CHEBI:27363	zinc	5	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	30	CHEBI:27363	zinc	6	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	30	CHEBI:27363	zinc	7	polarization	3	gto_spherical
+BSEO:0000134	6-31G**	1	CHEBI:49637	hydrogen	0	valence	0	gto
+BSEO:0000134	6-31G**	1	CHEBI:49637	hydrogen	1	valence	0	gto
+BSEO:0000134	6-31G**	1	CHEBI:49637	hydrogen	2	valence	1	gto
+BSEO:0000134	6-31G**	2	CHEBI:30217	helium	0	valence	0	gto
+BSEO:0000134	6-31G**	2	CHEBI:30217	helium	1	valence	0	gto
+BSEO:0000134	6-31G**	2	CHEBI:30217	helium	2	valence	1	gto
+BSEO:0000134	6-31G**	3	CHEBI:30145	lithium	0	valence	0	gto
+BSEO:0000134	6-31G**	3	CHEBI:30145	lithium	1	valence	0,1	gto
+BSEO:0000134	6-31G**	3	CHEBI:30145	lithium	2	valence	0,1	gto
+BSEO:0000134	6-31G**	3	CHEBI:30145	lithium	3	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	4	CHEBI:30501	beryllium	0	valence	0	gto
+BSEO:0000134	6-31G**	4	CHEBI:30501	beryllium	1	valence	0,1	gto
+BSEO:0000134	6-31G**	4	CHEBI:30501	beryllium	2	valence	0,1	gto
+BSEO:0000134	6-31G**	4	CHEBI:30501	beryllium	3	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	5	CHEBI:27560	boron	0	valence	0	gto
+BSEO:0000134	6-31G**	5	CHEBI:27560	boron	1	valence	0,1	gto
+BSEO:0000134	6-31G**	5	CHEBI:27560	boron	2	valence	0,1	gto
+BSEO:0000134	6-31G**	5	CHEBI:27560	boron	3	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	6	CHEBI:27594	carbon	0	valence	0	gto
+BSEO:0000134	6-31G**	6	CHEBI:27594	carbon	1	valence	0,1	gto
+BSEO:0000134	6-31G**	6	CHEBI:27594	carbon	2	valence	0,1	gto
+BSEO:0000134	6-31G**	6	CHEBI:27594	carbon	3	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	7	CHEBI:25555	nitrogen	0	valence	0	gto
+BSEO:0000134	6-31G**	7	CHEBI:25555	nitrogen	1	valence	0,1	gto
+BSEO:0000134	6-31G**	7	CHEBI:25555	nitrogen	2	valence	0,1	gto
+BSEO:0000134	6-31G**	7	CHEBI:25555	nitrogen	3	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	8	CHEBI:25805	oxygen	0	valence	0	gto
+BSEO:0000134	6-31G**	8	CHEBI:25805	oxygen	1	valence	0,1	gto
+BSEO:0000134	6-31G**	8	CHEBI:25805	oxygen	2	valence	0,1	gto
+BSEO:0000134	6-31G**	8	CHEBI:25805	oxygen	3	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	9	CHEBI:24061	fluorine	0	valence	0	gto
+BSEO:0000134	6-31G**	9	CHEBI:24061	fluorine	1	valence	0,1	gto
+BSEO:0000134	6-31G**	9	CHEBI:24061	fluorine	2	valence	0,1	gto
+BSEO:0000134	6-31G**	9	CHEBI:24061	fluorine	3	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	10	CHEBI:33310	neon	0	valence	0	gto
+BSEO:0000134	6-31G**	10	CHEBI:33310	neon	1	valence	0,1	gto
+BSEO:0000134	6-31G**	10	CHEBI:33310	neon	2	valence	0,1	gto
+BSEO:0000134	6-31G**	10	CHEBI:33310	neon	3	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	11	CHEBI:26708	sodium	0	valence	0	gto
+BSEO:0000134	6-31G**	11	CHEBI:26708	sodium	1	valence	0,1	gto
+BSEO:0000134	6-31G**	11	CHEBI:26708	sodium	2	valence	0,1	gto
+BSEO:0000134	6-31G**	11	CHEBI:26708	sodium	3	valence	0,1	gto
+BSEO:0000134	6-31G**	11	CHEBI:26708	sodium	4	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	12	CHEBI:25107	magnesium	0	valence	0	gto
+BSEO:0000134	6-31G**	12	CHEBI:25107	magnesium	1	valence	0,1	gto
+BSEO:0000134	6-31G**	12	CHEBI:25107	magnesium	2	valence	0,1	gto
+BSEO:0000134	6-31G**	12	CHEBI:25107	magnesium	3	valence	0,1	gto
+BSEO:0000134	6-31G**	12	CHEBI:25107	magnesium	4	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	13	CHEBI:28984	aluminium	0	valence	0	gto
+BSEO:0000134	6-31G**	13	CHEBI:28984	aluminium	1	valence	0,1	gto
+BSEO:0000134	6-31G**	13	CHEBI:28984	aluminium	2	valence	0,1	gto
+BSEO:0000134	6-31G**	13	CHEBI:28984	aluminium	3	valence	0,1	gto
+BSEO:0000134	6-31G**	13	CHEBI:28984	aluminium	4	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	14	CHEBI:27573	silicon	0	valence	0	gto
+BSEO:0000134	6-31G**	14	CHEBI:27573	silicon	1	valence	0,1	gto
+BSEO:0000134	6-31G**	14	CHEBI:27573	silicon	2	valence	0,1	gto
+BSEO:0000134	6-31G**	14	CHEBI:27573	silicon	3	valence	0,1	gto
+BSEO:0000134	6-31G**	14	CHEBI:27573	silicon	4	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	15	CHEBI:28659	phosphorus	0	valence	0	gto
+BSEO:0000134	6-31G**	15	CHEBI:28659	phosphorus	1	valence	0,1	gto
+BSEO:0000134	6-31G**	15	CHEBI:28659	phosphorus	2	valence	0,1	gto
+BSEO:0000134	6-31G**	15	CHEBI:28659	phosphorus	3	valence	0,1	gto
+BSEO:0000134	6-31G**	15	CHEBI:28659	phosphorus	4	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	16	CHEBI:26833	sulfur	0	valence	0	gto
+BSEO:0000134	6-31G**	16	CHEBI:26833	sulfur	1	valence	0,1	gto
+BSEO:0000134	6-31G**	16	CHEBI:26833	sulfur	2	valence	0,1	gto
+BSEO:0000134	6-31G**	16	CHEBI:26833	sulfur	3	valence	0,1	gto
+BSEO:0000134	6-31G**	16	CHEBI:26833	sulfur	4	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	17	CHEBI:23116	chlorine	0	valence	0	gto
+BSEO:0000134	6-31G**	17	CHEBI:23116	chlorine	1	valence	0,1	gto
+BSEO:0000134	6-31G**	17	CHEBI:23116	chlorine	2	valence	0,1	gto
+BSEO:0000134	6-31G**	17	CHEBI:23116	chlorine	3	valence	0,1	gto
+BSEO:0000134	6-31G**	17	CHEBI:23116	chlorine	4	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	18	CHEBI:49475	argon	0	valence	0	gto
+BSEO:0000134	6-31G**	18	CHEBI:49475	argon	1	valence	0,1	gto
+BSEO:0000134	6-31G**	18	CHEBI:49475	argon	2	valence	0,1	gto
+BSEO:0000134	6-31G**	18	CHEBI:49475	argon	3	valence	0,1	gto
+BSEO:0000134	6-31G**	18	CHEBI:49475	argon	4	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	19	CHEBI:26216	potassium	0	valence	0	gto
+BSEO:0000134	6-31G**	19	CHEBI:26216	potassium	1	valence	0,1	gto
+BSEO:0000134	6-31G**	19	CHEBI:26216	potassium	2	valence	0,1	gto
+BSEO:0000134	6-31G**	19	CHEBI:26216	potassium	3	valence	0,1	gto
+BSEO:0000134	6-31G**	19	CHEBI:26216	potassium	4	valence	0,1	gto
+BSEO:0000134	6-31G**	19	CHEBI:26216	potassium	5	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	19	CHEBI:26216	potassium	6	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	19	CHEBI:26216	potassium	7	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	20	CHEBI:22984	calcium	0	valence	0	gto
+BSEO:0000134	6-31G**	20	CHEBI:22984	calcium	1	valence	0,1	gto
+BSEO:0000134	6-31G**	20	CHEBI:22984	calcium	2	valence	0,1	gto
+BSEO:0000134	6-31G**	20	CHEBI:22984	calcium	3	valence	0,1	gto
+BSEO:0000134	6-31G**	20	CHEBI:22984	calcium	4	valence	0,1	gto
+BSEO:0000134	6-31G**	20	CHEBI:22984	calcium	5	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	20	CHEBI:22984	calcium	6	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	20	CHEBI:22984	calcium	7	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	21	CHEBI:33330	scandium	0	valence	0	gto
+BSEO:0000134	6-31G**	21	CHEBI:33330	scandium	1	valence	0,1	gto
+BSEO:0000134	6-31G**	21	CHEBI:33330	scandium	2	valence	0,1	gto
+BSEO:0000134	6-31G**	21	CHEBI:33330	scandium	3	valence	0,1	gto
+BSEO:0000134	6-31G**	21	CHEBI:33330	scandium	4	valence	0,1	gto
+BSEO:0000134	6-31G**	21	CHEBI:33330	scandium	5	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	21	CHEBI:33330	scandium	6	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	21	CHEBI:33330	scandium	7	valence	3	gto_spherical
+BSEO:0000134	6-31G**	22	CHEBI:33341	titanium	0	valence	0	gto
+BSEO:0000134	6-31G**	22	CHEBI:33341	titanium	1	valence	0,1	gto
+BSEO:0000134	6-31G**	22	CHEBI:33341	titanium	2	valence	0,1	gto
+BSEO:0000134	6-31G**	22	CHEBI:33341	titanium	3	valence	0,1	gto
+BSEO:0000134	6-31G**	22	CHEBI:33341	titanium	4	valence	0,1	gto
+BSEO:0000134	6-31G**	22	CHEBI:33341	titanium	5	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	22	CHEBI:33341	titanium	6	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	22	CHEBI:33341	titanium	7	valence	3	gto_spherical
+BSEO:0000134	6-31G**	23	CHEBI:27698	vanadium	0	valence	0	gto
+BSEO:0000134	6-31G**	23	CHEBI:27698	vanadium	1	valence	0,1	gto
+BSEO:0000134	6-31G**	23	CHEBI:27698	vanadium	2	valence	0,1	gto
+BSEO:0000134	6-31G**	23	CHEBI:27698	vanadium	3	valence	0,1	gto
+BSEO:0000134	6-31G**	23	CHEBI:27698	vanadium	4	valence	0,1	gto
+BSEO:0000134	6-31G**	23	CHEBI:27698	vanadium	5	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	23	CHEBI:27698	vanadium	6	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	23	CHEBI:27698	vanadium	7	valence	3	gto_spherical
+BSEO:0000134	6-31G**	24	CHEBI:28073	chromium	0	valence	0	gto
+BSEO:0000134	6-31G**	24	CHEBI:28073	chromium	1	valence	0,1	gto
+BSEO:0000134	6-31G**	24	CHEBI:28073	chromium	2	valence	0,1	gto
+BSEO:0000134	6-31G**	24	CHEBI:28073	chromium	3	valence	0,1	gto
+BSEO:0000134	6-31G**	24	CHEBI:28073	chromium	4	valence	0,1	gto
+BSEO:0000134	6-31G**	24	CHEBI:28073	chromium	5	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	24	CHEBI:28073	chromium	6	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	24	CHEBI:28073	chromium	7	valence	3	gto_spherical
+BSEO:0000134	6-31G**	25	CHEBI:18291	manganese	0	valence	0	gto
+BSEO:0000134	6-31G**	25	CHEBI:18291	manganese	1	valence	0,1	gto
+BSEO:0000134	6-31G**	25	CHEBI:18291	manganese	2	valence	0,1	gto
+BSEO:0000134	6-31G**	25	CHEBI:18291	manganese	3	valence	0,1	gto
+BSEO:0000134	6-31G**	25	CHEBI:18291	manganese	4	valence	0,1	gto
+BSEO:0000134	6-31G**	25	CHEBI:18291	manganese	5	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	25	CHEBI:18291	manganese	6	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	25	CHEBI:18291	manganese	7	valence	3	gto_spherical
+BSEO:0000134	6-31G**	26	CHEBI:18248	iron	0	valence	0	gto
+BSEO:0000134	6-31G**	26	CHEBI:18248	iron	1	valence	0,1	gto
+BSEO:0000134	6-31G**	26	CHEBI:18248	iron	2	valence	0,1	gto
+BSEO:0000134	6-31G**	26	CHEBI:18248	iron	3	valence	0,1	gto
+BSEO:0000134	6-31G**	26	CHEBI:18248	iron	4	valence	0,1	gto
+BSEO:0000134	6-31G**	26	CHEBI:18248	iron	5	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	26	CHEBI:18248	iron	6	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	26	CHEBI:18248	iron	7	valence	3	gto_spherical
+BSEO:0000134	6-31G**	27	CHEBI:27638	cobalt	0	valence	0	gto
+BSEO:0000134	6-31G**	27	CHEBI:27638	cobalt	1	valence	0,1	gto
+BSEO:0000134	6-31G**	27	CHEBI:27638	cobalt	2	valence	0,1	gto
+BSEO:0000134	6-31G**	27	CHEBI:27638	cobalt	3	valence	0,1	gto
+BSEO:0000134	6-31G**	27	CHEBI:27638	cobalt	4	valence	0,1	gto
+BSEO:0000134	6-31G**	27	CHEBI:27638	cobalt	5	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	27	CHEBI:27638	cobalt	6	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	27	CHEBI:27638	cobalt	7	valence	3	gto_spherical
+BSEO:0000134	6-31G**	28	CHEBI:28112	nickel	0	valence	0	gto
+BSEO:0000134	6-31G**	28	CHEBI:28112	nickel	1	valence	0,1	gto
+BSEO:0000134	6-31G**	28	CHEBI:28112	nickel	2	valence	0,1	gto
+BSEO:0000134	6-31G**	28	CHEBI:28112	nickel	3	valence	0,1	gto
+BSEO:0000134	6-31G**	28	CHEBI:28112	nickel	4	valence	0,1	gto
+BSEO:0000134	6-31G**	28	CHEBI:28112	nickel	5	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	28	CHEBI:28112	nickel	6	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	28	CHEBI:28112	nickel	7	valence	3	gto_spherical
+BSEO:0000134	6-31G**	29	CHEBI:28694	copper	0	valence	0	gto
+BSEO:0000134	6-31G**	29	CHEBI:28694	copper	1	valence	0,1	gto
+BSEO:0000134	6-31G**	29	CHEBI:28694	copper	2	valence	0,1	gto
+BSEO:0000134	6-31G**	29	CHEBI:28694	copper	3	valence	0,1	gto
+BSEO:0000134	6-31G**	29	CHEBI:28694	copper	4	valence	0,1	gto
+BSEO:0000134	6-31G**	29	CHEBI:28694	copper	5	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	29	CHEBI:28694	copper	6	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	29	CHEBI:28694	copper	7	valence	3	gto_spherical
+BSEO:0000134	6-31G**	30	CHEBI:27363	zinc	0	valence	0	gto
+BSEO:0000134	6-31G**	30	CHEBI:27363	zinc	1	valence	0,1	gto
+BSEO:0000134	6-31G**	30	CHEBI:27363	zinc	2	valence	0,1	gto
+BSEO:0000134	6-31G**	30	CHEBI:27363	zinc	3	valence	0,1	gto
+BSEO:0000134	6-31G**	30	CHEBI:27363	zinc	4	valence	0,1	gto
+BSEO:0000134	6-31G**	30	CHEBI:27363	zinc	5	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	30	CHEBI:27363	zinc	6	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	30	CHEBI:27363	zinc	7	valence	3	gto_spherical
+BSEO:0000134	6-31G**	31	CHEBI:49631	gallium	0	valence	0	gto
+BSEO:0000134	6-31G**	31	CHEBI:49631	gallium	1	valence	0,1	gto
+BSEO:0000134	6-31G**	31	CHEBI:49631	gallium	2	valence	0,1	gto
+BSEO:0000134	6-31G**	31	CHEBI:49631	gallium	3	valence	0,1	gto
+BSEO:0000134	6-31G**	31	CHEBI:49631	gallium	4	valence	0,1	gto
+BSEO:0000134	6-31G**	31	CHEBI:49631	gallium	5	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	31	CHEBI:49631	gallium	6	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	31	CHEBI:49631	gallium	7	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	32	CHEBI:30441	germanium	0	valence	0	gto
+BSEO:0000134	6-31G**	32	CHEBI:30441	germanium	1	valence	0,1	gto
+BSEO:0000134	6-31G**	32	CHEBI:30441	germanium	2	valence	0,1	gto
+BSEO:0000134	6-31G**	32	CHEBI:30441	germanium	3	valence	0,1	gto
+BSEO:0000134	6-31G**	32	CHEBI:30441	germanium	4	valence	0,1	gto
+BSEO:0000134	6-31G**	32	CHEBI:30441	germanium	5	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	32	CHEBI:30441	germanium	6	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	32	CHEBI:30441	germanium	7	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	33	CHEBI:27563	arsenic	0	valence	0	gto
+BSEO:0000134	6-31G**	33	CHEBI:27563	arsenic	1	valence	0,1	gto
+BSEO:0000134	6-31G**	33	CHEBI:27563	arsenic	2	valence	0,1	gto
+BSEO:0000134	6-31G**	33	CHEBI:27563	arsenic	3	valence	0,1	gto
+BSEO:0000134	6-31G**	33	CHEBI:27563	arsenic	4	valence	0,1	gto
+BSEO:0000134	6-31G**	33	CHEBI:27563	arsenic	5	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	33	CHEBI:27563	arsenic	6	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	33	CHEBI:27563	arsenic	7	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	34	CHEBI:27568	selenium	0	valence	0	gto
+BSEO:0000134	6-31G**	34	CHEBI:27568	selenium	1	valence	0,1	gto
+BSEO:0000134	6-31G**	34	CHEBI:27568	selenium	2	valence	0,1	gto
+BSEO:0000134	6-31G**	34	CHEBI:27568	selenium	3	valence	0,1	gto
+BSEO:0000134	6-31G**	34	CHEBI:27568	selenium	4	valence	0,1	gto
+BSEO:0000134	6-31G**	34	CHEBI:27568	selenium	5	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	34	CHEBI:27568	selenium	6	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	34	CHEBI:27568	selenium	7	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	35	CHEBI:22927	bromine	0	valence	0	gto
+BSEO:0000134	6-31G**	35	CHEBI:22927	bromine	1	valence	0,1	gto
+BSEO:0000134	6-31G**	35	CHEBI:22927	bromine	2	valence	0,1	gto
+BSEO:0000134	6-31G**	35	CHEBI:22927	bromine	3	valence	0,1	gto
+BSEO:0000134	6-31G**	35	CHEBI:22927	bromine	4	valence	0,1	gto
+BSEO:0000134	6-31G**	35	CHEBI:22927	bromine	5	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	35	CHEBI:22927	bromine	6	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	35	CHEBI:22927	bromine	7	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	36	CHEBI:49696	krypton	0	valence	0	gto
+BSEO:0000134	6-31G**	36	CHEBI:49696	krypton	1	valence	0,1	gto
+BSEO:0000134	6-31G**	36	CHEBI:49696	krypton	2	valence	0,1	gto
+BSEO:0000134	6-31G**	36	CHEBI:49696	krypton	3	valence	0,1	gto
+BSEO:0000134	6-31G**	36	CHEBI:49696	krypton	4	valence	0,1	gto
+BSEO:0000134	6-31G**	36	CHEBI:49696	krypton	5	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	36	CHEBI:49696	krypton	6	valence	2	gto_cartesian
+BSEO:0000134	6-31G**	36	CHEBI:49696	krypton	7	valence	2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	1	CHEBI:49637	hydrogen	0		0	gto
+BSEO:0000135	6-31G**-RIFIT	1	CHEBI:49637	hydrogen	1		0	gto
+BSEO:0000135	6-31G**-RIFIT	1	CHEBI:49637	hydrogen	2		0	gto
+BSEO:0000135	6-31G**-RIFIT	1	CHEBI:49637	hydrogen	3		1	gto
+BSEO:0000135	6-31G**-RIFIT	1	CHEBI:49637	hydrogen	4		1	gto
+BSEO:0000135	6-31G**-RIFIT	1	CHEBI:49637	hydrogen	5		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	2	CHEBI:30217	helium	0		0	gto
+BSEO:0000135	6-31G**-RIFIT	2	CHEBI:30217	helium	1		0	gto
+BSEO:0000135	6-31G**-RIFIT	2	CHEBI:30217	helium	2		0	gto
+BSEO:0000135	6-31G**-RIFIT	2	CHEBI:30217	helium	3		1	gto
+BSEO:0000135	6-31G**-RIFIT	2	CHEBI:30217	helium	4		1	gto
+BSEO:0000135	6-31G**-RIFIT	2	CHEBI:30217	helium	5		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	3	CHEBI:30145	lithium	0		0	gto
+BSEO:0000135	6-31G**-RIFIT	3	CHEBI:30145	lithium	1		0	gto
+BSEO:0000135	6-31G**-RIFIT	3	CHEBI:30145	lithium	2		0	gto
+BSEO:0000135	6-31G**-RIFIT	3	CHEBI:30145	lithium	3		0	gto
+BSEO:0000135	6-31G**-RIFIT	3	CHEBI:30145	lithium	4		0	gto
+BSEO:0000135	6-31G**-RIFIT	3	CHEBI:30145	lithium	5		0	gto
+BSEO:0000135	6-31G**-RIFIT	3	CHEBI:30145	lithium	6		1	gto
+BSEO:0000135	6-31G**-RIFIT	3	CHEBI:30145	lithium	7		1	gto
+BSEO:0000135	6-31G**-RIFIT	3	CHEBI:30145	lithium	8		1	gto
+BSEO:0000135	6-31G**-RIFIT	3	CHEBI:30145	lithium	9		1	gto
+BSEO:0000135	6-31G**-RIFIT	3	CHEBI:30145	lithium	10		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	3	CHEBI:30145	lithium	11		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	3	CHEBI:30145	lithium	12		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	3	CHEBI:30145	lithium	13		3	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	3	CHEBI:30145	lithium	14		4	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	4	CHEBI:30501	beryllium	0		0	gto
+BSEO:0000135	6-31G**-RIFIT	4	CHEBI:30501	beryllium	1		0	gto
+BSEO:0000135	6-31G**-RIFIT	4	CHEBI:30501	beryllium	2		0	gto
+BSEO:0000135	6-31G**-RIFIT	4	CHEBI:30501	beryllium	3		0	gto
+BSEO:0000135	6-31G**-RIFIT	4	CHEBI:30501	beryllium	4		0	gto
+BSEO:0000135	6-31G**-RIFIT	4	CHEBI:30501	beryllium	5		0	gto
+BSEO:0000135	6-31G**-RIFIT	4	CHEBI:30501	beryllium	6		1	gto
+BSEO:0000135	6-31G**-RIFIT	4	CHEBI:30501	beryllium	7		1	gto
+BSEO:0000135	6-31G**-RIFIT	4	CHEBI:30501	beryllium	8		1	gto
+BSEO:0000135	6-31G**-RIFIT	4	CHEBI:30501	beryllium	9		1	gto
+BSEO:0000135	6-31G**-RIFIT	4	CHEBI:30501	beryllium	10		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	4	CHEBI:30501	beryllium	11		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	4	CHEBI:30501	beryllium	12		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	4	CHEBI:30501	beryllium	13		3	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	4	CHEBI:30501	beryllium	14		4	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	5	CHEBI:27560	boron	0		0	gto
+BSEO:0000135	6-31G**-RIFIT	5	CHEBI:27560	boron	1		0	gto
+BSEO:0000135	6-31G**-RIFIT	5	CHEBI:27560	boron	2		0	gto
+BSEO:0000135	6-31G**-RIFIT	5	CHEBI:27560	boron	3		0	gto
+BSEO:0000135	6-31G**-RIFIT	5	CHEBI:27560	boron	4		0	gto
+BSEO:0000135	6-31G**-RIFIT	5	CHEBI:27560	boron	5		0	gto
+BSEO:0000135	6-31G**-RIFIT	5	CHEBI:27560	boron	6		1	gto
+BSEO:0000135	6-31G**-RIFIT	5	CHEBI:27560	boron	7		1	gto
+BSEO:0000135	6-31G**-RIFIT	5	CHEBI:27560	boron	8		1	gto
+BSEO:0000135	6-31G**-RIFIT	5	CHEBI:27560	boron	9		1	gto
+BSEO:0000135	6-31G**-RIFIT	5	CHEBI:27560	boron	10		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	5	CHEBI:27560	boron	11		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	5	CHEBI:27560	boron	12		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	5	CHEBI:27560	boron	13		3	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	5	CHEBI:27560	boron	14		4	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	6	CHEBI:27594	carbon	0		0	gto
+BSEO:0000135	6-31G**-RIFIT	6	CHEBI:27594	carbon	1		0	gto
+BSEO:0000135	6-31G**-RIFIT	6	CHEBI:27594	carbon	2		0	gto
+BSEO:0000135	6-31G**-RIFIT	6	CHEBI:27594	carbon	3		0	gto
+BSEO:0000135	6-31G**-RIFIT	6	CHEBI:27594	carbon	4		0	gto
+BSEO:0000135	6-31G**-RIFIT	6	CHEBI:27594	carbon	5		0	gto
+BSEO:0000135	6-31G**-RIFIT	6	CHEBI:27594	carbon	6		1	gto
+BSEO:0000135	6-31G**-RIFIT	6	CHEBI:27594	carbon	7		1	gto
+BSEO:0000135	6-31G**-RIFIT	6	CHEBI:27594	carbon	8		1	gto
+BSEO:0000135	6-31G**-RIFIT	6	CHEBI:27594	carbon	9		1	gto
+BSEO:0000135	6-31G**-RIFIT	6	CHEBI:27594	carbon	10		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	6	CHEBI:27594	carbon	11		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	6	CHEBI:27594	carbon	12		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	6	CHEBI:27594	carbon	13		3	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	6	CHEBI:27594	carbon	14		4	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	7	CHEBI:25555	nitrogen	0		0	gto
+BSEO:0000135	6-31G**-RIFIT	7	CHEBI:25555	nitrogen	1		0	gto
+BSEO:0000135	6-31G**-RIFIT	7	CHEBI:25555	nitrogen	2		0	gto
+BSEO:0000135	6-31G**-RIFIT	7	CHEBI:25555	nitrogen	3		0	gto
+BSEO:0000135	6-31G**-RIFIT	7	CHEBI:25555	nitrogen	4		0	gto
+BSEO:0000135	6-31G**-RIFIT	7	CHEBI:25555	nitrogen	5		0	gto
+BSEO:0000135	6-31G**-RIFIT	7	CHEBI:25555	nitrogen	6		1	gto
+BSEO:0000135	6-31G**-RIFIT	7	CHEBI:25555	nitrogen	7		1	gto
+BSEO:0000135	6-31G**-RIFIT	7	CHEBI:25555	nitrogen	8		1	gto
+BSEO:0000135	6-31G**-RIFIT	7	CHEBI:25555	nitrogen	9		1	gto
+BSEO:0000135	6-31G**-RIFIT	7	CHEBI:25555	nitrogen	10		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	7	CHEBI:25555	nitrogen	11		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	7	CHEBI:25555	nitrogen	12		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	7	CHEBI:25555	nitrogen	13		3	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	7	CHEBI:25555	nitrogen	14		4	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	8	CHEBI:25805	oxygen	0		0	gto
+BSEO:0000135	6-31G**-RIFIT	8	CHEBI:25805	oxygen	1		0	gto
+BSEO:0000135	6-31G**-RIFIT	8	CHEBI:25805	oxygen	2		0	gto
+BSEO:0000135	6-31G**-RIFIT	8	CHEBI:25805	oxygen	3		0	gto
+BSEO:0000135	6-31G**-RIFIT	8	CHEBI:25805	oxygen	4		0	gto
+BSEO:0000135	6-31G**-RIFIT	8	CHEBI:25805	oxygen	5		0	gto
+BSEO:0000135	6-31G**-RIFIT	8	CHEBI:25805	oxygen	6		1	gto
+BSEO:0000135	6-31G**-RIFIT	8	CHEBI:25805	oxygen	7		1	gto
+BSEO:0000135	6-31G**-RIFIT	8	CHEBI:25805	oxygen	8		1	gto
+BSEO:0000135	6-31G**-RIFIT	8	CHEBI:25805	oxygen	9		1	gto
+BSEO:0000135	6-31G**-RIFIT	8	CHEBI:25805	oxygen	10		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	8	CHEBI:25805	oxygen	11		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	8	CHEBI:25805	oxygen	12		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	8	CHEBI:25805	oxygen	13		3	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	8	CHEBI:25805	oxygen	14		4	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	9	CHEBI:24061	fluorine	0		0	gto
+BSEO:0000135	6-31G**-RIFIT	9	CHEBI:24061	fluorine	1		0	gto
+BSEO:0000135	6-31G**-RIFIT	9	CHEBI:24061	fluorine	2		0	gto
+BSEO:0000135	6-31G**-RIFIT	9	CHEBI:24061	fluorine	3		0	gto
+BSEO:0000135	6-31G**-RIFIT	9	CHEBI:24061	fluorine	4		0	gto
+BSEO:0000135	6-31G**-RIFIT	9	CHEBI:24061	fluorine	5		0	gto
+BSEO:0000135	6-31G**-RIFIT	9	CHEBI:24061	fluorine	6		1	gto
+BSEO:0000135	6-31G**-RIFIT	9	CHEBI:24061	fluorine	7		1	gto
+BSEO:0000135	6-31G**-RIFIT	9	CHEBI:24061	fluorine	8		1	gto
+BSEO:0000135	6-31G**-RIFIT	9	CHEBI:24061	fluorine	9		1	gto
+BSEO:0000135	6-31G**-RIFIT	9	CHEBI:24061	fluorine	10		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	9	CHEBI:24061	fluorine	11		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	9	CHEBI:24061	fluorine	12		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	9	CHEBI:24061	fluorine	13		3	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	9	CHEBI:24061	fluorine	14		4	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	10	CHEBI:33310	neon	0		0	gto
+BSEO:0000135	6-31G**-RIFIT	10	CHEBI:33310	neon	1		0	gto
+BSEO:0000135	6-31G**-RIFIT	10	CHEBI:33310	neon	2		0	gto
+BSEO:0000135	6-31G**-RIFIT	10	CHEBI:33310	neon	3		0	gto
+BSEO:0000135	6-31G**-RIFIT	10	CHEBI:33310	neon	4		0	gto
+BSEO:0000135	6-31G**-RIFIT	10	CHEBI:33310	neon	5		0	gto
+BSEO:0000135	6-31G**-RIFIT	10	CHEBI:33310	neon	6		1	gto
+BSEO:0000135	6-31G**-RIFIT	10	CHEBI:33310	neon	7		1	gto
+BSEO:0000135	6-31G**-RIFIT	10	CHEBI:33310	neon	8		1	gto
+BSEO:0000135	6-31G**-RIFIT	10	CHEBI:33310	neon	9		1	gto
+BSEO:0000135	6-31G**-RIFIT	10	CHEBI:33310	neon	10		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	10	CHEBI:33310	neon	11		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	10	CHEBI:33310	neon	12		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	10	CHEBI:33310	neon	13		3	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	10	CHEBI:33310	neon	14		4	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	11	CHEBI:26708	sodium	0		0	gto
+BSEO:0000135	6-31G**-RIFIT	11	CHEBI:26708	sodium	1		0	gto
+BSEO:0000135	6-31G**-RIFIT	11	CHEBI:26708	sodium	2		0	gto
+BSEO:0000135	6-31G**-RIFIT	11	CHEBI:26708	sodium	3		0	gto
+BSEO:0000135	6-31G**-RIFIT	11	CHEBI:26708	sodium	4		0	gto
+BSEO:0000135	6-31G**-RIFIT	11	CHEBI:26708	sodium	5		0	gto
+BSEO:0000135	6-31G**-RIFIT	11	CHEBI:26708	sodium	6		0	gto
+BSEO:0000135	6-31G**-RIFIT	11	CHEBI:26708	sodium	7		1	gto
+BSEO:0000135	6-31G**-RIFIT	11	CHEBI:26708	sodium	8		1	gto
+BSEO:0000135	6-31G**-RIFIT	11	CHEBI:26708	sodium	9		1	gto
+BSEO:0000135	6-31G**-RIFIT	11	CHEBI:26708	sodium	10		1	gto
+BSEO:0000135	6-31G**-RIFIT	11	CHEBI:26708	sodium	11		1	gto
+BSEO:0000135	6-31G**-RIFIT	11	CHEBI:26708	sodium	12		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	11	CHEBI:26708	sodium	13		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	11	CHEBI:26708	sodium	14		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	11	CHEBI:26708	sodium	15		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	11	CHEBI:26708	sodium	16		3	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	11	CHEBI:26708	sodium	17		3	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	11	CHEBI:26708	sodium	18		4	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	12	CHEBI:25107	magnesium	0		0	gto
+BSEO:0000135	6-31G**-RIFIT	12	CHEBI:25107	magnesium	1		0	gto
+BSEO:0000135	6-31G**-RIFIT	12	CHEBI:25107	magnesium	2		0	gto
+BSEO:0000135	6-31G**-RIFIT	12	CHEBI:25107	magnesium	3		0	gto
+BSEO:0000135	6-31G**-RIFIT	12	CHEBI:25107	magnesium	4		0	gto
+BSEO:0000135	6-31G**-RIFIT	12	CHEBI:25107	magnesium	5		0	gto
+BSEO:0000135	6-31G**-RIFIT	12	CHEBI:25107	magnesium	6		0	gto
+BSEO:0000135	6-31G**-RIFIT	12	CHEBI:25107	magnesium	7		1	gto
+BSEO:0000135	6-31G**-RIFIT	12	CHEBI:25107	magnesium	8		1	gto
+BSEO:0000135	6-31G**-RIFIT	12	CHEBI:25107	magnesium	9		1	gto
+BSEO:0000135	6-31G**-RIFIT	12	CHEBI:25107	magnesium	10		1	gto
+BSEO:0000135	6-31G**-RIFIT	12	CHEBI:25107	magnesium	11		1	gto
+BSEO:0000135	6-31G**-RIFIT	12	CHEBI:25107	magnesium	12		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	12	CHEBI:25107	magnesium	13		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	12	CHEBI:25107	magnesium	14		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	12	CHEBI:25107	magnesium	15		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	12	CHEBI:25107	magnesium	16		3	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	12	CHEBI:25107	magnesium	17		3	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	12	CHEBI:25107	magnesium	18		4	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	13	CHEBI:28984	aluminium	0		0	gto
+BSEO:0000135	6-31G**-RIFIT	13	CHEBI:28984	aluminium	1		0	gto
+BSEO:0000135	6-31G**-RIFIT	13	CHEBI:28984	aluminium	2		0	gto
+BSEO:0000135	6-31G**-RIFIT	13	CHEBI:28984	aluminium	3		0	gto
+BSEO:0000135	6-31G**-RIFIT	13	CHEBI:28984	aluminium	4		0	gto
+BSEO:0000135	6-31G**-RIFIT	13	CHEBI:28984	aluminium	5		0	gto
+BSEO:0000135	6-31G**-RIFIT	13	CHEBI:28984	aluminium	6		0	gto
+BSEO:0000135	6-31G**-RIFIT	13	CHEBI:28984	aluminium	7		1	gto
+BSEO:0000135	6-31G**-RIFIT	13	CHEBI:28984	aluminium	8		1	gto
+BSEO:0000135	6-31G**-RIFIT	13	CHEBI:28984	aluminium	9		1	gto
+BSEO:0000135	6-31G**-RIFIT	13	CHEBI:28984	aluminium	10		1	gto
+BSEO:0000135	6-31G**-RIFIT	13	CHEBI:28984	aluminium	11		1	gto
+BSEO:0000135	6-31G**-RIFIT	13	CHEBI:28984	aluminium	12		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	13	CHEBI:28984	aluminium	13		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	13	CHEBI:28984	aluminium	14		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	13	CHEBI:28984	aluminium	15		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	13	CHEBI:28984	aluminium	16		3	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	13	CHEBI:28984	aluminium	17		3	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	13	CHEBI:28984	aluminium	18		4	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	14	CHEBI:27573	silicon	0		0	gto
+BSEO:0000135	6-31G**-RIFIT	14	CHEBI:27573	silicon	1		0	gto
+BSEO:0000135	6-31G**-RIFIT	14	CHEBI:27573	silicon	2		0	gto
+BSEO:0000135	6-31G**-RIFIT	14	CHEBI:27573	silicon	3		0	gto
+BSEO:0000135	6-31G**-RIFIT	14	CHEBI:27573	silicon	4		0	gto
+BSEO:0000135	6-31G**-RIFIT	14	CHEBI:27573	silicon	5		0	gto
+BSEO:0000135	6-31G**-RIFIT	14	CHEBI:27573	silicon	6		0	gto
+BSEO:0000135	6-31G**-RIFIT	14	CHEBI:27573	silicon	7		1	gto
+BSEO:0000135	6-31G**-RIFIT	14	CHEBI:27573	silicon	8		1	gto
+BSEO:0000135	6-31G**-RIFIT	14	CHEBI:27573	silicon	9		1	gto
+BSEO:0000135	6-31G**-RIFIT	14	CHEBI:27573	silicon	10		1	gto
+BSEO:0000135	6-31G**-RIFIT	14	CHEBI:27573	silicon	11		1	gto
+BSEO:0000135	6-31G**-RIFIT	14	CHEBI:27573	silicon	12		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	14	CHEBI:27573	silicon	13		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	14	CHEBI:27573	silicon	14		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	14	CHEBI:27573	silicon	15		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	14	CHEBI:27573	silicon	16		3	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	14	CHEBI:27573	silicon	17		3	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	14	CHEBI:27573	silicon	18		4	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	15	CHEBI:28659	phosphorus	0		0	gto
+BSEO:0000135	6-31G**-RIFIT	15	CHEBI:28659	phosphorus	1		0	gto
+BSEO:0000135	6-31G**-RIFIT	15	CHEBI:28659	phosphorus	2		0	gto
+BSEO:0000135	6-31G**-RIFIT	15	CHEBI:28659	phosphorus	3		0	gto
+BSEO:0000135	6-31G**-RIFIT	15	CHEBI:28659	phosphorus	4		0	gto
+BSEO:0000135	6-31G**-RIFIT	15	CHEBI:28659	phosphorus	5		0	gto
+BSEO:0000135	6-31G**-RIFIT	15	CHEBI:28659	phosphorus	6		0	gto
+BSEO:0000135	6-31G**-RIFIT	15	CHEBI:28659	phosphorus	7		1	gto
+BSEO:0000135	6-31G**-RIFIT	15	CHEBI:28659	phosphorus	8		1	gto
+BSEO:0000135	6-31G**-RIFIT	15	CHEBI:28659	phosphorus	9		1	gto
+BSEO:0000135	6-31G**-RIFIT	15	CHEBI:28659	phosphorus	10		1	gto
+BSEO:0000135	6-31G**-RIFIT	15	CHEBI:28659	phosphorus	11		1	gto
+BSEO:0000135	6-31G**-RIFIT	15	CHEBI:28659	phosphorus	12		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	15	CHEBI:28659	phosphorus	13		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	15	CHEBI:28659	phosphorus	14		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	15	CHEBI:28659	phosphorus	15		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	15	CHEBI:28659	phosphorus	16		3	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	15	CHEBI:28659	phosphorus	17		3	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	15	CHEBI:28659	phosphorus	18		4	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	16	CHEBI:26833	sulfur	0		0	gto
+BSEO:0000135	6-31G**-RIFIT	16	CHEBI:26833	sulfur	1		0	gto
+BSEO:0000135	6-31G**-RIFIT	16	CHEBI:26833	sulfur	2		0	gto
+BSEO:0000135	6-31G**-RIFIT	16	CHEBI:26833	sulfur	3		0	gto
+BSEO:0000135	6-31G**-RIFIT	16	CHEBI:26833	sulfur	4		0	gto
+BSEO:0000135	6-31G**-RIFIT	16	CHEBI:26833	sulfur	5		0	gto
+BSEO:0000135	6-31G**-RIFIT	16	CHEBI:26833	sulfur	6		0	gto
+BSEO:0000135	6-31G**-RIFIT	16	CHEBI:26833	sulfur	7		1	gto
+BSEO:0000135	6-31G**-RIFIT	16	CHEBI:26833	sulfur	8		1	gto
+BSEO:0000135	6-31G**-RIFIT	16	CHEBI:26833	sulfur	9		1	gto
+BSEO:0000135	6-31G**-RIFIT	16	CHEBI:26833	sulfur	10		1	gto
+BSEO:0000135	6-31G**-RIFIT	16	CHEBI:26833	sulfur	11		1	gto
+BSEO:0000135	6-31G**-RIFIT	16	CHEBI:26833	sulfur	12		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	16	CHEBI:26833	sulfur	13		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	16	CHEBI:26833	sulfur	14		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	16	CHEBI:26833	sulfur	15		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	16	CHEBI:26833	sulfur	16		3	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	16	CHEBI:26833	sulfur	17		3	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	16	CHEBI:26833	sulfur	18		4	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	17	CHEBI:23116	chlorine	0		0	gto
+BSEO:0000135	6-31G**-RIFIT	17	CHEBI:23116	chlorine	1		0	gto
+BSEO:0000135	6-31G**-RIFIT	17	CHEBI:23116	chlorine	2		0	gto
+BSEO:0000135	6-31G**-RIFIT	17	CHEBI:23116	chlorine	3		0	gto
+BSEO:0000135	6-31G**-RIFIT	17	CHEBI:23116	chlorine	4		0	gto
+BSEO:0000135	6-31G**-RIFIT	17	CHEBI:23116	chlorine	5		0	gto
+BSEO:0000135	6-31G**-RIFIT	17	CHEBI:23116	chlorine	6		0	gto
+BSEO:0000135	6-31G**-RIFIT	17	CHEBI:23116	chlorine	7		1	gto
+BSEO:0000135	6-31G**-RIFIT	17	CHEBI:23116	chlorine	8		1	gto
+BSEO:0000135	6-31G**-RIFIT	17	CHEBI:23116	chlorine	9		1	gto
+BSEO:0000135	6-31G**-RIFIT	17	CHEBI:23116	chlorine	10		1	gto
+BSEO:0000135	6-31G**-RIFIT	17	CHEBI:23116	chlorine	11		1	gto
+BSEO:0000135	6-31G**-RIFIT	17	CHEBI:23116	chlorine	12		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	17	CHEBI:23116	chlorine	13		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	17	CHEBI:23116	chlorine	14		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	17	CHEBI:23116	chlorine	15		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	17	CHEBI:23116	chlorine	16		3	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	17	CHEBI:23116	chlorine	17		3	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	17	CHEBI:23116	chlorine	18		4	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	18	CHEBI:49475	argon	0		0	gto
+BSEO:0000135	6-31G**-RIFIT	18	CHEBI:49475	argon	1		0	gto
+BSEO:0000135	6-31G**-RIFIT	18	CHEBI:49475	argon	2		0	gto
+BSEO:0000135	6-31G**-RIFIT	18	CHEBI:49475	argon	3		0	gto
+BSEO:0000135	6-31G**-RIFIT	18	CHEBI:49475	argon	4		0	gto
+BSEO:0000135	6-31G**-RIFIT	18	CHEBI:49475	argon	5		0	gto
+BSEO:0000135	6-31G**-RIFIT	18	CHEBI:49475	argon	6		0	gto
+BSEO:0000135	6-31G**-RIFIT	18	CHEBI:49475	argon	7		1	gto
+BSEO:0000135	6-31G**-RIFIT	18	CHEBI:49475	argon	8		1	gto
+BSEO:0000135	6-31G**-RIFIT	18	CHEBI:49475	argon	9		1	gto
+BSEO:0000135	6-31G**-RIFIT	18	CHEBI:49475	argon	10		1	gto
+BSEO:0000135	6-31G**-RIFIT	18	CHEBI:49475	argon	11		1	gto
+BSEO:0000135	6-31G**-RIFIT	18	CHEBI:49475	argon	12		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	18	CHEBI:49475	argon	13		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	18	CHEBI:49475	argon	14		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	18	CHEBI:49475	argon	15		2	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	18	CHEBI:49475	argon	16		3	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	18	CHEBI:49475	argon	17		3	gto_cartesian
+BSEO:0000135	6-31G**-RIFIT	18	CHEBI:49475	argon	18		4	gto_cartesian
+BSEO:0000645	m6-31G	21	CHEBI:33330	scandium	0		0	gto
+BSEO:0000645	m6-31G	21	CHEBI:33330	scandium	1		0,1	gto
+BSEO:0000645	m6-31G	21	CHEBI:33330	scandium	2		0,1	gto
+BSEO:0000645	m6-31G	21	CHEBI:33330	scandium	3		0,1	gto
+BSEO:0000645	m6-31G	21	CHEBI:33330	scandium	4		0,1	gto
+BSEO:0000645	m6-31G	21	CHEBI:33330	scandium	5		2	gto_spherical
+BSEO:0000645	m6-31G	21	CHEBI:33330	scandium	6		2	gto_spherical
+BSEO:0000645	m6-31G	22	CHEBI:33341	titanium	0		0	gto
+BSEO:0000645	m6-31G	22	CHEBI:33341	titanium	1		0,1	gto
+BSEO:0000645	m6-31G	22	CHEBI:33341	titanium	2		0,1	gto
+BSEO:0000645	m6-31G	22	CHEBI:33341	titanium	3		0,1	gto
+BSEO:0000645	m6-31G	22	CHEBI:33341	titanium	4		0,1	gto
+BSEO:0000645	m6-31G	22	CHEBI:33341	titanium	5		2	gto_spherical
+BSEO:0000645	m6-31G	22	CHEBI:33341	titanium	6		2	gto_spherical
+BSEO:0000645	m6-31G	23	CHEBI:27698	vanadium	0		0	gto
+BSEO:0000645	m6-31G	23	CHEBI:27698	vanadium	1		0,1	gto
+BSEO:0000645	m6-31G	23	CHEBI:27698	vanadium	2		0,1	gto
+BSEO:0000645	m6-31G	23	CHEBI:27698	vanadium	3		0,1	gto
+BSEO:0000645	m6-31G	23	CHEBI:27698	vanadium	4		0,1	gto
+BSEO:0000645	m6-31G	23	CHEBI:27698	vanadium	5		2	gto_spherical
+BSEO:0000645	m6-31G	23	CHEBI:27698	vanadium	6		2	gto_spherical
+BSEO:0000645	m6-31G	24	CHEBI:28073	chromium	0		0	gto
+BSEO:0000645	m6-31G	24	CHEBI:28073	chromium	1		0,1	gto
+BSEO:0000645	m6-31G	24	CHEBI:28073	chromium	2		0,1	gto
+BSEO:0000645	m6-31G	24	CHEBI:28073	chromium	3		0,1	gto
+BSEO:0000645	m6-31G	24	CHEBI:28073	chromium	4		0,1	gto
+BSEO:0000645	m6-31G	24	CHEBI:28073	chromium	5		2	gto_spherical
+BSEO:0000645	m6-31G	24	CHEBI:28073	chromium	6		2	gto_spherical
+BSEO:0000645	m6-31G	25	CHEBI:18291	manganese	0		0	gto
+BSEO:0000645	m6-31G	25	CHEBI:18291	manganese	1		0,1	gto
+BSEO:0000645	m6-31G	25	CHEBI:18291	manganese	2		0,1	gto
+BSEO:0000645	m6-31G	25	CHEBI:18291	manganese	3		0,1	gto
+BSEO:0000645	m6-31G	25	CHEBI:18291	manganese	4		0,1	gto
+BSEO:0000645	m6-31G	25	CHEBI:18291	manganese	5		2	gto_spherical
+BSEO:0000645	m6-31G	25	CHEBI:18291	manganese	6		2	gto_spherical
+BSEO:0000645	m6-31G	26	CHEBI:18248	iron	0		0	gto
+BSEO:0000645	m6-31G	26	CHEBI:18248	iron	1		0,1	gto
+BSEO:0000645	m6-31G	26	CHEBI:18248	iron	2		0,1	gto
+BSEO:0000645	m6-31G	26	CHEBI:18248	iron	3		0,1	gto
+BSEO:0000645	m6-31G	26	CHEBI:18248	iron	4		0,1	gto
+BSEO:0000645	m6-31G	26	CHEBI:18248	iron	5		2	gto_spherical
+BSEO:0000645	m6-31G	26	CHEBI:18248	iron	6		2	gto_spherical
+BSEO:0000645	m6-31G	27	CHEBI:27638	cobalt	0		0	gto
+BSEO:0000645	m6-31G	27	CHEBI:27638	cobalt	1		0,1	gto
+BSEO:0000645	m6-31G	27	CHEBI:27638	cobalt	2		0,1	gto
+BSEO:0000645	m6-31G	27	CHEBI:27638	cobalt	3		0,1	gto
+BSEO:0000645	m6-31G	27	CHEBI:27638	cobalt	4		0,1	gto
+BSEO:0000645	m6-31G	27	CHEBI:27638	cobalt	5		2	gto_spherical
+BSEO:0000645	m6-31G	27	CHEBI:27638	cobalt	6		2	gto_spherical
+BSEO:0000645	m6-31G	28	CHEBI:28112	nickel	0		0	gto
+BSEO:0000645	m6-31G	28	CHEBI:28112	nickel	1		0,1	gto
+BSEO:0000645	m6-31G	28	CHEBI:28112	nickel	2		0,1	gto
+BSEO:0000645	m6-31G	28	CHEBI:28112	nickel	3		0,1	gto
+BSEO:0000645	m6-31G	28	CHEBI:28112	nickel	4		0,1	gto
+BSEO:0000645	m6-31G	28	CHEBI:28112	nickel	5		2	gto_spherical
+BSEO:0000645	m6-31G	28	CHEBI:28112	nickel	6		2	gto_spherical
+BSEO:0000645	m6-31G	29	CHEBI:28694	copper	0		0	gto
+BSEO:0000645	m6-31G	29	CHEBI:28694	copper	1		0,1	gto
+BSEO:0000645	m6-31G	29	CHEBI:28694	copper	2		0,1	gto
+BSEO:0000645	m6-31G	29	CHEBI:28694	copper	3		0,1	gto
+BSEO:0000645	m6-31G	29	CHEBI:28694	copper	4		0,1	gto
+BSEO:0000645	m6-31G	29	CHEBI:28694	copper	5		2	gto_spherical
+BSEO:0000645	m6-31G	29	CHEBI:28694	copper	6		2	gto_spherical
+BSEO:0000646	m6-31G*	21	CHEBI:33330	scandium	0		0	gto
+BSEO:0000646	m6-31G*	21	CHEBI:33330	scandium	1		0,1	gto
+BSEO:0000646	m6-31G*	21	CHEBI:33330	scandium	2		0,1	gto
+BSEO:0000646	m6-31G*	21	CHEBI:33330	scandium	3		0,1	gto
+BSEO:0000646	m6-31G*	21	CHEBI:33330	scandium	4		0,1	gto
+BSEO:0000646	m6-31G*	21	CHEBI:33330	scandium	5		2	gto_spherical
+BSEO:0000646	m6-31G*	21	CHEBI:33330	scandium	6		2	gto_spherical
+BSEO:0000646	m6-31G*	21	CHEBI:33330	scandium	7		3	gto_spherical
+BSEO:0000646	m6-31G*	22	CHEBI:33341	titanium	0		0	gto
+BSEO:0000646	m6-31G*	22	CHEBI:33341	titanium	1		0,1	gto
+BSEO:0000646	m6-31G*	22	CHEBI:33341	titanium	2		0,1	gto
+BSEO:0000646	m6-31G*	22	CHEBI:33341	titanium	3		0,1	gto
+BSEO:0000646	m6-31G*	22	CHEBI:33341	titanium	4		0,1	gto
+BSEO:0000646	m6-31G*	22	CHEBI:33341	titanium	5		2	gto_spherical
+BSEO:0000646	m6-31G*	22	CHEBI:33341	titanium	6		2	gto_spherical
+BSEO:0000646	m6-31G*	22	CHEBI:33341	titanium	7		3	gto_spherical
+BSEO:0000646	m6-31G*	23	CHEBI:27698	vanadium	0		0	gto
+BSEO:0000646	m6-31G*	23	CHEBI:27698	vanadium	1		0,1	gto
+BSEO:0000646	m6-31G*	23	CHEBI:27698	vanadium	2		0,1	gto
+BSEO:0000646	m6-31G*	23	CHEBI:27698	vanadium	3		0,1	gto
+BSEO:0000646	m6-31G*	23	CHEBI:27698	vanadium	4		0,1	gto
+BSEO:0000646	m6-31G*	23	CHEBI:27698	vanadium	5		2	gto_spherical
+BSEO:0000646	m6-31G*	23	CHEBI:27698	vanadium	6		2	gto_spherical
+BSEO:0000646	m6-31G*	23	CHEBI:27698	vanadium	7		3	gto_spherical
+BSEO:0000646	m6-31G*	24	CHEBI:28073	chromium	0		0	gto
+BSEO:0000646	m6-31G*	24	CHEBI:28073	chromium	1		0,1	gto
+BSEO:0000646	m6-31G*	24	CHEBI:28073	chromium	2		0,1	gto
+BSEO:0000646	m6-31G*	24	CHEBI:28073	chromium	3		0,1	gto
+BSEO:0000646	m6-31G*	24	CHEBI:28073	chromium	4		0,1	gto
+BSEO:0000646	m6-31G*	24	CHEBI:28073	chromium	5		2	gto_spherical
+BSEO:0000646	m6-31G*	24	CHEBI:28073	chromium	6		2	gto_spherical
+BSEO:0000646	m6-31G*	24	CHEBI:28073	chromium	7		3	gto_spherical
+BSEO:0000646	m6-31G*	25	CHEBI:18291	manganese	0		0	gto
+BSEO:0000646	m6-31G*	25	CHEBI:18291	manganese	1		0,1	gto
+BSEO:0000646	m6-31G*	25	CHEBI:18291	manganese	2		0,1	gto
+BSEO:0000646	m6-31G*	25	CHEBI:18291	manganese	3		0,1	gto
+BSEO:0000646	m6-31G*	25	CHEBI:18291	manganese	4		0,1	gto
+BSEO:0000646	m6-31G*	25	CHEBI:18291	manganese	5		2	gto_spherical
+BSEO:0000646	m6-31G*	25	CHEBI:18291	manganese	6		2	gto_spherical
+BSEO:0000646	m6-31G*	25	CHEBI:18291	manganese	7		3	gto_spherical
+BSEO:0000646	m6-31G*	26	CHEBI:18248	iron	0		0	gto
+BSEO:0000646	m6-31G*	26	CHEBI:18248	iron	1		0,1	gto
+BSEO:0000646	m6-31G*	26	CHEBI:18248	iron	2		0,1	gto
+BSEO:0000646	m6-31G*	26	CHEBI:18248	iron	3		0,1	gto
+BSEO:0000646	m6-31G*	26	CHEBI:18248	iron	4		0,1	gto
+BSEO:0000646	m6-31G*	26	CHEBI:18248	iron	5		2	gto_spherical
+BSEO:0000646	m6-31G*	26	CHEBI:18248	iron	6		2	gto_spherical
+BSEO:0000646	m6-31G*	26	CHEBI:18248	iron	7		3	gto_spherical
+BSEO:0000646	m6-31G*	27	CHEBI:27638	cobalt	0		0	gto
+BSEO:0000646	m6-31G*	27	CHEBI:27638	cobalt	1		0,1	gto
+BSEO:0000646	m6-31G*	27	CHEBI:27638	cobalt	2		0,1	gto
+BSEO:0000646	m6-31G*	27	CHEBI:27638	cobalt	3		0,1	gto
+BSEO:0000646	m6-31G*	27	CHEBI:27638	cobalt	4		0,1	gto
+BSEO:0000646	m6-31G*	27	CHEBI:27638	cobalt	5		2	gto_spherical
+BSEO:0000646	m6-31G*	27	CHEBI:27638	cobalt	6		2	gto_spherical
+BSEO:0000646	m6-31G*	27	CHEBI:27638	cobalt	7		3	gto_spherical
+BSEO:0000646	m6-31G*	28	CHEBI:28112	nickel	0		0	gto
+BSEO:0000646	m6-31G*	28	CHEBI:28112	nickel	1		0,1	gto
+BSEO:0000646	m6-31G*	28	CHEBI:28112	nickel	2		0,1	gto
+BSEO:0000646	m6-31G*	28	CHEBI:28112	nickel	3		0,1	gto
+BSEO:0000646	m6-31G*	28	CHEBI:28112	nickel	4		0,1	gto
+BSEO:0000646	m6-31G*	28	CHEBI:28112	nickel	5		2	gto_spherical
+BSEO:0000646	m6-31G*	28	CHEBI:28112	nickel	6		2	gto_spherical
+BSEO:0000646	m6-31G*	28	CHEBI:28112	nickel	7		3	gto_spherical
+BSEO:0000646	m6-31G*	29	CHEBI:28694	copper	0		0	gto
+BSEO:0000646	m6-31G*	29	CHEBI:28694	copper	1		0,1	gto
+BSEO:0000646	m6-31G*	29	CHEBI:28694	copper	2		0,1	gto
+BSEO:0000646	m6-31G*	29	CHEBI:28694	copper	3		0,1	gto
+BSEO:0000646	m6-31G*	29	CHEBI:28694	copper	4		0,1	gto
+BSEO:0000646	m6-31G*	29	CHEBI:28694	copper	5		2	gto_spherical
+BSEO:0000646	m6-31G*	29	CHEBI:28694	copper	6		2	gto_spherical
+BSEO:0000646	m6-31G*	29	CHEBI:28694	copper	7		3	gto_spherical
+BSEO:0000744	s6-31G	21	CHEBI:33330	scandium	0		0	gto
+BSEO:0000744	s6-31G	21	CHEBI:33330	scandium	1		0,1	gto
+BSEO:0000744	s6-31G	21	CHEBI:33330	scandium	2		0,1	gto
+BSEO:0000744	s6-31G	21	CHEBI:33330	scandium	3		0,1	gto
+BSEO:0000744	s6-31G	21	CHEBI:33330	scandium	4		0,1	gto
+BSEO:0000744	s6-31G	21	CHEBI:33330	scandium	5		2	gto_spherical
+BSEO:0000744	s6-31G	21	CHEBI:33330	scandium	6		2	gto_spherical
+BSEO:0000744	s6-31G	21	CHEBI:33330	scandium	7		2	gto_spherical
+BSEO:0000744	s6-31G	22	CHEBI:33341	titanium	0		0	gto
+BSEO:0000744	s6-31G	22	CHEBI:33341	titanium	1		0,1	gto
+BSEO:0000744	s6-31G	22	CHEBI:33341	titanium	2		0,1	gto
+BSEO:0000744	s6-31G	22	CHEBI:33341	titanium	3		0,1	gto
+BSEO:0000744	s6-31G	22	CHEBI:33341	titanium	4		0,1	gto
+BSEO:0000744	s6-31G	22	CHEBI:33341	titanium	5		2	gto_spherical
+BSEO:0000744	s6-31G	22	CHEBI:33341	titanium	6		2	gto_spherical
+BSEO:0000744	s6-31G	22	CHEBI:33341	titanium	7		2	gto_spherical
+BSEO:0000744	s6-31G	23	CHEBI:27698	vanadium	0		0	gto
+BSEO:0000744	s6-31G	23	CHEBI:27698	vanadium	1		0,1	gto
+BSEO:0000744	s6-31G	23	CHEBI:27698	vanadium	2		0,1	gto
+BSEO:0000744	s6-31G	23	CHEBI:27698	vanadium	3		0,1	gto
+BSEO:0000744	s6-31G	23	CHEBI:27698	vanadium	4		0,1	gto
+BSEO:0000744	s6-31G	23	CHEBI:27698	vanadium	5		2	gto_spherical
+BSEO:0000744	s6-31G	23	CHEBI:27698	vanadium	6		2	gto_spherical
+BSEO:0000744	s6-31G	23	CHEBI:27698	vanadium	7		2	gto_spherical
+BSEO:0000744	s6-31G	24	CHEBI:28073	chromium	0		0	gto
+BSEO:0000744	s6-31G	24	CHEBI:28073	chromium	1		0,1	gto
+BSEO:0000744	s6-31G	24	CHEBI:28073	chromium	2		0,1	gto
+BSEO:0000744	s6-31G	24	CHEBI:28073	chromium	3		0,1	gto
+BSEO:0000744	s6-31G	24	CHEBI:28073	chromium	4		0,1	gto
+BSEO:0000744	s6-31G	24	CHEBI:28073	chromium	5		2	gto_spherical
+BSEO:0000744	s6-31G	24	CHEBI:28073	chromium	6		2	gto_spherical
+BSEO:0000744	s6-31G	24	CHEBI:28073	chromium	7		2	gto_spherical
+BSEO:0000744	s6-31G	25	CHEBI:18291	manganese	0		0	gto
+BSEO:0000744	s6-31G	25	CHEBI:18291	manganese	1		0,1	gto
+BSEO:0000744	s6-31G	25	CHEBI:18291	manganese	2		0,1	gto
+BSEO:0000744	s6-31G	25	CHEBI:18291	manganese	3		0,1	gto
+BSEO:0000744	s6-31G	25	CHEBI:18291	manganese	4		0,1	gto
+BSEO:0000744	s6-31G	25	CHEBI:18291	manganese	5		2	gto_spherical
+BSEO:0000744	s6-31G	25	CHEBI:18291	manganese	6		2	gto_spherical
+BSEO:0000744	s6-31G	25	CHEBI:18291	manganese	7		2	gto_spherical
+BSEO:0000744	s6-31G	26	CHEBI:18248	iron	0		0	gto
+BSEO:0000744	s6-31G	26	CHEBI:18248	iron	1		0,1	gto
+BSEO:0000744	s6-31G	26	CHEBI:18248	iron	2		0,1	gto
+BSEO:0000744	s6-31G	26	CHEBI:18248	iron	3		0,1	gto
+BSEO:0000744	s6-31G	26	CHEBI:18248	iron	4		0,1	gto
+BSEO:0000744	s6-31G	26	CHEBI:18248	iron	5		2	gto_spherical
+BSEO:0000744	s6-31G	26	CHEBI:18248	iron	6		2	gto_spherical
+BSEO:0000744	s6-31G	26	CHEBI:18248	iron	7		2	gto_spherical
+BSEO:0000744	s6-31G	27	CHEBI:27638	cobalt	0		0	gto
+BSEO:0000744	s6-31G	27	CHEBI:27638	cobalt	1		0,1	gto
+BSEO:0000744	s6-31G	27	CHEBI:27638	cobalt	2		0,1	gto
+BSEO:0000744	s6-31G	27	CHEBI:27638	cobalt	3		0,1	gto
+BSEO:0000744	s6-31G	27	CHEBI:27638	cobalt	4		0,1	gto
+BSEO:0000744	s6-31G	27	CHEBI:27638	cobalt	5		2	gto_spherical
+BSEO:0000744	s6-31G	27	CHEBI:27638	cobalt	6		2	gto_spherical
+BSEO:0000744	s6-31G	27	CHEBI:27638	cobalt	7		2	gto_spherical
+BSEO:0000744	s6-31G	28	CHEBI:28112	nickel	0		0	gto
+BSEO:0000744	s6-31G	28	CHEBI:28112	nickel	1		0,1	gto
+BSEO:0000744	s6-31G	28	CHEBI:28112	nickel	2		0,1	gto
+BSEO:0000744	s6-31G	28	CHEBI:28112	nickel	3		0,1	gto
+BSEO:0000744	s6-31G	28	CHEBI:28112	nickel	4		0,1	gto
+BSEO:0000744	s6-31G	28	CHEBI:28112	nickel	5		2	gto_spherical
+BSEO:0000744	s6-31G	28	CHEBI:28112	nickel	6		2	gto_spherical
+BSEO:0000744	s6-31G	28	CHEBI:28112	nickel	7		2	gto_spherical
+BSEO:0000744	s6-31G	29	CHEBI:28694	copper	0		0	gto
+BSEO:0000744	s6-31G	29	CHEBI:28694	copper	1		0,1	gto
+BSEO:0000744	s6-31G	29	CHEBI:28694	copper	2		0,1	gto
+BSEO:0000744	s6-31G	29	CHEBI:28694	copper	3		0,1	gto
+BSEO:0000744	s6-31G	29	CHEBI:28694	copper	4		0,1	gto
+BSEO:0000744	s6-31G	29	CHEBI:28694	copper	5		2	gto_spherical
+BSEO:0000744	s6-31G	29	CHEBI:28694	copper	6		2	gto_spherical
+BSEO:0000744	s6-31G	29	CHEBI:28694	copper	7		2	gto_spherical
+BSEO:0000744	s6-31G	30	CHEBI:27363	zinc	0		0	gto
+BSEO:0000744	s6-31G	30	CHEBI:27363	zinc	1		0,1	gto
+BSEO:0000744	s6-31G	30	CHEBI:27363	zinc	2		0,1	gto
+BSEO:0000744	s6-31G	30	CHEBI:27363	zinc	3		0,1	gto
+BSEO:0000744	s6-31G	30	CHEBI:27363	zinc	4		0,1	gto
+BSEO:0000744	s6-31G	30	CHEBI:27363	zinc	5		2	gto_spherical
+BSEO:0000744	s6-31G	30	CHEBI:27363	zinc	6		2	gto_spherical
+BSEO:0000744	s6-31G	30	CHEBI:27363	zinc	7		2	gto_spherical
+BSEO:0000745	s6-31G*	21	CHEBI:33330	scandium	0		0	gto
+BSEO:0000745	s6-31G*	21	CHEBI:33330	scandium	1		0,1	gto
+BSEO:0000745	s6-31G*	21	CHEBI:33330	scandium	2		0,1	gto
+BSEO:0000745	s6-31G*	21	CHEBI:33330	scandium	3		0,1	gto
+BSEO:0000745	s6-31G*	21	CHEBI:33330	scandium	4		0,1	gto
+BSEO:0000745	s6-31G*	21	CHEBI:33330	scandium	5		2	gto_spherical
+BSEO:0000745	s6-31G*	21	CHEBI:33330	scandium	6		2	gto_spherical
+BSEO:0000745	s6-31G*	21	CHEBI:33330	scandium	7		2	gto_spherical
+BSEO:0000745	s6-31G*	21	CHEBI:33330	scandium	8		3	gto_spherical
+BSEO:0000745	s6-31G*	22	CHEBI:33341	titanium	0		0	gto
+BSEO:0000745	s6-31G*	22	CHEBI:33341	titanium	1		0,1	gto
+BSEO:0000745	s6-31G*	22	CHEBI:33341	titanium	2		0,1	gto
+BSEO:0000745	s6-31G*	22	CHEBI:33341	titanium	3		0,1	gto
+BSEO:0000745	s6-31G*	22	CHEBI:33341	titanium	4		0,1	gto
+BSEO:0000745	s6-31G*	22	CHEBI:33341	titanium	5		2	gto_spherical
+BSEO:0000745	s6-31G*	22	CHEBI:33341	titanium	6		2	gto_spherical
+BSEO:0000745	s6-31G*	22	CHEBI:33341	titanium	7		2	gto_spherical
+BSEO:0000745	s6-31G*	22	CHEBI:33341	titanium	8		3	gto_spherical
+BSEO:0000745	s6-31G*	23	CHEBI:27698	vanadium	0		0	gto
+BSEO:0000745	s6-31G*	23	CHEBI:27698	vanadium	1		0,1	gto
+BSEO:0000745	s6-31G*	23	CHEBI:27698	vanadium	2		0,1	gto
+BSEO:0000745	s6-31G*	23	CHEBI:27698	vanadium	3		0,1	gto
+BSEO:0000745	s6-31G*	23	CHEBI:27698	vanadium	4		0,1	gto
+BSEO:0000745	s6-31G*	23	CHEBI:27698	vanadium	5		2	gto_spherical
+BSEO:0000745	s6-31G*	23	CHEBI:27698	vanadium	6		2	gto_spherical
+BSEO:0000745	s6-31G*	23	CHEBI:27698	vanadium	7		2	gto_spherical
+BSEO:0000745	s6-31G*	23	CHEBI:27698	vanadium	8		3	gto_spherical
+BSEO:0000745	s6-31G*	24	CHEBI:28073	chromium	0		0	gto
+BSEO:0000745	s6-31G*	24	CHEBI:28073	chromium	1		0,1	gto
+BSEO:0000745	s6-31G*	24	CHEBI:28073	chromium	2		0,1	gto
+BSEO:0000745	s6-31G*	24	CHEBI:28073	chromium	3		0,1	gto
+BSEO:0000745	s6-31G*	24	CHEBI:28073	chromium	4		0,1	gto
+BSEO:0000745	s6-31G*	24	CHEBI:28073	chromium	5		2	gto_spherical
+BSEO:0000745	s6-31G*	24	CHEBI:28073	chromium	6		2	gto_spherical
+BSEO:0000745	s6-31G*	24	CHEBI:28073	chromium	7		2	gto_spherical
+BSEO:0000745	s6-31G*	24	CHEBI:28073	chromium	8		3	gto_spherical
+BSEO:0000745	s6-31G*	25	CHEBI:18291	manganese	0		0	gto
+BSEO:0000745	s6-31G*	25	CHEBI:18291	manganese	1		0,1	gto
+BSEO:0000745	s6-31G*	25	CHEBI:18291	manganese	2		0,1	gto
+BSEO:0000745	s6-31G*	25	CHEBI:18291	manganese	3		0,1	gto
+BSEO:0000745	s6-31G*	25	CHEBI:18291	manganese	4		0,1	gto
+BSEO:0000745	s6-31G*	25	CHEBI:18291	manganese	5		2	gto_spherical
+BSEO:0000745	s6-31G*	25	CHEBI:18291	manganese	6		2	gto_spherical
+BSEO:0000745	s6-31G*	25	CHEBI:18291	manganese	7		2	gto_spherical
+BSEO:0000745	s6-31G*	25	CHEBI:18291	manganese	8		3	gto_spherical
+BSEO:0000745	s6-31G*	26	CHEBI:18248	iron	0		0	gto
+BSEO:0000745	s6-31G*	26	CHEBI:18248	iron	1		0,1	gto
+BSEO:0000745	s6-31G*	26	CHEBI:18248	iron	2		0,1	gto
+BSEO:0000745	s6-31G*	26	CHEBI:18248	iron	3		0,1	gto
+BSEO:0000745	s6-31G*	26	CHEBI:18248	iron	4		0,1	gto
+BSEO:0000745	s6-31G*	26	CHEBI:18248	iron	5		2	gto_spherical
+BSEO:0000745	s6-31G*	26	CHEBI:18248	iron	6		2	gto_spherical
+BSEO:0000745	s6-31G*	26	CHEBI:18248	iron	7		2	gto_spherical
+BSEO:0000745	s6-31G*	26	CHEBI:18248	iron	8		3	gto_spherical
+BSEO:0000745	s6-31G*	27	CHEBI:27638	cobalt	0		0	gto
+BSEO:0000745	s6-31G*	27	CHEBI:27638	cobalt	1		0,1	gto
+BSEO:0000745	s6-31G*	27	CHEBI:27638	cobalt	2		0,1	gto
+BSEO:0000745	s6-31G*	27	CHEBI:27638	cobalt	3		0,1	gto
+BSEO:0000745	s6-31G*	27	CHEBI:27638	cobalt	4		0,1	gto
+BSEO:0000745	s6-31G*	27	CHEBI:27638	cobalt	5		2	gto_spherical
+BSEO:0000745	s6-31G*	27	CHEBI:27638	cobalt	6		2	gto_spherical
+BSEO:0000745	s6-31G*	27	CHEBI:27638	cobalt	7		2	gto_spherical
+BSEO:0000745	s6-31G*	27	CHEBI:27638	cobalt	8		3	gto_spherical
+BSEO:0000745	s6-31G*	28	CHEBI:28112	nickel	0		0	gto
+BSEO:0000745	s6-31G*	28	CHEBI:28112	nickel	1		0,1	gto
+BSEO:0000745	s6-31G*	28	CHEBI:28112	nickel	2		0,1	gto
+BSEO:0000745	s6-31G*	28	CHEBI:28112	nickel	3		0,1	gto
+BSEO:0000745	s6-31G*	28	CHEBI:28112	nickel	4		0,1	gto
+BSEO:0000745	s6-31G*	28	CHEBI:28112	nickel	5		2	gto_spherical
+BSEO:0000745	s6-31G*	28	CHEBI:28112	nickel	6		2	gto_spherical
+BSEO:0000745	s6-31G*	28	CHEBI:28112	nickel	7		2	gto_spherical
+BSEO:0000745	s6-31G*	28	CHEBI:28112	nickel	8		3	gto_spherical
+BSEO:0000745	s6-31G*	29	CHEBI:28694	copper	0		0	gto
+BSEO:0000745	s6-31G*	29	CHEBI:28694	copper	1		0,1	gto
+BSEO:0000745	s6-31G*	29	CHEBI:28694	copper	2		0,1	gto
+BSEO:0000745	s6-31G*	29	CHEBI:28694	copper	3		0,1	gto
+BSEO:0000745	s6-31G*	29	CHEBI:28694	copper	4		0,1	gto
+BSEO:0000745	s6-31G*	29	CHEBI:28694	copper	5		2	gto_spherical
+BSEO:0000745	s6-31G*	29	CHEBI:28694	copper	6		2	gto_spherical
+BSEO:0000745	s6-31G*	29	CHEBI:28694	copper	7		2	gto_spherical
+BSEO:0000745	s6-31G*	29	CHEBI:28694	copper	8		3	gto_spherical
+BSEO:0000745	s6-31G*	30	CHEBI:27363	zinc	0		0	gto
+BSEO:0000745	s6-31G*	30	CHEBI:27363	zinc	1		0,1	gto
+BSEO:0000745	s6-31G*	30	CHEBI:27363	zinc	2		0,1	gto
+BSEO:0000745	s6-31G*	30	CHEBI:27363	zinc	3		0,1	gto
+BSEO:0000745	s6-31G*	30	CHEBI:27363	zinc	4		0,1	gto
+BSEO:0000745	s6-31G*	30	CHEBI:27363	zinc	5		2	gto_spherical
+BSEO:0000745	s6-31G*	30	CHEBI:27363	zinc	6		2	gto_spherical
+BSEO:0000745	s6-31G*	30	CHEBI:27363	zinc	7		2	gto_spherical
+BSEO:0000745	s6-31G*	30	CHEBI:27363	zinc	8		3	gto_spherical
