@@ -84,6 +84,7 @@ def get_orbital_to_reference() -> dict[tuple[int, int, int], NamedReference]:
 def main(output: Path, output_orbital: Path) -> None:
     basis_set_to_reference = get_basis_set_to_reference()
     element_number_to_reference = get_element_number_to_reference()
+    orbital_to_reference = get_orbital_to_reference()
     rows = []
     orbital_rows = []
     basis_sets = get_basis_sets()
@@ -102,20 +103,24 @@ def main(output: Path, output_orbital: Path) -> None:
                 )
             )
             if "6-31G" in basis_set.name and isinstance(record, ElectronShellRecord):
-                for z, electron_shell in enumerate(record.electron_shells):
+                for electron_shell_list_position, electron_shell in enumerate(record.electron_shells):
+                    primary_quantum_number = ... # TODO Robin
+                    azimuth_quantum_number = ...
+                    magnetic_quantum_number = ...
+                    orbital = orbital_to_reference[primary_quantum_number, azimuth_quantum_number, magnetic_quantum_number]
+
                     row = (
                         basis_set_reference.curie,
                         basis_set.name,
                         reference.curie,
                         reference.name,
-                        z,
+                        electron_shell_list_position,
                         electron_shell.region or "",
-                        ",".join(map(str, electron_shell.angular_momentum)),
+                        ",".join(map(str, electron_shell.angular_momentum)),  # might need second level loop for this
                         str(electron_shell.function_type),
+                        orbital.curie,
+                        orbital.name,
                     )
-                    if len(electron_shell.angular_momentum) > 1:
-                        print("LONG ANG MOM")
-                        print(row)
                     orbital_rows.append(row)
             elif isinstance(record, ECPPotentialRecord):
                 pass
