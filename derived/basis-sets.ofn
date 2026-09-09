@@ -783,6 +783,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0000773>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0000774>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0000775>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0000776>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0100000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0100001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0100002>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0100003>))
@@ -8417,17 +8418,23 @@ SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000776> ObjectSomeValuesFrom(<h
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000776> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000002> <http://purl.obolibrary.org/obo/BSEO_0300001>))
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000776> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000002> <http://purl.obolibrary.org/obo/BSEO_0300002>))
 
+# Class: <http://purl.obolibrary.org/obo/BSEO_0100000> (basis set by family)
+
+AnnotationAssertion(<http://purl.org/dc/terms/contributor> <http://purl.obolibrary.org/obo/BSEO_0100000> <https://orcid.org/0000-0003-4423-4370>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100000> "basis set by family")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100000> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100001> (acvxz-j)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100001> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100001> "acvxz-j")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100001> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100001> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100002> (ahlrichs)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100002> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100002> "ahlrichs")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100002> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100002> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100003> (ahlrichs_dhf)
 
@@ -8451,7 +8458,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100005> <http://purl.obolibrary
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100006> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100006> "ano")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100006> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100006> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100007> (ano_claudino)
 
@@ -8463,67 +8470,67 @@ SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100007> <http://purl.obolibrary
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100008> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100008> "aug_mcc")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100008> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100008> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100009> (binning)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100009> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100009> "binning")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100009> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100009> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100010> (blaudeau)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100010> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100010> "blaudeau")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100010> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100010> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100011> (cadpac)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100011> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100011> "cadpac")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100011> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100011> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100012> (ccj)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100012> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100012> "ccj")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100012> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100012> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100013> (cologne)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100013> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100013> "cologne")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100013> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100013> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100014> (crenb)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100014> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100014> "crenb")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100014> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100014> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100015> (demon2k)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100015> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100015> "demon2k")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100015> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100015> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100016> (dfo)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100016> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100016> "dfo")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100016> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100016> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100017> (dgauss)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100017> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100017> "dgauss")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100017> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100017> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100018> (dunning)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100018> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100018> "dunning")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100018> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100018> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100019> (dunning_dk)
 
@@ -8599,127 +8606,127 @@ SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100028> <http://purl.obolibrary
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100029> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100029> "dyall")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100029> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100029> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100030> (grimme)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100030> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100030> "grimme")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100030> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100030> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100031> (huzinaga)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100031> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100031> "huzinaga")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100031> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100031> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100032> (iglo)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100032> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100032> "iglo")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100032> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100032> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100033> (jensen)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100033> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100033> "jensen")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100033> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100033> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100034> (jgauss)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100034> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100034> "jgauss")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100034> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100034> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100035> (jorge)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100035> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100035> "jorge")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100035> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100035> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100036> (koga)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100036> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100036> "koga")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100036> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100036> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100037> (lanl)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100037> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100037> "lanl")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100037> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100037> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100038> (lehtola_emd)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100038> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100038> "lehtola_emd")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100038> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100038> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100039> (lehtola_hgbs)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100039> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100039> "lehtola_hgbs")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100039> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100039> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100040> (lehtola_sap)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100040> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100040> "lehtola_sap")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100040> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100040> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100041> (nasa)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100041> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100041> "nasa")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100041> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100041> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100042> (orp)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100042> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100042> "orp")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100042> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100042> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100043> (partridge)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100043> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100043> "partridge")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100043> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100043> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100044> (paschoal)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100044> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100044> "paschoal")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100044> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100044> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100045> (paw)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100045> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100045> "paw")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100045> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100045> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100046> (pb)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100046> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100046> "pb")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100046> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100046> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100047> (pec)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100047> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100047> "pec")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100047> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100047> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100048> (pob)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100048> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100048> "pob")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100048> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100048> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100049> (pople)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100049> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100049> "pople")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100049> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100049> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100050> (pople_fit)
 
@@ -8739,85 +8746,85 @@ SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100051> <http://purl.obolibrary
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100052> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100052> "psx")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100052> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100052> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100053> (ranasinghe)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100053> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100053> "ranasinghe")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100053> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100053> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100054> (sadlej)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100054> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100054> "sadlej")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100054> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100054> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100055> (sapporo)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100055> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100055> "sapporo")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100055> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100055> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100056> (sarc)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100056> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100056> "sarc")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100056> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100056> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100057> (sauer_j)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100057> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100057> "sauer_j")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100057> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100057> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100058> (sbkjc)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100058> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100058> "sbkjc")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100058> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100058> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100059> (sigmanz)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100059> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100059> "sigmanz")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100059> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100059> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100060> (sto)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100060> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100060> "sto")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100060> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100060> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100061> (stuttgart)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100061> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100061> "stuttgart")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100061> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100061> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100062> (truhlar)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100062> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100062> "truhlar")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100062> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100062> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100063> (ugbs)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100063> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100063> "ugbs")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100063> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100063> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100064> (wachters)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100064> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100064> "wachters")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100064> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100064> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0100065> (zorrilla)
 
 AnnotationAssertion(<http://purl.org/dc/terms/source> <http://purl.obolibrary.org/obo/BSEO_0100065> "https://www.basissetexchange.org"^^xsd:anyURI)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100065> "zorrilla")
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100065> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100065> <http://purl.obolibrary.org/obo/BSEO_0100000>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0200000> (role)
 

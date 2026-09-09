@@ -170899,10 +170899,20 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BSEO_0100000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <rdfs:label>basis set by family</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BSEO_0100001 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>acvxz-j</rdfs:label>
     </owl:Class>
@@ -170912,7 +170922,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100002 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100002">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>ahlrichs</rdfs:label>
     </owl:Class>
@@ -170952,7 +170962,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100006 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100006">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>ano</rdfs:label>
     </owl:Class>
@@ -170972,7 +170982,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100008">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>aug_mcc</rdfs:label>
     </owl:Class>
@@ -170982,7 +170992,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100009 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100009">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>binning</rdfs:label>
     </owl:Class>
@@ -170992,7 +171002,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100010">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>blaudeau</rdfs:label>
     </owl:Class>
@@ -171002,7 +171012,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100011">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>cadpac</rdfs:label>
     </owl:Class>
@@ -171012,7 +171022,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100012 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100012">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>ccj</rdfs:label>
     </owl:Class>
@@ -171022,7 +171032,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100013">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>cologne</rdfs:label>
     </owl:Class>
@@ -171032,7 +171042,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>crenb</rdfs:label>
     </owl:Class>
@@ -171042,7 +171052,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100015">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>demon2k</rdfs:label>
     </owl:Class>
@@ -171052,7 +171062,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100016">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>dfo</rdfs:label>
     </owl:Class>
@@ -171062,7 +171072,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100017 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100017">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>dgauss</rdfs:label>
     </owl:Class>
@@ -171072,7 +171082,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100018 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100018">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>dunning</rdfs:label>
     </owl:Class>
@@ -171192,7 +171202,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100029 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100029">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>dyall</rdfs:label>
     </owl:Class>
@@ -171202,7 +171212,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100030 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100030">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>grimme</rdfs:label>
     </owl:Class>
@@ -171212,7 +171222,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100031 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100031">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>huzinaga</rdfs:label>
     </owl:Class>
@@ -171222,7 +171232,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100032 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100032">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>iglo</rdfs:label>
     </owl:Class>
@@ -171232,7 +171242,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100033 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100033">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>jensen</rdfs:label>
     </owl:Class>
@@ -171242,7 +171252,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100034 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100034">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>jgauss</rdfs:label>
     </owl:Class>
@@ -171252,7 +171262,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100035 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100035">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>jorge</rdfs:label>
     </owl:Class>
@@ -171262,7 +171272,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100036 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100036">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>koga</rdfs:label>
     </owl:Class>
@@ -171272,7 +171282,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100037 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100037">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>lanl</rdfs:label>
     </owl:Class>
@@ -171282,7 +171292,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100038 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100038">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>lehtola_emd</rdfs:label>
     </owl:Class>
@@ -171292,7 +171302,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100039 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100039">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>lehtola_hgbs</rdfs:label>
     </owl:Class>
@@ -171302,7 +171312,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100040 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100040">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>lehtola_sap</rdfs:label>
     </owl:Class>
@@ -171312,7 +171322,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100041 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100041">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>nasa</rdfs:label>
     </owl:Class>
@@ -171322,7 +171332,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100042 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100042">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>orp</rdfs:label>
     </owl:Class>
@@ -171332,7 +171342,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100043 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100043">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>partridge</rdfs:label>
     </owl:Class>
@@ -171342,7 +171352,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100044 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100044">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>paschoal</rdfs:label>
     </owl:Class>
@@ -171352,7 +171362,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100045 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100045">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>paw</rdfs:label>
     </owl:Class>
@@ -171362,7 +171372,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100046 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100046">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>pb</rdfs:label>
     </owl:Class>
@@ -171372,7 +171382,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100047 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100047">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>pec</rdfs:label>
     </owl:Class>
@@ -171382,7 +171392,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100048 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100048">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>pob</rdfs:label>
     </owl:Class>
@@ -171392,7 +171402,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100049 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100049">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>pople</rdfs:label>
     </owl:Class>
@@ -171424,7 +171434,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100052 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100052">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>psx</rdfs:label>
     </owl:Class>
@@ -171434,7 +171444,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100053 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100053">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>ranasinghe</rdfs:label>
     </owl:Class>
@@ -171444,7 +171454,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100054 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100054">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>sadlej</rdfs:label>
     </owl:Class>
@@ -171454,7 +171464,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100055 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100055">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>sapporo</rdfs:label>
     </owl:Class>
@@ -171464,7 +171474,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100056 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100056">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>sarc</rdfs:label>
     </owl:Class>
@@ -171474,7 +171484,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100057 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100057">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>sauer_j</rdfs:label>
     </owl:Class>
@@ -171484,7 +171494,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100058 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100058">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>sbkjc</rdfs:label>
     </owl:Class>
@@ -171494,7 +171504,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100059 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100059">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>sigmanz</rdfs:label>
     </owl:Class>
@@ -171504,7 +171514,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100060 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100060">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>sto</rdfs:label>
     </owl:Class>
@@ -171514,7 +171524,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100061 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100061">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>stuttgart</rdfs:label>
     </owl:Class>
@@ -171524,7 +171534,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100062 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100062">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>truhlar</rdfs:label>
     </owl:Class>
@@ -171534,7 +171544,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100063 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100063">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>ugbs</rdfs:label>
     </owl:Class>
@@ -171544,7 +171554,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100064 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100064">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>wachters</rdfs:label>
     </owl:Class>
@@ -171554,7 +171564,7 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100065 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100065">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>zorrilla</rdfs:label>
     </owl:Class>
