@@ -102,7 +102,7 @@ def main(output: Path) -> None:
         writer.writerow(
             ("ID", "TYPE", "basis set", "element", "element CURIE", "element name")
         )
-        writer.writerow(("ID", "TYPE", "", "", "SC 'BSEO:0100003' some %", ""))
+        writer.writerow(("ID", "TYPE", "", "", "SC 'BSEO:1000003' some %", ""))
         writer.writerows(rows)
 
 

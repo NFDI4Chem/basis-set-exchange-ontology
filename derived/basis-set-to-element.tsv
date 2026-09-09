@@ -1,5 +1,5 @@
 ID	TYPE	basis set	element	element CURIE	element name
-ID	TYPE			SC 'BSEO:0100003' some %	
+ID	TYPE			SC 'BSEO:1000003' some %	
 BSEO:0000083	class	2ZaP	1	CHEBI:49637	hydrogen
 BSEO:0000083	class	2ZaP	6	CHEBI:27594	carbon
 BSEO:0000083	class	2ZaP	7	CHEBI:25555	nitrogen

@@ -4,11 +4,11 @@ from curies import NamedReference, Prefix
 from pystow.utils import safe_open_dict_reader
 
 __all__ = [
+    "DERIVED_DIRECTORY",
     "HERE",
     "ROOT",
     "TEMPORARY_DIRECTORY",
-    "DERIVED_DIRECTORY",
-    'get_name_to_family',
+    "get_name_to_family",
     "get_name_to_function_type",
     "get_name_to_role",
 ]
@@ -33,7 +33,9 @@ def get_name_to_family() -> dict[str, NamedReference]:
     with safe_open_dict_reader(FAMILIES_PATH) as reader:
         next(reader)  # throw away second row, which is from robot template
         return {
-            record['label']: NamedReference.from_curie(record['curie'], name=record['label'])
+            record["label"]: NamedReference.from_curie(
+                record["curie"], name=record["label"]
+            )
             for record in reader
         }
 
@@ -42,7 +44,9 @@ def get_name_to_role() -> dict[str, NamedReference]:
     with safe_open_dict_reader(ROLES_PATH) as reader:
         next(reader)  # throw away second row, which is from robot template
         return {
-            record['label']: NamedReference.from_curie(record['curie'], name=record['label'])
+            record["label"]: NamedReference.from_curie(
+                record["curie"], name=record["label"]
+            )
             for record in reader
         }
 
@@ -51,6 +55,8 @@ def get_name_to_function_type() -> dict[str, NamedReference]:
     with safe_open_dict_reader(FUNCTION_TYPES_PATH) as reader:
         next(reader)  # throw away second row, which is from robot template
         return {
-            record['abbreviation']: NamedReference.from_curie(record['curie'], name=record['label'])
+            record["abbreviation"]: NamedReference.from_curie(
+                record["curie"], name=record["label"]
+            )
             for record in reader
         }

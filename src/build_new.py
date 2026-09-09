@@ -1,21 +1,39 @@
 # /// script
 # requires-python = ">=3.14"
 # dependencies = [
+#     "click",
 #     "curies>=0.15.0",
 #     "pydantic>=2.13.5",
 #     "pystow>=0.9.3",
 #     "tqdm>=4.70.0",
 # ]
 # ///
+from pathlib import Path
 
+import click
 from curies import NamedReference, Prefix
 from pystow.utils import safe_open_writer
 
 from parse import iter_basis_sets
-from utils import DERIVED_DIRECTORY, get_name_to_function_type, get_name_to_role, get_name_to_family
+from utils import (
+    DERIVED_DIRECTORY,
+    get_name_to_family,
+    get_name_to_function_type,
+    get_name_to_role,
+)
 
 BASIS_SET_PATH = DERIVED_DIRECTORY.joinpath("basis-sets.tsv")
-BASIS_SET_HEADER_1 = ("curie", "type", "label", "parent", "parent label", "role", "role label", "function types", "description")
+BASIS_SET_HEADER_1 = (
+    "curie",
+    "type",
+    "label",
+    "parent",
+    "parent label",
+    "role",
+    "role label",
+    "function types",
+    "description",
+)
 BASIS_SET_HEADER_2 = (
     "ID",
     "TYPE",
@@ -38,7 +56,9 @@ def _r(identifier: str, name: str) -> NamedReference:
     return NamedReference(prefix=PREFIX, identifier=identifier, name=name)
 
 
-def main() -> None:
+@click.command()
+@click.option("--output", default=BASIS_SET_PATH)
+def main(output: Path) -> None:
     families = get_name_to_family()
     roles = get_name_to_role()
     function_types = get_name_to_function_type()
