@@ -1,9 +1,5 @@
 identifier	type	label	description	parent
 ID	TYPE	AT rdfs:label^^xsd:string	AT dc:description^^xsd:string	SC %
-BSEO:0000001	owl:Class	role
-BSEO:0000002	owl:Class	family
-BSEO:0000003	owl:Class	function type
-BSEO:0000004	owl:Class	basis set
 BSEO:0000005	owl:Class	ANO basis set		BSEO:0000004
 BSEO:0000006	owl:Class	ANO-RCC basis set		BSEO:0000004
 BSEO:0000007	owl:Class	STO basis set		BSEO:0000004

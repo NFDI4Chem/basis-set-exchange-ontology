@@ -8,6 +8,7 @@ __all__ = [
     "HERE",
     "ROOT",
     "TEMPORARY_DIRECTORY",
+    "get_name_to_basis_set",
     "get_name_to_family",
     "get_name_to_function_type",
     "get_name_to_role",
@@ -28,6 +29,7 @@ TEMPLATE_DIRECTORY = ROOT.joinpath("templates")
 FAMILIES_PATH = TEMPLATE_DIRECTORY.joinpath("families.tsv")
 ROLES_PATH = TEMPLATE_DIRECTORY.joinpath("roles.tsv")
 FUNCTION_TYPES_PATH = TEMPLATE_DIRECTORY.joinpath("function-types.tsv")
+BASIS_SETS_PATH = TEMPLATE_DIRECTORY.joinpath("basis-sets.tsv")
 
 
 def get_name_to_family() -> dict[str, NamedReference]:
@@ -57,6 +59,17 @@ def get_name_to_function_type() -> dict[str, NamedReference]:
         next(reader)  # throw away second row, which is from robot template
         return {
             record["abbreviation"]: NamedReference.from_curie(
+                record["curie"], name=record["label"]
+            )
+            for record in reader
+        }
+
+
+def get_name_to_basis_set() -> dict[str, NamedReference]:
+    with safe_open_dict_reader(BASIS_SETS_PATH) as reader:
+        next(reader)  # throw away second row, which is from robot template
+        return {
+            record["label"]: NamedReference.from_curie(
                 record["curie"], name=record["label"]
             )
             for record in reader

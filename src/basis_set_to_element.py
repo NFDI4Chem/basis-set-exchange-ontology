@@ -19,7 +19,7 @@ from curies import NamedReference
 from pystow.utils import safe_open_writer
 
 from parse import iter_basis_sets
-from utils import ROOT, DERIVED_DIRECTORY, DEV_DIRECTORY
+from utils import DERIVED_DIRECTORY, DEV_DIRECTORY
 
 DEFAULT_OUTPUT_PATH = DERIVED_DIRECTORY.joinpath("basis-set-to-element.tsv")
 

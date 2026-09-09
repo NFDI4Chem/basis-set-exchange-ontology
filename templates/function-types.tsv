@@ -1,7 +1,7 @@
 curie	type	label	abbreviation	description	parent
-ID	TYPE	AT rdfs:label^^xsd:string		AT dc:description^^xsd:string	SC %s
-BSEO:0100000	class	function type	gto	represents an orbital type
-BSEO:0100001	class	Gaussian-type orbitals	gto		BSEO:0200000
-BSEO:0100002	class	spherical Gaussian-type orbitals	gto_spherical		BSEO:0200001
-BSEO:0100003	class	cartesian Gaussian-type orbitals	gto_cartesian		BSEO:0200001
-BSEO:0100004	class	scalar effective core potentials	scalar_ecp		BSEO:0200000
+ID	TYPE	AT rdfs:label^^xsd:string		AT dc:description^^xsd:string	SC %
+BSEO:0300000	class	function type	gto	represents an orbital type
+BSEO:0300001	class	Gaussian-type orbitals	gto		BSEO:0300000
+BSEO:0300002	class	spherical Gaussian-type orbitals	gto_spherical		BSEO:0300001
+BSEO:0300003	class	cartesian Gaussian-type orbitals	gto_cartesian		BSEO:0300001
+BSEO:0300004	class	scalar effective core potentials	scalar_ecp		BSEO:0300000
