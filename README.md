@@ -24,6 +24,24 @@ We want to accomplish the following technical goals to get there:
 3. Capture the logical construction of each basis set (e.g., usage of diffusion
    function, usage of polarization function)
 
+## Exploring
+
+This ontology has several components that are constructed with `robot template`
+then ultimately merged with `robot merge`. The results are available in [bseo.owl](bseo.owl)
+
+```mermaid
+graph LR
+    bseo[Basis Set Exchange Ontology]
+    chebi[ChEBI] --> bseo
+    a[ChEBI Atomic Numbers Ontology] --> bseo
+    orbitalo[Orbital Ontology] --> bseo
+    bse[Basis Set Exchange] --> bseo
+    d[Manually curated Basis Set Families] --> bseo
+    e[Manually curated Basis Set Relations] --> bseo
+    chebi -.-> a
+    chebi -.-> orbitalo
+```
+
 ## License
 
 Code in this repository is licensed under the MIT license. Original data is

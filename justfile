@@ -36,8 +36,7 @@ basis-set-to-element:
 
 build: terms basis-set-to-element
     robot merge \
-        --input metadata.ttl \
+        --input templates/metadata.ttl \
         --input derived/basis-set-to-element.ofn \
         --input derived/basis-sets.ofn \
-        --output bseo.ofn \
         --output bseo.owl
