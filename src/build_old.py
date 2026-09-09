@@ -1,0 +1,275 @@
+# /// script
+# requires-python = ">=3.14"
+# dependencies = [
+#     "click>=8.4.0",
+#     "curies>=0.15.0",
+#     "pydantic>=2.13.5",
+#     "pyobo>=0.12.22",
+#     "pystow>=0.8.13",
+#     "requests>=2.34.2",
+#     "tqdm>=4.70.0",
+# ]
+# ///
+
+import os
+import random
+from collections import Counter, defaultdict
+
+import click
+import pandas as pd
+from tabulate import tabulate
+from tqdm import tqdm
+
+from parse import FUNCTION_TYPE_NAMES, iter_basis_sets
+from utils import HERE, TEMPORARY_DIRECTORY
+
+PREFIX = "BSEO"  # basis set exchange ontology
+
+manual_terms_owl_path = TEMPORARY_DIRECTORY.joinpath("manual_terms.owl")
+manual_properties_owl_path = TEMPORARY_DIRECTORY.joinpath("manual_properties.owl")
+derived_terms_owl_path = TEMPORARY_DIRECTORY.joinpath("derived_terms.owl")
+derived_relations_owl_path = TEMPORARY_DIRECTORY.joinpath("derived_parents.owl")
+
+final_output = HERE.joinpath(PREFIX.lower()).with_suffix(".owl")
+parts_notes = HERE.joinpath("parts_notes.tsv")
+
+
+@click.command()
+def main() -> None:
+    basis_sets = list(iter_basis_sets())
+    role_counter = Counter()
+    family_counter = Counter()
+    function_type_counter = Counter()
+    for basis_set in basis_sets:
+        role_counter[basis_set.role] += 1
+        family_counter[basis_set.family] += 1
+        for function_type in basis_set.function_types:
+            function_type_counter[function_type] += 1
+
+    write = False
+
+    header_1 = (
+        "identifier",
+        "type",
+        "label",
+        "parent",
+        "description",
+        "has role",
+        "has family",
+        "has function type",
+    )
+    header_2 = (
+        "ID",
+        "TYPE",
+        "AT rdfs:label^^xsd:string",
+        "SC %",
+        "AT dc:description^^xsd:string",
+        "SC BSEO:1000000",
+        "SC BSEO:1000001",
+        "SC BSEO:1000002 SPLIT=|",
+    )
+
+    header_parents = ("identifier", "parent")
+    parents_rows = [
+        ("ID", "SC %"),
+    ]
+    rows: list[tuple[str, str, str, str, str, str, str, str]] = [header_2]
+    if write:
+        click.echo(
+            f"Roles:\n\n{tabulate(role_counter.most_common(), headers=['role', 'count'], tablefmt='github')}"
+        )
+    counter = 5
+    role_to_curie = {}
+    for role in role_counter:
+        role_curie = f"{PREFIX}:01{counter:05}"
+        role_to_curie[role] = role_curie
+        rows.append(
+            (
+                role_curie,
+                "owl:Class",
+                FUNCTION_TYPE_NAMES.get(role) or role,
+                f"{PREFIX}:0000001",
+                "",  # description
+                "",  # role
+                "",  # family
+                "",  # function type
+            )
+        )
+        counter += 1
+
+    if write:
+        click.echo(
+            f"\n\nFamilies:\n\n{tabulate(family_counter.most_common(), headers=['family', 'count'], tablefmt='github')}"
+        )
+    family_to_curie = {}
+    for family in family_counter:
+        family_curie = f"{PREFIX}:02{counter:05}"
+        family_to_curie[family] = family_curie
+        rows.append(
+            (
+                family_curie,
+                "owl:Class",
+                FUNCTION_TYPE_NAMES.get(family) or family,
+                f"{PREFIX}:0000002",
+                "",  # description
+                "",  # role
+                "",  # family
+                "",  # function type
+            )
+        )
+        counter += 1
+    if write:
+        click.echo(
+            f"\n\nFunction Types:\n\n{tabulate(function_type_counter.most_common(), headers=['function type', 'count'], tablefmt='github')}"
+        )
+    function_type_to_curie = {}
+    for function_type in function_type_counter:
+        function_type_curie = f"{PREFIX}:03{counter:05}"
+        function_type_to_curie[function_type] = function_type_curie
+        rows.append(
+            (
+                function_type_curie,
+                "owl:Class",
+                FUNCTION_TYPE_NAMES.get(function_type) or function_type,
+                f"{PREFIX}:0000003",
+                "",  # description
+                "",  # role
+                "",  # family
+                "",  # function type
+            )
+        )
+        counter += 1
+
+    parent_names = [
+        ("ANO-RCC", f"{PREFIX}:0000006"),
+        ("ANO-", f"{PREFIX}:0000005"),
+        ("STO-", f"{PREFIX}:0000007"),
+        ("seg-cc-", f"{PREFIX}:0000008"),
+        ("SBO4-", f"{PREFIX}:0000009"),
+        ("saug-ano-", f"{PREFIX}:0000010"),
+        ("SARC2-QZVP-", f"{PREFIX}:0000011"),
+        ("SARC2-QZV-", f"{PREFIX}:0000012"),
+        ("Sapporo-TZP-", f"{PREFIX}:0000013"),
+        ("Sapporo-QZP-", f"{PREFIX}:0000014"),
+        ("Sapporo-DZP-", f"{PREFIX}:0000015"),
+        ("Sapporo-DKH3-", f"{PREFIX}:0000016"),
+        ("pob-", f"{PREFIX}:0000017"),
+        ("pcSseg-", f"{PREFIX}:0000018"),
+        ("pcseg-", f"{PREFIX}:0000019"),
+        ("pcS-", f"{PREFIX}:0000020"),
+        ("pcJ-", f"{PREFIX}:0000021"),
+    ]
+
+    seen = set()
+
+    part_counter = defaultdict(list)
+
+    for basis_set in basis_sets:
+        if basis_set.name.strip() in seen:
+            continue  # FIXME why are there duplicates?
+        seen.add(basis_set.name.strip())
+
+        # understand internal structure
+        for part_level_1 in basis_set.name.split("-"):
+            for part_level_2 in part_level_1.split():
+                for part_level_3 in part_level_2.split("("):
+                    if part_level_3.isnumeric():
+                        continue
+                    part_counter[part_level_3.lower()].append(basis_set.name)
+
+        for name_prefix, parent_curie in parent_names:
+            if basis_set.name.startswith(name_prefix):
+                parents_rows.append((f"{PREFIX}:{counter:07}", parent_curie))
+                parent = ""
+                break
+        else:
+            if write:
+                tqdm.write(f"no parent for {basis_set.name}")
+            parent = f"{PREFIX}:0000004"
+
+        rows.append(
+            (
+                f"{PREFIX}:{counter:07}",
+                "owl:Class",
+                # TODO require all have proper names
+                FUNCTION_TYPE_NAMES.get(basis_set.name) or basis_set.name,
+                parent,
+                basis_set.description
+                if basis_set.description != basis_set.name
+                else "",
+                role_to_curie[basis_set.role],
+                family_to_curie[basis_set.family],
+                "|".join(
+                    function_type_to_curie[f] for f in basis_set.function_types or []
+                ),
+            )
+        )
+        counter += 1
+
+    parts_already_described = set(pd.read_csv(parts_notes, sep="\t")["part"])
+
+    state = random.Random(42)
+    parts = [
+        (
+            key,
+            "yes" if key in parts_already_described else "",
+            len(values),
+            ", ".join(sorted(set(state.choices(values, k=3)))),
+        )
+        for key, values in part_counter.items()
+    ]
+
+    pd.DataFrame(
+        parts, columns=["name", "curated", "frequency", "examples"]
+    ).sort_values("frequency", ascending=False).to_csv(
+        "parts_frequencies.tsv", sep="\t", index=False
+    )
+
+    pd.DataFrame(rows, columns=header_1).to_csv(
+        "derived-terms.tsv", sep="\t", index=False
+    )
+    pd.DataFrame(parents_rows, columns=header_parents).to_csv(
+        "derived-subclass-relations.tsv", sep="\t", index=False
+    )
+    robot()
+
+
+def robot():
+    os.system(
+        f"robot template "
+        f'--prefix "{PREFIX}: http://purl.obolibrary.org/obo/{PREFIX}_" '
+        f"--template derived-terms.tsv "
+        f"--output {derived_terms_owl_path}"
+    )
+    os.system(
+        f"robot template "
+        f'--prefix "{PREFIX}: http://purl.obolibrary.org/obo/{PREFIX}_" '
+        f"--template terms-manual.tsv "
+        f"--output {manual_terms_owl_path}"
+    )
+    os.system(
+        f"robot template "
+        f'--prefix "{PREFIX}: http://purl.obolibrary.org/obo/{PREFIX}_" '
+        f"--template properties.tsv "
+        f"--output {manual_properties_owl_path}"
+    )
+    os.system(
+        f"robot template "
+        f'--prefix "{PREFIX}: http://purl.obolibrary.org/obo/{PREFIX}_" '
+        f"--template derived-subclass-relations.tsv "
+        f"--output {derived_relations_owl_path}"
+    )
+    os.system(
+        f"robot merge "
+        f"--input {manual_terms_owl_path} "
+        f"--input {manual_properties_owl_path} "
+        f"--input {derived_relations_owl_path} "
+        f"--input {derived_terms_owl_path} "
+        "annotate "
+        f'--ontology-iri "http://purl.obolibrary.org/obo/{PREFIX.lower()}.owl" '
+        f"--output {final_output}"
+    )
+
+
+if __name__ == "__main__":
+    main()

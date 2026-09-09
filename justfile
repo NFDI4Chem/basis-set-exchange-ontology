@@ -4,7 +4,7 @@ format:
 
 terms:
     uv run \
-      --script src/build_new.py \
+      --script src/build.py \
       --output derived/basis-sets.tsv
     robot template \
       --prefix "dcterms: http://purl.org/dc/terms/" \

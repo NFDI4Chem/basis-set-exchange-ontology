@@ -19,23 +19,21 @@ from curies import NamedReference
 from pystow.utils import safe_open_writer
 
 from parse import iter_basis_sets
+from utils import ROOT, DERIVED_DIRECTORY, DEV_DIRECTORY
 
-HERE = Path(__file__).parent.resolve()
-ROOT = HERE.parent.resolve()
-OUTPUT = ROOT.joinpath("output")
-DEFAULT_OUTPUT_PATH = OUTPUT.joinpath("basis-set-to-element.tsv")
+DEFAULT_OUTPUT_PATH = DERIVED_DIRECTORY.joinpath("basis-set-to-element.tsv")
 
-TERMS_PATH = ROOT.joinpath("derived-terms.tsv")
+TERMS_PATH = DERIVED_DIRECTORY.joinpath("basis-sets.tsv")
 
 ELEMENTS_URL = "https://github.com/cthoyt/chebi-atomic-numbers-ontology/raw/refs/heads/main/src/elements.tsv"
-ELEMENTS_PATH = HERE.parent.joinpath(
+ELEMENTS_PATH = DEV_DIRECTORY.joinpath(
     "chebi-element-extension-ontology", "src", "elements.tsv"
 )
 
 ORBITALS_URL = (
     "https://github.com/cthoyt/orbital-ontology/raw/refs/heads/main/src/terms.tsv"
 )
-ORBITALS_PATH = HERE.parent.joinpath("orbital-ontology", "src", "terms.tsv")
+ORBITALS_PATH = DEV_DIRECTORY.joinpath("orbital-ontology", "src", "terms.tsv")
 
 
 def get_basis_set_to_reference() -> dict[str, NamedReference]:

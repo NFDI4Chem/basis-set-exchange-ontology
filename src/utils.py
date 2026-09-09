@@ -17,6 +17,7 @@ PREFIX = Prefix("BSEO")
 
 HERE = Path(__file__).parent.resolve()
 ROOT = HERE.parent.resolve()
+DEV_DIRECTORY = ROOT.parent.resolve()
 
 TEMPORARY_DIRECTORY = HERE / "tmp"
 TEMPORARY_DIRECTORY.mkdir(parents=True, exist_ok=True)

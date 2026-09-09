@@ -99,10 +99,16 @@ def iter_basis_sets(
     """Parse basis sets from the zipped file."""
     url = get_download_url(version or DEFAULT_VERSION)
     path = MODULE.ensure(url=url, force=force)
+    seen = set()
+    # TODO get clever to only keep the latest version of each
     with tarfile.open(path) as tf:
         for member in tqdm(tf, unit="file"):
             if not member.name.endswith(".json"):
                 continue
             with tf.extractfile(member) as file:
                 data = json.load(file)
-            yield BasisSet.model_validate(data)
+            yv = BasisSet.model_validate(data)
+            if yv.name in seen:
+                continue
+            seen.add(yv.name)
+            yield yv
