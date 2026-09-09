@@ -1,0 +1,145 @@
+Prefix(:=<http://purl.obolibrary.org/obo/bseo/components/terms-manual.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/bseo/components/terms-manual.owl>
+<http://purl.obolibrary.org/obo/bseo/releases/2026-09-09/components/terms-manual.owl>
+Annotation(owl:versionInfo "2026-09-09")
+
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0000002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0000003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0000005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0000006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0000007>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0000008>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0000009>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0000010>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0000011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0000012>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0000013>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0000014>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0000015>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0000016>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0000017>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0000018>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0000019>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0000020>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0000021>))
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0000001> (basis set by role)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0000001> "basis set by role")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000001> <http://purl.obolibrary.org/obo/BSEO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0000002> (basis set by family)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0000002> "basis set by family")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000002> <http://purl.obolibrary.org/obo/BSEO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0000003> (basis set by function type)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0000003> "basis set by function type")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000003> <http://purl.obolibrary.org/obo/BSEO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0000004> (basis set)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0000004> "basis set")
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0000005> (ANO basis set)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0000005> "ANO basis set")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000005> <http://purl.obolibrary.org/obo/BSEO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0000006> (ANO-RCC basis set)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0000006> "ANO-RCC basis set")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000006> <http://purl.obolibrary.org/obo/BSEO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0000007> (STO basis set)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0000007> "STO basis set")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000007> <http://purl.obolibrary.org/obo/BSEO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0000008> (seg-cc basis set)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0000008> "seg-cc basis set")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000008> <http://purl.obolibrary.org/obo/BSEO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0000009> (SBO4 basis set)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0000009> "SBO4 basis set")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000009> <http://purl.obolibrary.org/obo/BSEO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0000010> (saug-ano basis set)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0000010> "saug-ano basis set")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000010> <http://purl.obolibrary.org/obo/BSEO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0000011> (SARC2-QZVP basis set)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0000011> "SARC2-QZVP basis set")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000011> <http://purl.obolibrary.org/obo/BSEO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0000012> (SARC2-QZV basis set)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0000012> "SARC2-QZV basis set")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000012> <http://purl.obolibrary.org/obo/BSEO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0000013> (Sapporo-TZP basis set)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0000013> "Sapporo-TZP basis set")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000013> <http://purl.obolibrary.org/obo/BSEO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0000014> (Sapporo-QZP basis set)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0000014> "Sapporo-QZP basis set")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000014> <http://purl.obolibrary.org/obo/BSEO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0000015> (Sapporo-DZP basis set)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0000015> "Sapporo-DZP basis set")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000015> <http://purl.obolibrary.org/obo/BSEO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0000016> (Sapporo-DKH3 basis set)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0000016> "Sapporo-DKH3 basis set")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000016> <http://purl.obolibrary.org/obo/BSEO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0000017> (pob basis set)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0000017> "pob basis set")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000017> <http://purl.obolibrary.org/obo/BSEO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0000018> (pcSseg basis set)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0000018> "pcSseg basis set")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000018> <http://purl.obolibrary.org/obo/BSEO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0000019> (pcseg basis set)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0000019> "pcseg basis set")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000019> <http://purl.obolibrary.org/obo/BSEO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0000020> (pcS basis set)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0000020> "pcS basis set")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000020> <http://purl.obolibrary.org/obo/BSEO_0000004>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0000021> (pcJ basis set)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0000021> "pcJ basis set")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000021> <http://purl.obolibrary.org/obo/BSEO_0000004>)
+
+
+)

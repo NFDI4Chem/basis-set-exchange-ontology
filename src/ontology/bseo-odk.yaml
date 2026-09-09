@@ -1,0 +1,57 @@
+## ontology metadata ##
+id: bseo
+title: Basis Set Exchange Ontology
+description: "_WIP - NOT READY FOR PRODUCTION_ The Basis Set Exchange Ontology is a small ontology module covering basis sets used in computational chemistry."
+contact: philip.stroemert [at] tib [.] eu
+creators: 
+  - orcid:0000-0001-6948-6801
+  - orcid:0000-0003-4423-4370
+  - orcid:0000-0002-1595-3213
+  - "Robin Stöhrmann"
+license: https://creativecommons.org/licenses/by/4.0/
+
+## general ODK Settings ##
+uribase: http://purl.obolibrary.org/obo
+repo: basis-set-exchange-ontology
+git_main_branch: main
+github_org: NFDI4Chem
+ci:
+- github_actions
+documentation:
+  documentation_system: mkdocs
+export_formats:
+- owl
+reasoner: ELK
+release_artefacts:
+- full
+- base
+robot_java_args: '-Xmx16G'  # max RAM to be used by Robot in ODK
+use_templates: TRUE
+
+## BSEO specific Settings ##
+#import_group:
+ # products:
+  #- id: bfo
+   # module_type: mirror
+components:
+  products:
+    # TSV that defines manually curated basis set classes
+    - filename: terms-manual.owl
+      use_template: TRUE
+      templates:
+        - terms-manual.tsv
+      # TSV that defines basis set classes automatically derived from basis_set_to_element.py
+    - filename: derived-terms.owl
+      use_template: TRUE
+      templates:
+        - derived-terms.tsv
+    # TSV that defines basis set hierarchy automatically derived from basis_set_to_element.py
+    - filename: derived-subclass-relations.owl
+      use_template: TRUE
+      templates:
+        - derived-subclass-relations.tsv
+    # TSV that defines object or data properties used in BSEO
+    - filename: properties.owl
+      use_template: TRUE
+      templates:
+        - properties.tsv

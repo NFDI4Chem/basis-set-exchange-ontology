@@ -1,0 +1,27 @@
+# PURL configuration for http://purl.obolibrary.org/obo/bseo
+
+idspace: BSEO
+base_url: /obo/bseo
+
+products:
+- bseo.owl: https://raw.githubusercontent.com/NFDI4Chem/basis-set-exchange-ontology/main/bseo.owl
+- bseo.obo: https://raw.githubusercontent.com/NFDI4Chem/basis-set-exchange-ontology/main/bseo.obo
+
+term_browser: ontobee
+example_terms:
+- BSEO_0000000
+
+entries:
+
+- prefix: /releases/
+  replacement: https://raw.githubusercontent.com/NFDI4Chem/basis-set-exchange-ontology/v
+
+- prefix: /tracker/
+  replacement: https://github.com/NFDI4Chem/basis-set-exchange-ontology/issues
+
+- prefix: /about/
+  replacement: http://www.ontobee.org/ontology/BSEO?iri=http://purl.obolibrary.org/obo/
+
+## generic fall-through, serve direct from github by default
+- prefix: /
+  replacement: https://raw.githubusercontent.com/NFDI4Chem/basis-set-exchange-ontology/main/

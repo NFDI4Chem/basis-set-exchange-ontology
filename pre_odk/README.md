@@ -1,8 +1,4 @@
-
-![Build Status](https://github.com/NFDI4Chem/basis-set-exchange-ontology/actions/workflows/qc.yml/badge.svg)
 # Basis Set Exchange Ontology
-_WIP - NOT READY FOR PRODUCTION_ The Basis Set Exchange Ontology is a small 
-ontology module covering basis sets used in computational chemistry.
 
 A [basis set](https://en.wikipedia.org/wiki/Basis_set_%28chemistry%29) is a set
 of mathematical functions and their respective parametrization used to construct
@@ -28,23 +24,12 @@ We want to accomplish the following technical goals to get there:
 3. Capture the logical construction of each basis set (e.g., usage of diffusion
    function, usage of polarization function)
 
-## Versions
+## License
 
-### Stable release versions
-
-The latest version of the ontology can always be found at:
-
-http://purl.obolibrary.org/obo/bseo.owl
-
-(note this will not show up until the request has been approved by obofoundry.org)
-
-### Editors' version
-
-Editors of this ontology should use the edit version, [src/ontology/bseo-edit.owl](src/ontology/bseo-edit.owl)
-
-## Contact
-
-Please use this GitHub repository's [Issue tracker](https://github.com/NFDI4Chem/basis-set-exchange-ontology/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
+Code in this repository is licensed under the MIT license. Original data is
+licensed under CC0-1.0. Content derived from the Basis Set Exchange is licensed
+under the BSD license
+([reference](https://github.com/MolSSI-BSE/basis_set_exchange)).
 
 ## Contributing
 
@@ -163,14 +148,3 @@ Function Types:
 | gto_spherical | 865   |
 | scalar_ecp    | 109   |
 | gto_cartesian | 30    |
-
-## License
-
-Code in this repository is licensed under the MIT license. Original data is
-licensed under CC0-1.0. Content derived from the Basis Set Exchange is licensed
-under the BSD license
-([reference](https://github.com/MolSSI-BSE/basis_set_exchange)).
-
-## Acknowledgements
-
-This ontology repository was created using the [Ontology Development Kit (ODK)](https://github.com/INCATools/ontology-development-kit).

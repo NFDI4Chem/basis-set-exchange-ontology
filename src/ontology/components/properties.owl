@@ -1,0 +1,45 @@
+Prefix(:=<http://purl.obolibrary.org/obo/bseo/components/properties.owl#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/bseo/components/properties.owl>
+<http://purl.obolibrary.org/obo/bseo/releases/2026-09-09/components/properties.owl>
+Annotation(owl:versionInfo "2026-09-09")
+
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BSEO_0100000>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BSEO_0100001>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BSEO_0100002>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/BSEO_0100003>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/description>))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://purl.obolibrary.org/obo/BSEO_0100000> (has role)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/BSEO_0100000> "connects a basis set to its role")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100000> "has role")
+
+# Object Property: <http://purl.obolibrary.org/obo/BSEO_0100001> (has family)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/BSEO_0100001> "connects a basis set to its family")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100001> "has family")
+
+# Object Property: <http://purl.obolibrary.org/obo/BSEO_0100002> (has function type)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/BSEO_0100002> "connects a basis set to its function type")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100002> "has function type")
+
+# Object Property: <http://purl.obolibrary.org/obo/BSEO_0100003> (supports atom)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://purl.obolibrary.org/obo/BSEO_0100003> "supports an atom type")
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100003> "supports atom")
+
+
+
+)

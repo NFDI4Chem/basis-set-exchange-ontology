@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="public">
+  <group id="odk-managed-catalog" prefer="public">
+    <uri name="http://purl.obolibrary.org/obo/bseo/components/terms-manual.owl" uri="components/terms-manual.owl" />
+    <uri name="http://purl.obolibrary.org/obo/bseo/components/derived-terms.owl" uri="components/derived-terms.owl" />
+    <uri name="http://purl.obolibrary.org/obo/bseo/components/derived-subclass-relations.owl" uri="components/derived-subclass-relations.owl" />
+    <uri name="http://purl.obolibrary.org/obo/bseo/components/properties.owl" uri="components/properties.owl" />
+  </group>
+</catalog>
