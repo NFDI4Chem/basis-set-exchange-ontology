@@ -38,20 +38,24 @@ components:
     # TSV that defines manually curated basis set classes
     - filename: terms-manual.owl
       use_template: TRUE
+      template_options: --add-prefixes config/context.json
       templates:
         - terms-manual.tsv
       # TSV that defines basis set classes automatically derived from basis_set_to_element.py
     - filename: derived-terms.owl
       use_template: TRUE
+      template_options: --add-prefixes config/context.json
       templates:
         - derived-terms.tsv
     # TSV that defines basis set hierarchy automatically derived from basis_set_to_element.py
     - filename: derived-subclass-relations.owl
       use_template: TRUE
+      template_options: --add-prefixes config/context.json
       templates:
         - derived-subclass-relations.tsv
     # TSV that defines object or data properties used in BSEO
     - filename: properties.owl
       use_template: TRUE
+      template_options: --add-prefixes config/context.json
       templates:
         - properties.tsv

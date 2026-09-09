@@ -10,7 +10,7 @@
 # More information: https://github.com/INCATools/ontology-development-kit/
 
 # Fingerprint of the configuration file when this Makefile was last generated
-CONFIG_HASH=                27e9e197c5a5bead3eafd23ad52d3c8010aec7052991ad3d5ed9544f3d70ed9e
+CONFIG_HASH=                5c5df78a39f61e023ffe77abd670d965b6d895be16ba37119335ff6d99ac1574
 
 
 # ----------------------------------------
@@ -446,25 +446,25 @@ $(TMPDIR)/stamp-component-%.owl: | $(TMPDIR)
 .PRECIOUS: $(TMPDIR)/stamp-component-%.owl
 
 $(COMPONENTSDIR)/terms-manual.owl: $(TEMPLATEDIR)/terms-manual.tsv $(TMPDIR)/stamp-component-terms-manual.owl
-	$(ROBOT) template  \
+	$(ROBOT) template --add-prefixes config/context.json \
 		 --template $(TEMPLATEDIR)/terms-manual.tsv \
 		 $(ANNOTATE_CONVERT_FILE)
 .PRECIOUS: $(COMPONENTSDIR)/terms-manual.owl
 
 $(COMPONENTSDIR)/derived-terms.owl: $(TEMPLATEDIR)/derived-terms.tsv $(TMPDIR)/stamp-component-derived-terms.owl
-	$(ROBOT) template  \
+	$(ROBOT) template --add-prefixes config/context.json \
 		 --template $(TEMPLATEDIR)/derived-terms.tsv \
 		 $(ANNOTATE_CONVERT_FILE)
 .PRECIOUS: $(COMPONENTSDIR)/derived-terms.owl
 
 $(COMPONENTSDIR)/derived-subclass-relations.owl: $(TEMPLATEDIR)/derived-subclass-relations.tsv $(TMPDIR)/stamp-component-derived-subclass-relations.owl
-	$(ROBOT) template  \
+	$(ROBOT) template --add-prefixes config/context.json \
 		 --template $(TEMPLATEDIR)/derived-subclass-relations.tsv \
 		 $(ANNOTATE_CONVERT_FILE)
 .PRECIOUS: $(COMPONENTSDIR)/derived-subclass-relations.owl
 
 $(COMPONENTSDIR)/properties.owl: $(TEMPLATEDIR)/properties.tsv $(TMPDIR)/stamp-component-properties.owl
-	$(ROBOT) template  \
+	$(ROBOT) template --add-prefixes config/context.json \
 		 --template $(TEMPLATEDIR)/properties.tsv \
 		 $(ANNOTATE_CONVERT_FILE)
 .PRECIOUS: $(COMPONENTSDIR)/properties.owl
