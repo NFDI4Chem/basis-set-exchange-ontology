@@ -12,6 +12,7 @@ terms:
       --prefix "CHEBI: http://purl.obolibrary.org/obo/CHEBI_" \
       --prefix "ORBITAL: http://w3id.org/biopragmatics/orbital/term/" \
       --prefix "ChEMROF: https://chemkg.github.io/chemrof/" \
+      --prefix "orcid: https://orcid.org/" \
       --template templates/roots.tsv \
       --template templates/properties.tsv \
       --template templates/families.tsv \
@@ -30,6 +31,7 @@ basis-set-to-element:
       --prefix "CHEBI: http://purl.obolibrary.org/obo/CHEBI_" \
       --prefix "ORBITAL: http://w3id.org/biopragmatics/orbital/term/" \
       --prefix "ChEMROF: https://chemkg.github.io/chemrof/" \
+      --prefix "orcid: https://orcid.org/" \
       --template templates/properties.tsv \
       --template derived/basis-set-to-element.tsv \
       --output derived/basis-set-to-element.ofn

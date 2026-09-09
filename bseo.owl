@@ -39,6 +39,12 @@
     
 
 
+    <!-- http://purl.org/dc/terms/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
     <!-- http://purl.org/dc/terms/creator -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/creator"/>
@@ -171077,6 +171083,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100018"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>dunning_dk</rdfs:label>
     </owl:Class>
@@ -171087,6 +171094,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100018"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>dunning_dk3</rdfs:label>
     </owl:Class>
@@ -171097,6 +171105,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100021">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100018"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>dunning_f12</rdfs:label>
     </owl:Class>
@@ -171107,6 +171116,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100022">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100018"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>dunning_f12_fit</rdfs:label>
     </owl:Class>
@@ -171117,6 +171127,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100023">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100018"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>dunning_fit</rdfs:label>
     </owl:Class>
@@ -171127,6 +171138,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100024">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100018"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>dunning_hay</rdfs:label>
     </owl:Class>
@@ -171137,6 +171149,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100025">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100018"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>dunning_pp</rdfs:label>
     </owl:Class>
@@ -171147,6 +171160,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100026">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100018"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>dunning_pp_fit</rdfs:label>
     </owl:Class>
@@ -171157,6 +171171,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100027">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100018"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>dunning_sf</rdfs:label>
     </owl:Class>
@@ -171167,6 +171182,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100028">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100018"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>dunning_x2c</rdfs:label>
     </owl:Class>
@@ -171386,7 +171402,8 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100050 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100050">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100049"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>pople_fit</rdfs:label>
     </owl:Class>
@@ -171396,7 +171413,8 @@
     <!-- http://purl.obolibrary.org/obo/BSEO_0100051 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100051">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100049"/>
+        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>pople_mod</rdfs:label>
     </owl:Class>

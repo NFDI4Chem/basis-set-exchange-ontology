@@ -1,5 +1,5 @@
-curie	type	label	parent	source
-ID	TYPE	AT rdfs:label^^xsd:string	SC %	AT dcterms:source^^xsd:anyURI
+curie	type	label	parent	source	contributor
+ID	TYPE	AT rdfs:label^^xsd:string	SC %	AT dcterms:source^^xsd:anyURI	AI dcterms:contributor
 BSEO:0100001	class	acvxz-j	BSEO:0000000	https://www.basissetexchange.org
 BSEO:0100002	class	ahlrichs	BSEO:0000000	https://www.basissetexchange.org
 BSEO:0100003	class	ahlrichs_dhf	BSEO:0100002	https://www.basissetexchange.org
@@ -18,16 +18,16 @@ BSEO:0100015	class	demon2k	BSEO:0000000	https://www.basissetexchange.org
 BSEO:0100016	class	dfo	BSEO:0000000	https://www.basissetexchange.org
 BSEO:0100017	class	dgauss	BSEO:0000000	https://www.basissetexchange.org
 BSEO:0100018	class	dunning	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100019	class	dunning_dk	BSEO:0100018	https://www.basissetexchange.org
-BSEO:0100020	class	dunning_dk3	BSEO:0100018	https://www.basissetexchange.org
-BSEO:0100021	class	dunning_f12	BSEO:0100018	https://www.basissetexchange.org
-BSEO:0100022	class	dunning_f12_fit	BSEO:0100018	https://www.basissetexchange.org
-BSEO:0100023	class	dunning_fit	BSEO:0100018	https://www.basissetexchange.org
-BSEO:0100024	class	dunning_hay	BSEO:0100018	https://www.basissetexchange.org
-BSEO:0100025	class	dunning_pp	BSEO:0100018	https://www.basissetexchange.org
-BSEO:0100026	class	dunning_pp_fit	BSEO:0100018	https://www.basissetexchange.org
-BSEO:0100027	class	dunning_sf	BSEO:0100018	https://www.basissetexchange.org
-BSEO:0100028	class	dunning_x2c	BSEO:0100018	https://www.basissetexchange.org
+BSEO:0100019	class	dunning_dk	BSEO:0100018	https://www.basissetexchange.org	orcid:0000-0003-4423-4370
+BSEO:0100020	class	dunning_dk3	BSEO:0100018	https://www.basissetexchange.org	orcid:0000-0003-4423-4370
+BSEO:0100021	class	dunning_f12	BSEO:0100018	https://www.basissetexchange.org	orcid:0000-0003-4423-4370
+BSEO:0100022	class	dunning_f12_fit	BSEO:0100018	https://www.basissetexchange.org	orcid:0000-0003-4423-4370
+BSEO:0100023	class	dunning_fit	BSEO:0100018	https://www.basissetexchange.org	orcid:0000-0003-4423-4370
+BSEO:0100024	class	dunning_hay	BSEO:0100018	https://www.basissetexchange.org	orcid:0000-0003-4423-4370
+BSEO:0100025	class	dunning_pp	BSEO:0100018	https://www.basissetexchange.org	orcid:0000-0003-4423-4370
+BSEO:0100026	class	dunning_pp_fit	BSEO:0100018	https://www.basissetexchange.org	orcid:0000-0003-4423-4370
+BSEO:0100027	class	dunning_sf	BSEO:0100018	https://www.basissetexchange.org	orcid:0000-0003-4423-4370
+BSEO:0100028	class	dunning_x2c	BSEO:0100018	https://www.basissetexchange.org	orcid:0000-0003-4423-4370
 BSEO:0100029	class	dyall	BSEO:0000000	https://www.basissetexchange.org
 BSEO:0100030	class	grimme	BSEO:0000000	https://www.basissetexchange.org
 BSEO:0100031	class	huzinaga	BSEO:0000000	https://www.basissetexchange.org
@@ -49,8 +49,8 @@ BSEO:0100046	class	pb	BSEO:0000000	https://www.basissetexchange.org
 BSEO:0100047	class	pec	BSEO:0000000	https://www.basissetexchange.org
 BSEO:0100048	class	pob	BSEO:0000000	https://www.basissetexchange.org
 BSEO:0100049	class	pople	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100050	class	pople_fit	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100051	class	pople_mod	BSEO:0000000	https://www.basissetexchange.org
+BSEO:0100050	class	pople_fit	BSEO:0100049	https://www.basissetexchange.org	orcid:0000-0003-4423-4370
+BSEO:0100051	class	pople_mod	BSEO:0100049	https://www.basissetexchange.org	orcid:0000-0003-4423-4370
 BSEO:0100052	class	psx	BSEO:0000000	https://www.basissetexchange.org
 BSEO:0100053	class	ranasinghe	BSEO:0000000	https://www.basissetexchange.org
 BSEO:0100054	class	sadlej	BSEO:0000000	https://www.basissetexchange.org
