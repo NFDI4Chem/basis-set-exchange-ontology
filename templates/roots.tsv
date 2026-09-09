@@ -1,0 +1,3 @@
+curie	type	label	description
+ID	TYPE	AT rdfs:label^^xsd:string	AT dc:description^^xsd:string
+BSEO:0000000	owl:Class	basis set	represents a basis set

@@ -2,124 +2,41 @@
 # requires-python = ">=3.14"
 # dependencies = [
 #     "click>=8.4.0",
+#     "curies>=0.15.0",
+#     "pydantic>=2.13.5",
 #     "pyobo>=0.12.22",
 #     "pystow>=0.8.13",
 #     "requests>=2.34.2",
+#     "tqdm>=4.70.0",
 # ]
 # ///
 
-import datetime
-import json
 import os
 import random
-import tarfile
 from collections import Counter, defaultdict
-from pathlib import Path
-from typing import Annotated, Any, Literal
 
 import click
 import pandas as pd
-import pystow
-from pydantic import BaseModel, BeforeValidator
 from tabulate import tabulate
 from tqdm import tqdm
 
+from parse import FUNCTION_TYPE_NAMES, iter_basis_sets
+from utils import HERE, TEMPORARY_DIRECTORY
+
 PREFIX = "BSEO"  # basis set exchange ontology
-VERSION = "0.12"
 
-HERE = Path(__file__).parent.resolve()
-TMP = HERE / "tmp"
-TMP.mkdir(parents=True, exist_ok=True)
-
-manual_terms_owl_path = TMP.joinpath("manual_terms.owl")
-manual_properties_owl_path = TMP.joinpath("manual_properties.owl")
-derived_terms_owl_path = TMP.joinpath("derived_terms.owl")
-derived_relations_owl_path = TMP.joinpath("derived_parents.owl")
+manual_terms_owl_path = TEMPORARY_DIRECTORY.joinpath("manual_terms.owl")
+manual_properties_owl_path = TEMPORARY_DIRECTORY.joinpath("manual_properties.owl")
+derived_terms_owl_path = TEMPORARY_DIRECTORY.joinpath("derived_terms.owl")
+derived_relations_owl_path = TEMPORARY_DIRECTORY.joinpath("derived_parents.owl")
 
 final_output = HERE.joinpath(PREFIX.lower()).with_suffix(".owl")
 parts_notes = HERE.joinpath("parts_notes.tsv")
 
 
-def _f(s: str | None) -> str | None:
-    if s is not None and s.strip():
-        return s.strip()
-    return None
-
-
-class ElectronShell(BaseModel):
-    function_type: Literal["gto", "gto_spherical", "gto_cartesian"]
-    region: Annotated[
-        Literal["valence", "diffuse", "polarization"] | None, BeforeValidator(_f)
-    ] = None
-    # something fishy is going on here, should not go past 6
-    angular_momentum: list[Literal[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]]
-    exponents: list[str]
-    coefficients: list[list[str]]
-
-
-class ElectronShellRecord(BaseModel):
-    electron_shells: list[ElectronShell]
-    references: list[dict[str, Any]]
-
-
-class ECPPotential(BaseModel):
-    ecp_type: Literal["scalar_ecp"]
-    r_exponents: list[int]
-    gaussian_exponents: list[float]
-    angular_momentum: list[int]
-    exponents: list[str] | None = None
-    coefficients: list[list[str]]
-
-
-class ECPPotentialRecord(BaseModel):
-    ecp_potentials: list[ECPPotential]
-    ecp_electrons: int
-    references: list[dict[str, Any]]
-
-
-class BasisSet(BaseModel):
-    name: str
-    role: str
-    description: str
-    family: str
-    function_types: list[str]
-    tags: list[str]
-    # TODO auxiliaries
-    # TODO names
-    elements: dict[int, ElectronShellRecord | ECPPotentialRecord]
-    revision_date: datetime.date
-    revision_description: str
-    version: str
-
-
-NAMES: dict[str, str] = {
-    "gto": "Gaussian-type orbitals",
-    "gto_spherical": "spherical Gaussian-type orbitals",
-    "gto_cartesian": "cartesian Gaussian-type orbitals",
-    "scalar_ecp": "scalar effective core potentials",
-}
-
-
-def get_basis_sets(*, force: bool = False, limit: int | None = None) -> list[BasisSet]:
-    url = f"https://www.basissetexchange.org/static/archives/{VERSION}/basis_sets-json-{VERSION}.tar.bz2"
-    path = pystow.ensure("bio", "basis-set-exchange", url=url, force=force)
-    basis_sets = []
-    with tarfile.open(path) as tf:
-        for member in tqdm(tf, unit="file"):
-            if not member.name.endswith(".json"):
-                continue
-            with tf.extractfile(member) as file:
-                data = json.load(file)
-            bs = BasisSet.model_validate(data)
-            basis_sets.append(bs)
-            if limit is not None and len(basis_sets) >= limit:
-                break
-    return basis_sets
-
-
 @click.command()
 def main() -> None:
-    basis_sets = get_basis_sets()
+    basis_sets = list(iter_basis_sets())
     role_counter = Counter()
     family_counter = Counter()
     function_type_counter = Counter()
@@ -135,7 +52,6 @@ def main() -> None:
         "identifier",
         "type",
         "label",
-        "abbreviation",
         "parent",
         "description",
         "has role",
@@ -146,7 +62,6 @@ def main() -> None:
         "ID",
         "TYPE",
         "AT rdfs:label^^xsd:string",
-        "AT oboInOwl:hasExactSynonym^^xsd:string",
         "SC %",
         "AT dc:description^^xsd:string",
         "SC BSEO:1000000",
@@ -158,7 +73,7 @@ def main() -> None:
     parents_rows = [
         ("ID", "SC %"),
     ]
-    rows: list[tuple[str, str, str, str, str, str, str, str, str]] = [header_2]
+    rows: list[tuple[str, str, str, str, str, str, str, str]] = [header_2]
     if write:
         click.echo(
             f"Roles:\n\n{tabulate(role_counter.most_common(), headers=['role', 'count'], tablefmt='github')}"
@@ -172,8 +87,7 @@ def main() -> None:
             (
                 role_curie,
                 "owl:Class",
-                NAMES.get(role) or role,
-                "",
+                FUNCTION_TYPE_NAMES.get(role) or role,
                 f"{PREFIX}:0000001",
                 "",  # description
                 "",  # role
@@ -195,8 +109,7 @@ def main() -> None:
             (
                 family_curie,
                 "owl:Class",
-                NAMES.get(family) or family,
-                "",
+                FUNCTION_TYPE_NAMES.get(family) or family,
                 f"{PREFIX}:0000002",
                 "",  # description
                 "",  # role
@@ -217,8 +130,7 @@ def main() -> None:
             (
                 function_type_curie,
                 "owl:Class",
-                NAMES.get(function_type) or function_type,
-                "",
+                FUNCTION_TYPE_NAMES.get(function_type) or function_type,
                 f"{PREFIX}:0000003",
                 "",  # description
                 "",  # role
@@ -280,8 +192,7 @@ def main() -> None:
                 f"{PREFIX}:{counter:07}",
                 "owl:Class",
                 # TODO require all have proper names
-                NAMES.get(basis_set.name) or basis_set.name,
-                basis_set.name,
+                FUNCTION_TYPE_NAMES.get(basis_set.name) or basis_set.name,
                 parent,
                 basis_set.description
                 if basis_set.description != basis_set.name

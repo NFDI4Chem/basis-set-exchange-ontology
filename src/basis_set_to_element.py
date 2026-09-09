@@ -18,7 +18,7 @@ import pandas as pd
 from curies import NamedReference
 from pystow.utils import safe_open_writer
 
-from build import get_basis_sets
+from parse import iter_basis_sets
 
 HERE = Path(__file__).parent.resolve()
 ROOT = HERE.parent.resolve()
@@ -83,8 +83,7 @@ def main(output: Path) -> None:
     basis_set_to_reference = get_basis_set_to_reference()
     element_number_to_reference = get_element_number_to_reference()
     rows = []
-    basis_sets = get_basis_sets()
-    for basis_set in basis_sets:
+    for basis_set in iter_basis_sets():
         basis_set_reference = basis_set_to_reference[basis_set.name]
         for element_number in basis_set.elements:
             reference = element_number_to_reference[element_number]
