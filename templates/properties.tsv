@@ -1,0 +1,5 @@
+identifier	type	label	description
+ID	TYPE	AT rdfs:label^^xsd:string	AT dc:description^^xsd:string
+BSEO:1000001	owl:ObjectProperty	has role	connects a basis set to its role
+BSEO:1000002	owl:ObjectProperty	has function type	connects a basis set to its function type
+BSEO:1000003	owl:ObjectProperty	supports atom	supports an atom type

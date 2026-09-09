@@ -1,0 +1,778 @@
+curie	type	label	parent	parent label	role	role label	function types	description	modified date
+ID	TYPE	AT rdfs:label^^xsd:string	SC %		SC 'has role' some %		SC 'has function type' some % SPLIT=|	AT dcterms:description^^xsd:string	AT dcterms:modified^^xsd:date
+BSEO:0000001	class	2ZaP	BSEO:0100053	ranasinghe	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	2ZaP basis set of Zhong, Barnes, and Petersson	2024-07-15
+BSEO:0000002	class	2ZaPa-NR	BSEO:0100053	ranasinghe	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Double Zeta augmented + polarization (nonrelativistic)	2016-07-11
+BSEO:0000003	class	2ZaPa-NR-CV	BSEO:0100053	ranasinghe	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Double zeta augmented +polarization (nonrelativistic + core-valence)	2017-10-11
+BSEO:0000004	class	3-21G	BSEO:0100049	pople	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300003	3-21G Split-valence basis set	2016-08-25
+BSEO:0000005	class	3ZaP	BSEO:0100053	ranasinghe	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	3ZaP basis set of Zhong, Barnes, and Petersson	2024-07-15
+BSEO:0000006	class	3ZaPa-NR	BSEO:0100053	ranasinghe	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Triple Zeta augmented + polarization (nonrelativistic)	2016-07-11
+BSEO:0000007	class	3ZaPa-NR-CV	BSEO:0100053	ranasinghe	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Triple zeta augmented + polarization (nonrelativistic + core-valence)	2017-10-11
+BSEO:0000008	class	4-31G	BSEO:0100049	pople	BSEO:0200008	orbital	BSEO:0300001	4-31G valence double-zeta basis set	2007-01-15
+BSEO:0000009	class	4ZaP	BSEO:0100053	ranasinghe	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	4ZaP basis set of Zhong, Barnes, and Petersson	2024-07-15
+BSEO:0000010	class	4ZaPa-NR	BSEO:0100053	ranasinghe	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Quadruple Zeta augmented + polarization (nonrelativistic)	2016-07-11
+BSEO:0000011	class	4ZaPa-NR-CV	BSEO:0100053	ranasinghe	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Quadruple zeta augmented + polarization (nonrelativistic + core-valence)	2017-10-11
+BSEO:0000012	class	5-21G	BSEO:0100049	pople	BSEO:0200008	orbital	BSEO:0300001	5-21G Split-valence basis set	2018-06-19
+BSEO:0000013	class	5ZaP	BSEO:0100053	ranasinghe	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	5ZaP basis set of Zhong, Barnes, and Petersson	2024-07-15
+BSEO:0000014	class	5ZaPa-NR	BSEO:0100053	ranasinghe	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Quintuple Zeta augmented + polarization (nonrelativistic)	2016-08-17
+BSEO:0000015	class	5ZaPa-NR-CV	BSEO:0100053	ranasinghe	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Quintuple zeta augmented + polarization (nonrelativistic + core-valence)	2017-10-11
+BSEO:0000016	class	6-21G	BSEO:0100049	pople	BSEO:0200008	orbital	BSEO:0300001	6-21G Split-valence basis set	2018-06-19
+BSEO:0000017	class	6-31++G	BSEO:0100049	pople	BSEO:0200008	orbital	BSEO:0300001	6-31G + diffuse on all atoms	2007-01-15
+BSEO:0000018	class	6-31++G*	BSEO:0100049	pople	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300003	6-31G + diffuse functions on all atoms, polarization on heavy atoms	2015-02-27
+BSEO:0000019	class	6-31++G**	BSEO:0100049	pople	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300003	6-31G + diffuse and polarization functions on all atoms	2007-01-15
+BSEO:0000020	class	6-31++G**-J	BSEO:0100057	sauer_j	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2016-07-11
+BSEO:0000021	class	6-31+G	BSEO:0100049	pople	BSEO:0200008	orbital	BSEO:0300001	6-31G + diffuse on heavy atoms	2015-02-14
+BSEO:0000022	class	6-31+G*	BSEO:0100049	pople	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300003	6-31G + diffuse and polarization functions on heavy atoms	2015-02-27
+BSEO:0000023	class	6-31+G*-J	BSEO:0100057	sauer_j	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2016-07-11
+BSEO:0000024	class	6-31+G**	BSEO:0100049	pople	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300003	6-31G + diffuse functions on heavy atoms, polarization on all	2015-02-14
+BSEO:0000025	class	6-311++G	BSEO:0100049	pople	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VTZ Valence Triple Zeta: 3 Funct.'s/Valence AO with diffuse on all atoms	2015-02-27
+BSEO:0000026	class	6-311++G(2d,2p)	BSEO:0100049	pople	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2007-01-15
+BSEO:0000027	class	6-311++G(3df,3pd)	BSEO:0100049	pople	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2007-01-15
+BSEO:0000028	class	6-311++G*	BSEO:0100049	pople	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300003|BSEO:0300002	VTZ Valence Triple Zeta: 3 Funct.'s/Valence AO with diffuse on all atoms, polarization on heavy atoms	2015-02-27
+BSEO:0000029	class	6-311++G**	BSEO:0100049	pople	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300003|BSEO:0300002	VTZ Valence Triple Zeta: 3 Funct.'s/Valence AO with diffuse+polarization on all atoms	2007-01-15
+BSEO:0000030	class	6-311++G**-J	BSEO:0100057	sauer_j	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2016-07-11
+BSEO:0000031	class	6-311+G	BSEO:0100049	pople	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VTZ Valence Triple Zeta: 3 Funct.'s/Valence AO with diffuse on heavy atoms	2015-02-21
+BSEO:0000032	class	6-311+G(2d,p)	BSEO:0100049	pople	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2015-02-27
+BSEO:0000033	class	6-311+G*	BSEO:0100049	pople	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300003|BSEO:0300002	VTZ Valence Triple Zeta: 3 Funct.'s/Valence AO with diffuse+polarization on heavy atoms	2015-02-27
+BSEO:0000034	class	6-311+G*-J	BSEO:0100057	sauer_j	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2016-07-11
+BSEO:0000035	class	6-311+G**	BSEO:0100049	pople	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300003|BSEO:0300002	VTZ Valence Triple Zeta: 3 Funct.'s/Valence AO with diffuse on heavy atoms, polarization on all atoms	2015-02-27
+BSEO:0000036	class	6-311G	BSEO:0100049	pople	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VTZ Valence Triple Zeta: 3 Funct.'s/Valence AO	2007-01-15
+BSEO:0000037	class	6-311G(2df,2pd)	BSEO:0100049	pople	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2007-01-15
+BSEO:0000038	class	6-311G(d,p)	BSEO:0100049	pople	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300003|BSEO:0300002	VTZ Valence Triple Zeta: 3 Funct.'s/Valence AO	2007-01-15
+BSEO:0000039	class	6-311G-J	BSEO:0100057	sauer_j	BSEO:0200008	orbital	BSEO:0300001		2016-07-11
+BSEO:0000040	class	6-311G*	BSEO:0100049	pople	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300003|BSEO:0300002	VTZ Valence Triple Zeta: 3 Funct.'s/Valence AO	2015-02-19
+BSEO:0000041	class	6-311G**	BSEO:0100049	pople	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300003|BSEO:0300002	VTZ Valence Triple Zeta: 3 Funct.'s/Valence AO	2007-01-15
+BSEO:0000042	class	6-311G**-RIFIT	BSEO:0100050	pople_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002	RI-MP2 auxiliary basis for 6-311G** basis	2021-03-24
+BSEO:0000043	class	6-311xxG(d,p)	BSEO:0100065	zorrilla	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	6-311xxG(d,p) basis set	2020-07-13
+BSEO:0000044	class	6-31G	BSEO:0100049	pople	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300003	6-31G valence double-zeta	2008-04-24
+BSEO:0000045	class	6-31G(2df,p)	BSEO:0100049	pople	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2016-07-11
+BSEO:0000046	class	6-31G(3df,3pd)	BSEO:0100049	pople	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2007-01-15
+BSEO:0000047	class	6-31G(d,p)	BSEO:0100049	pople	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300003|BSEO:0300002	6-31G + polarization on all atoms	2007-01-15
+BSEO:0000048	class	6-31G-Blaudeau	BSEO:0100010	blaudeau	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VDZ     Valence Double Zeta: 2 Funct.'s/Valence AO	2007-01-15
+BSEO:0000049	class	6-31G-J	BSEO:0100057	sauer_j	BSEO:0200008	orbital	BSEO:0300001		2016-07-11
+BSEO:0000050	class	6-31G*	BSEO:0100049	pople	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300003|BSEO:0300002	6-31G + polarization on heavy atoms	2015-05-28
+BSEO:0000051	class	6-31G*-Blaudeau	BSEO:0100010	blaudeau	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VDZP    Valence Double Zeta + Polarization on All Atoms	2007-01-15
+BSEO:0000052	class	6-31G**	BSEO:0100049	pople	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300003|BSEO:0300002	6-31G + polarization on all atoms	2007-01-15
+BSEO:0000053	class	6-31G**-RIFIT	BSEO:0100050	pople_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300003	RI-MP2 auxiliary basis for 6-31G** basis	2021-03-24
+BSEO:0000054	class	6ZaP	BSEO:0100053	ranasinghe	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	6ZaP basis set of Zhong, Barnes, and Petersson	2024-07-15
+BSEO:0000055	class	6ZaPa-NR	BSEO:0100053	ranasinghe	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Sextuple Zeta augmented + polarization (nonrelativistic)	2016-07-11
+BSEO:0000056	class	7ZaPa-NR	BSEO:0100053	ranasinghe	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	7Zeta augmented + polarization (nonrelativistic)	2016-07-11
+BSEO:0000057	class	acv2z-J	BSEO:0100001	acvxz-j	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	acv2z-J basis for indirect nuclear spin-spin coupling	2019-08-08
+BSEO:0000058	class	acv3z-J	BSEO:0100001	acvxz-j	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	acv3z-J basis for indirect nuclear spin-spin coupling	2019-08-08
+BSEO:0000059	class	acv4z-J	BSEO:0100001	acvxz-j	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	acv4z-J basis for indirect nuclear spin-spin coupling	2019-08-08
+BSEO:0000060	class	admm-1	BSEO:0100033	jensen	BSEO:0200001	admmfit	BSEO:0300001	Auxiliary basis with diffuse functions for use with pcseg-1 and the Auxiliary-Density Matrix Method (ADMM)	2019-01-07
+BSEO:0000061	class	admm-2	BSEO:0100033	jensen	BSEO:0200001	admmfit	BSEO:0300001|BSEO:0300002	Auxiliary basis with diffuse functions for use with pcseg-2 and the Auxiliary-Density Matrix Method (ADMM)	2019-01-07
+BSEO:0000062	class	admm-3	BSEO:0100033	jensen	BSEO:0200001	admmfit	BSEO:0300001|BSEO:0300002	Auxiliary basis with diffuse functions for use with pcseg-3 and the Auxiliary-Density Matrix Method (ADMM)	2019-01-07
+BSEO:0000063	class	AHGBS-5	BSEO:0100039	lehtola_hgbs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Hydrogenic Gaussian basis set formed at tolerance 10^{-5} without polarization, with more diffuse functions	2021-02-01
+BSEO:0000064	class	AHGBS-7	BSEO:0100039	lehtola_hgbs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Hydrogenic Gaussian basis set formed at tolerance 10^{-7} without polarization, with more diffuse functions	2021-02-01
+BSEO:0000065	class	AHGBS-9	BSEO:0100039	lehtola_hgbs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Hydrogenic Gaussian basis set formed at tolerance 10^{-9} without polarization, with more diffuse functions	2020-05-05
+BSEO:0000066	class	AHGBSP1-5	BSEO:0100039	lehtola_hgbs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Hydrogenic Gaussian basis set formed at tolerance 10^{-5} with 1 polarization shell, with more diffuse functions	2021-02-01
+BSEO:0000067	class	AHGBSP1-7	BSEO:0100039	lehtola_hgbs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Hydrogenic Gaussian basis set formed at tolerance 10^{-7} with 1 polarization shell, with more diffuse functions	2021-02-01
+BSEO:0000068	class	AHGBSP1-9	BSEO:0100039	lehtola_hgbs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Hydrogenic Gaussian basis set formed at tolerance 10^{-9} with 1 polarization shell, with more diffuse functions	2020-05-05
+BSEO:0000069	class	AHGBSP2-5	BSEO:0100039	lehtola_hgbs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Hydrogenic Gaussian basis set formed at tolerance 10^{-5} with 2 polarization shells, with more diffuse functions	2021-02-01
+BSEO:0000070	class	AHGBSP2-7	BSEO:0100039	lehtola_hgbs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Hydrogenic Gaussian basis set formed at tolerance 10^{-7} with 2 polarization shells, with more diffuse functions	2021-02-01
+BSEO:0000071	class	AHGBSP2-9	BSEO:0100039	lehtola_hgbs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Hydrogenic Gaussian basis set formed at tolerance 10^{-9} with 2 polarization shells, with more diffuse functions	2020-05-05
+BSEO:0000072	class	AHGBSP3-5	BSEO:0100039	lehtola_hgbs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Hydrogenic Gaussian basis set formed at tolerance 10^{-5} with 3 polarization shells, with more diffuse functions	2021-02-01
+BSEO:0000073	class	AHGBSP3-7	BSEO:0100039	lehtola_hgbs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Hydrogenic Gaussian basis set formed at tolerance 10^{-7} with 3 polarization shells, with more diffuse functions	2021-02-01
+BSEO:0000074	class	AHGBSP3-9	BSEO:0100039	lehtola_hgbs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Hydrogenic Gaussian basis set formed at tolerance 10^{-9} with 3 polarization shells, with more diffuse functions	2020-05-05
+BSEO:0000075	class	Ahlrichs pVDZ	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VDZP    Valence Double Zeta + Polarization on All Atoms	2007-01-15
+BSEO:0000076	class	Ahlrichs TZV	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VTZ     Valence Triple Zeta: 3 Funct.'s/Valence AO	2007-01-15
+BSEO:0000077	class	Ahlrichs VDZ	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VDZ     Valence Double Zeta: 2 Funct.'s/Valence AO	2007-01-15
+BSEO:0000078	class	Ahlrichs VTZ	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VTZ     Valence Triple Zeta: 3 Funct.'s/Valence AO	2007-01-15
+BSEO:0000079	class	ANO-DK3	BSEO:0100006	ano	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-10-24
+BSEO:0000080	class	ano-pV5Z	BSEO:0100006	ano	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2021-11-17
+BSEO:0000081	class	ano-pVDZ	BSEO:0100006	ano	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2021-11-17
+BSEO:0000082	class	ano-pVQZ	BSEO:0100006	ano	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2021-11-17
+BSEO:0000083	class	ano-pVTZ	BSEO:0100006	ano	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2021-11-17
+BSEO:0000084	class	ANO-R	BSEO:0100006	ano	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-12-20
+BSEO:0000085	class	ANO-R0	BSEO:0100006	ano	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-12-20
+BSEO:0000086	class	ANO-R1	BSEO:0100006	ano	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-12-20
+BSEO:0000087	class	ANO-R2	BSEO:0100006	ano	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-12-20
+BSEO:0000088	class	ANO-R3	BSEO:0100006	ano	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-12-20
+BSEO:0000089	class	ANO-RCC	BSEO:0100006	ano	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Full ANO-RCC basis	2015-01-16
+BSEO:0000090	class	ANO-RCC-MB	BSEO:0100006	ano	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-03-05
+BSEO:0000091	class	ANO-RCC-VDZ	BSEO:0100006	ano	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-03-05
+BSEO:0000092	class	ANO-RCC-VDZP	BSEO:0100006	ano	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-03-05
+BSEO:0000093	class	ANO-RCC-VQZP	BSEO:0100006	ano	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-03-05
+BSEO:0000094	class	ANO-RCC-VTZ	BSEO:0100006	ano	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-03-05
+BSEO:0000095	class	ANO-RCC-VTZP	BSEO:0100006	ano	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-03-05
+BSEO:0000096	class	ANO-VT-DZ	BSEO:0100007	ano_claudino	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	ANO-VT-DZ (Atomic Natural Orbital - Virial Theorem - Double Zeta)	2019-03-27
+BSEO:0000097	class	ANO-VT-QZ	BSEO:0100007	ano_claudino	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	ANO-VT-QZ (Atomic Natural Orbital - Virial Theorem - Quadruple Zeta)	2019-03-27
+BSEO:0000098	class	ANO-VT-TZ	BSEO:0100007	ano_claudino	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	ANO-VT-TZ (Atomic Natural Orbital - Virial Theorem - Triple Zeta)	2019-03-27
+BSEO:0000099	class	apr-cc-pV(Q+d)Z	BSEO:0100062	truhlar	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	apr-cc-pV(Q+d)Z basis of Papajak/Truhlar	2013-01-23
+BSEO:0000100	class	asigmaDZ	BSEO:0100059	sigmanz	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	asigmaDZ basis	2024-01-12
+BSEO:0000101	class	asigmaQZ	BSEO:0100059	sigmanz	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	asigmaQZ basis	2024-01-12
+BSEO:0000102	class	asigmaTZ	BSEO:0100059	sigmanz	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	asigmaTZ basis	2024-01-12
+BSEO:0000103	class	ATZP-ZORA	BSEO:0100035	jorge	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	ATZP-ZORA, augmented all-electron triple-zeta basis for calculations with the ZORA approach	2021-07-08
+BSEO:0000104	class	aug-admm-1	BSEO:0100033	jensen	BSEO:0200001	admmfit	BSEO:0300001	Auxiliary basis with diffuse functions for use with aug-pcseg-1 and the Auxiliary-Density Matrix Method (ADMM)	2019-01-07
+BSEO:0000105	class	aug-admm-2	BSEO:0100033	jensen	BSEO:0200001	admmfit	BSEO:0300001|BSEO:0300002	Auxiliary basis with diffuse functions for use with aug-pcseg-2 and the Auxiliary-Density Matrix Method (ADMM)	2019-01-07
+BSEO:0000106	class	aug-admm-3	BSEO:0100033	jensen	BSEO:0200001	admmfit	BSEO:0300001|BSEO:0300002	Auxiliary basis with diffuse functions for use with aug-pcseg-3 and the Auxiliary-Density Matrix Method (ADMM)	2019-01-07
+BSEO:0000107	class	aug-ano-pV5Z	BSEO:0100006	ano	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2021-11-17
+BSEO:0000108	class	aug-ano-pVDZ	BSEO:0100006	ano	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2021-11-17
+BSEO:0000109	class	aug-ano-pVQZ	BSEO:0100006	ano	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2021-11-17
+BSEO:0000110	class	aug-ano-pVTZ	BSEO:0100006	ano	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2021-11-17
+BSEO:0000111	class	aug-cc-pCV5Z	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	5ZP Quintuple Zeta + Polarization + Tight Core + Diffuse	2008-10-09
+BSEO:0000112	class	aug-cc-pCVDZ	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	DZP Double Zeta + Polarization + Tight Core + Diffuse	2007-01-15
+BSEO:0000113	class	aug-cc-pCVDZ-DK	BSEO:0100019	dunning_dk	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VDZP Douglas-Kroll Valence Double Zeta + Polarization + Tight core + Diffuse	2007-01-15
+BSEO:0000114	class	aug-cc-pCVQZ	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	QZP Quadruple Zeta + Polarization + Tight Core + Diffuse	2007-01-15
+BSEO:0000115	class	aug-cc-pCVQZ-DK	BSEO:0100019	dunning_dk	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	QZ3PD Douglas-Kroll Valence Double Zeta + Polarization + Tight core + Diffuse	2007-01-15
+BSEO:0000116	class	aug-cc-pCVTZ	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	TZP Triple Zeta + Polarization + Tight Core + Diffuse	2007-01-15
+BSEO:0000117	class	aug-cc-pCVTZ-DK	BSEO:0100019	dunning_dk	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Triple-Zeta Douglas-Kroll Valence Double Zeta + Polarization + Tight core + Diffuse	2007-01-15
+BSEO:0000118	class	aug-cc-pV(5+d)Z	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2007-01-15
+BSEO:0000119	class	aug-cc-pV(D+d)Z	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2007-01-15
+BSEO:0000120	class	aug-cc-pV(Q+d)Z	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2007-01-15
+BSEO:0000121	class	aug-cc-pV(T+d)Z	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2007-01-15
+BSEO:0000122	class	aug-cc-pV5Z	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2009-01-26
+BSEO:0000123	class	aug-cc-pV5Z-DK	BSEO:0100019	dunning_dk	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	V5ZPD   All-electron Douglas-Kroll Valence Quintuple Zeta + Polarization	2011-02-12
+BSEO:0000124	class	aug-cc-pV5Z-OPTRI	BSEO:0100023	dunning_fit	BSEO:0200007	optri	BSEO:0300001|BSEO:0300002		2010-05-19
+BSEO:0000125	class	aug-cc-pV5Z-PP	BSEO:0100025	dunning_pp	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2008-10-14
+BSEO:0000126	class	aug-cc-pV5Z-PP-OPTRI	BSEO:0100026	dunning_pp_fit	BSEO:0200007	optri	BSEO:0300001|BSEO:0300002		2012-06-26
+BSEO:0000127	class	aug-cc-pV5Z-PP-RIFIT	BSEO:0100026	dunning_pp_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002		2012-06-26
+BSEO:0000128	class	aug-cc-pV5Z-RIFIT	BSEO:0100023	dunning_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002	RI Fitting basis for use with aug-cc-pV5Z	2014-05-13
+BSEO:0000129	class	aug-cc-pV6Z	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2007-01-15
+BSEO:0000130	class	aug-cc-pV6Z-RIFIT	BSEO:0100023	dunning_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002	RI Fitting basis for use with aug-cc-pV6Z	2008-11-06
+BSEO:0000131	class	aug-cc-pV7Z	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2017-10-11
+BSEO:0000132	class	aug-cc-pVDZ	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2007-01-15
+BSEO:0000133	class	aug-cc-pVDZ-DK	BSEO:0100019	dunning_dk	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VDZ2PD All-electron Douglas-Kroll Valence Double Zeta + Polarization	2011-02-18
+BSEO:0000134	class	aug-cc-pVDZ-DK3	BSEO:0100020	dunning_dk3	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-10-02
+BSEO:0000135	class	aug-cc-pVDZ-OPTRI	BSEO:0100023	dunning_fit	BSEO:0200007	optri	BSEO:0300001|BSEO:0300002		2010-05-19
+BSEO:0000136	class	aug-cc-pVDZ-PP	BSEO:0100025	dunning_pp	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2008-10-14
+BSEO:0000137	class	aug-cc-pVDZ-PP-OPTRI	BSEO:0100026	dunning_pp_fit	BSEO:0200007	optri	BSEO:0300001|BSEO:0300002		2012-06-26
+BSEO:0000138	class	aug-cc-pVDZ-PP-RIFIT	BSEO:0100026	dunning_pp_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002		2012-06-26
+BSEO:0000139	class	aug-cc-pVDZ-RIFIT	BSEO:0100023	dunning_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002	RI Fitting basis for use with aug-cc-pVDZ	2008-11-06
+BSEO:0000140	class	aug-cc-pVDZ-X2C	BSEO:0100028	dunning_x2c	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-10-02
+BSEO:0000141	class	aug-cc-pVQZ	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2009-01-26
+BSEO:0000142	class	aug-cc-pVQZ-DK	BSEO:0100019	dunning_dk	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VQZPD   All-electron Douglas-Kroll Valence Quadruple Zeta + Polarization	2011-02-12
+BSEO:0000143	class	aug-cc-pVQZ-DK3	BSEO:0100020	dunning_dk3	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-10-02
+BSEO:0000144	class	aug-cc-pVQZ-OPTRI	BSEO:0100023	dunning_fit	BSEO:0200007	optri	BSEO:0300001|BSEO:0300002		2010-05-19
+BSEO:0000145	class	aug-cc-pVQZ-PP	BSEO:0100025	dunning_pp	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2008-10-14
+BSEO:0000146	class	aug-cc-pVQZ-PP-OPTRI	BSEO:0100026	dunning_pp_fit	BSEO:0200007	optri	BSEO:0300001|BSEO:0300002		2012-06-26
+BSEO:0000147	class	aug-cc-pVQZ-PP-RIFIT	BSEO:0100026	dunning_pp_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002		2012-06-26
+BSEO:0000148	class	aug-cc-pVQZ-RIFIT	BSEO:0100023	dunning_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002	RI Fitting basis for use with aug-cc-pVQZ	2014-05-13
+BSEO:0000149	class	aug-cc-pVQZ-X2C	BSEO:0100028	dunning_x2c	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-10-02
+BSEO:0000150	class	aug-cc-pVTZ	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2009-01-26
+BSEO:0000151	class	aug-cc-pVTZ-DK	BSEO:0100019	dunning_dk	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VTZ2P   All-electron Douglas-Kroll Valence Triple Zeta + Polarization	2011-02-12
+BSEO:0000152	class	aug-cc-pVTZ-DK3	BSEO:0100020	dunning_dk3	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-10-02
+BSEO:0000153	class	aug-cc-pVTZ-J	BSEO:0100057	sauer_j	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2012-06-08
+BSEO:0000154	class	aug-cc-pVTZ-OPTRI	BSEO:0100023	dunning_fit	BSEO:0200007	optri	BSEO:0300001|BSEO:0300002		2010-05-19
+BSEO:0000155	class	aug-cc-pVTZ-PP	BSEO:0100025	dunning_pp	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2008-10-14
+BSEO:0000156	class	aug-cc-pVTZ-PP-OPTRI	BSEO:0100026	dunning_pp_fit	BSEO:0200007	optri	BSEO:0300001|BSEO:0300002		2012-06-26
+BSEO:0000157	class	aug-cc-pVTZ-PP-RIFIT	BSEO:0100026	dunning_pp_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002		2012-06-26
+BSEO:0000158	class	aug-cc-pVTZ-RIFIT	BSEO:0100023	dunning_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002	RI Fitting basis for use with aug-cc-pVTZ	2008-11-06
+BSEO:0000159	class	aug-cc-pVTZ-X2C	BSEO:0100028	dunning_x2c	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-10-02
+BSEO:0000160	class	aug-cc-pwCV5Z	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	5Z4P    Quintuple Zeta + Polarization + Tight Core + Diffuse	2007-01-15
+BSEO:0000161	class	aug-cc-pwCV5Z-DK	BSEO:0100019	dunning_dk	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	V5ZPD   All-electron Douglas-Kroll Core-Valence Quintuple Zeta + Polarization	2007-01-15
+BSEO:0000162	class	aug-cc-pwCV5Z-PP	BSEO:0100025	dunning_pp	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2011-04-04
+BSEO:0000163	class	aug-cc-pwCV5Z-PP-OPTRI	BSEO:0100026	dunning_pp_fit	BSEO:0200007	optri	BSEO:0300001|BSEO:0300002		2012-06-26
+BSEO:0000164	class	aug-cc-pwCV5Z-PP-RIFIT	BSEO:0100026	dunning_pp_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002		2014-05-13
+BSEO:0000165	class	aug-cc-pwCV5Z-RIFIT	BSEO:0100023	dunning_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002	RI Fitting basis for use with aug-cc-pwCV5Z	2014-05-13
+BSEO:0000166	class	aug-cc-pwCVDZ	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	DZP     Double Zeta + Polarization + Tight Core + Diffuse	2007-01-15
+BSEO:0000167	class	aug-cc-pwCVDZ-DK3	BSEO:0100020	dunning_dk3	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-10-02
+BSEO:0000168	class	aug-cc-pwCVDZ-PP	BSEO:0100025	dunning_pp	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2011-04-04
+BSEO:0000169	class	aug-cc-pwCVDZ-PP-OPTRI	BSEO:0100026	dunning_pp_fit	BSEO:0200007	optri	BSEO:0300001|BSEO:0300002		2012-06-26
+BSEO:0000170	class	aug-cc-pwCVDZ-PP-RIFIT	BSEO:0100026	dunning_pp_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002		2014-05-13
+BSEO:0000171	class	aug-cc-pwCVDZ-RIFIT	BSEO:0100023	dunning_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002	RI Fitting basis for use with aug-cc-pwCVDZ	2008-11-06
+BSEO:0000172	class	aug-cc-pwCVDZ-X2C	BSEO:0100028	dunning_x2c	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-10-02
+BSEO:0000173	class	aug-cc-pwCVQZ	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	QZ3P    Quadruple Zeta + Polarization + Tight Core + diffuse	2007-01-15
+BSEO:0000174	class	aug-cc-pwCVQZ-DK	BSEO:0100019	dunning_dk	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VQZPD   All-electron Douglas-Kroll Core-Valence Quadruple Zeta + Polarization	2007-01-15
+BSEO:0000175	class	aug-cc-pwCVQZ-DK3	BSEO:0100020	dunning_dk3	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-10-02
+BSEO:0000176	class	aug-cc-pwCVQZ-PP	BSEO:0100025	dunning_pp	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2011-04-04
+BSEO:0000177	class	aug-cc-pwCVQZ-PP-OPTRI	BSEO:0100026	dunning_pp_fit	BSEO:0200007	optri	BSEO:0300001|BSEO:0300002		2012-06-26
+BSEO:0000178	class	aug-cc-pwCVQZ-PP-RIFIT	BSEO:0100026	dunning_pp_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002		2014-05-13
+BSEO:0000179	class	aug-cc-pwCVQZ-RIFIT	BSEO:0100023	dunning_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002	RI Fitting basis for use with aug-cc-pwCVQZ	2014-05-13
+BSEO:0000180	class	aug-cc-pwCVQZ-X2C	BSEO:0100028	dunning_x2c	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-10-02
+BSEO:0000181	class	aug-cc-pwCVTZ	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	TZ2P    Triple Zeta + Polarization + Tight Core + Diffuse	2007-01-15
+BSEO:0000182	class	aug-cc-pwCVTZ-DK	BSEO:0100019	dunning_dk	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VTZ2P   All-electron Douglas-Kroll Core-Valence Triple Zeta + Polarization	2007-01-15
+BSEO:0000183	class	aug-cc-pwCVTZ-DK3	BSEO:0100020	dunning_dk3	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-10-02
+BSEO:0000184	class	aug-cc-pwCVTZ-PP	BSEO:0100025	dunning_pp	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2011-04-11
+BSEO:0000185	class	aug-cc-pwCVTZ-PP-OPTRI	BSEO:0100026	dunning_pp_fit	BSEO:0200007	optri	BSEO:0300001|BSEO:0300002		2012-06-26
+BSEO:0000186	class	aug-cc-pwCVTZ-PP-RIFIT	BSEO:0100026	dunning_pp_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002		2014-05-13
+BSEO:0000187	class	aug-cc-pwCVTZ-RIFIT	BSEO:0100023	dunning_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002	RI Fitting basis for use with aug-cc-pwCVTZ	2008-11-06
+BSEO:0000188	class	aug-cc-pwCVTZ-X2C	BSEO:0100028	dunning_x2c	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-10-02
+BSEO:0000189	class	aug-ccX-5Z	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Augmented basis set for calculation of core excitations by the correlated wave function linear response and equation-of-motion methods	2021-05-03
+BSEO:0000190	class	aug-ccX-DZ	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Augmented basis set for calculation of core excitations by the correlated wave function linear response and equation-of-motion methods	2021-05-03
+BSEO:0000191	class	aug-ccX-QZ	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Augmented basis set for calculation of core excitations by the correlated wave function linear response and equation-of-motion methods	2021-05-03
+BSEO:0000192	class	aug-ccX-TZ	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Augmented basis set for calculation of core excitations by the correlated wave function linear response and equation-of-motion methods	2021-05-03
+BSEO:0000193	class	aug-mcc-pV5Z	BSEO:0100008	aug_mcc	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2008-12-16
+BSEO:0000194	class	aug-mcc-pV6Z	BSEO:0100008	aug_mcc	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2008-12-16
+BSEO:0000195	class	aug-mcc-pV7Z	BSEO:0100008	aug_mcc	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2008-12-16
+BSEO:0000196	class	aug-mcc-pV8Z	BSEO:0100008	aug_mcc	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2008-12-16
+BSEO:0000197	class	aug-mcc-pVQZ	BSEO:0100008	aug_mcc	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2008-12-16
+BSEO:0000198	class	aug-mcc-pVTZ	BSEO:0100008	aug_mcc	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2008-12-16
+BSEO:0000199	class	aug-pc-0	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2013-01-23
+BSEO:0000200	class	aug-pc-1	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2013-01-23
+BSEO:0000201	class	aug-pc-2	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2013-01-23
+BSEO:0000202	class	aug-pc-3	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2013-01-23
+BSEO:0000203	class	aug-pc-4	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2013-01-23
+BSEO:0000204	class	aug-pcH-1	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-11-14
+BSEO:0000205	class	aug-pcH-2	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-11-14
+BSEO:0000206	class	aug-pcH-3	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-11-14
+BSEO:0000207	class	aug-pcH-4	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-11-14
+BSEO:0000208	class	aug-pcJ-0	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001	Contracted version of the aug-pcJ-0 basis	2010-12-27
+BSEO:0000209	class	aug-pcJ-0_2006	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001		2010-12-27
+BSEO:0000210	class	aug-pcJ-1	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Contracted version of the aug-pcJ-1 basis	2010-12-27
+BSEO:0000211	class	aug-pcJ-1_2006	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2010-12-27
+BSEO:0000212	class	aug-pcJ-2	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Contracted version of the aug-pcJ-2 basis	2010-12-27
+BSEO:0000213	class	aug-pcJ-2_2006	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2010-12-27
+BSEO:0000214	class	aug-pcJ-3	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Contracted version of the aug-pcJ-3 basis	2010-12-27
+BSEO:0000215	class	aug-pcJ-3_2006	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2010-12-27
+BSEO:0000216	class	aug-pcJ-4	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Contracted version of the aug-pcJ-4 basis	2010-12-27
+BSEO:0000217	class	aug-pcJ-4_2006	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2010-12-27
+BSEO:0000218	class	aug-pcS-0	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001		2008-10-02
+BSEO:0000219	class	aug-pcS-1	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2008-10-02
+BSEO:0000220	class	aug-pcS-2	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2008-10-02
+BSEO:0000221	class	aug-pcS-3	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2011-01-18
+BSEO:0000222	class	aug-pcS-4	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2008-10-02
+BSEO:0000223	class	aug-pcseg-0	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Segmented contracted version of the aug-pc-0 basis	2014-04-25
+BSEO:0000224	class	aug-pcseg-1	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Segmented contracted version of the aug-pc-1 basis	2014-04-25
+BSEO:0000225	class	aug-pcseg-2	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Segmented contracted version of the aug-pc-2 basis	2014-04-25
+BSEO:0000226	class	aug-pcseg-3	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Segmented contracted version of the aug-pc-3 basis	2014-04-25
+BSEO:0000227	class	aug-pcseg-4	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Segmented contracted version of the aug-pc-4 basis	2014-04-25
+BSEO:0000228	class	aug-pcSseg-0	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Segmented contracted version of the aug-pcS-0 basis	2015-01-14
+BSEO:0000229	class	aug-pcSseg-1	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Segmented contracted version of the aug-pcS-1 basis	2015-01-14
+BSEO:0000230	class	aug-pcSseg-2	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Segmented contracted version of the aug-pcS-2 basis	2015-01-14
+BSEO:0000231	class	aug-pcSseg-3	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Segmented contracted version of the aug-pcS-3 basis	2015-01-14
+BSEO:0000232	class	aug-pcSseg-4	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Segmented contracted version of the aug-pcS-4 basis	2015-01-14
+BSEO:0000233	class	aug-pcX-1	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Jensen aug-pcX basis set (containing diffuse functions) optimized for core-spectroscopy	2019-01-07
+BSEO:0000234	class	aug-pcX-2	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Jensen aug-pcX basis set (containing diffuse functions) optimized for core-spectroscopy	2019-01-07
+BSEO:0000235	class	aug-pcX-3	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Jensen aug-pcX basis set (containing diffuse functions) optimized for core-spectroscopy	2019-01-07
+BSEO:0000236	class	aug-pcX-4	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Jensen aug-pcX basis set (containing diffuse functions) optimized for core-spectroscopy	2019-01-07
+BSEO:0000237	class	aug-pV7Z	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	V7Z6P   Valence Septuple Zeta + Polarization on All Atoms	2008-12-16
+BSEO:0000238	class	aug-seg-cc-pV5Z-PP	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2022-03-22
+BSEO:0000239	class	aug-seg-cc-pVDZ-PP	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2022-03-22
+BSEO:0000240	class	aug-seg-cc-pVQZ-PP	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2022-03-22
+BSEO:0000241	class	aug-seg-cc-pVTZ-PP	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2022-03-22
+BSEO:0000242	class	aug-seg-cc-pwCV5Z-PP	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2022-03-22
+BSEO:0000243	class	aug-seg-cc-pwCVDZ-PP	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2022-03-22
+BSEO:0000244	class	aug-seg-cc-pwCVQZ-PP	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2022-03-22
+BSEO:0000245	class	aug-seg-cc-pwCVTZ-PP	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2022-03-22
+BSEO:0000246	class	binning 641	BSEO:0100009	binning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Binning/Curtiss 641	2007-01-15
+BSEO:0000247	class	binning 641(d)	BSEO:0100009	binning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Binning/Curtiss 641 + d polarization	2007-01-15
+BSEO:0000248	class	binning 641(df)	BSEO:0100009	binning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Binning/Curtiss 641 + df polarization	2007-01-15
+BSEO:0000249	class	binning 641+	BSEO:0100009	binning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Binning/Curtiss 641 + diffuse	2019-09-09
+BSEO:0000250	class	binning 641+(d)	BSEO:0100009	binning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Binning/Curtiss 641 + d polarization + diffuse	2019-09-09
+BSEO:0000251	class	binning 641+(df)	BSEO:0100009	binning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Binning/Curtiss 641 + df polarization + diffuse	2019-09-09
+BSEO:0000252	class	binning 962	BSEO:0100009	binning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Binning/Curtiss 962	2007-01-15
+BSEO:0000253	class	binning 962(d)	BSEO:0100009	binning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Binning/Curtiss 962 + d polarization	2007-01-15
+BSEO:0000254	class	binning 962(df)	BSEO:0100009	binning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Binning/Curtiss 962 + df polarization	2007-01-15
+BSEO:0000255	class	binning 962+	BSEO:0100009	binning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Binning/Curtiss 962 + diffuse	2019-09-09
+BSEO:0000256	class	binning 962+(d)	BSEO:0100009	binning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Binning/Curtiss 962 + d polarization + diffuse	2019-09-09
+BSEO:0000257	class	binning 962+(df)	BSEO:0100009	binning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Binning/Curtiss 962 + df polarization + diffuse	2019-09-09
+BSEO:0000258	class	CADPAC-TZ2P	BSEO:0100011	cadpac	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300003	TZ2P orbital basis from CADPAC	2022-02-08
+BSEO:0000259	class	cc-pCV5Z	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2010-09-15
+BSEO:0000260	class	cc-pCVDZ	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	DZP Double Zeta + Polarization + Tight Core	2007-01-15
+BSEO:0000261	class	cc-pCVDZ-DK	BSEO:0100019	dunning_dk	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VDZP Douglas-Kroll Valence Double Zeta + Polarization + Tight core	2007-01-15
+BSEO:0000262	class	cc-pCVDZ-F12	BSEO:0100021	dunning_f12	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2012-06-08
+BSEO:0000263	class	cc-pCVDZ-F12-OPTRI	BSEO:0100022	dunning_f12_fit	BSEO:0200007	optri	BSEO:0300001|BSEO:0300002		2012-06-08
+BSEO:0000264	class	cc-pCVDZ-F12-RIFIT	BSEO:0100022	dunning_f12_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002	cc-pCVDZ-F12 RI Fitting	2016-07-11
+BSEO:0000265	class	cc-pCVQZ	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	QZ3P    Quadruple Zeta + Polarization + Tight Core	2007-01-15
+BSEO:0000266	class	cc-pCVQZ-DK	BSEO:0100019	dunning_dk	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	QZ3PD Douglas-Kroll Valence Double Zeta + Polarization + Tight core	2007-01-15
+BSEO:0000267	class	cc-pCVQZ-F12	BSEO:0100021	dunning_f12	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2012-06-08
+BSEO:0000268	class	cc-pCVQZ-F12-OPTRI	BSEO:0100022	dunning_f12_fit	BSEO:0200007	optri	BSEO:0300001|BSEO:0300002		2012-06-08
+BSEO:0000269	class	cc-pCVQZ-F12-RIFIT	BSEO:0100022	dunning_f12_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002	cc-pCVQZ-F12 RI Fitting	2016-07-11
+BSEO:0000270	class	cc-pCVTZ	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	TZ2P    Triple Zeta + Polarization + Tight Core	2007-01-15
+BSEO:0000271	class	cc-pCVTZ-DK	BSEO:0100019	dunning_dk	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Triple-Zeta Douglas-Kroll Valence Double Zeta + Polarization + Tight core	2007-01-15
+BSEO:0000272	class	cc-pCVTZ-F12	BSEO:0100021	dunning_f12	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2012-06-08
+BSEO:0000273	class	cc-pCVTZ-F12-OPTRI	BSEO:0100022	dunning_f12_fit	BSEO:0200007	optri	BSEO:0300001|BSEO:0300002		2012-06-08
+BSEO:0000274	class	cc-pCVTZ-F12-RIFIT	BSEO:0100022	dunning_f12_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002	cc-pCVTZ-F12 RI Fitting	2016-07-11
+BSEO:0000275	class	cc-pV(5+d)Z	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2007-01-15
+BSEO:0000276	class	cc-pV(D+d)Z	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2007-01-15
+BSEO:0000277	class	cc-pV(Q+d)Z	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2007-01-15
+BSEO:0000278	class	cc-pV(T+d)Z	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2008-11-10
+BSEO:0000279	class	cc-pV5Z	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2009-01-26
+BSEO:0000280	class	cc-pV5Z(fi/sf/fw)	BSEO:0100027	dunning_sf	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	V5Z4P   Relativistic Valence Quintuple Zeta + Polarization	2007-01-15
+BSEO:0000281	class	cc-pV5Z(fi/sf/lc)	BSEO:0100027	dunning_sf	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	V5Z4P   Relativistic Valence Quintuple Zeta + Polarization	2007-01-15
+BSEO:0000282	class	cc-pV5Z(fi/sf/sc)	BSEO:0100027	dunning_sf	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	V5Z4P   Relativistic Valence Quintuple Zeta + Polarization	2007-01-15
+BSEO:0000283	class	cc-pV5Z(pt/sf/fw)	BSEO:0100027	dunning_sf	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	V5Z4P   Relativistic Valence Quintuple Zeta + Polarization	2007-01-15
+BSEO:0000284	class	cc-pV5Z(pt/sf/lc)	BSEO:0100027	dunning_sf	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	V5Z4P   Relativistic Valence Quintuple Zeta + Polarization	2007-01-15
+BSEO:0000285	class	cc-pV5Z(pt/sf/sc)	BSEO:0100027	dunning_sf	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	V5Z4P   Relativistic Valence Quintuple Zeta + Polarization	2007-01-15
+BSEO:0000286	class	cc-pV5Z-DK	BSEO:0100019	dunning_dk	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	V5Z4P Douglas-Kroll Valence Quintuple Zeta + Polarization	2008-11-06
+BSEO:0000287	class	cc-pV5Z-F12	BSEO:0100021	dunning_f12	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2020-03-18
+BSEO:0000288	class	cc-pV5Z-F12(rev2)	BSEO:0100021	dunning_f12	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2020-03-18
+BSEO:0000289	class	cc-pV5Z-JKFIT	BSEO:0100023	dunning_fit	BSEO:0200006	jkfit	BSEO:0300001|BSEO:0300002	JK Fitting basis for use with cc-pV5Z	2019-01-08
+BSEO:0000290	class	cc-pV5Z-PP	BSEO:0100025	dunning_pp	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2009-10-23
+BSEO:0000291	class	cc-pV5Z-PP-RIFIT	BSEO:0100026	dunning_pp_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002		2012-06-26
+BSEO:0000292	class	cc-pV5Z-RIFIT	BSEO:0100023	dunning_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002	RI Fitting basis for use with cc-pV5Z	2014-05-09
+BSEO:0000293	class	cc-pV6Z	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2010-09-03
+BSEO:0000294	class	cc-pV6Z-RIFIT	BSEO:0100023	dunning_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002	RI Fitting basis for use with cc-pV6Z	2008-11-06
+BSEO:0000295	class	cc-pV8Z	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2010-07-15
+BSEO:0000296	class	cc-pV9Z	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	V7Z6P   Valence Octuple Zeta + Polarization on All Atoms	2007-01-15
+BSEO:0000297	class	cc-pVDZ	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2011-02-14
+BSEO:0000298	class	cc-pVDZ(fi/sf/fw)	BSEO:0100027	dunning_sf	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VDZP    Relativistic Valence Double Zeta + Polarization	2007-01-15
+BSEO:0000299	class	cc-pVDZ(fi/sf/lc)	BSEO:0100027	dunning_sf	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VDZP    Relativistic Valence Double Zeta + Polarization	2007-01-15
+BSEO:0000300	class	cc-pVDZ(fi/sf/sc)	BSEO:0100027	dunning_sf	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VDZP    Relativistic Valence Double Zeta + Polarization	2007-01-15
+BSEO:0000301	class	cc-pVDZ(pt/sf/fw)	BSEO:0100027	dunning_sf	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VDZP    Relativistic Valence Double Zeta + Polarization	2007-01-15
+BSEO:0000302	class	cc-pVDZ(pt/sf/lc)	BSEO:0100027	dunning_sf	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VDZP    Relativistic Valence Double Zeta + Polarization	2007-01-15
+BSEO:0000303	class	cc-pVDZ(pt/sf/sc)	BSEO:0100027	dunning_sf	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VDZP    Relativistic Valence Double Zeta + Polarization	2007-01-15
+BSEO:0000304	class	cc-pVDZ(seg-opt)	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VDZP    Valence Double Zeta + Polarization on All Atoms	2007-01-15
+BSEO:0000305	class	cc-pVDZ-DK	BSEO:0100019	dunning_dk	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VDZP Douglas-Kroll Valence Double Zeta + Polarization	2011-02-15
+BSEO:0000306	class	cc-pVDZ-DK3	BSEO:0100019	dunning_dk	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2016-10-14
+BSEO:0000307	class	cc-pVDZ-F12	BSEO:0100021	dunning_f12	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VDZ for explicitly correlated F12 variants of wavefunction methods	2012-06-08
+BSEO:0000308	class	cc-pVDZ-F12(rev2)	BSEO:0100021	dunning_f12	BSEO:0200008	orbital	BSEO:0300001		2020-03-18
+BSEO:0000309	class	cc-pVDZ-F12-OPTRI	BSEO:0100022	dunning_f12_fit	BSEO:0200007	optri	BSEO:0300001|BSEO:0300002		2012-06-08
+BSEO:0000310	class	cc-pVDZ-F12-OPTRI+	BSEO:0100023	dunning_fit	BSEO:0200007	optri	BSEO:0300001|BSEO:0300002		2021-02-25
+BSEO:0000311	class	cc-pVDZ-PP	BSEO:0100025	dunning_pp	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2009-10-23
+BSEO:0000312	class	cc-pVDZ-PP-RIFIT	BSEO:0100026	dunning_pp_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002		2012-06-08
+BSEO:0000313	class	cc-pVDZ-RIFIT	BSEO:0100023	dunning_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002	RI Fitting basis for use with cc-pVDZ	2008-11-06
+BSEO:0000314	class	cc-pVDZ-X2C	BSEO:0100028	dunning_x2c	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-10-02
+BSEO:0000315	class	cc-pVQZ	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2009-01-26
+BSEO:0000316	class	cc-pVQZ(fi/sf/fw)	BSEO:0100027	dunning_sf	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VQZ3P   Relativistic Valence Quadruple Zeta + Polarization	2007-01-15
+BSEO:0000317	class	cc-pVQZ(fi/sf/lc)	BSEO:0100027	dunning_sf	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VQZ3P   Relativistic Valence Quadruple Zeta + Polarization	2007-01-15
+BSEO:0000318	class	cc-pVQZ(fi/sf/sc)	BSEO:0100027	dunning_sf	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VQZ3P   Relativistic Valence Quadruple Zeta + Polarization	2007-01-15
+BSEO:0000319	class	cc-pVQZ(pt/sf/fw)	BSEO:0100027	dunning_sf	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VQZ3P   Relativistic Valence Quadruple Zeta + Polarization	2007-01-15
+BSEO:0000320	class	cc-pVQZ(pt/sf/lc)	BSEO:0100027	dunning_sf	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VQZ3P   Relativistic Valence Quadruple Zeta + Polarization	2007-01-15
+BSEO:0000321	class	cc-pVQZ(pt/sf/sc)	BSEO:0100027	dunning_sf	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VQZ3P   Relativistic Valence Quadruple Zeta + Polarization	2007-01-15
+BSEO:0000322	class	cc-pVQZ(seg-opt)	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VQZ3P   Valence Quadruple Zeta + Polarization on All Atoms	2007-01-15
+BSEO:0000323	class	cc-pVQZ-DK	BSEO:0100019	dunning_dk	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VQZ3P Douglas-Kroll Valence Quadruple Zeta + Polarization	2007-07-03
+BSEO:0000324	class	cc-pVQZ-DK3	BSEO:0100019	dunning_dk	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2016-10-14
+BSEO:0000325	class	cc-pVQZ-F12	BSEO:0100021	dunning_f12	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VQZ for explicitly correlated F12 variants of wavefunction methods	2012-06-08
+BSEO:0000326	class	cc-pVQZ-F12(rev2)	BSEO:0100021	dunning_f12	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2020-03-18
+BSEO:0000327	class	cc-pVQZ-F12-OPTRI	BSEO:0100022	dunning_f12_fit	BSEO:0200007	optri	BSEO:0300001|BSEO:0300002		2012-06-08
+BSEO:0000328	class	cc-pVQZ-F12-OPTRI+	BSEO:0100023	dunning_fit	BSEO:0200007	optri	BSEO:0300001|BSEO:0300002		2021-02-25
+BSEO:0000329	class	cc-pVQZ-JKFIT	BSEO:0100023	dunning_fit	BSEO:0200006	jkfit	BSEO:0300001|BSEO:0300002	JK Fitting basis for use with cc-pVQZ	2019-01-08
+BSEO:0000330	class	cc-pVQZ-PP	BSEO:0100025	dunning_pp	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2009-10-23
+BSEO:0000331	class	cc-pVQZ-PP-RIFIT	BSEO:0100026	dunning_pp_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002		2012-06-26
+BSEO:0000332	class	cc-pVQZ-RIFIT	BSEO:0100023	dunning_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002	RI Fitting basis for use with cc-pVQZ	2014-05-09
+BSEO:0000333	class	cc-pVQZ-X2C	BSEO:0100028	dunning_x2c	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-10-02
+BSEO:0000334	class	cc-pVTZ	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2010-11-18
+BSEO:0000335	class	cc-pVTZ(fi/sf/fw)	BSEO:0100027	dunning_sf	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VTZ2P   Relativistic Valence Triple Zeta + Polarization	2007-01-15
+BSEO:0000336	class	cc-pVTZ(fi/sf/lc)	BSEO:0100027	dunning_sf	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VTZ2P   Relativistic Valence Triple Zeta + Polarization	2007-01-15
+BSEO:0000337	class	cc-pVTZ(fi/sf/sc)	BSEO:0100027	dunning_sf	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VTZ2P   Relativistic Valence Triple Zeta + Polarization	2007-01-15
+BSEO:0000338	class	cc-pVTZ(pt/sf/fw)	BSEO:0100027	dunning_sf	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VTZ2P   Relativistic Valence Triple Zeta + Polarization	2007-01-15
+BSEO:0000339	class	cc-pVTZ(pt/sf/lc)	BSEO:0100027	dunning_sf	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VTZ2P   Relativistic Valence Triple Zeta + Polarization	2007-01-15
+BSEO:0000340	class	cc-pVTZ(pt/sf/sc)	BSEO:0100027	dunning_sf	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VTZ2P   Relativistic Valence Triple Zeta + Polarization	2007-01-15
+BSEO:0000341	class	cc-pVTZ(seg-opt)	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VTZ2P   Valence Triple Zeta + Polarization on All Atoms	2007-01-15
+BSEO:0000342	class	cc-pVTZ-DK	BSEO:0100019	dunning_dk	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VTZ2P Douglas-Kroll Valence Triple Zeta + Polarization	2008-04-30
+BSEO:0000343	class	cc-pVTZ-DK3	BSEO:0100019	dunning_dk	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2016-10-14
+BSEO:0000344	class	cc-pVTZ-F12	BSEO:0100021	dunning_f12	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VTZ for explicitly correlated F12 variants of wavefunction methods	2012-06-08
+BSEO:0000345	class	cc-pVTZ-F12(rev2)	BSEO:0100021	dunning_f12	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2020-03-18
+BSEO:0000346	class	cc-pVTZ-F12-OPTRI	BSEO:0100022	dunning_f12_fit	BSEO:0200007	optri	BSEO:0300001|BSEO:0300002		2012-06-08
+BSEO:0000347	class	cc-pVTZ-F12-OPTRI+	BSEO:0100023	dunning_fit	BSEO:0200007	optri	BSEO:0300001|BSEO:0300002		2021-02-25
+BSEO:0000348	class	cc-pVTZ-JKFIT	BSEO:0100023	dunning_fit	BSEO:0200006	jkfit	BSEO:0300001|BSEO:0300002	JK Fitting basis for use with cc-pVTZ	2019-01-08
+BSEO:0000349	class	cc-pVTZ-PP	BSEO:0100025	dunning_pp	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2009-10-23
+BSEO:0000350	class	cc-pVTZ-PP-RIFIT	BSEO:0100026	dunning_pp_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002		2012-06-26
+BSEO:0000351	class	cc-pVTZ-RIFIT	BSEO:0100023	dunning_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002	RI Fitting basis for use with cc-pVTZ	2008-11-06
+BSEO:0000352	class	cc-pVTZ-X2C	BSEO:0100028	dunning_x2c	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-10-02
+BSEO:0000353	class	cc-pwCV5Z	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	5Z4P    Quintuple Zeta + Polarization + Tight Core	2007-01-15
+BSEO:0000354	class	cc-pwCV5Z-DK	BSEO:0100019	dunning_dk	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2008-11-06
+BSEO:0000355	class	cc-pwCV5Z-PP	BSEO:0100025	dunning_pp	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2011-04-04
+BSEO:0000356	class	cc-pwCV5Z-PP-RIFIT	BSEO:0100026	dunning_pp_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002		2014-05-09
+BSEO:0000357	class	cc-pwCV5Z-RIFIT	BSEO:0100023	dunning_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002	RI Fitting basis for use with cc-pwCV5Z	2014-05-09
+BSEO:0000358	class	cc-pwCVDZ	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	DZP     Double Zeta + Polarization + Tight Core	2007-01-15
+BSEO:0000359	class	cc-pwCVDZ-DK3	BSEO:0100019	dunning_dk	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2016-10-14
+BSEO:0000360	class	cc-pwCVDZ-PP	BSEO:0100025	dunning_pp	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2011-04-04
+BSEO:0000361	class	cc-pwCVDZ-PP-RIFIT	BSEO:0100026	dunning_pp_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002		2014-05-09
+BSEO:0000362	class	cc-pwCVDZ-RIFIT	BSEO:0100023	dunning_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002	RI Fitting basis for use with cc-pwCVDZ	2008-11-06
+BSEO:0000363	class	cc-pwCVDZ-X2C	BSEO:0100028	dunning_x2c	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-10-02
+BSEO:0000364	class	cc-pwCVQZ	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	QZ3P    Quadruple Zeta + Polarization + Tight Core	2007-01-15
+BSEO:0000365	class	cc-pwCVQZ-DK	BSEO:0100019	dunning_dk	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	QZ3P    All-electron Douglas-Kroll Core-Valence Quadruple Zeta + Polarization	2007-01-15
+BSEO:0000366	class	cc-pwCVQZ-DK3	BSEO:0100019	dunning_dk	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2016-10-14
+BSEO:0000367	class	cc-pwCVQZ-PP	BSEO:0100025	dunning_pp	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2011-04-04
+BSEO:0000368	class	cc-pwCVQZ-PP-RIFIT	BSEO:0100026	dunning_pp_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002		2014-05-09
+BSEO:0000369	class	cc-pwCVQZ-RIFIT	BSEO:0100023	dunning_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002	RI Fitting basis for use with cc-pwCVQZ	2014-05-09
+BSEO:0000370	class	cc-pwCVQZ-X2C	BSEO:0100028	dunning_x2c	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-10-02
+BSEO:0000371	class	cc-pwCVTZ	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	TZ2P    Triple Zeta + Polarization + Tight Core	2007-01-15
+BSEO:0000372	class	cc-pwCVTZ-DK	BSEO:0100019	dunning_dk	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2008-04-30
+BSEO:0000373	class	cc-pwCVTZ-DK3	BSEO:0100019	dunning_dk	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2016-10-14
+BSEO:0000374	class	cc-pwCVTZ-PP	BSEO:0100025	dunning_pp	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2011-04-11
+BSEO:0000375	class	cc-pwCVTZ-PP-RIFIT	BSEO:0100026	dunning_pp_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002		2014-05-09
+BSEO:0000376	class	cc-pwCVTZ-RIFIT	BSEO:0100023	dunning_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002	RI Fitting basis for use with cc-pwCVTZ	2008-11-06
+BSEO:0000377	class	cc-pwCVTZ-X2C	BSEO:0100028	dunning_x2c	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-10-04
+BSEO:0000378	class	ccemd-2	BSEO:0100038	lehtola_emd	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	ccemd-2: Correlation-consistent electron momentum density	2013-02-28
+BSEO:0000379	class	ccemd-3	BSEO:0100038	lehtola_emd	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	ccemd-3: Correlation-consistent electron momentum density	2013-02-28
+BSEO:0000380	class	ccJ-pV5Z	BSEO:0100012	ccj	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2008-12-17
+BSEO:0000381	class	ccJ-pVDZ	BSEO:0100012	ccj	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2008-12-17
+BSEO:0000382	class	ccJ-pVQZ	BSEO:0100012	ccj	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2008-12-17
+BSEO:0000383	class	ccJ-pVTZ	BSEO:0100012	ccj	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2008-12-17
+BSEO:0000384	class	ccX-5Z	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Basis set for calculation of core excitations by the correlated wave function linear response and equation-of-motion methods	2021-05-03
+BSEO:0000385	class	ccX-DZ	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Basis set for calculation of core excitations by the correlated wave function linear response and equation-of-motion methods	2021-05-03
+BSEO:0000386	class	ccX-QZ	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Basis set for calculation of core excitations by the correlated wave function linear response and equation-of-motion methods	2021-05-03
+BSEO:0000387	class	ccX-TZ	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Basis set for calculation of core excitations by the correlated wave function linear response and equation-of-motion methods	2021-05-03
+BSEO:0000388	class	coemd-2	BSEO:0100038	lehtola_emd	BSEO:0200008	orbital	BSEO:0300001	coemd-2: completness-optimized for electron momentum density	2012-10-13
+BSEO:0000389	class	coemd-3	BSEO:0100038	lehtola_emd	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	coemd-3: completness-optimized for electron momentum density	2012-10-13
+BSEO:0000390	class	coemd-4	BSEO:0100038	lehtola_emd	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	coemd-4: completness-optimized for electron momentum density	2012-10-13
+BSEO:0000391	class	coemd-ref	BSEO:0100038	lehtola_emd	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	coemd-ref: completness-optimized for electron momentum density	2012-10-13
+BSEO:0000392	class	Cologne DKH2	BSEO:0100013	cologne	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2012-06-08
+BSEO:0000393	class	CRENBL	BSEO:0100014	crenb	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004	CRENBL designed for use with small core potentials	2017-10-11
+BSEO:0000394	class	CRENBL ECP	BSEO:0100014	crenb	BSEO:0200008	orbital	BSEO:0300004	CRENBL ECP (Large ECP orbital basis for use with small core potentials)	2017-10-11
+BSEO:0000395	class	CRENBS	BSEO:0100014	crenb	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004	CRENBS designed for use with large core potentials	2017-10-11
+BSEO:0000396	class	CRENBS ECP	BSEO:0100014	crenb	BSEO:0200008	orbital	BSEO:0300004	CRENBS ECP (Small ECP orbital basis for use with relativistic, large core ECPs)	2017-10-11
+BSEO:0000397	class	d-aug-cc-pV5Z	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	V5Z4PD  Valence Quintuple Zeta + Polarization + Diffuse	2007-01-15
+BSEO:0000398	class	d-aug-cc-pV6Z	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	V6Z5P   Valence Sextuple Zeta + Polarization + Diffuse	2007-01-15
+BSEO:0000399	class	d-aug-cc-pVDZ	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VDZ2PD  Valence Double Zeta + Polarization + Diffuse	2007-01-15
+BSEO:0000400	class	d-aug-cc-pVQZ	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VQZ3PD  Valence Quadruple Zeta + Polarization + Diffuse	2007-01-15
+BSEO:0000401	class	d-aug-cc-pVTZ	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VTZ2PD  Valence Triple Zeta + Polarization + Diffuse	2007-01-15
+BSEO:0000402	class	def2-ECP	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300004	ECP for use with Ahlrichs def2 basis sets	2008-08-21
+BSEO:0000403	class	def2-mTZVP	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	def2-mTZVP basis for B97-3c method	2023-06-06
+BSEO:0000404	class	def2-mTZVPP	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	def2-mTZVPP basis for r2SCAN-3c method	2023-06-06
+BSEO:0000405	class	def2-mTZVPP-RIJ	BSEO:0100002	ahlrichs	BSEO:0200005	jfit	BSEO:0300001|BSEO:0300002	def2-mTZVPP RI-J basis for r2SCAN-3c method	2023-11-10
+BSEO:0000406	class	def2-QZVP	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2009-01-06
+BSEO:0000407	class	def2-QZVP-RIFIT	BSEO:0100004	ahlrichs_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002	RIMP2 auxiliary basis for def2-QZVPP	2018-10-10
+BSEO:0000408	class	def2-QZVPD	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2011-04-22
+BSEO:0000409	class	def2-QZVPP	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2009-01-06
+BSEO:0000410	class	def2-QZVPP-RIFIT	BSEO:0100004	ahlrichs_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002	RIMP2 auxiliary basis for def2-QZVPP	2018-10-10
+BSEO:0000411	class	def2-QZVPPD	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2011-04-22
+BSEO:0000412	class	def2-QZVPPD-RIFIT	BSEO:0100004	ahlrichs_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002		2018-10-10
+BSEO:0000413	class	def2-SV(P)	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2009-01-06
+BSEO:0000414	class	def2-SV(P)-JKFIT	BSEO:0100004	ahlrichs_fit	BSEO:0200006	jkfit	BSEO:0300001|BSEO:0300002	Coulomb/Exchange fitting auxiliary basis for def2 basis sets	2018-10-10
+BSEO:0000415	class	def2-SV(P)-RIFIT	BSEO:0100004	ahlrichs_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002	RIMP2 auxiliary basis for def2-SV(P)	2018-10-10
+BSEO:0000416	class	def2-SVP	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2009-01-06
+BSEO:0000417	class	def2-SVP-RIFIT	BSEO:0100004	ahlrichs_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002		2018-10-10
+BSEO:0000418	class	def2-SVPD	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2011-04-22
+BSEO:0000419	class	def2-SVPD-RIFIT	BSEO:0100004	ahlrichs_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002		2018-10-10
+BSEO:0000420	class	def2-TZVP	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2009-02-17
+BSEO:0000421	class	def2-TZVP-RIFIT	BSEO:0100004	ahlrichs_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002	RIMP2 auxiliary basis for def2-TZVP	2018-10-10
+BSEO:0000422	class	def2-TZVPD	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2011-09-02
+BSEO:0000423	class	def2-TZVPD-RIFIT	BSEO:0100004	ahlrichs_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002		2018-10-10
+BSEO:0000424	class	def2-TZVPP	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2009-02-17
+BSEO:0000425	class	def2-TZVPP-RIFIT	BSEO:0100004	ahlrichs_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002		2018-10-10
+BSEO:0000426	class	def2-TZVPPD	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2011-04-22
+BSEO:0000427	class	def2-TZVPPD-RIFIT	BSEO:0100004	ahlrichs_fit	BSEO:0200009	rifit	BSEO:0300001|BSEO:0300002		2018-10-10
+BSEO:0000428	class	def2-universal-JFIT	BSEO:0100004	ahlrichs_fit	BSEO:0200005	jfit	BSEO:0300001|BSEO:0300002	Coulomb fitting auxiliary basis for def2 basis sets	2018-10-01
+BSEO:0000429	class	def2-universal-JKFIT	BSEO:0100004	ahlrichs_fit	BSEO:0200006	jkfit	BSEO:0300001|BSEO:0300002	Coulomb/Exchange fitting auxiliary basis for def2 basis sets	2018-10-10
+BSEO:0000430	class	deMon2k-DZVP-GGA	BSEO:0100015	demon2k	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	DZVP-GGA basis of the deMon2k code	2021-02-23
+BSEO:0000431	class	DFO+-NRLMOL	BSEO:0100016	dfo	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300003	DFO+ basis from NRLMOL	2020-12-17
+BSEO:0000432	class	DFO-1	BSEO:0100016	dfo	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Optimized gaussian basis set for Density-functional calculations	2019-10-18
+BSEO:0000433	class	DFO-1-BHS	BSEO:0100016	dfo	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Optimized gaussian basis set for Density-functional calculations (requiring pseudopotential)	2019-10-18
+BSEO:0000434	class	DFO-2	BSEO:0100016	dfo	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Optimized gaussian basis set for Density-functional calculations	2019-10-18
+BSEO:0000435	class	DFO-NRLMOL	BSEO:0100016	dfo	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300003	DFO basis from NRLMOL	2020-12-17
+BSEO:0000436	class	dgauss-a1-dftjfit	BSEO:0100017	dgauss	BSEO:0200002	dftjfit	BSEO:0300001|BSEO:0300002	DGauss A1 DFT Columb Fitting	2007-01-15
+BSEO:0000437	class	dgauss-a1-dftxfit	BSEO:0100017	dgauss	BSEO:0200003	dftxfit	BSEO:0300001|BSEO:0300002	DGauss A1 DFT Exchange Fitting	2007-01-15
+BSEO:0000438	class	dgauss-a2-dftjfit	BSEO:0100017	dgauss	BSEO:0200002	dftjfit	BSEO:0300001|BSEO:0300002	DGauss A2 DFT Columb Fitting	2007-01-15
+BSEO:0000439	class	dgauss-a2-dftxfit	BSEO:0100017	dgauss	BSEO:0200003	dftxfit	BSEO:0300001|BSEO:0300002	DGauss A2 DFT Exchange Fitting	2007-01-15
+BSEO:0000440	class	dgauss-dzvp	BSEO:0100017	dgauss	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VDZP Valence Double Zeta + Polarization designed for DFT	2007-01-15
+BSEO:0000441	class	dgauss-dzvp2	BSEO:0100017	dgauss	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VDZP Valence Double Zeta + Polarization designed for DFT	2007-01-15
+BSEO:0000442	class	dgauss-tzvp	BSEO:0100017	dgauss	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VTZP Valence Triple Zeta + Polarization designed for DFT	2007-01-15
+BSEO:0000443	class	dhf-ECP	BSEO:0100003	ahlrichs_dhf	BSEO:0200008	orbital	BSEO:0300004		2012-10-02
+BSEO:0000444	class	dhf-QZVP	BSEO:0100003	ahlrichs_dhf	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2012-10-02
+BSEO:0000445	class	dhf-QZVPP	BSEO:0100003	ahlrichs_dhf	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2012-10-02
+BSEO:0000446	class	dhf-SV(P)	BSEO:0100003	ahlrichs_dhf	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2012-10-02
+BSEO:0000447	class	dhf-SVP	BSEO:0100003	ahlrichs_dhf	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2012-10-02
+BSEO:0000448	class	dhf-TZVP	BSEO:0100003	ahlrichs_dhf	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2012-10-02
+BSEO:0000449	class	dhf-TZVPP	BSEO:0100003	ahlrichs_dhf	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2012-10-02
+BSEO:0000450	class	dyall-aae2z	BSEO:0100029	dyall	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Dyall's augmented all-electron 2-zeta primitive basis set	2024-11-17
+BSEO:0000451	class	dyall-aae3z	BSEO:0100029	dyall	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Dyall's augmented all-electron 3-zeta primitive basis set	2024-11-17
+BSEO:0000452	class	dyall-aae4z	BSEO:0100029	dyall	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Dyall's augmented all-electron 4-zeta primitive basis set	2024-11-17
+BSEO:0000453	class	dyall-aae5z	BSEO:0100029	dyall	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Dyall's augmented all-electron 5-zeta primitive basis set	2026-02-06
+BSEO:0000454	class	dyall-acv2z	BSEO:0100029	dyall	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Dyall's augmented core-valence 2-zeta primitive basis set	2024-11-17
+BSEO:0000455	class	dyall-acv3z	BSEO:0100029	dyall	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Dyall's augmented core-valence 3-zeta primitive basis set	2024-11-17
+BSEO:0000456	class	dyall-acv4z	BSEO:0100029	dyall	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Dyall's augmented core-valence 4-zeta primitive basis set	2024-11-17
+BSEO:0000457	class	dyall-acv5z	BSEO:0100029	dyall	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Dyall's augmented core-valence 5-zeta primitive basis set	2026-02-06
+BSEO:0000458	class	dyall-ae2z	BSEO:0100029	dyall	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Dyall's all-electron 2-zeta primitive basis set	2024-11-17
+BSEO:0000459	class	dyall-ae3z	BSEO:0100029	dyall	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Dyall's all-electron 3-zeta primitive basis set	2024-11-17
+BSEO:0000460	class	dyall-ae4z	BSEO:0100029	dyall	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Dyall's all-electron 4-zeta primitive basis set	2024-11-17
+BSEO:0000461	class	dyall-ae5z	BSEO:0100029	dyall	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Dyall's all-electron 5-zeta primitive basis set	2026-02-06
+BSEO:0000462	class	dyall-av2z	BSEO:0100029	dyall	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Dyall's augmented valence 2-zeta primitive basis set	2024-11-17
+BSEO:0000463	class	dyall-av3z	BSEO:0100029	dyall	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Dyall's augmented valence 3-zeta primitive basis set	2024-11-17
+BSEO:0000464	class	dyall-av4z	BSEO:0100029	dyall	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Dyall's augmented valence 4-zeta primitive basis set	2024-11-17
+BSEO:0000465	class	dyall-av5z	BSEO:0100029	dyall	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Dyall's augmented valence 5-zeta primitive basis set	2026-02-06
+BSEO:0000466	class	dyall-cv2z	BSEO:0100029	dyall	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Dyall's core-valence 2-zeta primitive basis set	2024-11-17
+BSEO:0000467	class	dyall-cv3z	BSEO:0100029	dyall	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Dyall's core-valence 3-zeta primitive basis set	2024-11-17
+BSEO:0000468	class	dyall-cv4z	BSEO:0100029	dyall	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Dyall's core-valence 4-zeta primitive basis set	2024-11-17
+BSEO:0000469	class	dyall-cv5z	BSEO:0100029	dyall	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Dyall's core-valence 5-zeta primitive basis set	2026-02-06
+BSEO:0000470	class	dyall-v2z	BSEO:0100029	dyall	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Dyall's valence 2-zeta primitive basis set	2024-11-17
+BSEO:0000471	class	dyall-v3z	BSEO:0100029	dyall	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Dyall's valence 3-zeta primitive basis set	2024-11-17
+BSEO:0000472	class	dyall-v4z	BSEO:0100029	dyall	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Dyall's valence 4-zeta primitive basis set	2024-11-17
+BSEO:0000473	class	dyall-v5z	BSEO:0100029	dyall	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Dyall's valence 5-zeta primitive basis set	2026-02-06
+BSEO:0000474	class	DZ (Dunning-Hay)	BSEO:0100024	dunning_hay	BSEO:0200008	orbital	BSEO:0300001	DZ      Double Zeta: 2 Functions/AO	2007-01-15
+BSEO:0000475	class	DZ + Double Rydberg (Dunning-Hay)	BSEO:0100024	dunning_hay	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	DZ2R    Double Zeta + Double Rydberg Functions	2007-01-15
+BSEO:0000476	class	DZ + Rydberg (Dunning-Hay)	BSEO:0100024	dunning_hay	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	DZ1R    Double Zeta: 2 Functions/AO	2007-01-15
+BSEO:0000477	class	DZP (Dunning-Hay)	BSEO:0100024	dunning_hay	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	DZP     Double Zeta + Polarization on All Atoms	2007-01-15
+BSEO:0000478	class	DZP + Diffuse (Dunning-Hay)	BSEO:0100024	dunning_hay	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	DZPD    Double Zeta + Polarization + Diffuse	2007-01-15
+BSEO:0000479	class	DZP + Rydberg (Dunning-Hay)	BSEO:0100024	dunning_hay	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	DZP1R   Double Zeta + Polarization on All Atoms	2007-01-15
+BSEO:0000480	class	epc-10s10p10d10f	BSEO:0100046	pb	BSEO:0200006	jkfit	BSEO:0300001|BSEO:0300002	Even-tempered 8s8p8d protonic basis	2024-11-17
+BSEO:0000481	class	epc-8s8p8d	BSEO:0100046	pb	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Even-tempered 8s8p8d protonic basis	2024-01-23
+BSEO:0000482	class	FANO-5Z	BSEO:0100007	ano_claudino	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Frozen Atomic Natural Orbital - 5-Zeta	2019-03-27
+BSEO:0000483	class	FANO-6Z	BSEO:0100007	ano_claudino	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Frozen Atomic Natural Orbital - 6-Zeta	2019-03-27
+BSEO:0000484	class	FANO-DZ	BSEO:0100007	ano_claudino	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Frozen Atomic Natural Orbital - Double Zeta	2019-03-27
+BSEO:0000485	class	FANO-QZ	BSEO:0100007	ano_claudino	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Frozen Atomic Natural Orbital - Quadruple Zeta	2019-03-27
+BSEO:0000486	class	FANO-TZ	BSEO:0100007	ano_claudino	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Frozen Atomic Natural Orbital - Triple Zeta	2019-03-27
+BSEO:0000487	class	Grimme vDZP	BSEO:0100030	grimme	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004	Small basis set used in wB97X-3c method	2024-08-17
+BSEO:0000488	class	HGBS-5	BSEO:0100039	lehtola_hgbs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Hydrogenic Gaussian basis set formed at tolerance 10^{-5} without polarization	2021-02-01
+BSEO:0000489	class	HGBS-7	BSEO:0100039	lehtola_hgbs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Hydrogenic Gaussian basis set formed at tolerance 10^{-7} without polarization	2021-02-01
+BSEO:0000490	class	HGBS-9	BSEO:0100039	lehtola_hgbs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Hydrogenic Gaussian basis set formed at tolerance 10^{-9} without polarization	2020-05-05
+BSEO:0000491	class	HGBSP1-5	BSEO:0100039	lehtola_hgbs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Hydrogenic Gaussian basis set formed at tolerance 10^{-5} with 1 polarization shell	2021-02-01
+BSEO:0000492	class	HGBSP1-7	BSEO:0100039	lehtola_hgbs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Hydrogenic Gaussian basis set formed at tolerance 10^{-7} with 1 polarization shell	2021-02-01
+BSEO:0000493	class	HGBSP1-9	BSEO:0100039	lehtola_hgbs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Hydrogenic Gaussian basis set formed at tolerance 10^{-9} with 1 polarization shell	2020-05-05
+BSEO:0000494	class	HGBSP2-5	BSEO:0100039	lehtola_hgbs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Hydrogenic Gaussian basis set formed at tolerance 10^{-5} with 2 polarization shells	2021-02-01
+BSEO:0000495	class	HGBSP2-7	BSEO:0100039	lehtola_hgbs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Hydrogenic Gaussian basis set formed at tolerance 10^{-7} with 2 polarization shells	2021-02-01
+BSEO:0000496	class	HGBSP2-9	BSEO:0100039	lehtola_hgbs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Hydrogenic Gaussian basis set formed at tolerance 10^{-9} with 2 polarization shells	2020-05-05
+BSEO:0000497	class	HGBSP3-5	BSEO:0100039	lehtola_hgbs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Hydrogenic Gaussian basis set formed at tolerance 10^{-5} with 3 polarization shells	2021-02-01
+BSEO:0000498	class	HGBSP3-7	BSEO:0100039	lehtola_hgbs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Hydrogenic Gaussian basis set formed at tolerance 10^{-7} with 3 polarization shells	2021-02-01
+BSEO:0000499	class	HGBSP3-9	BSEO:0100039	lehtola_hgbs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Hydrogenic Gaussian basis set formed at tolerance 10^{-9} with 3 polarization shells	2020-05-05
+BSEO:0000500	class	IGLO-II	BSEO:0100032	iglo	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VDZP Valence Double Zeta + Polarization on All Atoms	2007-01-15
+BSEO:0000501	class	IGLO-III	BSEO:0100032	iglo	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VTZP Valence Triple Zeta + Polarization on All Atoms	2007-01-15
+BSEO:0000502	class	jgauss-dzp	BSEO:0100034	jgauss	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	dzp basis of Schafer/Horn/Ahlrichs/Gauss	2019-10-02
+BSEO:0000503	class	jgauss-qz2p	BSEO:0100034	jgauss	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	qz2p basis of Schafer/Horn/Ahlrichs/Gauss	2019-10-02
+BSEO:0000504	class	jgauss-qzp	BSEO:0100034	jgauss	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	qzp basis of Schafer/Horn/Ahlrichs/Gauss	2019-10-02
+BSEO:0000505	class	jgauss-tzp1	BSEO:0100034	jgauss	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	tzp1 basis of Schafer/Horn/Ahlrichs/Gauss	2019-10-02
+BSEO:0000506	class	jgauss-tzp2	BSEO:0100034	jgauss	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	tzp2 basis of Schafer/Horn/Ahlrichs/Gauss	2019-10-02
+BSEO:0000507	class	jorge-5ZP	BSEO:0100035	jorge	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	5ZP: 5 zeta valence quality plus polarization	2014-04-25
+BSEO:0000508	class	jorge-5ZP-DKH	BSEO:0100035	jorge	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	5ZP-DKH: 5 zeta valence quality plus polarization (DKH)	2014-05-13
+BSEO:0000509	class	jorge-5ZP-ZORA	BSEO:0100035	jorge	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	5ZP-ZORA: All-electron 5-zeta valence quality plus polarization functions (ZORA)	2025-10-30
+BSEO:0000510	class	jorge-6ZP	BSEO:0100035	jorge	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	6ZP: 6 zeta valence quality plus polarization	2014-05-09
+BSEO:0000511	class	jorge-6ZP-DKH	BSEO:0100035	jorge	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	6ZP-DKH: 6 zeta valence quality plus polarization (DKH)	2014-05-13
+BSEO:0000512	class	jorge-6ZP-ZORA	BSEO:0100035	jorge	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	6ZP-ZORA: All-electron 6-zeta valence quality plus polarization functions (ZORA)	2025-10-30
+BSEO:0000513	class	jorge-A5ZP	BSEO:0100035	jorge	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	A5ZP: Augmented 5 zeta valence quality plus polarization	2014-04-25
+BSEO:0000514	class	jorge-A6ZP	BSEO:0100035	jorge	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	A6ZP-ZORA: All-electron 6-zeta valence quality plus polarization functions	2025-10-30
+BSEO:0000515	class	jorge-ADZP	BSEO:0100035	jorge	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	ADZP: Augmented double zeta valence quality plus polarization	2014-05-09
+BSEO:0000516	class	jorge-AQZP	BSEO:0100035	jorge	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	AQZP: Augmented quadruple zeta valence quality plus polarization	2014-04-25
+BSEO:0000517	class	jorge-ATZP	BSEO:0100035	jorge	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	ATZP: Augmented triple zeta valence quality plus polarization	2014-04-25
+BSEO:0000518	class	jorge-ATZP-ZORA	BSEO:0100035	jorge	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	ATZP-ZORA, augmented all-electron triple-zeta basis for calculations with the ZORA approach	2021-07-08
+BSEO:0000519	class	jorge-DZP	BSEO:0100035	jorge	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	DZP: Double zeta valence quality plus polarization	2014-05-05
+BSEO:0000520	class	jorge-DZP-DKH	BSEO:0100035	jorge	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	DZP-DKH: Double zeta valence quality plus polarization (DKH)	2014-05-13
+BSEO:0000521	class	jorge-DZP-ZORA	BSEO:0100035	jorge	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	DZP-ZORA: All-electron double zeta valence quality plus polarization functions (ZORA)	2024-12-04
+BSEO:0000522	class	jorge-QZP	BSEO:0100035	jorge	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	QZP: Quadruple zeta valence quality plus polarization	2014-04-25
+BSEO:0000523	class	jorge-QZP-DKH	BSEO:0100035	jorge	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	QZP-DKH: Quadruple zeta valence quality plus polarization (DKH)	2014-05-13
+BSEO:0000524	class	jorge-QZP-ZORA	BSEO:0100035	jorge	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	QZP-ZORA: All-electron quadruple-zeta valence quality plus polarization functions (ZORA)	2025-10-30
+BSEO:0000525	class	jorge-TZP	BSEO:0100035	jorge	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	TZP: Triple zeta valence quality plus polarization	2014-05-05
+BSEO:0000526	class	jorge-TZP-DKH	BSEO:0100035	jorge	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	TZP-DKH: Triple zeta valence quality plus polarization (DKH)	2014-05-13
+BSEO:0000527	class	jorge-TZP-ZORA	BSEO:0100035	jorge	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	TZP-ZORA, all-electron triple-zeta basis for calculations with the ZORA approach	2021-07-08
+BSEO:0000528	class	jul-cc-pV(D+d)Z	BSEO:0100062	truhlar	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	jul-cc-pV(D+d)Z basis of Papajak/Truhlar	2013-01-23
+BSEO:0000529	class	jul-cc-pV(Q+d)Z	BSEO:0100062	truhlar	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	jul-cc-pV(Q+d)Z basis of Papajak/Truhlar	2013-01-23
+BSEO:0000530	class	jul-cc-pV(T+d)Z	BSEO:0100062	truhlar	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	jul-cc-pV(T+d)Z basis of Papajak/Truhlar	2013-01-23
+BSEO:0000531	class	jun-cc-pV(D+d)Z	BSEO:0100062	truhlar	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	jun-cc-pV(D+d)Z basis of Papajak/Truhlar	2013-01-23
+BSEO:0000532	class	jun-cc-pV(Q+d)Z	BSEO:0100062	truhlar	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	jun-cc-pV(Q+d)Z basis of Papajak/Truhlar	2013-01-23
+BSEO:0000533	class	jun-cc-pV(T+d)Z	BSEO:0100062	truhlar	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	jun-cc-pV(T+d)Z basis of Papajak/Truhlar	2013-01-23
+BSEO:0000534	class	Koga unpolarized	BSEO:0100036	koga	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Non-relativistic unpolarized basis sets for atomic calculations, designed for use in uncontracted form	2021-01-28
+BSEO:0000535	class	LANL08	BSEO:0100037	lanl	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004	LANL08(uncontracted)	2008-08-14
+BSEO:0000536	class	LANL08(d)	BSEO:0100037	lanl	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004	LANL08 + polarization and diffuse	2008-08-14
+BSEO:0000537	class	LANL08(f)	BSEO:0100037	lanl	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2008-08-14
+BSEO:0000538	class	LANL08+	BSEO:0100037	lanl	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004	LANL08+ diffuse	2008-08-14
+BSEO:0000539	class	LANL2DZ	BSEO:0100037	lanl	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2013-03-25
+BSEO:0000540	class	LANL2DZ ECP	BSEO:0100037	lanl	BSEO:0200008	orbital	BSEO:0300004		2013-03-25
+BSEO:0000541	class	LANL2DZdp	BSEO:0100037	lanl	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004	DZP  Double Zeta + Polarization + Diffuse ECP	2007-01-15
+BSEO:0000542	class	LANL2TZ	BSEO:0100037	lanl	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2008-08-14
+BSEO:0000543	class	LANL2TZ(f)	BSEO:0100037	lanl	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2008-08-14
+BSEO:0000544	class	LANL2TZ+	BSEO:0100037	lanl	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004	LANL2TZ+ with diffuse d functions	2008-08-14
+BSEO:0000545	class	lcecp-0-QZVP	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2026-02-09
+BSEO:0000546	class	lcecp-0-QZVPP	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2026-02-09
+BSEO:0000547	class	lcecp-0-SV(P)	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004	lcecp-0-SVP	2026-02-09
+BSEO:0000548	class	lcecp-0-SVP	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2026-02-09
+BSEO:0000549	class	lcecp-0-TZVP	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2026-02-09
+BSEO:0000550	class	lcecp-0-TZVPP	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004	lcecp-0-TZVP	2026-02-09
+BSEO:0000551	class	lcecp-1-QZVP	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2026-02-09
+BSEO:0000552	class	lcecp-1-QZVPP	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2026-02-09
+BSEO:0000553	class	lcecp-1-SV(P)	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004	lcecp-1-SVP	2026-02-09
+BSEO:0000554	class	lcecp-1-SVP	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2026-02-09
+BSEO:0000555	class	lcecp-1-TZVP	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2026-02-09
+BSEO:0000556	class	lcecp-1-TZVPP	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004	lcecp-1-TZVP	2026-02-09
+BSEO:0000557	class	lcecp-2-QZVP	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2026-02-09
+BSEO:0000558	class	lcecp-2-QZVPP	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2026-02-09
+BSEO:0000559	class	lcecp-2-SV(P)	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004	lcecp-2-SVP	2026-02-09
+BSEO:0000560	class	lcecp-2-SVP	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2026-02-09
+BSEO:0000561	class	lcecp-2-TZVP	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2026-02-09
+BSEO:0000562	class	lcecp-2-TZVPP	BSEO:0100002	ahlrichs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004	lcecp-2-TZVP	2026-02-09
+BSEO:0000563	class	m6-31G	BSEO:0100051	pople_mod	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2010-05-19
+BSEO:0000564	class	m6-31G*	BSEO:0100051	pople_mod	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2010-05-19
+BSEO:0000565	class	maug-cc-pV(D+d)Z	BSEO:0100062	truhlar	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	jun-cc-pV(D+d)Z basis of Papajak/Truhlar	2013-01-23
+BSEO:0000566	class	maug-cc-pV(Q+d)Z	BSEO:0100062	truhlar	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	apr-cc-pV(Q+d)Z basis of Papajak/Truhlar	2013-01-23
+BSEO:0000567	class	maug-cc-pV(T+d)Z	BSEO:0100062	truhlar	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	may-cc-pV(T+d)Z basis of Papajak/Truhlar	2013-01-23
+BSEO:0000568	class	may-cc-pV(Q+d)Z	BSEO:0100062	truhlar	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	may-cc-pV(Q+d)Z basis of Papajak/Truhlar	2013-01-23
+BSEO:0000569	class	may-cc-pV(T+d)Z	BSEO:0100062	truhlar	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	may-cc-pV(T+d)Z basis of Papajak/Truhlar	2013-01-23
+BSEO:0000570	class	MIDI	BSEO:0100031	huzinaga	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300003	Huzinaga MIDI	2007-01-15
+BSEO:0000571	class	MIDI!	BSEO:0100031	huzinaga	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VDZP Valence Double Zeta + Polarization on some atoms	2007-01-15
+BSEO:0000572	class	MIDIX	BSEO:0100031	huzinaga	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VDZP Valence Double Zeta + Polarization on some atoms	2007-01-15
+BSEO:0000573	class	MINI	BSEO:0100031	huzinaga	BSEO:0200008	orbital	BSEO:0300001	Huzinaga MINI	2007-01-15
+BSEO:0000574	class	modified-LANL2DZ	BSEO:0100037	lanl	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004	Couty-Hall Modified LANL2DZ Basis Sets for Transition Metals	2010-05-19
+BSEO:0000575	class	NASA Ames ANO	BSEO:0100006	ano	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VQZ3P   Valence Quadruple Zeta + Polarization on All Atoms	2008-01-15
+BSEO:0000576	class	NASA Ames ANO2	BSEO:0100006	ano	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VQZ3P   Valence Quadruple Zeta + Polarization on All Atoms	2008-01-15
+BSEO:0000577	class	NASA Ames cc-pCV5Z	BSEO:0100041	nasa	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-08-26
+BSEO:0000578	class	NASA Ames cc-pCVQZ	BSEO:0100041	nasa	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-08-26
+BSEO:0000579	class	NASA Ames cc-pCVTZ	BSEO:0100041	nasa	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-08-26
+BSEO:0000580	class	NASA Ames cc-pV5Z	BSEO:0100041	nasa	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-08-26
+BSEO:0000581	class	NASA Ames cc-pVQZ	BSEO:0100041	nasa	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-08-26
+BSEO:0000582	class	NASA Ames cc-pVTZ	BSEO:0100041	nasa	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-08-26
+BSEO:0000583	class	NLO-V	BSEO:0100044	paschoal	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	NLO-V (V=1-3) used to calculate linear and mainly nonlinear optical properties for molecules	2014-04-26
+BSEO:0000584	class	NMR-DKH (TZ2P)	BSEO:0100044	paschoal	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	NMR-DKH (TZ2P) triple-zeta doubly-polarized	2017-10-12
+BSEO:0000585	class	ORP	BSEO:0100042	orp	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	ORP (Optical Rotation Prediction) Basis Set	2019-07-31
+BSEO:0000586	class	Partridge Uncontracted 1	BSEO:0100043	partridge	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2010-01-20
+BSEO:0000587	class	Partridge Uncontracted 2	BSEO:0100043	partridge	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2010-01-20
+BSEO:0000588	class	Partridge Uncontracted 3	BSEO:0100043	partridge	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2010-01-20
+BSEO:0000589	class	Partridge Uncontracted 4	BSEO:0100043	partridge	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2010-01-20
+BSEO:0000590	class	PAW-L05	BSEO:0100045	paw	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	PAW-L05 basis set for use with PAW method	2024-02-20
+BSEO:0000591	class	PAW-L1	BSEO:0100045	paw	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	PAW-L1 basis set for use with PAW method	2024-02-20
+BSEO:0000592	class	PAW-L1-contracted	BSEO:0100045	paw	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	PAW-L1-contracted basis set for use with PAW method	2024-02-20
+BSEO:0000593	class	PAW-L2	BSEO:0100045	paw	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	PAW-L2 basis set for use with PAW method	2024-02-20
+BSEO:0000594	class	PAW-L2-contracted	BSEO:0100045	paw	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	PAW-L2-contracted basis set for use with PAW method	2024-02-20
+BSEO:0000595	class	PB4-D	BSEO:0100046	pb	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	PB4-D protonic basis	2024-01-23
+BSEO:0000596	class	PB4-F1	BSEO:0100046	pb	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	PB4-F1 protonic basis	2024-01-23
+BSEO:0000597	class	PB4-F2	BSEO:0100046	pb	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	PB4-F2 protonic basis	2024-01-23
+BSEO:0000598	class	PB5-D	BSEO:0100046	pb	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	PB5-D protonic basis	2024-01-23
+BSEO:0000599	class	PB5-F	BSEO:0100046	pb	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	PB5-F protonic basis	2024-01-23
+BSEO:0000600	class	PB5-G	BSEO:0100046	pb	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	PB5-G protonic basis	2024-01-23
+BSEO:0000601	class	PB6-D	BSEO:0100046	pb	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	PB6-D protonic basis	2024-01-23
+BSEO:0000602	class	PB6-F	BSEO:0100046	pb	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	PB6-F protonic basis	2024-01-23
+BSEO:0000603	class	PB6-G	BSEO:0100046	pb	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	PB6-G protonic basis	2024-01-23
+BSEO:0000604	class	PB6-H	BSEO:0100046	pb	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	PB6-H protonic basis	2024-01-23
+BSEO:0000605	class	pc-0	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	pc-0(unpolarized)	2013-01-23
+BSEO:0000606	class	pc-1	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2013-01-23
+BSEO:0000607	class	pc-2	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2013-01-23
+BSEO:0000608	class	pc-3	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2013-01-23
+BSEO:0000609	class	pc-4	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2013-01-23
+BSEO:0000610	class	pcemd-2	BSEO:0100038	lehtola_emd	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	pcemd-2: polarization-consistent electron momentum density	2013-02-28
+BSEO:0000611	class	pcemd-3	BSEO:0100038	lehtola_emd	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	pcemd-3: polarization-consistent electron momentum density	2013-02-28
+BSEO:0000612	class	pcemd-4	BSEO:0100038	lehtola_emd	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	pcemd-4: polarization-consistent electron momentum density	2013-02-28
+BSEO:0000613	class	pcH-1	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-11-14
+BSEO:0000614	class	pcH-2	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-11-14
+BSEO:0000615	class	pcH-3	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-11-14
+BSEO:0000616	class	pcH-4	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-11-14
+BSEO:0000617	class	pcJ-0	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001	Contracted version of the pcJ-0 basis	2010-12-27
+BSEO:0000618	class	pcJ-0_2006	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001		2010-12-27
+BSEO:0000619	class	pcJ-1	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Contracted version of the pcJ-1 basis	2010-12-27
+BSEO:0000620	class	pcJ-1_2006	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2010-12-27
+BSEO:0000621	class	pcJ-2	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Contracted version of the pcJ-2 basis	2010-12-27
+BSEO:0000622	class	pcJ-2_2006	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2010-12-27
+BSEO:0000623	class	pcJ-3	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Contracted version of the pcJ-3 basis	2010-12-27
+BSEO:0000624	class	pcJ-3_2006	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2010-12-27
+BSEO:0000625	class	pcJ-4	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Contracted version of the pcJ-4 basis	2010-12-27
+BSEO:0000626	class	pcJ-4_2006	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2010-12-27
+BSEO:0000627	class	pcS-0	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001		2008-10-02
+BSEO:0000628	class	pcS-1	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2008-10-02
+BSEO:0000629	class	pcS-2	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2008-10-02
+BSEO:0000630	class	pcS-3	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2011-01-18
+BSEO:0000631	class	pcS-4	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2008-10-02
+BSEO:0000632	class	pcseg-0	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Segmented contracted version of the pc-0 basis	2014-04-24
+BSEO:0000633	class	pcseg-1	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Segmented contracted version of the pc-1 basis	2014-04-24
+BSEO:0000634	class	pcseg-2	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Segmented contracted version of the pc-2 basis	2014-04-24
+BSEO:0000635	class	pcseg-3	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Segmented contracted version of the pc-3 basis	2014-04-24
+BSEO:0000636	class	pcseg-4	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Segmented contracted version of the pc-4 basis	2014-04-24
+BSEO:0000637	class	pcSseg-0	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Segmented contracted version of the pcS-0 basis	2015-01-14
+BSEO:0000638	class	pcSseg-1	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Segmented contracted version of the pcS-1 basis	2015-01-14
+BSEO:0000639	class	pcSseg-2	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Segmented contracted version of the pcS-2 basis	2015-01-14
+BSEO:0000640	class	pcSseg-3	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Segmented contracted version of the pcS-3 basis	2015-01-14
+BSEO:0000641	class	pcSseg-4	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Segmented contracted version of the pcS-4 basis	2015-01-14
+BSEO:0000642	class	pcX-1	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Jensen pcX basis set optimized for core-spectroscopy	2019-01-07
+BSEO:0000643	class	pcX-2	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Jensen pcX basis set optimized for core-spectroscopy	2019-01-07
+BSEO:0000644	class	pcX-3	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Jensen pcX basis set optimized for core-spectroscopy	2019-01-07
+BSEO:0000645	class	pcX-4	BSEO:0100033	jensen	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Jensen pcX basis set optimized for core-spectroscopy	2019-01-07
+BSEO:0000646	class	pecJ-1	BSEO:0100047	pec	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2022-02-11
+BSEO:0000647	class	pecJ-2	BSEO:0100047	pec	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2022-02-11
+BSEO:0000648	class	pob-DZVP-rev2	BSEO:0100048	pob	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2022-03-17
+BSEO:0000649	class	pob-TZVP	BSEO:0100048	pob	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2022-03-17
+BSEO:0000650	class	pob-TZVP-rev2	BSEO:0100048	pob	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2022-03-17
+BSEO:0000651	class	pSBKJC	BSEO:0100058	sbkjc	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004	Electrically polarized valence basis sets for the SBKJC effective core potential developed for calculations of dynamic polarizabilities and Raman intensities	2012-10-02
+BSEO:0000652	class	PsX-DZ	BSEO:0100052	psx	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Even-tempered PsX-DZ positronic basis	2024-07-30
+BSEO:0000653	class	PsX-QZ	BSEO:0100052	psx	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Even-tempered PsX-QZ positronic basis	2024-07-30
+BSEO:0000654	class	PsX-TZ	BSEO:0100052	psx	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Even-tempered PsX-TZ positronic basis	2024-07-30
+BSEO:0000655	class	Pt - mDZP	BSEO:0100044	paschoal	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2012-10-02
+BSEO:0000656	class	pV6Z	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	V6Z5P   Valence Sextuple Zeta + Polarization on All Atoms	2007-01-15
+BSEO:0000657	class	pV7Z	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2008-12-16
+BSEO:0000658	class	Roos Augmented Double Zeta ANO	BSEO:0100006	ano	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2007-01-15
+BSEO:0000659	class	Roos Augmented Triple Zeta ANO	BSEO:0100006	ano	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2009-01-29
+BSEO:0000660	class	s3-21G	BSEO:0100051	pople_mod	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2010-07-15
+BSEO:0000661	class	s3-21G*	BSEO:0100051	pople_mod	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2010-07-15
+BSEO:0000662	class	s6-31G	BSEO:0100051	pople_mod	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2010-07-15
+BSEO:0000663	class	s6-31G*	BSEO:0100051	pople_mod	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2010-07-15
+BSEO:0000664	class	Sadlej pVTZ	BSEO:0100054	sadlej	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Sadlej polarized-valence-triple-zeta	2008-07-01
+BSEO:0000665	class	Sadlej+	BSEO:0100054	sadlej	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2014-04-26
+BSEO:0000666	class	sap_grasp_large	BSEO:0100040	lehtola_sap	BSEO:0200004	guess	BSEO:0300001		2020-05-05
+BSEO:0000667	class	sap_grasp_small	BSEO:0100040	lehtola_sap	BSEO:0200004	guess	BSEO:0300001		2020-05-05
+BSEO:0000668	class	sap_helfem_large	BSEO:0100040	lehtola_sap	BSEO:0200004	guess	BSEO:0300001		2020-05-05
+BSEO:0000669	class	sap_helfem_small	BSEO:0100040	lehtola_sap	BSEO:0200004	guess	BSEO:0300001		2020-05-05
+BSEO:0000670	class	Sapporo-DKH3-DZP	BSEO:0100055	sapporo	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Sapporo-DKH3-DZP [deprecated]	2019-09-06
+BSEO:0000671	class	Sapporo-DKH3-DZP-2012	BSEO:0100055	sapporo	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-07-15
+BSEO:0000672	class	Sapporo-DKH3-DZP-2012-diffuse	BSEO:0100055	sapporo	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-07-15
+BSEO:0000673	class	Sapporo-DKH3-DZP-diffuse	BSEO:0100055	sapporo	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Sapporo-DKH3-DZP-diffuse [deprecated]	2019-09-06
+BSEO:0000674	class	Sapporo-DKH3-QZP	BSEO:0100055	sapporo	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Sapporo-DKH3-QZP [deprecated]	2019-09-06
+BSEO:0000675	class	Sapporo-DKH3-QZP-2012	BSEO:0100055	sapporo	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-07-15
+BSEO:0000676	class	Sapporo-DKH3-QZP-2012-diffuse	BSEO:0100055	sapporo	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-07-15
+BSEO:0000677	class	Sapporo-DKH3-QZP-diffuse	BSEO:0100055	sapporo	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Sapporo-DKH3-QZP-diffuse [deprecated]	2019-09-06
+BSEO:0000678	class	Sapporo-DKH3-TZP	BSEO:0100055	sapporo	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Sapporo-DKH3-TZP [deprecated]	2019-09-06
+BSEO:0000679	class	Sapporo-DKH3-TZP-2012	BSEO:0100055	sapporo	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-07-15
+BSEO:0000680	class	Sapporo-DKH3-TZP-2012-diffuse	BSEO:0100055	sapporo	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-07-15
+BSEO:0000681	class	Sapporo-DKH3-TZP-diffuse	BSEO:0100055	sapporo	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Sapporo-DKH3-TZP-diffuse [deprecated]	2019-09-06
+BSEO:0000682	class	Sapporo-DZP	BSEO:0100055	sapporo	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Sapporo-DZP [deprecated]	2019-09-06
+BSEO:0000683	class	Sapporo-DZP-2012	BSEO:0100055	sapporo	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-07-15
+BSEO:0000684	class	Sapporo-DZP-2012-diffuse	BSEO:0100055	sapporo	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-07-15
+BSEO:0000685	class	Sapporo-DZP-diffuse	BSEO:0100055	sapporo	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Sapporo-DZP-diffuse [deprecated]	2019-09-06
+BSEO:0000686	class	Sapporo-QZP	BSEO:0100055	sapporo	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Sapporo-QZP [deprecated]	2019-09-06
+BSEO:0000687	class	Sapporo-QZP-2012	BSEO:0100055	sapporo	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-07-15
+BSEO:0000688	class	Sapporo-QZP-2012-diffuse	BSEO:0100055	sapporo	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-07-15
+BSEO:0000689	class	Sapporo-QZP-diffuse	BSEO:0100055	sapporo	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Sapporo-QZP-diffuse [deprecated]	2019-09-06
+BSEO:0000690	class	Sapporo-TZP	BSEO:0100055	sapporo	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Sapporo-TZP [deprecated]	2019-09-06
+BSEO:0000691	class	Sapporo-TZP-2012	BSEO:0100055	sapporo	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-07-15
+BSEO:0000692	class	Sapporo-TZP-2012-diffuse	BSEO:0100055	sapporo	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2019-07-15
+BSEO:0000693	class	Sapporo-TZP-diffuse	BSEO:0100055	sapporo	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Sapporo-TZP-diffuse [deprecated]	2019-09-06
+BSEO:0000694	class	SARC-DKH2	BSEO:0100056	sarc	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2013-02-28
+BSEO:0000695	class	SARC-ZORA	BSEO:0100056	sarc	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2013-02-28
+BSEO:0000696	class	SARC2-QZV-DKH2	BSEO:0100056	sarc	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2016-08-01
+BSEO:0000697	class	SARC2-QZV-DKH2-JKFIT	BSEO:0100056	sarc	BSEO:0200006	jkfit	BSEO:0300001|BSEO:0300002	JK fitting basis for use with SARC2-QZV-DKH2	2016-08-01
+BSEO:0000698	class	SARC2-QZV-ZORA	BSEO:0100056	sarc	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2016-08-01
+BSEO:0000699	class	SARC2-QZV-ZORA-JKFIT	BSEO:0100056	sarc	BSEO:0200006	jkfit	BSEO:0300001|BSEO:0300002	JK fitting basis for use with SARC2-QZV-ZORA	2016-08-01
+BSEO:0000700	class	SARC2-QZVP-DKH2	BSEO:0100056	sarc	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2016-08-01
+BSEO:0000701	class	SARC2-QZVP-DKH2-JKFIT	BSEO:0100056	sarc	BSEO:0200006	jkfit	BSEO:0300001|BSEO:0300002	JK fitting basis for use with SARC2-QZVP-DKH2	2016-08-01
+BSEO:0000702	class	SARC2-QZVP-ZORA	BSEO:0100056	sarc	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	SARC2-QZVP-ZORA: Polarized Quadruple Z Valence	2016-08-01
+BSEO:0000703	class	SARC2-QZVP-ZORA-JKFIT	BSEO:0100056	sarc	BSEO:0200006	jkfit	BSEO:0300001|BSEO:0300002	JK fitting basis for use with SARC2-QZVP-ZORA	2016-08-01
+BSEO:0000704	class	saug-ano-pV5Z	BSEO:0100006	ano	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2021-11-17
+BSEO:0000705	class	saug-ano-pVDZ	BSEO:0100006	ano	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2021-11-17
+BSEO:0000706	class	saug-ano-pVQZ	BSEO:0100006	ano	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2021-11-17
+BSEO:0000707	class	saug-ano-pVTZ	BSEO:0100006	ano	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2021-11-17
+BSEO:0000708	class	SBKJC Polarized (p,2d) - LFK	BSEO:0100058	sbkjc	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2008-05-01
+BSEO:0000709	class	SBKJC-ECP	BSEO:0100058	sbkjc	BSEO:0200008	orbital	BSEO:0300004	SBKJC ECP	2008-11-10
+BSEO:0000710	class	SBKJC-VDZ	BSEO:0100058	sbkjc	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004	VDZ Valence Double Zeta with ECP	2007-01-15
+BSEO:0000711	class	SBO4-DZ(d)-3G	BSEO:0100065	zorrilla	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	SBO4-DZ(d,p)-3G Double-zeta expansion of simplified box orbitals	2019-10-17
+BSEO:0000712	class	SBO4-DZ(d,p)-3G	BSEO:0100065	zorrilla	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	SBO4-DZ(d,p)-3G Double-zeta expansion of simplified box orbitals	2019-10-17
+BSEO:0000713	class	SBO4-SZ-3G	BSEO:0100065	zorrilla	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	SBO4-SZ-3G Single-zeta expansion of simplified box orbitals	2019-10-17
+BSEO:0000714	class	Scaled MINI	BSEO:0100031	huzinaga	BSEO:0200008	orbital	BSEO:0300001	Huzinaga Scaled MINI	2007-01-15
+BSEO:0000715	class	seg-cc-pV5Z-PP	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2022-03-22
+BSEO:0000716	class	seg-cc-pVDZ-PP	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2022-03-22
+BSEO:0000717	class	seg-cc-pVQZ-PP	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2022-03-22
+BSEO:0000718	class	seg-cc-pVTZ-PP	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2022-03-22
+BSEO:0000719	class	seg-cc-pwCV5Z-PP	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2022-03-22
+BSEO:0000720	class	seg-cc-pwCVDZ-PP	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2022-03-22
+BSEO:0000721	class	seg-cc-pwCVQZ-PP	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2022-03-22
+BSEO:0000722	class	seg-cc-pwCVTZ-PP	BSEO:0100018	dunning	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004		2022-03-22
+BSEO:0000723	class	sigmaDZ	BSEO:0100059	sigmanz	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	sigmaDZ basis	2024-01-12
+BSEO:0000724	class	sigmaDZHF	BSEO:0100059	sigmanz	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	sigmaDZHF basis for Hellmann-Feynman forces	2024-01-12
+BSEO:0000725	class	sigmaQZ	BSEO:0100059	sigmanz	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	sigmaQZ basis	2024-01-12
+BSEO:0000726	class	sigmaSZHF	BSEO:0100059	sigmanz	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	sigmaSZHF basis for Hellmann-Feynman forces	2024-01-12
+BSEO:0000727	class	sigmaTZ	BSEO:0100059	sigmanz	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	sigmaTZ basis	2024-01-12
+BSEO:0000728	class	sigmaTZHF	BSEO:0100059	sigmanz	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	sigmaTZHF basis for Hellmann-Feynman forces	2024-01-12
+BSEO:0000729	class	STO-2G	BSEO:0100060	sto	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	STO-2G Minimal Basis (2 functions/AO)	2007-01-15
+BSEO:0000730	class	STO-3G	BSEO:0100060	sto	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	STO-3G Minimal Basis (3 functions/AO)	2007-01-15
+BSEO:0000731	class	STO-3G*	BSEO:0100060	sto	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	MBP     Minimal Basis + Polarization on second row	2007-01-15
+BSEO:0000732	class	STO-4G	BSEO:0100060	sto	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	STO-4G Minimal Basis (4 functions/AO)	2018-06-19
+BSEO:0000733	class	STO-5G	BSEO:0100060	sto	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	STO-5G Minimal Basis (5 functions/AO)	2018-06-19
+BSEO:0000734	class	STO-6G	BSEO:0100060	sto	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	STO-6G Minimal Basis (6 functions/AO)	2008-07-01
+BSEO:0000735	class	Stuttgart RLC	BSEO:0100061	stuttgart	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004	Stuttgart RLC ECP + Valence basis	2009-01-26
+BSEO:0000736	class	Stuttgart RLC ECP	BSEO:0100061	stuttgart	BSEO:0200008	orbital	BSEO:0300004		2009-01-26
+BSEO:0000737	class	Stuttgart RSC 1997	BSEO:0100061	stuttgart	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004	Stuttgart RSC 1997 ECP + Valence basis	2008-10-15
+BSEO:0000738	class	Stuttgart RSC 1997 ECP	BSEO:0100061	stuttgart	BSEO:0200008	orbital	BSEO:0300004		2011-04-14
+BSEO:0000739	class	Stuttgart RSC ANO	BSEO:0100061	stuttgart	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004	Stuttgart RSC 1997 + Quadruple Zeta Basis Set designed for an ECP	2011-04-14
+BSEO:0000740	class	Stuttgart RSC Segmented + ECP	BSEO:0100061	stuttgart	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002|BSEO:0300004	Stuttgart RSC 1997 + Quadruple Zeta Basis Set designed for an ECP	2011-04-14
+BSEO:0000741	class	SV (Dunning-Hay)	BSEO:0100024	dunning_hay	BSEO:0200008	orbital	BSEO:0300001	VDZ     Valence Double Zeta: 2 Funct.'s/Valence AO	2007-01-15
+BSEO:0000742	class	SV + Double Rydberg (Dunning-Hay)	BSEO:0100024	dunning_hay	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VDZ2R   Valence Double Zeta + Double Rydberg Functions	2007-01-15
+BSEO:0000743	class	SV + Rydberg (Dunning-Hay)	BSEO:0100024	dunning_hay	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VDZ1R   Valence Double Zeta + Diffuse Rydberg Functions	2007-01-15
+BSEO:0000744	class	SVP (Dunning-Hay)	BSEO:0100024	dunning_hay	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VDZP    Valence Double Zeta + Polarization on All Atoms	2007-01-15
+BSEO:0000745	class	SVP + Diffuse (Dunning-Hay)	BSEO:0100024	dunning_hay	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VDZPD   Valence Double Zeta + Polarization + Diffuse	2007-01-15
+BSEO:0000746	class	SVP + Diffuse + Rydberg (Dunning-Hay)	BSEO:0100024	dunning_hay	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VDZPD1R Valence Double Zeta + Polar. + Diffuse + Rydberg	2007-01-15
+BSEO:0000747	class	SVP + Rydberg (Dunning-Hay)	BSEO:0100024	dunning_hay	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VDZP1R  Valence Double Zeta + Polarization + Rydberg	2007-01-15
+BSEO:0000748	class	TZ (Dunning-Hay)	BSEO:0100024	dunning_hay	BSEO:0200008	orbital	BSEO:0300001		2009-08-06
+BSEO:0000749	class	TZP-ZORA	BSEO:0100035	jorge	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	TZP-ZORA, all-electron triple-zeta basis for calculations with the ZORA approach	2021-07-08
+BSEO:0000750	class	UGBS	BSEO:0100063	ugbs	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	Universal Gaussian Basis Set	2012-06-08
+BSEO:0000751	class	un-ccemd-ref	BSEO:0100038	lehtola_emd	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	un-ccemd-ref: uncontracted correlation consistent electron momentum density-ref	2013-02-28
+BSEO:0000752	class	un-pcemd-ref	BSEO:0100038	lehtola_emd	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	un-pcemd-ref: uncontracted polarization consistent electron momentum density-ref	2013-02-28
+BSEO:0000753	class	Wachters+f	BSEO:0100064	wachters	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	VDZP    Valence Double Zeta + Polarization on All Atoms	2007-01-15
+BSEO:0000754	class	WTBS	BSEO:0100031	huzinaga	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	MB      Minimal Basis: 1 Function/AO	2007-01-15
+BSEO:0000755	class	x2c-JFIT	BSEO:0100005	ahlrichs_x2c	BSEO:0200005	jfit	BSEO:0300001|BSEO:0300002	x2c coulomb fitting	2017-10-12
+BSEO:0000756	class	x2c-JFIT-universal	BSEO:0100005	ahlrichs_x2c	BSEO:0200005	jfit	BSEO:0300001|BSEO:0300002	x2c coulomb fitting	2017-10-12
+BSEO:0000757	class	x2c-QZVPall	BSEO:0100005	ahlrichs_x2c	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	All-electron relativistic polarized quadruple-zeta basis for one-component calculations	2020-11-05
+BSEO:0000758	class	x2c-QZVPall-2c	BSEO:0100005	ahlrichs_x2c	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	All-electron relativistic polarized quadruple-zeta basis for two-component calculations	2020-11-05
+BSEO:0000759	class	x2c-QZVPall-2c-s	BSEO:0100005	ahlrichs_x2c	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	All-electron relativistic polarized quadruple-zeta basis for two-component calculations of NMR shielding	2020-11-05
+BSEO:0000760	class	x2c-QZVPall-s	BSEO:0100005	ahlrichs_x2c	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	All-electron relativistic polarized quadruple-zeta basis for one-component calculations of NMR shielding	2020-11-05
+BSEO:0000761	class	x2c-QZVPPall	BSEO:0100005	ahlrichs_x2c	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	All-electron relativistic doubly polarized quadruple-zeta basis for one-component calculations	2020-11-05
+BSEO:0000762	class	x2c-QZVPPall-2c	BSEO:0100005	ahlrichs_x2c	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	All-electron relativistic doubly polarized quadruple-zeta basis for two-component calculations	2020-11-05
+BSEO:0000763	class	x2c-QZVPPall-2c-s	BSEO:0100005	ahlrichs_x2c	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	All-electron relativistic doubly polarized quadruple-zeta basis for two-component calculations of NMR shielding	2020-11-05
+BSEO:0000764	class	x2c-QZVPPall-s	BSEO:0100005	ahlrichs_x2c	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	All-electron relativistic doubly polarized quadruple-zeta basis for one-component calculations of NMR shielding	2020-11-05
+BSEO:0000765	class	x2c-SV(P)all	BSEO:0100005	ahlrichs_x2c	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2017-10-12
+BSEO:0000766	class	x2c-SV(P)all-2c	BSEO:0100005	ahlrichs_x2c	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2017-10-12
+BSEO:0000767	class	x2c-SV(P)all-s	BSEO:0100005	ahlrichs_x2c	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	All-electron relativistic split-valence for NMR shielding	2019-10-01
+BSEO:0000768	class	x2c-SVPall	BSEO:0100005	ahlrichs_x2c	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2017-10-12
+BSEO:0000769	class	x2c-SVPall-2c	BSEO:0100005	ahlrichs_x2c	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2017-10-12
+BSEO:0000770	class	x2c-SVPall-s	BSEO:0100005	ahlrichs_x2c	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	All-electron relativistic split-valence for NMR shielding	2019-10-01
+BSEO:0000771	class	x2c-TZVPall	BSEO:0100005	ahlrichs_x2c	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2017-10-12
+BSEO:0000772	class	x2c-TZVPall-2c	BSEO:0100005	ahlrichs_x2c	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2017-10-12
+BSEO:0000773	class	x2c-TZVPall-s	BSEO:0100005	ahlrichs_x2c	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	All-electron relativistic triple-zeta for NMR shielding	2019-10-01
+BSEO:0000774	class	x2c-TZVPPall	BSEO:0100005	ahlrichs_x2c	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2017-10-12
+BSEO:0000775	class	x2c-TZVPPall-2c	BSEO:0100005	ahlrichs_x2c	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002		2017-10-12
+BSEO:0000776	class	x2c-TZVPPall-s	BSEO:0100005	ahlrichs_x2c	BSEO:0200008	orbital	BSEO:0300001|BSEO:0300002	All-electron relativistic triple-zeta for NMR shielding	2019-10-01

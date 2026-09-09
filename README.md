@@ -24,6 +24,24 @@ We want to accomplish the following technical goals to get there:
 3. Capture the logical construction of each basis set (e.g., usage of diffusion
    function, usage of polarization function)
 
+## Exploring
+
+This ontology has several components that are constructed with `robot template`
+then ultimately merged with `robot merge`. The results are available in [bseo.owl](bseo.owl)
+
+```mermaid
+graph LR
+    bseo[Basis Set Exchange Ontology]
+    chebi[ChEBI] --> bseo
+    a[ChEBI Atomic Numbers Ontology] --> bseo
+    orbitalo[Orbital Ontology] --> bseo
+    bse[Basis Set Exchange] --> bseo
+    d[Manually curated Basis Set Families] --> bseo
+    e[Manually curated Basis Set Relations] --> bseo
+    chebi -.-> a
+    chebi -.-> orbitalo
+```
+
 ## License
 
 Code in this repository is licensed under the MIT license. Original data is
@@ -32,17 +50,6 @@ under the BSD license
 ([reference](https://github.com/MolSSI-BSE/basis_set_exchange)).
 
 ## Contributing
-
-### Ranges
-
-We're using the informal ID-ranges:
-
-- `0000000` - `0099999` are manually curated classes
-- `0100000` - `0199999` are basis sets originating from basis set exchange
-- `0200000` - `0299999` are families from basis set exchange
-- `0300000` - `0399999` are roles from basis set exchange
-- `0400000` - `0499999` are function types from basis set exchange
-- `1000000` - `1999999` are properties (manually curated )
 
 ### Exploration
 

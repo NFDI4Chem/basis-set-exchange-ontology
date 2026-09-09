@@ -1,0 +1,12 @@
+curie	type	label	parent	source
+ID	TYPE	AT rdfs:label^^xsd:string	SC %	AT dcterms:source^^xsd:anyURI
+BSEO:0200000	class	role
+BSEO:0200001	class	admmfit	BSEO:0200000	https://www.basissetexchange.org
+BSEO:0200002	class	dftjfit	BSEO:0200000	https://www.basissetexchange.org
+BSEO:0200003	class	dftxfit	BSEO:0200000	https://www.basissetexchange.org
+BSEO:0200004	class	guess	BSEO:0200000	https://www.basissetexchange.org
+BSEO:0200005	class	jfit	BSEO:0200000	https://www.basissetexchange.org
+BSEO:0200006	class	jkfit	BSEO:0200000	https://www.basissetexchange.org
+BSEO:0200007	class	optri	BSEO:0200000	https://www.basissetexchange.org
+BSEO:0200008	class	orbital	BSEO:0200000	https://www.basissetexchange.org
+BSEO:0200009	class	rifit	BSEO:0200000	https://www.basissetexchange.org
