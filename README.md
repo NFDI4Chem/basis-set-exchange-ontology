@@ -27,7 +27,8 @@ We want to accomplish the following technical goals to get there:
 ## Exploring
 
 This ontology has several components that are constructed with `robot template`
-then ultimately merged with `robot merge`. The results are available in [bseo.owl](bseo.owl)
+then ultimately merged with `robot merge`. The results are available in
+[bseo.owl](bseo.owl)
 
 ```mermaid
 graph LR
