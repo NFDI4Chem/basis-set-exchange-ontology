@@ -3,12 +3,6 @@ format:
     ruff check --fix --unsafe-fixes .
     uv run --script src/lint.py
 
-sssom:
-    uvx --from "sssom-pydantic[bridge,cli]>=0.6.4" sssom_pydantic owl \
-      -i templates/sssom.tsv \
-      --ontology-iri "https://http://purl.obolibrary.org/obo/bseo.sssom.tsv" \
-      -o derived/mappings.ofn
-
 terms:
     uv run \
       --script src/build.py \
@@ -41,9 +35,16 @@ basis-set-to-element:
       --template derived/basis-set-to-element.tsv \
       --output derived/basis-set-to-element.ofn
 
-build: terms basis-set-to-element
+mappings:
+    uvx --from "sssom-pydantic[bridge,cli]>=0.6.5" sssom_pydantic owl \
+      -i templates/sssom.tsv \
+      --ontology-iri "https://http://purl.obolibrary.org/obo/bseo.sssom.tsv" \
+      -o derived/mappings.ofn
+
+build: terms basis-set-to-element mappings
     robot merge \
         --input templates/metadata.ttl \
         --input derived/basis-set-to-element.ofn \
         --input derived/basis-sets.ofn \
+        --input derived/mappings.ofn \
         --output bseo.owl
