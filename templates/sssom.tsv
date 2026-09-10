@@ -1,0 +1,6 @@
+# curie_map:
+# worldavatar.compchem: http://purl.org/gc/
+subject_id	subject_label	predicate_id	object_id
+BSEO:0000000	basis set	skos:exactMatch		worldavatar.compchem:BasisSet	basis set
+BSEO:0100049	pople	skos:exactMatch	worldavatar.compchem:PopleBasisSet	Pople basis set
+BSEO:0000033	6-311+G*	skos:exactMatch	worldavatar.compchem:6-311pGS	6-311+G* Basis Set
