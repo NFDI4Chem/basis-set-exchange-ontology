@@ -18,6 +18,8 @@ def main() -> None:
     """Lint curated data files."""
     for path in TEMPLATE_DIRECTORY.glob("*.tsv"):
         df = pd.read_csv(path, sep="\t", dtype=str)
+        for col in df.columns:
+            df[col] = df[col].map(str.strip, na_action="ignore")
         df.to_csv(path, index=False, sep="\t")
 
 
