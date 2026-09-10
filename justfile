@@ -3,6 +3,12 @@ format:
     ruff check --fix --unsafe-fixes .
     uv run --script src/lint.py
 
+sssom:
+    uvx --from "sssom-pydantic[bridge,cli]>=0.6.4" sssom_pydantic owl \
+      -i templates/sssom.tsv \
+      --ontology-iri "https://http://purl.obolibrary.org/obo/bseo.sssom.tsv" \
+      -o derived/mappings.ofn
+
 terms:
     uv run \
       --script src/build.py \
