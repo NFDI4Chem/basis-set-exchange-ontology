@@ -37,11 +37,19 @@ basis-set-to-element:
       --template derived/basis-set-to-element.tsv \
       --output derived/basis-set-to-element.ofn
 
-build: terms basis-set-to-element
+download-chebi-atomic-numbers:
+    if [ ! -f derived/chebi-atomic-numbers.owl ]; then \
+        wget \
+            https://github.com/cthoyt/chebi-atomic-numbers-ontology/raw/refs/heads/main/chebi-atomic-numbers.owl \
+            -O derived/chebi-atomic-numbers.owl; \
+    fi
+
+build: terms basis-set-to-element download-chebi-atomic-numbers
     robot merge \
         --input templates/metadata.ttl \
         --input derived/basis-set-to-element.ofn \
         --input derived/basis-sets.ofn \
+        --input derived/chebi-atomic-numbers.owl \
         annotate \
         --ontology-iri "http://purl.obolibrary.org/obo/bseo.owl" \
         --version-iri  "http://purl.obolibrary.org/obo/bseo/releases/$(date -I)/bseo.owl" \
