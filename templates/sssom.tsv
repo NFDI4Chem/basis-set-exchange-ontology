@@ -7,7 +7,11 @@
 #  sssom: https://w3id.org/sssom/
 #  wikidata: http://www.wikidata.org/entity/
 #mapping_set_id: https://example.org/test.tsv
+#mapping_set_description: Semantic mappings from basis sets in BSEO to external resources,
+#  including Gainesville Core Ontology and Wikidata.
 #license: https://creativecommons.org/publicdomain/zero/1.0/
+#creator_id:
+#- orcid:0000-0003-4423-4370
 subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	author_id	mapping_date	comment
 BSEO:0000000	basis set	skos:exactMatch	gainesville.core:BasisSet	Basis Set	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-09-10	
 BSEO:0000000	basis set	skos:exactMatch	wikidata:Q2664086	basis set	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-09-11	
