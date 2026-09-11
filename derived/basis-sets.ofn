@@ -1866,6 +1866,7 @@ AnnotationAssertion(<http://purl.org/dc/terms/description> <http://purl.obolibra
 AnnotationAssertion(<http://purl.org/dc/terms/modified> <http://purl.obolibrary.org/obo/BSEO_0000099> "2013-01-23"^^xsd:date)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0000099> "apr-cc-pV(Q+d)Z")
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000099> <http://purl.obolibrary.org/obo/BSEO_0100062>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000099> <http://purl.obolibrary.org/obo/BSEO_0100067>)
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000099> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000001> <http://purl.obolibrary.org/obo/BSEO_0200008>))
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000099> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000002> <http://purl.obolibrary.org/obo/BSEO_0300001>))
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000099> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000002> <http://purl.obolibrary.org/obo/BSEO_0300002>))

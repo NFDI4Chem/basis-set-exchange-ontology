@@ -26052,6 +26052,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0000099">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100062"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100067"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BSEO_1000001"/>
