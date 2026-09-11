@@ -42,4 +42,7 @@ build: terms basis-set-to-element
         --input templates/metadata.ttl \
         --input derived/basis-set-to-element.ofn \
         --input derived/basis-sets.ofn \
+        annotate \
+        --ontology-iri "http://purl.obolibrary.org/obo/bseo.owl" \
+        --version-iri  "http://purl.obolibrary.org/obo/bseo/releases/$(date -I)/bseo.owl" \
         --output bseo.owl
