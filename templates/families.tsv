@@ -1,67 +1,68 @@
-curie	type	label	parent	source
-ID	TYPE	AT rdfs:label^^xsd:string	SC %	AT dcterms:source^^xsd:anyURI
-BSEO:0100001	class	acvxz-j	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100002	class	ahlrichs	BSEO:0000000	https://www.basissetexchange.org
+curie	type	label	parent	source	contributor
+ID	TYPE	AT rdfs:label^^xsd:string	SC %	AT dcterms:source^^xsd:anyURI	AI dcterms:contributor
+BSEO:0100000	class	basis set by family	BSEO:0000000		orcid:0000-0003-4423-4370
+BSEO:0100001	class	acvxz-j	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100002	class	ahlrichs	BSEO:0100000	https://www.basissetexchange.org
 BSEO:0100003	class	ahlrichs_dhf	BSEO:0100002	https://www.basissetexchange.org
 BSEO:0100004	class	ahlrichs_fit	BSEO:0100002	https://www.basissetexchange.org
 BSEO:0100005	class	ahlrichs_x2c	BSEO:0100002	https://www.basissetexchange.org
-BSEO:0100006	class	ano	BSEO:0000000	https://www.basissetexchange.org
+BSEO:0100006	class	ano	BSEO:0100000	https://www.basissetexchange.org
 BSEO:0100007	class	ano_claudino	BSEO:0100006	https://www.basissetexchange.org
-BSEO:0100008	class	aug_mcc	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100009	class	binning	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100010	class	blaudeau	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100011	class	cadpac	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100012	class	ccj	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100013	class	cologne	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100014	class	crenb	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100015	class	demon2k	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100016	class	dfo	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100017	class	dgauss	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100018	class	dunning	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100019	class	dunning_dk	BSEO:0100018	https://www.basissetexchange.org
-BSEO:0100020	class	dunning_dk3	BSEO:0100018	https://www.basissetexchange.org
-BSEO:0100021	class	dunning_f12	BSEO:0100018	https://www.basissetexchange.org
-BSEO:0100022	class	dunning_f12_fit	BSEO:0100018	https://www.basissetexchange.org
-BSEO:0100023	class	dunning_fit	BSEO:0100018	https://www.basissetexchange.org
-BSEO:0100024	class	dunning_hay	BSEO:0100018	https://www.basissetexchange.org
-BSEO:0100025	class	dunning_pp	BSEO:0100018	https://www.basissetexchange.org
-BSEO:0100026	class	dunning_pp_fit	BSEO:0100018	https://www.basissetexchange.org
-BSEO:0100027	class	dunning_sf	BSEO:0100018	https://www.basissetexchange.org
-BSEO:0100028	class	dunning_x2c	BSEO:0100018	https://www.basissetexchange.org
-BSEO:0100029	class	dyall	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100030	class	grimme	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100031	class	huzinaga	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100032	class	iglo	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100033	class	jensen	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100034	class	jgauss	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100035	class	jorge	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100036	class	koga	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100037	class	lanl	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100038	class	lehtola_emd	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100039	class	lehtola_hgbs	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100040	class	lehtola_sap	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100041	class	nasa	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100042	class	orp	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100043	class	partridge	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100044	class	paschoal	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100045	class	paw	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100046	class	pb	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100047	class	pec	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100048	class	pob	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100049	class	pople	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100050	class	pople_fit	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100051	class	pople_mod	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100052	class	psx	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100053	class	ranasinghe	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100054	class	sadlej	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100055	class	sapporo	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100056	class	sarc	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100057	class	sauer_j	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100058	class	sbkjc	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100059	class	sigmanz	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100060	class	sto	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100061	class	stuttgart	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100062	class	truhlar	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100063	class	ugbs	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100064	class	wachters	BSEO:0000000	https://www.basissetexchange.org
-BSEO:0100065	class	zorrilla	BSEO:0000000	https://www.basissetexchange.org
+BSEO:0100008	class	aug_mcc	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100009	class	binning	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100010	class	blaudeau	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100011	class	cadpac	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100012	class	ccj	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100013	class	cologne	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100014	class	crenb	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100015	class	demon2k	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100016	class	dfo	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100017	class	dgauss	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100018	class	dunning	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100019	class	dunning_dk	BSEO:0100018	https://www.basissetexchange.org	orcid:0000-0003-4423-4370
+BSEO:0100020	class	dunning_dk3	BSEO:0100018	https://www.basissetexchange.org	orcid:0000-0003-4423-4370
+BSEO:0100021	class	dunning_f12	BSEO:0100018	https://www.basissetexchange.org	orcid:0000-0003-4423-4370
+BSEO:0100022	class	dunning_f12_fit	BSEO:0100018	https://www.basissetexchange.org	orcid:0000-0003-4423-4370
+BSEO:0100023	class	dunning_fit	BSEO:0100018	https://www.basissetexchange.org	orcid:0000-0003-4423-4370
+BSEO:0100024	class	dunning_hay	BSEO:0100018	https://www.basissetexchange.org	orcid:0000-0003-4423-4370
+BSEO:0100025	class	dunning_pp	BSEO:0100018	https://www.basissetexchange.org	orcid:0000-0003-4423-4370
+BSEO:0100026	class	dunning_pp_fit	BSEO:0100018	https://www.basissetexchange.org	orcid:0000-0003-4423-4370
+BSEO:0100027	class	dunning_sf	BSEO:0100018	https://www.basissetexchange.org	orcid:0000-0003-4423-4370
+BSEO:0100028	class	dunning_x2c	BSEO:0100018	https://www.basissetexchange.org	orcid:0000-0003-4423-4370
+BSEO:0100029	class	dyall	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100030	class	grimme	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100031	class	huzinaga	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100032	class	iglo	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100033	class	jensen	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100034	class	jgauss	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100035	class	jorge	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100036	class	koga	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100037	class	lanl	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100038	class	lehtola_emd	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100039	class	lehtola_hgbs	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100040	class	lehtola_sap	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100041	class	nasa	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100042	class	orp	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100043	class	partridge	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100044	class	paschoal	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100045	class	paw	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100046	class	pb	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100047	class	pec	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100048	class	pob	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100049	class	pople	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100050	class	pople_fit	BSEO:0100049	https://www.basissetexchange.org	orcid:0000-0003-4423-4370
+BSEO:0100051	class	pople_mod	BSEO:0100049	https://www.basissetexchange.org	orcid:0000-0003-4423-4370
+BSEO:0100052	class	psx	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100053	class	ranasinghe	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100054	class	sadlej	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100055	class	sapporo	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100056	class	sarc	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100057	class	sauer_j	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100058	class	sbkjc	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100059	class	sigmanz	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100060	class	sto	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100061	class	stuttgart	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100062	class	truhlar	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100063	class	ugbs	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100064	class	wachters	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100065	class	zorrilla	BSEO:0100000	https://www.basissetexchange.org
