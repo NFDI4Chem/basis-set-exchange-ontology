@@ -13,6 +13,7 @@ terms:
       --prefix "CHEBI: http://purl.obolibrary.org/obo/CHEBI_" \
       --prefix "ORBITAL: http://w3id.org/biopragmatics/orbital/term/" \
       --prefix "ChEMROF: https://chemkg.github.io/chemrof/" \
+      --prefix "orcid: https://orcid.org/" \
       --template templates/roots.tsv \
       --template templates/properties.tsv \
       --template templates/families.tsv \
@@ -31,9 +32,17 @@ basis-set-to-element:
       --prefix "CHEBI: http://purl.obolibrary.org/obo/CHEBI_" \
       --prefix "ORBITAL: http://w3id.org/biopragmatics/orbital/term/" \
       --prefix "ChEMROF: https://chemkg.github.io/chemrof/" \
+      --prefix "orcid: https://orcid.org/" \
       --template templates/properties.tsv \
       --template derived/basis-set-to-element.tsv \
       --output derived/basis-set-to-element.ofn
+
+download-chebi-atomic-numbers:
+    if [ ! -f derived/chebi-atomic-numbers.owl ]; then \
+        wget \
+            https://github.com/cthoyt/chebi-atomic-numbers-ontology/raw/refs/heads/main/chebi-atomic-numbers.owl \
+            -O derived/chebi-atomic-numbers.owl; \
+    fi
 
 mappings:
     uvx --from "sssom-pydantic[bridge,cli]>=0.6.5" sssom_pydantic owl \
@@ -41,11 +50,12 @@ mappings:
       --ontology-iri "https://http://purl.obolibrary.org/obo/bseo.sssom.tsv" \
       -o derived/mappings.ofn
 
-build: terms basis-set-to-element mappings
+build: terms basis-set-to-element download-chebi-atomic-numbers mappings
     robot merge \
         --input templates/metadata.ttl \
         --input derived/basis-set-to-element.ofn \
         --input derived/basis-sets.ofn \
+        --input derived/chebi-atomic-numbers.owl \
         --input derived/mappings.ofn \
         annotate \
         --ontology-iri "http://purl.obolibrary.org/obo/bseo.owl" \
