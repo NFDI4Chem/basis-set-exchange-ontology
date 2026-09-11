@@ -341,6 +341,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0000000">
         <dcterms:description>represents a basis set</dcterms:description>
         <rdfs:label>basis set</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/BasisSet"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q2664086"/>
+        <skos:exactMatch rdf:resource="https://w3id.org/emmo/domain/atomistic#EMMO_abdf0104-0349-4c60-b4b8-91161660b2f4"/>
     </owl:Class>
     
 
@@ -17688,6 +17691,7 @@
         <dcterms:description>VDZ     Valence Double Zeta: 2 Funct.&apos;s/Valence AO</dcterms:description>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-15</dcterms:modified>
         <rdfs:label>Ahlrichs VDZ</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/VDZ"/>
     </owl:Class>
     
 
@@ -17933,6 +17937,7 @@
         <dcterms:description>VTZ     Valence Triple Zeta: 3 Funct.&apos;s/Valence AO</dcterms:description>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-15</dcterms:modified>
         <rdfs:label>Ahlrichs VTZ</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/VTZ"/>
     </owl:Class>
     
 
@@ -171617,6 +171622,7 @@
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>pople</rdfs:label>
         <skos:exactMatch rdf:resource="http://purl.org/gc/PopleBasisSet"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q55452004"/>
     </owl:Class>
     
 
@@ -197296,8 +197302,6 @@
         <skos:exactMatch rdf:resource="http://purl.org/gc/STO-3GS"/>
         <skos:exactMatch rdf:resource="http://purl.org/gc/SplitValencePopleBasisSet"/>
         <skos:exactMatch rdf:resource="http://purl.org/gc/TZ"/>
-        <skos:exactMatch rdf:resource="http://purl.org/gc/VDZ"/>
-        <skos:exactMatch rdf:resource="http://purl.org/gc/VTZ"/>
         <skos:exactMatch rdf:resource="http://purl.org/gc/aug-cc-pV_DPD_Z"/>
         <skos:exactMatch rdf:resource="http://purl.org/gc/jun-cc-pVDZ"/>
         <skos:exactMatch rdf:resource="http://purl.org/gc/3-21GS"/>

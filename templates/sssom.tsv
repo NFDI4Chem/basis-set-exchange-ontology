@@ -1,5 +1,6 @@
 #curie_map:
 #  BSEO: http://purl.obolibrary.org/obo/BSEO_
+#  atomistic: https://w3id.org/emmo/domain/atomistic#EMMO_
 #  gainesville.core: http://purl.org/gc/
 #  orcid: https://orcid.org/
 #  semapv: https://w3id.org/semapv/vocab/
@@ -8,11 +9,12 @@
 #  wikidata: http://www.wikidata.org/entity/
 #mapping_set_id: https://example.org/test.tsv
 #mapping_set_description: Semantic mappings from basis sets in BSEO to external resources,
-#  including Gainesville Core Ontology and Wikidata.
+#  including Gainesville Core Ontology, EMMO Atomistic, and Wikidata.
 #license: https://creativecommons.org/publicdomain/zero/1.0/
 #creator_id:
 #- orcid:0000-0003-4423-4370
 subject_id	subject_label	predicate_id	object_id	object_label	mapping_justification	author_id	mapping_date	comment
+BSEO:0000000	basis set	skos:exactMatch	atomistic:abdf0104-0349-4c60-b4b8-91161660b2f4	BasisSet	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-09-11	
 BSEO:0000000	basis set	skos:exactMatch	gainesville.core:BasisSet	Basis Set	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-09-10	
 BSEO:0000000	basis set	skos:exactMatch	wikidata:Q2664086	basis set	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-09-11	
 BSEO:0000004	3-21G	skos:exactMatch	gainesville.core:3-21G	3-21G Basis Set	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-09-10	A class for the Pople split valence 3-21G basis set.
@@ -21,6 +23,8 @@ BSEO:0000033	6-311+G*	skos:exactMatch	gainesville.core:6-311pGS	6-311+G* Basis S
 BSEO:0000036	6-311G	skos:exactMatch	gainesville.core:6-311G	6-311G Basis Set	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-09-10	A class for the Pople split valence 6-311G basis set.
 BSEO:0000044	6-31G	skos:exactMatch	gainesville.core:6-31G	6-31G Basis Set	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-09-10	A class for the Pople split valence 6-31G basis set.
 BSEO:0000050	6-31G*	skos:exactMatch	gainesville.core:6-31GS	6-31G* Basis Set	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-09-10	A class for the Pople polarization split valence 6-31G* basis set.
+BSEO:0000077	Ahlrichs VDZ	skos:exactMatch	gainesville.core:VDZ	VDZ Basis Set	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-09-10	A class for the ahlrichs VDZ double zeta basis set.
+BSEO:0000078	Ahlrichs VTZ	skos:exactMatch	gainesville.core:VTZ	VTZ Basis Set	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-09-10	A class for the ahlrichs VDZ double zeta basis set.
 BSEO:0000122	aug-cc-pV5Z	skos:exactMatch	gainesville.core:aug-cc-pV5Z	aug-cc-pV5Z Basis Set	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-09-10	A class for the aug-cc-pV5Z Correlation Consistent Quintuple Zeta basis set.
 BSEO:0000132	aug-cc-pVDZ	skos:exactMatch	gainesville.core:aug-cc-pVDZ	aug-cc-pVDZ Basis Set	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-09-10	A class for the aug-cc-pVDZ Correlation Consistent Double Zeta basis set.
 BSEO:0000141	aug-cc-pVQZ	skos:exactMatch	gainesville.core:aug-cc-pVQZ	aug-cc-pVQZ Basis Set	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-09-10	A class for the aug-cc-pVQZ Correlation Consistent Quadruple Zeta basis set.
@@ -55,7 +59,5 @@ sssom:NoTermFound		skos:exactMatch	gainesville.core:MinimalPopleBasisSet	Minimal
 sssom:NoTermFound		skos:exactMatch	gainesville.core:STO-3GS	STO-3G* Basis Set	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-09-10	A class for the Pople minimal STO-3G basis set with polarization functions.
 sssom:NoTermFound		skos:exactMatch	gainesville.core:SplitValencePopleBasisSet	Split Valence Basis Set	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-09-10	A class for the Pople split valence basis sets.
 sssom:NoTermFound		skos:exactMatch	gainesville.core:TZ	TZ Basis Set	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-09-10	A class for the Dunning TZ triple zeta basis set.
-sssom:NoTermFound		skos:exactMatch	gainesville.core:VDZ	VDZ Basis Set	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-09-10	A class for the ahlrichs VDZ double zeta basis set.
-sssom:NoTermFound		skos:exactMatch	gainesville.core:VTZ	VTZ Basis Set	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-09-10	A class for the ahlrichs VDZ double zeta basis set.
 sssom:NoTermFound		skos:exactMatch	gainesville.core:aug-cc-pV_DPD_Z	aug-cc-pV(D+d)Z Basis Set	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-09-10	A class for the aug-cc-pV(D+d)Z Correlation Consistent Double Zeta basis set.
 sssom:NoTermFound		skos:exactMatch	gainesville.core:jun-cc-pVDZ	jun-cc-pVDZ Basis Set	semapv:ManualMappingCuration	orcid:0000-0003-4423-4370	2026-09-10	A class for the jun-cc-pVDZ Correlation Consistent Double Zeta basis set.
