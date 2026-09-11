@@ -2,6 +2,7 @@ format:
     ruff format
     ruff check --fix --unsafe-fixes .
     uv run --script src/lint.py
+    uvx --from "sssom-pydantic[cli]>=0.6.5" sssom_pydantic format templates/sssom.tsv
 
 terms:
     uv run \
