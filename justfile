@@ -1,6 +1,7 @@
 format:
     ruff format
     ruff check --fix --unsafe-fixes .
+    uv run --script src/lint.py
 
 terms:
     uv run \
