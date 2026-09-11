@@ -14,6 +14,7 @@
      xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:NCBITaxon="http://purl.obolibrary.org/obo/NCBITaxon_">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/bseo.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/bseo/releases/2026-09-10/bseo.owl"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
         <dcterms:creator rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <dcterms:license rdf:resource="https://opensource.org/licenses/BSD-3-Clause"/>

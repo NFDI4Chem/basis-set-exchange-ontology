@@ -47,4 +47,7 @@ build: terms basis-set-to-element mappings
         --input derived/basis-set-to-element.ofn \
         --input derived/basis-sets.ofn \
         --input derived/mappings.ofn \
+        annotate \
+        --ontology-iri "http://purl.obolibrary.org/obo/bseo.owl" \
+        --version-iri  "http://purl.obolibrary.org/obo/bseo/releases/$(date -I)/bseo.owl" \
         --output bseo.owl
