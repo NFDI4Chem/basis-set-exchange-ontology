@@ -171763,6 +171763,16 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BSEO_0100067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100067">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100066"/>
+        <dcterms:creator rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <rdfs:label>basis set with diffusion function</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BSEO_0200000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0200000">

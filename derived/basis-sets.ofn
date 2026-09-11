@@ -850,6 +850,7 @@ Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0100063>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0100064>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0100065>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0100066>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0100067>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0200000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0200001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0200002>))
@@ -8833,6 +8834,12 @@ SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100065> <http://purl.obolibrary
 AnnotationAssertion(<http://purl.org/dc/terms/creator> <http://purl.obolibrary.org/obo/BSEO_0100066> <https://orcid.org/0000-0003-4423-4370>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100066> "basis set by characteristic")
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100066> <http://purl.obolibrary.org/obo/BSEO_0000000>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0100067> (basis set with diffusion function)
+
+AnnotationAssertion(<http://purl.org/dc/terms/creator> <http://purl.obolibrary.org/obo/BSEO_0100067> <https://orcid.org/0000-0003-4423-4370>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100067> "basis set with diffusion function")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100067> <http://purl.obolibrary.org/obo/BSEO_0100066>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0200000> (role)
 
