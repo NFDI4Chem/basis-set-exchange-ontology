@@ -170903,7 +170903,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100000">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
-        <dcterms:contributor rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <dcterms:creator rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <rdfs:label>basis set by family</rdfs:label>
     </owl:Class>
     
@@ -171567,6 +171567,16 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>zorrilla</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSEO_0100066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100066">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
+        <dcterms:creator rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <rdfs:label>basis set by characteristic</rdfs:label>
     </owl:Class>
     
 
