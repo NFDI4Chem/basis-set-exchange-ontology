@@ -1,6 +1,6 @@
-curie	type	label	parent	source	contributor
-ID	TYPE	AT rdfs:label^^xsd:string	SC %	AT dcterms:source^^xsd:anyURI	AI dcterms:contributor
-BSEO:0100000	class	basis set by family	BSEO:0000000		orcid:0000-0003-4423-4370
+curie	type	label	parent	source	contributor	creator
+ID	TYPE	AT rdfs:label^^xsd:string	SC %	AT dcterms:source^^xsd:anyURI	AI dcterms:contributor	AI dcterms:creator
+BSEO:0100000	class	basis set by family	BSEO:0000000			orcid:0000-0003-4423-4370
 BSEO:0100001	class	acvxz-j	BSEO:0100000	https://www.basissetexchange.org
 BSEO:0100002	class	ahlrichs	BSEO:0100000	https://www.basissetexchange.org
 BSEO:0100003	class	ahlrichs_dhf	BSEO:0100002	https://www.basissetexchange.org
@@ -66,3 +66,4 @@ BSEO:0100062	class	truhlar	BSEO:0100000	https://www.basissetexchange.org
 BSEO:0100063	class	ugbs	BSEO:0100000	https://www.basissetexchange.org
 BSEO:0100064	class	wachters	BSEO:0100000	https://www.basissetexchange.org
 BSEO:0100065	class	zorrilla	BSEO:0100000	https://www.basissetexchange.org
+BSEO:0100066	class	basis set by characteristic	BSEO:0000000			orcid:0000-0003-4423-4370
