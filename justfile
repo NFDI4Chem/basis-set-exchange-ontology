@@ -2,6 +2,7 @@ format:
     ruff format
     ruff check --fix --unsafe-fixes .
     uv run --script src/lint.py
+    uvx --from "sssom-pydantic[cli]>=0.6.5" sssom_pydantic format templates/sssom.tsv
 
 terms:
     uv run \
@@ -44,12 +45,19 @@ download-chebi-atomic-numbers:
             -O derived/chebi-atomic-numbers.owl; \
     fi
 
-build: terms basis-set-to-element download-chebi-atomic-numbers
+mappings:
+    uvx --from "sssom-pydantic[bridge,cli]>=0.6.5" sssom_pydantic owl \
+      -i templates/sssom.tsv \
+      --ontology-iri "https://http://purl.obolibrary.org/obo/bseo.sssom.tsv" \
+      -o derived/mappings.ofn
+
+build: terms basis-set-to-element download-chebi-atomic-numbers mappings
     robot merge \
         --input templates/metadata.ttl \
         --input derived/basis-set-to-element.ofn \
         --input derived/basis-sets.ofn \
         --input derived/chebi-atomic-numbers.owl \
+        --input derived/mappings.ofn \
         annotate \
         --ontology-iri "http://purl.obolibrary.org/obo/bseo.owl" \
         --version-iri  "http://purl.obolibrary.org/obo/bseo/releases/$(date -I)/bseo.owl" \
