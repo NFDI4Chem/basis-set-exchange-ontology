@@ -20,6 +20,7 @@ terms:
       --template templates/function-types.tsv \
       --template templates/roles.tsv \
       --template derived/basis-sets.tsv \
+      --template templates/basis-set-parents.tsv \
       --output derived/basis-sets.ofn
 
 basis-set-to-element:
