@@ -10,6 +10,7 @@
      xmlns:BSEO="http://purl.obolibrary.org/obo/BSEO_"
      xmlns:doap="http://usefulinc.com/ns/doap#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:orcid="https://orcid.org/"
      xmlns:chemrof="https://w3id.org/chemrof/"
      xmlns:dcterms="http://purl.org/dc/terms/"
@@ -168,6 +169,12 @@
     <!-- http://www.w3.org/2000/01/rdf-schema#label -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
     
 
 
@@ -334,6 +341,9 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0000000">
         <dcterms:description>represents a basis set</dcterms:description>
         <rdfs:label>basis set</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/BasisSet"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q2664086"/>
+        <skos:exactMatch rdf:resource="https://w3id.org/emmo/domain/atomistic#EMMO_abdf0104-0349-4c60-b4b8-91161660b2f4"/>
     </owl:Class>
     
 
@@ -1026,6 +1036,7 @@
         <dcterms:description>3-21G Split-valence basis set</dcterms:description>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-08-25</dcterms:modified>
         <rdfs:label>3-21G</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/3-21G"/>
     </owl:Class>
     
 
@@ -1460,6 +1471,7 @@
         <dcterms:description>4-31G valence double-zeta basis set</dcterms:description>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-15</dcterms:modified>
         <rdfs:label>4-31G</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/4-31G"/>
     </owl:Class>
     
 
@@ -4495,6 +4507,7 @@
         <dcterms:description>VTZ Valence Triple Zeta: 3 Funct.&apos;s/Valence AO with diffuse+polarization on heavy atoms</dcterms:description>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-02-27</dcterms:modified>
         <rdfs:label>6-311+G*</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/6-311pGS"/>
     </owl:Class>
     
 
@@ -4893,6 +4906,7 @@
         <dcterms:description>VTZ Valence Triple Zeta: 3 Funct.&apos;s/Valence AO</dcterms:description>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-15</dcterms:modified>
         <rdfs:label>6-311G</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/6-311G"/>
     </owl:Class>
     
 
@@ -6095,6 +6109,7 @@
         <dcterms:description>6-31G valence double-zeta</dcterms:description>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-04-24</dcterms:modified>
         <rdfs:label>6-31G</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/6-31G"/>
     </owl:Class>
     
 
@@ -6920,6 +6935,7 @@
         <dcterms:description>6-31G + polarization on heavy atoms</dcterms:description>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2015-05-28</dcterms:modified>
         <rdfs:label>6-31G*</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/6-31GS"/>
     </owl:Class>
     
 
@@ -17675,6 +17691,7 @@
         <dcterms:description>VDZ     Valence Double Zeta: 2 Funct.&apos;s/Valence AO</dcterms:description>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-15</dcterms:modified>
         <rdfs:label>Ahlrichs VDZ</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/VDZ"/>
     </owl:Class>
     
 
@@ -17920,6 +17937,7 @@
         <dcterms:description>VTZ     Valence Triple Zeta: 3 Funct.&apos;s/Valence AO</dcterms:description>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-15</dcterms:modified>
         <rdfs:label>Ahlrichs VTZ</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/VTZ"/>
     </owl:Class>
     
 
@@ -29083,6 +29101,7 @@
         </rdfs:subClassOf>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-26</dcterms:modified>
         <rdfs:label>aug-cc-pV5Z</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/aug-cc-pV5Z"/>
     </owl:Class>
     
 
@@ -30548,6 +30567,7 @@
         </rdfs:subClassOf>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-15</dcterms:modified>
         <rdfs:label>aug-cc-pVDZ</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/aug-cc-pVDZ"/>
     </owl:Class>
     
 
@@ -31852,6 +31872,7 @@
         </rdfs:subClassOf>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-26</dcterms:modified>
         <rdfs:label>aug-cc-pVQZ</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/aug-cc-pVQZ"/>
     </owl:Class>
     
 
@@ -33288,6 +33309,7 @@
         </rdfs:subClassOf>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-26</dcterms:modified>
         <rdfs:label>aug-cc-pVTZ</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/aug-cc-pVTZ"/>
     </owl:Class>
     
 
@@ -49577,6 +49599,7 @@
         </rdfs:subClassOf>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-26</dcterms:modified>
         <rdfs:label>cc-pV5Z</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/cc-pV5Z"/>
     </owl:Class>
     
 
@@ -52096,6 +52119,7 @@
         </rdfs:subClassOf>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2011-02-14</dcterms:modified>
         <rdfs:label>cc-pVDZ</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/cc-pVDZ"/>
     </owl:Class>
     
 
@@ -54998,6 +55022,7 @@
         </rdfs:subClassOf>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2009-01-26</dcterms:modified>
         <rdfs:label>cc-pVQZ</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/cc-pVQZ"/>
     </owl:Class>
     
 
@@ -57971,6 +57996,7 @@
         </rdfs:subClassOf>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-11-18</dcterms:modified>
         <rdfs:label>cc-pVTZ</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/cc-pVTZ"/>
     </owl:Class>
     
 
@@ -68870,6 +68896,7 @@
         <dcterms:description>VDZ2PD  Valence Double Zeta + Polarization + Diffuse</dcterms:description>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-15</dcterms:modified>
         <rdfs:label>d-aug-cc-pVDZ</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/d-aug-cc-pVDZ"/>
     </owl:Class>
     
 
@@ -153321,6 +153348,7 @@
         <dcterms:description>STO-2G Minimal Basis (2 functions/AO)</dcterms:description>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-15</dcterms:modified>
         <rdfs:label>STO-2G</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/STO-2G"/>
     </owl:Class>
     
 
@@ -153668,6 +153696,7 @@
         <dcterms:description>STO-3G Minimal Basis (3 functions/AO)</dcterms:description>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-15</dcterms:modified>
         <rdfs:label>STO-3G</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/STO-3G"/>
     </owl:Class>
     
 
@@ -154098,6 +154127,7 @@
         <dcterms:description>STO-4G Minimal Basis (4 functions/AO)</dcterms:description>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-19</dcterms:modified>
         <rdfs:label>STO-4G</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/STO-4G"/>
     </owl:Class>
     
 
@@ -154451,6 +154481,7 @@
         <dcterms:description>STO-5G Minimal Basis (5 functions/AO)</dcterms:description>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2018-06-19</dcterms:modified>
         <rdfs:label>STO-5G</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/STO-5G"/>
     </owl:Class>
     
 
@@ -154696,6 +154727,7 @@
         <dcterms:description>STO-6G Minimal Basis (6 functions/AO)</dcterms:description>
         <dcterms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2008-07-01</dcterms:modified>
         <rdfs:label>STO-6G</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/STO-6G"/>
     </owl:Class>
     
 
@@ -171107,6 +171139,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>ahlrichs</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/AhlrichsBasisSet"/>
     </owl:Class>
     
 
@@ -171267,6 +171300,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>dunning</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/DunningBasisSet"/>
     </owl:Class>
     
 
@@ -171587,6 +171621,8 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100000"/>
         <dcterms:source rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://www.basissetexchange.org</dcterms:source>
         <rdfs:label>pople</rdfs:label>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/PopleBasisSet"/>
+        <skos:exactMatch rdf:resource="http://www.wikidata.org/entity/Q55452004"/>
     </owl:Class>
     
 
@@ -197245,6 +197281,37 @@
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
         <rdfs:label>Charles Tapley Hoyt</rdfs:label>
     </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="https://w3id.org/sssom/NoTermFound">
+        <skos:exactMatch rdf:resource="http://purl.org/gc/CCDoubleZeta"/>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/CCQuadrupleZeta"/>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/CCQuintupleZeta"/>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/DZ"/>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/DiffusePopleBasisSet"/>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/MinimalPopleBasisSet"/>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/STO-3GS"/>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/SplitValencePopleBasisSet"/>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/TZ"/>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/aug-cc-pV_DPD_Z"/>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/jun-cc-pVDZ"/>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/3-21GS"/>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/3-21pG"/>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/3-21pGS"/>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/6-31GSS"/>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/6-31pGS"/>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/6-311GS"/>
+        <skos:exactMatch rdf:resource="http://purl.org/gc/6-311pGS"/>
+    </rdf:Description>
 </rdf:RDF>
 
 
