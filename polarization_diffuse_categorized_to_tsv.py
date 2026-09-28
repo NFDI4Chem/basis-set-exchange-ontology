@@ -1,35 +1,72 @@
 import pandas as pd
 
-if __name__ == '__main__':
-    dx = pd.read_csv("templates/basis-sets.tsv", sep='\t', usecols=[0, 2], skiprows=2, header=None)
+if __name__ == "__main__":
+    dx = pd.read_csv(
+        "templates/basis-sets.tsv", sep="\t", usecols=[0, 2], skiprows=2, header=None
+    )
     lookup = dict(dx[[2, 0]].values)
 
-    df = pd.read_csv("polarization_diffuse_categorized.tsv", sep='\t')
+    df = pd.read_csv("polarization_diffuse_categorized.tsv", sep="\t")
 
     rows = []
     for _curie, name, pol, dif, pol_all, dif_all, zeta in df.values:
         name = name.strip()
         curie = lookup[name]
         if pol_all:
-            rows.append((curie, name, "BSEO:0100070", "basis set with polarization function for all atoms"))
+            rows.append(
+                (
+                    curie,
+                    name,
+                    "BSEO:0100070",
+                    "basis set with polarization function for all atoms",
+                    None,
+                )
+            )
         elif pol:
             rows.append(
-                (curie, name, "BSEO:0100081", "basis set with polarization function for some but not all atoms"))
+                (
+                    curie,
+                    name,
+                    "BSEO:0100081",
+                    "basis set with polarization function for some but not all atoms",
+                    None,
+                )
+            )
 
         if dif_all:
-            rows.append((curie, name, "BSEO:0100068", "basis set with diffusion function for all atoms"))
+            rows.append(
+                (
+                    curie,
+                    name,
+                    "BSEO:0100068",
+                    "basis set with diffusion function for all atoms",
+                    None,
+                )
+            )
         elif dif:
-            rows.append((curie, name, "BSEO:0100080", "basis set with diffusion function for some but not all atoms"))
+            rows.append(
+                (
+                    curie,
+                    name,
+                    "BSEO:0100080",
+                    "basis set with diffusion function for some but not all atoms",
+                    None,
+                )
+            )
 
         if pd.isna(zeta):
             pass
         elif zeta == "double":
-            rows.append((curie, name, "BSEO:0100073", "basis set with double zeta (DZ)"))
+            rows.append(
+                (curie, name, "BSEO:0100073", "basis set with double zeta (DZ)", None)
+            )
         elif zeta == "triple":
-            rows.append((curie, name, "BSEO:0100074", "basis set with triple zeta (TZ)"))
+            rows.append(
+                (curie, name, "BSEO:0100074", "basis set with triple zeta (TZ)", None)
+            )
         else:
             raise ValueError(zeta)
 
-    df_target = pd.read_csv("templates/basis-set-parents.tsv", sep='\t')
-    df_target = pd.concat([df_target, pd.DataFrame(rows)])
-    df_target.to_csv("templates/basis-set-parents.tsv", sep='\t', index=False)
+    df_target = pd.read_csv("templates/basis-set-parents.tsv", sep="\t")
+    df_target = pd.concat([df_target, pd.DataFrame(rows, columns=df_target.columns)])
+    df_target.to_csv("templates/basis-set-parents.tsv", sep="\t", index=False)

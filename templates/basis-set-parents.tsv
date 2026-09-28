@@ -11,3 +11,68 @@ BSEO:0000131	aug-cc-pV7Z	BSEO:0100078	basis set with septuple zeta (7Z)	orcid:00
 BSEO:0000295	cc-pV8Z	BSEO:0100079	basis set with octuple zeta (8Z)	orcid:0000-0003-4423-4370
 BSEO:0000296	cc-pV9Z	BSEO:0100082	basis set with nontuple zeta (9Z)	orcid:0000-0003-4423-4370
 BSEO:0000099	6-31++G	BSEO:0100067	basis set with diffusion function	orcid:0000-0003-4423-4370
+BSEO:0000004	3-21G	BSEO:0100073	basis set with double zeta (DZ)	
+BSEO:0000008	4-31G	BSEO:0100073	basis set with double zeta (DZ)	
+BSEO:0000012	5-21G	BSEO:0100073	basis set with double zeta (DZ)	
+BSEO:0000016	6-21G	BSEO:0100073	basis set with double zeta (DZ)	
+BSEO:0000017	6-31++G	BSEO:0100068	basis set with diffusion function for all atoms	
+BSEO:0000017	6-31++G	BSEO:0100073	basis set with double zeta (DZ)	
+BSEO:0000018	6-31++G*	BSEO:0100081	basis set with polarization function for some but not all atoms	
+BSEO:0000018	6-31++G*	BSEO:0100068	basis set with diffusion function for all atoms	
+BSEO:0000018	6-31++G*	BSEO:0100073	basis set with double zeta (DZ)	
+BSEO:0000019	6-31++G**	BSEO:0100070	basis set with polarization function for all atoms	
+BSEO:0000019	6-31++G**	BSEO:0100068	basis set with diffusion function for all atoms	
+BSEO:0000019	6-31++G**	BSEO:0100073	basis set with double zeta (DZ)	
+BSEO:0000021	6-31+G	BSEO:0100080	basis set with diffusion function for some but not all atoms	
+BSEO:0000021	6-31+G	BSEO:0100073	basis set with double zeta (DZ)	
+BSEO:0000022	6-31+G*	BSEO:0100081	basis set with polarization function for some but not all atoms	
+BSEO:0000022	6-31+G*	BSEO:0100080	basis set with diffusion function for some but not all atoms	
+BSEO:0000022	6-31+G*	BSEO:0100073	basis set with double zeta (DZ)	
+BSEO:0000024	6-31+G**	BSEO:0100070	basis set with polarization function for all atoms	
+BSEO:0000024	6-31+G**	BSEO:0100080	basis set with diffusion function for some but not all atoms	
+BSEO:0000024	6-31+G**	BSEO:0100073	basis set with double zeta (DZ)	
+BSEO:0000025	6-311++G	BSEO:0100068	basis set with diffusion function for all atoms	
+BSEO:0000025	6-311++G	BSEO:0100074	basis set with triple zeta (TZ)	
+BSEO:0000026	6-311++G(2d,2p)	BSEO:0100070	basis set with polarization function for all atoms	
+BSEO:0000026	6-311++G(2d,2p)	BSEO:0100068	basis set with diffusion function for all atoms	
+BSEO:0000026	6-311++G(2d,2p)	BSEO:0100074	basis set with triple zeta (TZ)	
+BSEO:0000027	6-311++G(3df,3pd)	BSEO:0100070	basis set with polarization function for all atoms	
+BSEO:0000027	6-311++G(3df,3pd)	BSEO:0100068	basis set with diffusion function for all atoms	
+BSEO:0000027	6-311++G(3df,3pd)	BSEO:0100074	basis set with triple zeta (TZ)	
+BSEO:0000028	6-311++G*	BSEO:0100081	basis set with polarization function for some but not all atoms	
+BSEO:0000028	6-311++G*	BSEO:0100068	basis set with diffusion function for all atoms	
+BSEO:0000028	6-311++G*	BSEO:0100074	basis set with triple zeta (TZ)	
+BSEO:0000029	6-311++G**	BSEO:0100070	basis set with polarization function for all atoms	
+BSEO:0000029	6-311++G**	BSEO:0100068	basis set with diffusion function for all atoms	
+BSEO:0000029	6-311++G**	BSEO:0100074	basis set with triple zeta (TZ)	
+BSEO:0000031	6-311+G	BSEO:0100080	basis set with diffusion function for some but not all atoms	
+BSEO:0000031	6-311+G	BSEO:0100074	basis set with triple zeta (TZ)	
+BSEO:0000032	6-311+G(2d,p)	BSEO:0100070	basis set with polarization function for all atoms	
+BSEO:0000032	6-311+G(2d,p)	BSEO:0100080	basis set with diffusion function for some but not all atoms	
+BSEO:0000032	6-311+G(2d,p)	BSEO:0100074	basis set with triple zeta (TZ)	
+BSEO:0000033	6-311+G*	BSEO:0100081	basis set with polarization function for some but not all atoms	
+BSEO:0000033	6-311+G*	BSEO:0100080	basis set with diffusion function for some but not all atoms	
+BSEO:0000033	6-311+G*	BSEO:0100074	basis set with triple zeta (TZ)	
+BSEO:0000035	6-311+G**	BSEO:0100070	basis set with polarization function for all atoms	
+BSEO:0000035	6-311+G**	BSEO:0100080	basis set with diffusion function for some but not all atoms	
+BSEO:0000035	6-311+G**	BSEO:0100074	basis set with triple zeta (TZ)	
+BSEO:0000036	6-311G	BSEO:0100074	basis set with triple zeta (TZ)	
+BSEO:0000037	6-311G(2df,2pd)	BSEO:0100070	basis set with polarization function for all atoms	
+BSEO:0000037	6-311G(2df,2pd)	BSEO:0100074	basis set with triple zeta (TZ)	
+BSEO:0000038	6-311G(d,p)	BSEO:0100070	basis set with polarization function for all atoms	
+BSEO:0000038	6-311G(d,p)	BSEO:0100074	basis set with triple zeta (TZ)	
+BSEO:0000040	6-311G*	BSEO:0100081	basis set with polarization function for some but not all atoms	
+BSEO:0000040	6-311G*	BSEO:0100074	basis set with triple zeta (TZ)	
+BSEO:0000041	6-311G**	BSEO:0100070	basis set with polarization function for all atoms	
+BSEO:0000041	6-311G**	BSEO:0100074	basis set with triple zeta (TZ)	
+BSEO:0000044	6-31G	BSEO:0100073	basis set with double zeta (DZ)	
+BSEO:0000045	6-31G(2df,p)	BSEO:0100070	basis set with polarization function for all atoms	
+BSEO:0000045	6-31G(2df,p)	BSEO:0100073	basis set with double zeta (DZ)	
+BSEO:0000046	6-31G(3df,3pd)	BSEO:0100070	basis set with polarization function for all atoms	
+BSEO:0000046	6-31G(3df,3pd)	BSEO:0100073	basis set with double zeta (DZ)	
+BSEO:0000047	6-31G(d,p)	BSEO:0100070	basis set with polarization function for all atoms	
+BSEO:0000047	6-31G(d,p)	BSEO:0100073	basis set with double zeta (DZ)	
+BSEO:0000050	6-31G*	BSEO:0100081	basis set with polarization function for some but not all atoms	
+BSEO:0000050	6-31G*	BSEO:0100073	basis set with double zeta (DZ)	
+BSEO:0000052	6-31G**	BSEO:0100070	basis set with polarization function for all atoms	
+BSEO:0000052	6-31G**	BSEO:0100073	basis set with double zeta (DZ)	
