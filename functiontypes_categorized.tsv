@@ -1,5 +1,0 @@
-Functiontype ID	Function type label	Parent	Description
-BSEO_0300079	Gaussian-type orbitals		Gaussian-type orbitals
-BSEO_0300080	Spherical Gaussian-type orbitals	BSEO_0300079	Gaussian-type orbitals given in spherical coordinates
-BSEO_0300081	Cartesian Gaussian-type orbitals	BSEO_0300079	Gaussian-type orbitals given in cartesian coordinates
-BSEO_0040029	Slater-type orbitals		Slater-type orbitals

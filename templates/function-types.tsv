@@ -5,4 +5,4 @@ BSEO:0300001	class	Gaussian-type orbitals	gto		BSEO:0300000
 BSEO:0300002	class	spherical Gaussian-type orbitals	gto_spherical		BSEO:0300001
 BSEO:0300003	class	cartesian Gaussian-type orbitals	gto_cartesian		BSEO:0300001
 BSEO:0300004	class	scalar effective core potentials	scalar_ecp		BSEO:0300000
-BSEO_0300005	Slater-type orbitals		Slater-type orbitals
+BSEO_0300005	class	Slater-type orbitals			BSEO:0300000
