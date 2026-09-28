@@ -17,7 +17,7 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
      xmlns:NCBITaxon="http://purl.obolibrary.org/obo/NCBITaxon_">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/bseo.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/bseo/releases/2026-09-11/bseo.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/bseo/releases/2026-09-28/bseo.owl"/>
         <obo:IAO_0000700 rdf:resource="http://purl.obolibrary.org/obo/BSEO_0000000"/>
         <dcterms:creator rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <dcterms:license rdf:resource="https://opensource.org/licenses/BSD-3-Clause"/>
@@ -26070,7 +26070,6 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0000099">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100062"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100067"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BSEO_1000001"/>
@@ -28878,6 +28877,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0000122">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100018"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100076"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BSEO_1000001"/>
@@ -30055,6 +30055,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0000129">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100018"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100076"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BSEO_1000001"/>
@@ -30280,6 +30281,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0000131">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100018"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100078"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BSEO_1000001"/>
@@ -30344,6 +30346,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0000132">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100018"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100073"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BSEO_1000001"/>
@@ -31649,6 +31652,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0000141">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100018"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100075"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BSEO_1000001"/>
@@ -33086,6 +33090,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0000150">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100018"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100074"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BSEO_1000001"/>
@@ -49370,6 +49375,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0000279">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100018"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100076"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BSEO_1000001"/>
@@ -51590,6 +51596,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0000293">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100018"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100077"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BSEO_1000001"/>
@@ -51815,6 +51822,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0000295">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100018"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100079"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BSEO_1000001"/>
@@ -51855,6 +51863,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0000296">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100018"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100082"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BSEO_1000001"/>
@@ -171806,6 +171815,150 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100066"/>
         <dcterms:creator rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
         <rdfs:label>basis set with diffusion function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSEO_0100068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100067"/>
+        <rdfs:label>basis set with diffusion function for all atoms</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSEO_0100069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100066"/>
+        <rdfs:label>basis set with polarization function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSEO_0100070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100069"/>
+        <rdfs:label>basis set with polarization function for all atoms</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSEO_0100071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100071">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100066"/>
+        <rdfs:label>basis set by zeta level for valence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSEO_0100072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100071"/>
+        <dcterms:creator rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <rdfs:label>basis set with single zeta (SZ)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSEO_0100073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100073">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100071"/>
+        <dcterms:creator rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <rdfs:label>basis set with double zeta (DZ)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSEO_0100074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100071"/>
+        <dcterms:creator rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <rdfs:label>basis set with triple zeta (TZ)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSEO_0100075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100071"/>
+        <dcterms:creator rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <rdfs:label>basis set with quadruple zeta (QZ)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSEO_0100076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100076">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100071"/>
+        <dcterms:creator rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <rdfs:label>basis set with quintuple zeta (5Z)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSEO_0100077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100071"/>
+        <dcterms:creator rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <rdfs:label>basis set with sextuple zeta (6Z)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSEO_0100078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100078">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100071"/>
+        <dcterms:creator rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <rdfs:label>basis set with septuple zeta (7Z)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSEO_0100079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100071"/>
+        <dcterms:creator rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <rdfs:label>basis set with octuple zeta (8Z)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSEO_0100080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100080">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100067"/>
+        <rdfs:label>basis set with diffusion function for some but not all atoms</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSEO_0100081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100081">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100069"/>
+        <rdfs:label>basis set with polarization function for some but not all atoms</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BSEO_0100082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BSEO_0100082">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BSEO_0100071"/>
+        <dcterms:creator rdf:resource="https://orcid.org/0000-0003-4423-4370"/>
+        <rdfs:label>basis set with nontuple zeta (9Z)</rdfs:label>
     </owl:Class>
     
 

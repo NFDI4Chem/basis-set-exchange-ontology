@@ -26,9 +26,13 @@ We want to accomplish the following technical goals to get there:
 
 ## Exploring
 
-This ontology has several components that are constructed with `robot template`
-then ultimately merged with `robot merge`. The results are available in
-[bseo.owl](bseo.owl)
+This ontology has several components that are constructed using
+[ROBOT templates](https://robot.obolibrary.org/template.html). The
+[justfile](justfile) in this repository orchestrates the various ROBOT commands.
+
+The full ontology build artifact [`bseo.owl`](bseo.owl) can be rebuilt from all
+sources after [installing `just`](https://just.systems/man/en/installation.html)
+then running `just build`.
 
 ```mermaid
 graph LR
@@ -49,6 +53,11 @@ Code in this repository is licensed under the MIT license. Original data is
 licensed under CC0-1.0. Content derived from the Basis Set Exchange is licensed
 under the BSD license
 ([reference](https://github.com/MolSSI-BSE/basis_set_exchange)).
+
+## Funding
+
+NFDI4Chem (DFG Grant
+[441958208](https://gepris.dfg.de/gepris/projekt/441958208))
 
 ## Contributing
 

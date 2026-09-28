@@ -851,6 +851,21 @@ Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0100064>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0100065>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0100066>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0100067>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0100068>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0100069>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0100070>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0100071>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0100072>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0100073>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0100074>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0100075>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0100076>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0100077>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0100078>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0100079>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0100080>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0100081>))
+Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0100082>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0200000>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0200001>))
 Declaration(Class(<http://purl.obolibrary.org/obo/BSEO_0200002>))
@@ -1866,7 +1881,6 @@ AnnotationAssertion(<http://purl.org/dc/terms/description> <http://purl.obolibra
 AnnotationAssertion(<http://purl.org/dc/terms/modified> <http://purl.obolibrary.org/obo/BSEO_0000099> "2013-01-23"^^xsd:date)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0000099> "apr-cc-pV(Q+d)Z")
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000099> <http://purl.obolibrary.org/obo/BSEO_0100062>)
-SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000099> <http://purl.obolibrary.org/obo/BSEO_0100067>)
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000099> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000001> <http://purl.obolibrary.org/obo/BSEO_0200008>))
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000099> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000002> <http://purl.obolibrary.org/obo/BSEO_0300001>))
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000099> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000002> <http://purl.obolibrary.org/obo/BSEO_0300002>))
@@ -2087,6 +2101,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000121> ObjectSomeValuesFrom(<h
 AnnotationAssertion(<http://purl.org/dc/terms/modified> <http://purl.obolibrary.org/obo/BSEO_0000122> "2009-01-26"^^xsd:date)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0000122> "aug-cc-pV5Z")
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000122> <http://purl.obolibrary.org/obo/BSEO_0100018>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000122> <http://purl.obolibrary.org/obo/BSEO_0100076>)
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000001> <http://purl.obolibrary.org/obo/BSEO_0200008>))
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000002> <http://purl.obolibrary.org/obo/BSEO_0300001>))
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000122> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000002> <http://purl.obolibrary.org/obo/BSEO_0300002>))
@@ -2153,6 +2168,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000128> ObjectSomeValuesFrom(<h
 AnnotationAssertion(<http://purl.org/dc/terms/modified> <http://purl.obolibrary.org/obo/BSEO_0000129> "2007-01-15"^^xsd:date)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0000129> "aug-cc-pV6Z")
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000129> <http://purl.obolibrary.org/obo/BSEO_0100018>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000129> <http://purl.obolibrary.org/obo/BSEO_0100076>)
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000129> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000001> <http://purl.obolibrary.org/obo/BSEO_0200008>))
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000129> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000002> <http://purl.obolibrary.org/obo/BSEO_0300001>))
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000129> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000002> <http://purl.obolibrary.org/obo/BSEO_0300002>))
@@ -2172,6 +2188,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000130> ObjectSomeValuesFrom(<h
 AnnotationAssertion(<http://purl.org/dc/terms/modified> <http://purl.obolibrary.org/obo/BSEO_0000131> "2017-10-11"^^xsd:date)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0000131> "aug-cc-pV7Z")
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000131> <http://purl.obolibrary.org/obo/BSEO_0100018>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000131> <http://purl.obolibrary.org/obo/BSEO_0100078>)
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000131> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000001> <http://purl.obolibrary.org/obo/BSEO_0200008>))
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000131> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000002> <http://purl.obolibrary.org/obo/BSEO_0300001>))
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000131> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000002> <http://purl.obolibrary.org/obo/BSEO_0300002>))
@@ -2181,6 +2198,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000131> ObjectSomeValuesFrom(<h
 AnnotationAssertion(<http://purl.org/dc/terms/modified> <http://purl.obolibrary.org/obo/BSEO_0000132> "2007-01-15"^^xsd:date)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0000132> "aug-cc-pVDZ")
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000132> <http://purl.obolibrary.org/obo/BSEO_0100018>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000132> <http://purl.obolibrary.org/obo/BSEO_0100073>)
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000132> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000001> <http://purl.obolibrary.org/obo/BSEO_0200008>))
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000132> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000002> <http://purl.obolibrary.org/obo/BSEO_0300001>))
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000132> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000002> <http://purl.obolibrary.org/obo/BSEO_0300002>))
@@ -2265,6 +2283,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000140> ObjectSomeValuesFrom(<h
 AnnotationAssertion(<http://purl.org/dc/terms/modified> <http://purl.obolibrary.org/obo/BSEO_0000141> "2009-01-26"^^xsd:date)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0000141> "aug-cc-pVQZ")
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000141> <http://purl.obolibrary.org/obo/BSEO_0100018>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000141> <http://purl.obolibrary.org/obo/BSEO_0100075>)
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000141> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000001> <http://purl.obolibrary.org/obo/BSEO_0200008>))
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000141> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000002> <http://purl.obolibrary.org/obo/BSEO_0300001>))
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000141> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000002> <http://purl.obolibrary.org/obo/BSEO_0300002>))
@@ -2349,6 +2368,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000149> ObjectSomeValuesFrom(<h
 AnnotationAssertion(<http://purl.org/dc/terms/modified> <http://purl.obolibrary.org/obo/BSEO_0000150> "2009-01-26"^^xsd:date)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0000150> "aug-cc-pVTZ")
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000150> <http://purl.obolibrary.org/obo/BSEO_0100018>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000150> <http://purl.obolibrary.org/obo/BSEO_0100074>)
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000150> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000001> <http://purl.obolibrary.org/obo/BSEO_0200008>))
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000150> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000002> <http://purl.obolibrary.org/obo/BSEO_0300001>))
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000150> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000002> <http://purl.obolibrary.org/obo/BSEO_0300002>))
@@ -3579,6 +3599,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000278> ObjectSomeValuesFrom(<h
 AnnotationAssertion(<http://purl.org/dc/terms/modified> <http://purl.obolibrary.org/obo/BSEO_0000279> "2009-01-26"^^xsd:date)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0000279> "cc-pV5Z")
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000279> <http://purl.obolibrary.org/obo/BSEO_0100018>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000279> <http://purl.obolibrary.org/obo/BSEO_0100076>)
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000279> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000001> <http://purl.obolibrary.org/obo/BSEO_0200008>))
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000279> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000002> <http://purl.obolibrary.org/obo/BSEO_0300001>))
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000279> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000002> <http://purl.obolibrary.org/obo/BSEO_0300002>))
@@ -3715,6 +3736,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000292> ObjectSomeValuesFrom(<h
 AnnotationAssertion(<http://purl.org/dc/terms/modified> <http://purl.obolibrary.org/obo/BSEO_0000293> "2010-09-03"^^xsd:date)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0000293> "cc-pV6Z")
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000293> <http://purl.obolibrary.org/obo/BSEO_0100018>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000293> <http://purl.obolibrary.org/obo/BSEO_0100077>)
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000293> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000001> <http://purl.obolibrary.org/obo/BSEO_0200008>))
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000293> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000002> <http://purl.obolibrary.org/obo/BSEO_0300001>))
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000293> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000002> <http://purl.obolibrary.org/obo/BSEO_0300002>))
@@ -3734,6 +3756,7 @@ SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000294> ObjectSomeValuesFrom(<h
 AnnotationAssertion(<http://purl.org/dc/terms/modified> <http://purl.obolibrary.org/obo/BSEO_0000295> "2010-07-15"^^xsd:date)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0000295> "cc-pV8Z")
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000295> <http://purl.obolibrary.org/obo/BSEO_0100018>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000295> <http://purl.obolibrary.org/obo/BSEO_0100079>)
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000295> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000001> <http://purl.obolibrary.org/obo/BSEO_0200008>))
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000295> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000002> <http://purl.obolibrary.org/obo/BSEO_0300001>))
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000295> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000002> <http://purl.obolibrary.org/obo/BSEO_0300002>))
@@ -3744,6 +3767,7 @@ AnnotationAssertion(<http://purl.org/dc/terms/description> <http://purl.obolibra
 AnnotationAssertion(<http://purl.org/dc/terms/modified> <http://purl.obolibrary.org/obo/BSEO_0000296> "2007-01-15"^^xsd:date)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0000296> "cc-pV9Z")
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000296> <http://purl.obolibrary.org/obo/BSEO_0100018>)
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000296> <http://purl.obolibrary.org/obo/BSEO_0100082>)
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000296> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000001> <http://purl.obolibrary.org/obo/BSEO_0200008>))
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000296> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000002> <http://purl.obolibrary.org/obo/BSEO_0300001>))
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0000296> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BSEO_1000002> <http://purl.obolibrary.org/obo/BSEO_0300002>))
@@ -8841,6 +8865,90 @@ SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100066> <http://purl.obolibrary
 AnnotationAssertion(<http://purl.org/dc/terms/creator> <http://purl.obolibrary.org/obo/BSEO_0100067> <https://orcid.org/0000-0003-4423-4370>)
 AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100067> "basis set with diffusion function")
 SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100067> <http://purl.obolibrary.org/obo/BSEO_0100066>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0100068> (basis set with diffusion function for all atoms)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100068> "basis set with diffusion function for all atoms")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100068> <http://purl.obolibrary.org/obo/BSEO_0100067>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0100069> (basis set with polarization function)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100069> "basis set with polarization function")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100069> <http://purl.obolibrary.org/obo/BSEO_0100066>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0100070> (basis set with polarization function for all atoms)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100070> "basis set with polarization function for all atoms")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100070> <http://purl.obolibrary.org/obo/BSEO_0100069>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0100071> (basis set by zeta level for valence)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100071> "basis set by zeta level for valence")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100071> <http://purl.obolibrary.org/obo/BSEO_0100066>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0100072> (basis set with single zeta (SZ))
+
+AnnotationAssertion(<http://purl.org/dc/terms/creator> <http://purl.obolibrary.org/obo/BSEO_0100072> <https://orcid.org/0000-0003-4423-4370>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100072> "basis set with single zeta (SZ)")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100072> <http://purl.obolibrary.org/obo/BSEO_0100071>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0100073> (basis set with double zeta (DZ))
+
+AnnotationAssertion(<http://purl.org/dc/terms/creator> <http://purl.obolibrary.org/obo/BSEO_0100073> <https://orcid.org/0000-0003-4423-4370>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100073> "basis set with double zeta (DZ)")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100073> <http://purl.obolibrary.org/obo/BSEO_0100071>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0100074> (basis set with triple zeta (TZ))
+
+AnnotationAssertion(<http://purl.org/dc/terms/creator> <http://purl.obolibrary.org/obo/BSEO_0100074> <https://orcid.org/0000-0003-4423-4370>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100074> "basis set with triple zeta (TZ)")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100074> <http://purl.obolibrary.org/obo/BSEO_0100071>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0100075> (basis set with quadruple zeta (QZ))
+
+AnnotationAssertion(<http://purl.org/dc/terms/creator> <http://purl.obolibrary.org/obo/BSEO_0100075> <https://orcid.org/0000-0003-4423-4370>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100075> "basis set with quadruple zeta (QZ)")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100075> <http://purl.obolibrary.org/obo/BSEO_0100071>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0100076> (basis set with quintuple zeta (5Z))
+
+AnnotationAssertion(<http://purl.org/dc/terms/creator> <http://purl.obolibrary.org/obo/BSEO_0100076> <https://orcid.org/0000-0003-4423-4370>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100076> "basis set with quintuple zeta (5Z)")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100076> <http://purl.obolibrary.org/obo/BSEO_0100071>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0100077> (basis set with sextuple zeta (6Z))
+
+AnnotationAssertion(<http://purl.org/dc/terms/creator> <http://purl.obolibrary.org/obo/BSEO_0100077> <https://orcid.org/0000-0003-4423-4370>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100077> "basis set with sextuple zeta (6Z)")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100077> <http://purl.obolibrary.org/obo/BSEO_0100071>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0100078> (basis set with septuple zeta (7Z))
+
+AnnotationAssertion(<http://purl.org/dc/terms/creator> <http://purl.obolibrary.org/obo/BSEO_0100078> <https://orcid.org/0000-0003-4423-4370>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100078> "basis set with septuple zeta (7Z)")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100078> <http://purl.obolibrary.org/obo/BSEO_0100071>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0100079> (basis set with octuple zeta (8Z))
+
+AnnotationAssertion(<http://purl.org/dc/terms/creator> <http://purl.obolibrary.org/obo/BSEO_0100079> <https://orcid.org/0000-0003-4423-4370>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100079> "basis set with octuple zeta (8Z)")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100079> <http://purl.obolibrary.org/obo/BSEO_0100071>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0100080> (basis set with diffusion function for some but not all atoms)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100080> "basis set with diffusion function for some but not all atoms")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100080> <http://purl.obolibrary.org/obo/BSEO_0100067>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0100081> (basis set with polarization function for some but not all atoms)
+
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100081> "basis set with polarization function for some but not all atoms")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100081> <http://purl.obolibrary.org/obo/BSEO_0100069>)
+
+# Class: <http://purl.obolibrary.org/obo/BSEO_0100082> (basis set with nontuple zeta (9Z))
+
+AnnotationAssertion(<http://purl.org/dc/terms/creator> <http://purl.obolibrary.org/obo/BSEO_0100082> <https://orcid.org/0000-0003-4423-4370>)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/BSEO_0100082> "basis set with nontuple zeta (9Z)")
+SubClassOf(<http://purl.obolibrary.org/obo/BSEO_0100082> <http://purl.obolibrary.org/obo/BSEO_0100071>)
 
 # Class: <http://purl.obolibrary.org/obo/BSEO_0200000> (role)
 
