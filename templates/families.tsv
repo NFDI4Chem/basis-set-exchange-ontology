@@ -71,4 +71,14 @@ BSEO:0100067	class	basis set with diffusion function	BSEO:0100066			orcid:0000-0
 BSEO:0100068	class	basis set with diffusion function for all atoms	BSEO:0100067			
 BSEO:0100069	class	basis set with polarization function	BSEO:0100066			
 BSEO:0100070	class	basis set with polarization function for all atoms	BSEO:0100069			
-BSEO:0100071	class	zeta level for valence	BSEO:0100066			
+BSEO:0100071	class	basis set by zeta level for valence	BSEO:0100066
+BSEO:0100072	class	basis set with single zeta (SZ)	BSEO:0100071			orcid:0000-0003-4423-4370
+BSEO:0100073	class	basis set with double zeta (DZ)	BSEO:0100071			orcid:0000-0003-4423-4370
+BSEO:0100074	class	basis set with triple zeta (TZ)	BSEO:0100071			orcid:0000-0003-4423-4370
+BSEO:0100075	class	basis set with quadruple zeta (QZ)	BSEO:0100071			orcid:0000-0003-4423-4370
+BSEO:0100076	class	basis set with quintuple zeta (5Z)	BSEO:0100071			orcid:0000-0003-4423-4370
+BSEO:0100077	class	basis set with sextuple zeta (6Z)	BSEO:0100071			orcid:0000-0003-4423-4370
+BSEO:0100078	class	basis set with septuple zeta (7Z)	BSEO:0100071			orcid:0000-0003-4423-4370
+BSEO:0100079	class	basis set with octuple zeta (8Z)	BSEO:0100071			orcid:0000-0003-4423-4370
+BSEO:0100080	class	basis set with diffusion function for some but not all atoms	BSEO:0100067
+BSEO:0100081	class	basis set with polarization function for some but not all atoms	BSEO:0100069
