@@ -26,9 +26,13 @@ We want to accomplish the following technical goals to get there:
 
 ## Exploring
 
-This ontology has several components that are constructed with `robot template`
-then ultimately merged with `robot merge`. The results are available in
-[bseo.owl](bseo.owl)
+This ontology has several components that are constructed using
+[ROBOT templates](https://robot.obolibrary.org/template.html). The
+[justfile](justfile) in this repository orchestrates the various ROBOT commands.
+
+The full ontology build artifact [`bseo.owl`](bseo.owl) can be rebuilt from all
+sources after [installing `just`](https://just.systems/man/en/installation.html)
+then running `just build`.
 
 ```mermaid
 graph LR
