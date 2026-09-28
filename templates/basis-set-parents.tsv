@@ -10,8 +10,7 @@ BSEO:0000293	cc-pV6Z	basis set with sextuple zeta (6Z)	orcid:0000-0003-4423-4370
 BSEO:0000131	aug-cc-pV7Z	BSEO:0100078	basis set with septuple zeta (7Z)	orcid:0000-0003-4423-4370
 BSEO:0000295	cc-pV8Z	BSEO:0100079	basis set with octuple zeta (8Z)	orcid:0000-0003-4423-4370
 BSEO:0000296	cc-pV9Z	BSEO:0100082	basis set with nontuple zeta (9Z)	orcid:0000-0003-4423-4370
-BSEO:0000099	6-31++G	BSEO:0100067	basis set with diffusion function	orcid:0000-0003-4423-4370
-BSEO:0000004	3-21G	BSEO:0100073	basis set with double zeta (DZ)	
+BSEO:0000004	3-21G	BSEO:0100073	basis set with double zeta (DZ)
 BSEO:0000008	4-31G	BSEO:0100073	basis set with double zeta (DZ)	
 BSEO:0000012	5-21G	BSEO:0100073	basis set with double zeta (DZ)	
 BSEO:0000016	6-21G	BSEO:0100073	basis set with double zeta (DZ)	
