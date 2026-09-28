@@ -1,12 +1,15 @@
 import pandas as pd
 
 if __name__ == '__main__':
+    dx = pd.read_csv("templates/basis-sets.tsv", sep='\t', usecols=[0, 2], skiprows=2, header=None)
+    lookup = dict(dx[[2, 0]].values)
+
     df = pd.read_csv("polarization_diffuse_categorized.tsv", sep='\t')
 
     rows = []
-    for curie, name, pol, dif, pol_all, dif_all, zeta in df.values:
-        curie = curie.strip()
+    for _curie, name, pol, dif, pol_all, dif_all, zeta in df.values:
         name = name.strip()
+        curie = lookup[name]
         if pol_all:
             rows.append((curie, name, "BSEO:0100070", "basis set with polarization function for all atoms"))
         elif pol:
