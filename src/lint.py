@@ -13,10 +13,6 @@ import pandas as pd
 
 from utils import TEMPLATE_DIRECTORY
 
-SORT = {
-    "basis-set-parents": "curie"
-}
-
 
 def main() -> None:
     """Lint curated data files."""
@@ -28,8 +24,8 @@ def main() -> None:
         for col in df.columns:
             df[col] = df[col].map(str.strip, na_action="ignore")
 
-        if sort := SORT.get(path.name):
-            df.iloc[1:] = df.iloc[1:].sort_values(sort)
+        if df.columns[0] == "curie":
+            df.iloc[1:] = df.iloc[1:].sort_values("curie")
 
         df.to_csv(path, index=False, sep="\t", encoding="utf-8")
 

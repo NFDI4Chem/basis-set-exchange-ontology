@@ -1,12 +1,12 @@
 curie	label	parent	parent label	curator
 ID		SC %		
-BSEO:0000132	aug-cc-pVDZ	BSEO:0100073	basis set with double zeta (DZ)	orcid:0000-0003-4423-4370
-BSEO:0000150	aug-cc-pVTZ	BSEO:0100074	basis set with triple zeta (TZ)	orcid:0000-0003-4423-4370
-BSEO:0000141	aug-cc-pVQZ	BSEO:0100075	basis set with quadruple zeta (QZ)	orcid:0000-0003-4423-4370
 BSEO:0000122	aug-cc-pV5Z	BSEO:0100076	basis set with quintuple zeta (5Z)	orcid:0000-0003-4423-4370
-BSEO:0000279	cc-pV5Z	BSEO:0100076	basis set with quintuple zeta (5Z)	orcid:0000-0003-4423-4370
 BSEO:0000129	aug-cc-pV6Z	BSEO:0100076	basis set with sextuple zeta (6Z)	orcid:0000-0003-4423-4370
-BSEO:0000293	cc-pV6Z	basis set with sextuple zeta (6Z)	orcid:0000-0003-4423-4370	
 BSEO:0000131	aug-cc-pV7Z	BSEO:0100078	basis set with septuple zeta (7Z)	orcid:0000-0003-4423-4370
+BSEO:0000132	aug-cc-pVDZ	BSEO:0100073	basis set with double zeta (DZ)	orcid:0000-0003-4423-4370
+BSEO:0000141	aug-cc-pVQZ	BSEO:0100075	basis set with quadruple zeta (QZ)	orcid:0000-0003-4423-4370
+BSEO:0000150	aug-cc-pVTZ	BSEO:0100074	basis set with triple zeta (TZ)	orcid:0000-0003-4423-4370
+BSEO:0000279	cc-pV5Z	BSEO:0100076	basis set with quintuple zeta (5Z)	orcid:0000-0003-4423-4370
+BSEO:0000293	cc-pV6Z	basis set with sextuple zeta (6Z)	orcid:0000-0003-4423-4370	
 BSEO:0000295	cc-pV8Z	BSEO:0100079	basis set with octuple zeta (8Z)	orcid:0000-0003-4423-4370
 BSEO:0000296	cc-pV9Z	BSEO:0100082	basis set with nontuple zeta (9Z)	orcid:0000-0003-4423-4370
