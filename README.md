@@ -54,6 +54,11 @@ licensed under CC0-1.0. Content derived from the Basis Set Exchange is licensed
 under the BSD license
 ([reference](https://github.com/MolSSI-BSE/basis_set_exchange)).
 
+## Funding
+
+NFDI4Chem (DFG Grant
+[441958208](https://gepris.dfg.de/gepris/projekt/441958208))
+
 ## Contributing
 
 ### Exploration
