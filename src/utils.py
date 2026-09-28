@@ -7,6 +7,7 @@ __all__ = [
     "DERIVED_DIRECTORY",
     "HERE",
     "ROOT",
+    "TEMPLATE_DIRECTORY",
     "TEMPORARY_DIRECTORY",
     "get_name_to_basis_set",
     "get_name_to_family",
