@@ -82,3 +82,4 @@ BSEO:0100078	class	basis set with septuple zeta (7Z)	BSEO:0100071			orcid:0000-0
 BSEO:0100079	class	basis set with octuple zeta (8Z)	BSEO:0100071			orcid:0000-0003-4423-4370
 BSEO:0100080	class	basis set with diffusion function for some but not all atoms	BSEO:0100067			
 BSEO:0100081	class	basis set with polarization function for some but not all atoms	BSEO:0100069			
+BSEO:0100082	class	basis set with nontuple zeta (9Z)	BSEO:0100071			orcid:0000-0003-4423-4370
