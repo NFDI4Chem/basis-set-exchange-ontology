@@ -9,3 +9,6 @@ The ROBOT templates in this folder can be edited by hand.
   add new subfamilies
 - `roots` was originally derived from BSE, and can be extended (ideally with
   descriptions and better labels)
+- `basis-set-parents.tsv` includes novel curations between basis sets and
+  families, such as the annotation of having valence levels (double, triple,
+  etc.)
